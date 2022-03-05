@@ -8,4 +8,5 @@ public class EnemyPreset : ScriptableObject{
     public int defaultHealth;
     public int defaultArmor;
     public float lvlMultiplier;  // power multiplier increased by level
+    public UnityEngine.U2D.Animation.SpriteLibraryAsset assetsLibrary;
 }

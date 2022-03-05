@@ -1,0 +1,2498 @@
+fileFormatVersion: 2
+guid: 503951d818bfdbb4ca2527ae204470bc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orc_both_sides_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 543
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b4d6bf61c71b94a85e9800d7cc14ef
+      internalID: -321670346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 543
+        width: 21
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c1f559fce350f4cb7d24bdc737a66c
+      internalID: 506344841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 543
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab51c7b3b550c24daf15ed88e7da047
+      internalID: 1842218050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 543
+        width: 32
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d7bd30fa63a91459484a6faea9be7c
+      internalID: 2092419436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 543
+        width: 30
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb25b506fc9fd94bb956154024e760f
+      internalID: 2103656923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 543
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643595ab407707a4f87b3b0994c84180
+      internalID: 1493413856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 543
+        width: 19
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1631eeca1f0be47ac87f2ea0c6eeb5
+      internalID: -794007047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_7
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 543
+        width: 18
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d83aba90521fd4481d0049e05e61f5
+      internalID: -639830244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 543
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfc50750d6740a4fa209f5511aac724
+      internalID: 855903570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 495
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92de0c40228941f44858fb9ea9912148
+      internalID: -957920999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 495
+        width: 31
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069a7f355ea515a44a1957b9f6c4f4b4
+      internalID: -416590898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_11
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 495
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fa032726a46c240879b05fd23c5f6d
+      internalID: 1446845467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 495
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07491755bb6cb424b93677fa8229e18c
+      internalID: -1213510996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_13
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 495
+        width: 26
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814051149de16f6458b11f268781fb18
+      internalID: -1060240080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_14
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 495
+        width: 21
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4656c5c5d9e8dcc45aaade18d6b2d6a0
+      internalID: -1250226691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_15
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 495
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cdf72085f925c4b934e27e8f562fef
+      internalID: -1624917535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_16
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 495
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b15052771e9e8141a51b13ac59757f1
+      internalID: 1334502648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_17
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 495
+        width: 17
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ded91d180047c54eb87422f57bcccf5
+      internalID: -136959778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 447
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc925cd548f2da749b9839858455eb04
+      internalID: 1271450296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 447
+        width: 18
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e747a780fc3df64a8e6dc029e62c8b9
+      internalID: 37932995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 447
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e5b4f18c2dede409d1a3f9963f87ce
+      internalID: 1800182000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_21
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 447
+        width: 22
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9d50c3fa50cdd4ba20d517c140a48d
+      internalID: 1124298294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 447
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f72b8fb720f9074da8fd667c89be933
+      internalID: 1693335300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_23
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 447
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05f7a6bf97920d48a19b64de42c596c
+      internalID: 150385658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_24
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 447
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12d2ba9c2b88e347b6a6fda4e7549ea
+      internalID: -841243388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_25
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 447
+        width: 17
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f49de771d373ae44909a80fb59e8a67
+      internalID: -252114028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 447
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20145974dade21e45ae84e771cd5cba4
+      internalID: -738410153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_27
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 399
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3c6837c332bb645ba53e097c9a6998
+      internalID: -2125719674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_28
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 399
+        width: 21
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e214b66305fd9244b67927a8419bfe7
+      internalID: 577517019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_29
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 399
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d74e8283081d341b278d80a41ddb23
+      internalID: -1225413853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_30
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 399
+        width: 32
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd0fd5e4125fed4db2f39ec106300fb
+      internalID: 1728124030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 399
+        width: 30
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575edabe53349b44a986d853ed1ad224
+      internalID: -1708918072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_32
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 399
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f71eff781994c49841c7bda9f4e582
+      internalID: -1063531170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_33
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 399
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58ad6266f2d14b45804c792cbd805b7
+      internalID: -96111960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_34
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 399
+        width: 17
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ba1f8768119044a98dbbe7a4afd07d
+      internalID: 1566403682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_35
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 399
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce743d9647650343a954035132a890f
+      internalID: 1133240320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 351
+        width: 21
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631b9e19e5a6cd04cb0114f6e79e66e2
+      internalID: 1520691026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 351
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9c13547c2089e4695750fc7529346d
+      internalID: -1668625859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_38
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 351
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8140f46ea09f746958afc802dafc9c
+      internalID: 1977806375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_39
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 351
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a495f3741a4e82478cb4188b2b82377
+      internalID: -691447339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_40
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 351
+        width: 18
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6b9d4569a1e584c90fb6e7fe7f3a6c
+      internalID: 902881242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_41
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 351
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf62f77c7e52f643b79065e658b0dbe
+      internalID: 1924566606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_42
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 351
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4488411e34b083f4baf26620e7d32c74
+      internalID: -1357005282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 351
+        width: 17
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfa6c6df2e973f4984088a52b57f9c1
+      internalID: 713128034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_44
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 351
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f30d3deaf0d6094ea5aef06286a5d7e
+      internalID: 1492125962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_45
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 303
+        width: 21
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91d6f6ea7959824297a23b875e790d7
+      internalID: 612075723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 303
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbb36205a6e3aa49afc98962349c432
+      internalID: 383247568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_47
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 303
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7b05d82cf92f540846ad0d09e06e41
+      internalID: -401158905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_48
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 303
+        width: 20
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a1f31aab3a1414f9423ff5752e399e
+      internalID: 1727432585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_49
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 303
+        width: 20
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acf58defe242624ea6d291febfedfc1
+      internalID: -2059895012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 303
+        width: 18
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865194e84713d314e97982b7d1a37f42
+      internalID: 2062017399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_51
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 301
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a817d04da84fcb4790c0269d38af4c7
+      internalID: 916823619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_52
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 301
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee883993d095b540af16f2c289f50af
+      internalID: 1837861196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_53
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 301
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc9feeaad4b2a04abd36b2302889987
+      internalID: 1088250656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_54
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 261
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0486f890fb2d17240a8ecbae5650ac68
+      internalID: -95405486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_55
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 261
+        width: 18
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d115c536eb5666e4587952f2dffc5ac7
+      internalID: 1257292283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_56
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 261
+        width: 19
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd8eda3e9f16614cb9266d7be45f5c6
+      internalID: 309010649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_57
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 261
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632e3f33c66fe3c4db8f1ee391d318d3
+      internalID: 131994290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_58
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 261
+        width: 30
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147e0af46b7e13d4d959053cb7a2930f
+      internalID: -1400884799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_59
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 261
+        width: 32
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff09749c952ba8e448e616aafbed389f
+      internalID: 1263257553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_60
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 261
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40336dfbf5705254890b0e31e2b76743
+      internalID: 57190565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_61
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 261
+        width: 21
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b5ffd4ef0c2304caaa7f5012b5d378
+      internalID: 1746990080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_62
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 261
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33c1a8dd9b9f13408f30aa8a4b4c9c6
+      internalID: -1019991155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_63
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 213
+        width: 17
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f3f243c391d0d41913ced1e4b6eead
+      internalID: 1227160185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_64
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 213
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ecafb997a047942b145237a92661a9
+      internalID: -1088901128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_65
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 213
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29be58c9089b444fab79529fb72a1f0
+      internalID: 1298166684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_66
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 213
+        width: 21
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49304b80fab35534dabbed3efcc67e1f
+      internalID: -2134954539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_67
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 213
+        width: 26
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8205456b2cc6304583e4fa951be63b8
+      internalID: 1045253061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_68
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 213
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5ecf8302686ad40b97e9976878780e
+      internalID: -1054936534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_69
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 213
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a86baecc14006459e859e3acc73013
+      internalID: 510921960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_70
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 213
+        width: 31
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2602a322fde1e3c4ab6ba37b3b8c92dd
+      internalID: 1774428972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_71
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 213
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7433b498613e5d746a05c33b709401b4
+      internalID: 573148868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_72
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 165
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6266ca4a19f5ade4f88969dc3d4e7fe8
+      internalID: -186839137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_73
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 165
+        width: 17
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467defd0eeb5ec3478cb68bc6f28d3a4
+      internalID: -272838457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_74
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 165
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d6931d5ae442c4ba993a360d84d434
+      internalID: 2059078064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_75
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 165
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e4501b6722bff4ea6256c2b1ba59bb
+      internalID: -1657156468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_76
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 165
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bd217140a8ce943b75cb148cac2b7d
+      internalID: -121230650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_77
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 165
+        width: 22
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb20eab3ab9ca33468bd418a4e04dc85
+      internalID: 332436028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_78
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 165
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b36092e923ea2f448d1616accb8c9e8
+      internalID: 862023339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_79
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 165
+        width: 18
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16092927fd1309419c6ccdf237f5861
+      internalID: -1214091196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_80
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 165
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2cefe895804534fad4fa333148af06
+      internalID: -1393220848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_81
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 117
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0372cf7d750cf4d458b8e8289163e7c6
+      internalID: 1040888319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_82
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 117
+        width: 17
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c511d5c2611014caae0cea3280a42f
+      internalID: 1475882003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_83
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 117
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5c7efe3952ee044b0964711951beb0
+      internalID: 1345904467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_84
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 117
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dcc7b517cecdc40a3743781bf5dcf3
+      internalID: 939681711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_85
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 117
+        width: 30
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369dd956236ace54993f255f73f5b27a
+      internalID: 1354381887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_86
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 117
+        width: 32
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147e0c0c24aeb714a86103cb37fac7ec
+      internalID: 1579632198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_87
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 117
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326351acc96783b41b470ae24c12d5e3
+      internalID: 1142336914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_88
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 117
+        width: 21
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4cf6ae7bfe320439e0251564b8da9c
+      internalID: 1132757678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_89
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 117
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcdc195d57f71a4692fc357c779bc78
+      internalID: -1624336058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_90
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 69
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12787d5ddef6e6c43b89e2652d21c04c
+      internalID: 726071941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_91
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 69
+        width: 17
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d67f7050926f3438a12483ee718aee
+      internalID: -1064433933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_92
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 69
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79598b94da32ff647b61162ff1f96d08
+      internalID: 554452922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_93
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 69
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696f3ad47ee7a9b4fb9829bd1280d388
+      internalID: 321016435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_94
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 69
+        width: 18
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681f39a4920a93d47996fe21c5835f65
+      internalID: -878911008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_95
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 69
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d88c0b8a9ffe864d8c0351be315815b
+      internalID: 612528487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_96
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 69
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6dc76d787c5584495cec64f8e1bca3
+      internalID: 117553008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_97
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 69
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d5253aaa17f4541ae7521eee4c1cb2
+      internalID: -74949183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_98
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 69
+        width: 21
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729c26f1ee3ff1f4688c75606df37ba0
+      internalID: -1210670851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_99
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 19
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b24ac64b68bf146861adfd21baea57
+      internalID: 1953242036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_100
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 19
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c771babf60aba459da89f88061f4e4
+      internalID: 512710823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_101
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 19
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5599fc8f3ab0044a52214d3f3ca54b
+      internalID: -1866948195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_102
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 21
+        width: 18
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825ac916a438d544ebd76f354fb6b3be
+      internalID: 1907634016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_103
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 21
+        width: 20
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec79e9347e51c264dab76ae8c2fea821
+      internalID: 1484249756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_104
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 21
+        width: 20
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6b0f0757147a047a9af76bc3e6bf57
+      internalID: -1891116500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_105
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 21
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f29119c177dffa488ee2d7cca4ffc98
+      internalID: 1995679253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_106
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 21
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea7ccbd87e856c43929032308f24576
+      internalID: 1148838063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_both_sides_107
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 21
+        width: 21
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d8d6fda9451904781fb2fe1965ff67
+      internalID: -784073997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      orc_both_sides_89: -1624336058
+      orc_both_sides_30: 1728124030
+      orc_both_sides_56: 309010649
+      orc_both_sides_21: 1124298294
+      orc_both_sides_22: 1693335300
+      orc_both_sides_33: -96111960
+      orc_both_sides_61: 1746990080
+      orc_both_sides_25: -252114028
+      orc_both_sides_26: -738410153
+      orc_both_sides_96: 117553008
+      orc_both_sides_12: -1213510996
+      orc_both_sides_70: 1774428972
+      orc_both_sides_73: -272838457
+      orc_both_sides_65: 1298166684
+      orc_both_sides_72: -186839137
+      orc_both_sides_15: -1624917535
+      orc_both_sides_49: -2059895012
+      orc_both_sides_62: -1019991155
+      orc_both_sides_104: -1891116500
+      orc_both_sides_29: -1225413853
+      orc_both_sides_37: -1668625859
+      orc_both_sides_105: 1995679253
+      orc_both_sides_2: 1842218050
+      orc_both_sides_34: 1566403682
+      orc_both_sides_50: 2062017399
+      orc_both_sides_93: 321016435
+      orc_both_sides_58: -1400884799
+      orc_both_sides_7: -639830244
+      orc_both_sides_69: 510921960
+      orc_both_sides_79: -1214091196
+      orc_both_sides_3: 2092419436
+      orc_both_sides_1: 506344841
+      orc_both_sides_41: 1924566606
+      orc_both_sides_100: 512710823
+      orc_both_sides_106: 1148838063
+      orc_both_sides_32: -1063531170
+      orc_both_sides_91: -1064433933
+      orc_both_sides_28: 577517019
+      orc_both_sides_42: -1357005282
+      orc_both_sides_44: 1492125962
+      orc_both_sides_45: 612075723
+      orc_both_sides_43: 713128034
+      orc_both_sides_20: 1800182000
+      orc_both_sides_14: -1250226691
+      orc_both_sides_57: 131994290
+      orc_both_sides_92: 554452922
+      orc_both_sides_94: -878911008
+      orc_both_sides_6: -794007047
+      orc_both_sides_78: 862023339
+      orc_both_sides_83: 1345904467
+      orc_both_sides_13: -1060240080
+      orc_both_sides_103: 1484249756
+      orc_both_sides_102: 1907634016
+      orc_both_sides_52: 1837861196
+      orc_both_sides_67: 1045253061
+      orc_both_sides_99: 1953242036
+      orc_both_sides_4: 2103656923
+      orc_both_sides_71: 573148868
+      orc_both_sides_8: 855903570
+      orc_both_sides_19: 37932995
+      orc_both_sides_18: 1271450296
+      orc_both_sides_81: 1040888319
+      orc_both_sides_40: 902881242
+      orc_both_sides_80: -1393220848
+      orc_both_sides_76: -121230650
+      orc_both_sides_59: 1263257553
+      orc_both_sides_9: -957920999
+      orc_both_sides_63: 1227160185
+      orc_both_sides_47: -401158905
+      orc_both_sides_36: 1520691026
+      orc_both_sides_17: -136959778
+      orc_both_sides_39: -691447339
+      orc_both_sides_16: 1334502648
+      orc_both_sides_82: 1475882003
+      orc_both_sides_54: -95405486
+      orc_both_sides_98: -1210670851
+      orc_both_sides_87: 1142336914
+      orc_both_sides_27: -2125719674
+      orc_both_sides_51: 916823619
+      orc_both_sides_48: 1727432585
+      orc_both_sides_31: -1708918072
+      orc_both_sides_46: 383247568
+      orc_both_sides_84: 939681711
+      orc_both_sides_95: 612528487
+      orc_both_sides_101: -1866948195
+      orc_both_sides_88: 1132757678
+      orc_both_sides_23: 150385658
+      orc_both_sides_11: 1446845467
+      orc_both_sides_77: 332436028
+      orc_both_sides_24: -841243388
+      orc_both_sides_38: 1977806375
+      orc_both_sides_86: 1579632198
+      orc_both_sides_107: -784073997
+      orc_both_sides_53: 1088250656
+      orc_both_sides_35: 1133240320
+      orc_both_sides_5: 1493413856
+      orc_both_sides_55: 1257292283
+      orc_both_sides_75: -1657156468
+      orc_both_sides_60: 57190565
+      orc_both_sides_64: -1088901128
+      orc_both_sides_97: -74949183
+      orc_both_sides_10: -416590898
+      orc_both_sides_0: -321670346
+      orc_both_sides_68: -1054936534
+      orc_both_sides_90: 726071941
+      orc_both_sides_66: -2134954539
+      orc_both_sides_74: 2059078064
+      orc_both_sides_85: 1354381887
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

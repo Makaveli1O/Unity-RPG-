@@ -1,0 +1,2498 @@
+fileFormatVersion: 2
+guid: 4f33e6ab7c9c17741a4f8d22c025e40e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bat_dwarf_both_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 543
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e71dda39b703724cae228339ba2166d
+      internalID: -1529536197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 543
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60bc662431130b47819d3c9c4e45d87
+      internalID: -1449702827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 543
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fc13bc90896bd4d9ecde5780542947
+      internalID: 2074562375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 543
+        width: 38
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce676ba5b2557d141906b5c4dd85ae4c
+      internalID: -1098538385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 543
+        width: 34
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3aa4a0eded5ea4294d0d0ad9bb3257
+      internalID: -1063209824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_5
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 543
+        width: 31
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaf049d2e96ac44ca8381571dff970c
+      internalID: 1056837444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 543
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566ff5b0ce4c9eb4381c6c5b6da9a53d
+      internalID: 1550134324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_7
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 543
+        width: 15
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86aba57707d1d574bbba8fac7e18c619
+      internalID: 162207072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 543
+        width: 15
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d4689cca4d7364fae9b416fe690c60
+      internalID: 1200926601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 495
+        width: 36
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d04da81c551f2647abe2ff341d21949
+      internalID: -357290308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_10
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 495
+        width: 36
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b7acc546cee1e4fbe9567f7bcc9445
+      internalID: 1159878212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 495
+        width: 36
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff899cb7d3bd1c469d7d8c678126168
+      internalID: -504978228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_12
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 495
+        width: 38
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d509d5ec56972024685a4c64e712c224
+      internalID: 1138368092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_13
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 495
+        width: 34
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee861b0c5df30746bde8b09a7937afe
+      internalID: 1630484563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_14
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 495
+        width: 31
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63749e1967585e942abf186574d18fb0
+      internalID: -329481915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_15
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 495
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4b59194e9a2604cb5acd192b6d6d01
+      internalID: 323806363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_16
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 495
+        width: 24
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26caac5d291d23e499ab3d04a0a09b5b
+      internalID: 1290165015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_17
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 495
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92555e7220aa8e14b8adf8a969e09e45
+      internalID: -1317484362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_18
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 447
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d836d00b5e73cc54ba1277e08b73cb01
+      internalID: 454505779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_19
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 447
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb7ae6487da20941b47ab5f8d5edfb9
+      internalID: -1356370515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_20
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 447
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44de346434e07d45b8c95799e5c3151
+      internalID: 420026406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_21
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 447
+        width: 25
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a80a69efc80f7c45b787813a743ed36
+      internalID: -988943999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_22
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 447
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6766cef3a702f448addc0f5d9a888a3
+      internalID: -1397312734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_23
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 447
+        width: 29
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e00de64aac1aa43a32d951a52068c6
+      internalID: -1330109444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_24
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 447
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef6107f8feb2eb4885dfb5cd9868477
+      internalID: -1070622971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_25
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 447
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984faa684a73d244a9b6ad62a670e122
+      internalID: 428263985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_26
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 447
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c7420c4cce9f84bb23c7237580abbf
+      internalID: 1740463013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_27
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 399
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fdc0660a7ec7144ad86e0b1eff5793
+      internalID: -1512536571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_28
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 399
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b6f8d20f1b69745bff3db5cddac8d3
+      internalID: 1016069540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_29
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 399
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dc74bbddf3bbd439bea928716e22cb
+      internalID: -1736291113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_30
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 399
+        width: 38
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ca2e2cd481a0442b9df307913a3043
+      internalID: -312280652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_31
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 399
+        width: 34
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7507305222e5944baee045eb4eb37e
+      internalID: 1909253405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_32
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 399
+        width: 31
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82173f23027074d44b7c611da8328b93
+      internalID: 955232006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_33
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 399
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5ea6c4df6122646b5a5be47db30c22
+      internalID: -1671413610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_34
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 399
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c286af2e6deb54783b6353935062db
+      internalID: 2123695672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_35
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 399
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee8d580e8a94ee40a9e4eebba3af075
+      internalID: -1966965002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 351
+        width: 24
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e96d16f00690e4ba2fce689bfb7e8c
+      internalID: -1329983998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_37
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 351
+        width: 24
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93ee13db03c8cc419cb74c2b8dec673
+      internalID: 1782378970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_38
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 351
+        width: 23
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5057504fdb466741b9aa49182eff87d
+      internalID: 1355778657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_39
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 351
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbe0eaf20cf8f0459421426497cf5f2
+      internalID: 95005728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_40
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 351
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c237ba4f67ec98747b06262827733f6f
+      internalID: 771738371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_41
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 351
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6003bac7bede0134bbfb01015411d30f
+      internalID: -693008681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_42
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 351
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb1f7c56cf3c3b43905de6b21c2b558
+      internalID: -348987472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_43
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 351
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a91e0e833d2164596c2c517a135007
+      internalID: -704589214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_44
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 351
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee502dfe318cc2c41a9c30a2d627ac54
+      internalID: 183842445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_45
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 303
+        width: 24
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf3f46ed8c753143ad6336809f1e78c
+      internalID: 965128366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_46
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 303
+        width: 24
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03aaf1c5ebb53a4d98fed8282ff4d89
+      internalID: -57756218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_47
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 303
+        width: 23
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d2c8145d210fc4b80dc506f416c57a
+      internalID: -692073928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_48
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 303
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9930524519e90841bcadb70dc550e7a
+      internalID: -777257143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_49
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 303
+        width: 18
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad60ecf5385f04546a60f42c26126c1e
+      internalID: 485337309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_50
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 303
+        width: 21
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c6b03ab17537b469a00a917da82df9
+      internalID: -701291238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_51
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 301
+        width: 21
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbee00a3321bf14eba05771636a9782
+      internalID: -1831202475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_52
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 301
+        width: 21
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88d0eacd595c874eaaea92b0761f20b
+      internalID: 1772770808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_53
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 301
+        width: 21
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ac02438d72640499b4209258812b9d
+      internalID: -1912171383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_54
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 257
+        width: 15
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f37992c7bd63604790fb34895ba3d21
+      internalID: 1465685113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_55
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 257
+        width: 15
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c771fe295c0bac24a9c18fdd951fd2e3
+      internalID: -490511110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_56
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 257
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080a63ca34756c941a72dfb435c8e9b2
+      internalID: -761347235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_57
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 257
+        width: 31
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d824871e3ec7d742b22585d10ff53de
+      internalID: -316032742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_58
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 257
+        width: 34
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d32f8e512270bd4d84d0eb2bf7e5824
+      internalID: -195775161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_59
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 257
+        width: 38
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1ac6e0f19dcfd4d964f34cd286ce6f
+      internalID: -1682843856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_60
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 257
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3af07bced7d10e439cf37be8e5594c0
+      internalID: -2004713845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_61
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 257
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a1d8e6f6339ff4f9ae642baec0d530
+      internalID: -1987763447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_62
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 257
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9668c3f71f4a047ab6cd82870821c7
+      internalID: 1643404546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_63
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 209
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4964f2c6017c8bf409a93771501c6ac1
+      internalID: -1585588479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_64
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 209
+        width: 24
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f3398f0ea2e094085d3ad02dd1829b
+      internalID: 658500760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_65
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 209
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095798952469f78418986e82d8b95a48
+      internalID: -428843422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_66
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 209
+        width: 31
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab28481798bbb7e4baca9d961e8c908f
+      internalID: -534166683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_67
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 209
+        width: 34
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a720dee8fa6464386e5737d1d049bc
+      internalID: -1637015810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_68
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 209
+        width: 38
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6041f34fbbf3e6a4d95baa190f1e6f63
+      internalID: 230192780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_69
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 209
+        width: 36
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e11a7e9b7a546946885a0a84d291ae7
+      internalID: 2083690687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_70
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 209
+        width: 36
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7513ce037e6d948b816ad6059005ff
+      internalID: 895039685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_71
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 209
+        width: 36
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a270a28da38f1ac45b917eb8edbd16bf
+      internalID: 1420501367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_72
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 161
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e920723ce9cf754fb4c4a80da69872b
+      internalID: -1935394710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_73
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 161
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfac7024dd03c6443a9f7279f2e41b62
+      internalID: 1161729737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_74
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 161
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8d905fb14f1df4c885e4f8c2a4e242
+      internalID: -309311934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_75
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 161
+        width: 29
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89288011a2f36244fac9aa8d0772f3fa
+      internalID: 465927921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_76
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 161
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb29d04edc53a4b4b8e89367ae5095d5
+      internalID: -1150931229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_77
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 161
+        width: 25
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118f287fb4c52074ab6fec2d8152b0bf
+      internalID: 1190154572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_78
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 161
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1536ef93d0a5d4e4bab61c67afea3874
+      internalID: -583969339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_79
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 161
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7fb26bd840f4a4ab1a6ee51f39e8bf
+      internalID: -491620313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_80
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 161
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01442a121adeb94459dbcbd94f6e4df8
+      internalID: -1310369924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_81
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 113
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36155c6f311227d498fafd98954def0b
+      internalID: 1706365808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_82
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 113
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2969bd4ed3982874abaf10ad9c9cc4c8
+      internalID: -437697708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_83
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 113
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43796b189e1d74c46a384b3b29f62fec
+      internalID: 259095697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_84
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 113
+        width: 31
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3184fc6ed452a498bcfad546010c8e
+      internalID: -879970822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_85
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 113
+        width: 34
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541ea6b46ef3a3e4b966116335af8cb2
+      internalID: 1552869747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_86
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 113
+        width: 38
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cde2699cc621945963c252a234dcb8
+      internalID: -530435476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_87
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 113
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe36de00c13685046a77b3320d45682c
+      internalID: 1097516225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_88
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 113
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f07b094ff16864199e6e5b40bdd89e
+      internalID: 1261703673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_89
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 113
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5ac77c1a51bfc4b820c6eafbc2eda8
+      internalID: 122377556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_90
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 65
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28209fafb3f9b0a47bbd3e33d62fb530
+      internalID: 1077926975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_91
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 65
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aea7397896be324b9b908e12e25ce6a
+      internalID: 206419908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_92
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 65
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf398892c306014eb6437b08c8eb82c
+      internalID: 426683406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_93
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 65
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31223b4d520b7b4aa281e46c9c972ec
+      internalID: 2071126874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_94
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 65
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d323a938a3f38945990ca90c6ed4729
+      internalID: 773396867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_95
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 65
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd78a1a67576d3f4fa89b177c0246cfc
+      internalID: 782723671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_96
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 65
+        width: 23
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea467848a632a146a6af80e41d339e0
+      internalID: 1399891968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_97
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 65
+        width: 24
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62722339471f0d43a614d5f9297db73
+      internalID: -716506688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_98
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 65
+        width: 24
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd686cce3763fdf469832f9f6a3c9c56
+      internalID: 2002028484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_99
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 15
+        width: 21
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef16758555bc3fb46b94e9d149ac7ddd
+      internalID: -1487428423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_100
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 15
+        width: 21
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae60cba9bdc45b7469b2108fe9ca3c0b
+      internalID: -1083699383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_101
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 15
+        width: 21
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b007cfabcd96b804ca58db143f5fe913
+      internalID: -769439828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_102
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 17
+        width: 21
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a731763903f204a9ddf3032c5d408e
+      internalID: -2118607279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_103
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 17
+        width: 18
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b09fd9a792dd14a88b2cdedc0b2091
+      internalID: -900865506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_104
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 17
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b896228ca14b54d40be640649173ede0
+      internalID: 765198772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_105
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 17
+        width: 23
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb079038bc018f84f969b5b031a84fe0
+      internalID: -1734680468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_106
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 17
+        width: 24
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ea9bbb2c1793f4ea2a10255065a678
+      internalID: -645184239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_dwarf_both_107
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 17
+        width: 24
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cee5bf87826f649a7aadacf5596b4d
+      internalID: -422530687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bat_dwarf_both_13: 1630484563
+      bat_dwarf_both_6: 1550134324
+      bat_dwarf_both_54: 1465685113
+      bat_dwarf_both_86: -530435476
+      bat_dwarf_both_94: 773396867
+      bat_dwarf_both_12: 1138368092
+      bat_dwarf_both_36: -1329983998
+      bat_dwarf_both_7: 162207072
+      bat_dwarf_both_1: -1449702827
+      bat_dwarf_both_92: 426683406
+      bat_dwarf_both_49: 485337309
+      bat_dwarf_both_72: -1935394710
+      bat_dwarf_both_56: -761347235
+      bat_dwarf_both_5: 1056837444
+      bat_dwarf_both_76: -1150931229
+      bat_dwarf_both_88: 1261703673
+      bat_dwarf_both_82: -437697708
+      bat_dwarf_both_99: -1487428423
+      bat_dwarf_both_106: -645184239
+      bat_dwarf_both_95: 782723671
+      bat_dwarf_both_29: -1736291113
+      bat_dwarf_both_46: -57756218
+      bat_dwarf_both_75: 465927921
+      bat_dwarf_both_21: -988943999
+      bat_dwarf_both_18: 454505779
+      bat_dwarf_both_28: 1016069540
+      bat_dwarf_both_53: -1912171383
+      bat_dwarf_both_93: 2071126874
+      bat_dwarf_both_103: -900865506
+      bat_dwarf_both_100: -1083699383
+      bat_dwarf_both_15: 323806363
+      bat_dwarf_both_41: -693008681
+      bat_dwarf_both_107: -422530687
+      bat_dwarf_both_96: 1399891968
+      bat_dwarf_both_102: -2118607279
+      bat_dwarf_both_105: -1734680468
+      bat_dwarf_both_19: -1356370515
+      bat_dwarf_both_91: 206419908
+      bat_dwarf_both_3: -1098538385
+      bat_dwarf_both_64: 658500760
+      bat_dwarf_both_73: 1161729737
+      bat_dwarf_both_30: -312280652
+      bat_dwarf_both_14: -329481915
+      bat_dwarf_both_59: -1682843856
+      bat_dwarf_both_37: 1782378970
+      bat_dwarf_both_55: -490511110
+      bat_dwarf_both_90: 1077926975
+      bat_dwarf_both_89: 122377556
+      bat_dwarf_both_24: -1070622971
+      bat_dwarf_both_71: 1420501367
+      bat_dwarf_both_47: -692073928
+      bat_dwarf_both_50: -701291238
+      bat_dwarf_both_57: -316032742
+      bat_dwarf_both_44: 183842445
+      bat_dwarf_both_67: -1637015810
+      bat_dwarf_both_62: 1643404546
+      bat_dwarf_both_51: -1831202475
+      bat_dwarf_both_83: 259095697
+      bat_dwarf_both_85: 1552869747
+      bat_dwarf_both_98: 2002028484
+      bat_dwarf_both_26: 1740463013
+      bat_dwarf_both_84: -879970822
+      bat_dwarf_both_80: -1310369924
+      bat_dwarf_both_17: -1317484362
+      bat_dwarf_both_52: 1772770808
+      bat_dwarf_both_16: 1290165015
+      bat_dwarf_both_104: 765198772
+      bat_dwarf_both_61: -1987763447
+      bat_dwarf_both_77: 1190154572
+      bat_dwarf_both_39: 95005728
+      bat_dwarf_both_48: -777257143
+      bat_dwarf_both_79: -491620313
+      bat_dwarf_both_60: -2004713845
+      bat_dwarf_both_9: -357290308
+      bat_dwarf_both_10: 1159878212
+      bat_dwarf_both_2: 2074562375
+      bat_dwarf_both_43: -704589214
+      bat_dwarf_both_45: 965128366
+      bat_dwarf_both_66: -534166683
+      bat_dwarf_both_40: 771738371
+      bat_dwarf_both_33: -1671413610
+      bat_dwarf_both_87: 1097516225
+      bat_dwarf_both_27: -1512536571
+      bat_dwarf_both_63: -1585588479
+      bat_dwarf_both_35: -1966965002
+      bat_dwarf_both_81: 1706365808
+      bat_dwarf_both_42: -348987472
+      bat_dwarf_both_31: 1909253405
+      bat_dwarf_both_0: -1529536197
+      bat_dwarf_both_69: 2083690687
+      bat_dwarf_both_70: 895039685
+      bat_dwarf_both_38: 1355778657
+      bat_dwarf_both_78: -583969339
+      bat_dwarf_both_25: 428263985
+      bat_dwarf_both_58: -195775161
+      bat_dwarf_both_34: 2123695672
+      bat_dwarf_both_23: -1330109444
+      bat_dwarf_both_74: -309311934
+      bat_dwarf_both_22: -1397312734
+      bat_dwarf_both_97: -716506688
+      bat_dwarf_both_65: -428843422
+      bat_dwarf_both_101: -769439828
+      bat_dwarf_both_11: -504978228
+      bat_dwarf_both_4: -1063209824
+      bat_dwarf_both_32: 955232006
+      bat_dwarf_both_8: 1200926601
+      bat_dwarf_both_68: 230192780
+      bat_dwarf_both_20: 420026406
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -27,6 +27,10 @@ public class HealthSystem
         if (OnHealthChanged != null) OnHealthChanged(this, EventArgs.Empty);
     }
 
+    public void HealMax(){
+        Heal(this.healthMax);
+    }
+
     public float GetHealthPercent(){
          return (float) health / healthMax;
     }

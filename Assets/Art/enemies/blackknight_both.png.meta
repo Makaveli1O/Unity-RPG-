@@ -1,0 +1,2586 @@
+fileFormatVersion: 2
+guid: 2c2a1d0c14b83644d94d88747394106c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.1}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blackknight_both_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 550
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d183b04abfedd34fb80d3abe9a3bd35
+      internalID: 1784980494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 551
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6130b4b5c338a542b3b02dbcd4afcf7
+      internalID: 1561490973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 551
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee22412c0bb580e428b012464f139589
+      internalID: -1732252152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 551
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4429acfd56403b84a9f502128284ea51
+      internalID: 1734676147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 551
+        width: 34
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4ec9dc74f3ce244a9569c6a8b53139
+      internalID: 1706887966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 551
+        width: 34
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5ec12d26684ef489f80134a3979690
+      internalID: -843098050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_6
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 573
+        width: 5
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9f22dd8440b3342b38a03d183e8fcb
+      internalID: 1808849722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 551
+        width: 22
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ae9203d3976f044853d5b80cfa2eae
+      internalID: -1542786820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 551
+        width: 18
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fb6bee8813fe948b3c4f5d2dba8905
+      internalID: 1892045610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 551
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7e66ae56006e74baafbcf7aab23b34
+      internalID: 988655631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 503
+        width: 38
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dd8a07300fc9e459e18468582ec544
+      internalID: -1019421566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_11
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 503
+        width: 38
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6c5c9e0b5d9ea42891265e72ade75b
+      internalID: 479811342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_12
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 503
+        width: 38
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4012939df7dc83a48b6aa1fa188a7f2c
+      internalID: 1670374282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_13
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 503
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0922ee7d02da7744da9bfd10407685ba
+      internalID: 1683592189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 503
+        width: 34
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92486c4c57b38f14bb365f66451436d0
+      internalID: -973868341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 502
+        width: 34
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac482bfe1f1d8241a850bc2ec84d320
+      internalID: -704561027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_16
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 503
+        width: 19
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938725578a6e7ad4388a541482a7b9ac
+      internalID: 1834516810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_17
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 503
+        width: 19
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe53f9f0ca6de942926fec2850c0009
+      internalID: 355735036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_18
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 503
+        width: 19
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a66b28adb7a2a14dafc98cac1a243ad
+      internalID: 1936953186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 455
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96c4c1acefddc441865edf9f72fcf18
+      internalID: -239348639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_20
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 455
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77664849347d70d4e9df2b32c9658e16
+      internalID: 588564130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_21
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 455
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368cd6616e038eb47bede5f950f2cec2
+      internalID: 669176855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_22
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 455
+        width: 23
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9d57e803e0e8e48a2468821f408e35
+      internalID: 2087322850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_23
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 455
+        width: 25
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f731febea4d4ef5438e64bd796e3266f
+      internalID: -538552761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_24
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 455
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6668a72def15ac549b61f7bd16077e9a
+      internalID: -63874828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_25
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 455
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b2eb17398314448b7b96037038425e
+      internalID: -894333476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_26
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 455
+        width: 21
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b727c099af9af84088fcdff4ee9a4d9
+      internalID: -1426211190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_27
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 455
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d470a7566037e14992e1a076ef10b62
+      internalID: 168276946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 407
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283c88c07722b734396ab294ec2f36d6
+      internalID: 1307994524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_29
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 407
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a25f79b0a4a6b40b40504dd60f3aa8
+      internalID: -1519491502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_30
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 407
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c1a25dbd7ca56489a934db60cfe447
+      internalID: -173990786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_31
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 407
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee6b5ef1cdf89d4f86910abe2fd015c
+      internalID: -1435281432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 407
+        width: 34
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc14d0dfbc9b48845933a6c2ce8da24d
+      internalID: 1811314677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_33
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 407
+        width: 34
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25c87f40706a4846b08f5f3fafa1450
+      internalID: -2126130334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_34
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 429
+        width: 5
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b581b4706edc8478495a8f16052860
+      internalID: 496094494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_35
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 407
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c6dcb951f29a946bfa34d212403c95
+      internalID: 1905407259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_36
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 407
+        width: 21
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a589b8839ba3f4a886e0cefb2af41e
+      internalID: 430326342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_37
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 407
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780d94904104337479eb1b333906de08
+      internalID: 1255179415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_38
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 359
+        width: 30
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c07c5c617a4194c88828ef114217cb
+      internalID: 1979790626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_39
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 359
+        width: 29
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee74eb5fdc991d4586c45596d1b01e2
+      internalID: 1278062092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_40
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 359
+        width: 29
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76851476ca6d3e40a88ea977b5f57a5
+      internalID: 847998752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_41
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 359
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0204282ea574a4c9da0dce4dded86e
+      internalID: 1931144340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_42
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 359
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acda630d41198a44974e6f9d8677188
+      internalID: -2050785489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_43
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 359
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4834fb81581bff7498c9d41f0c08e8cb
+      internalID: 1956272164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_44
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 359
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a4a762c2b89fb47b8fbb47e3fb0e9a
+      internalID: 1211885446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_45
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 359
+        width: 21
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87d0befef25a5242b34266c958be840
+      internalID: 1472024945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_46
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 359
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3aac01cd4c7ae44a5e501c0e722bb4
+      internalID: 459028197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_47
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 311
+        width: 30
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dec3c37c09bfc4da2607ad4db5cbc0
+      internalID: 1668223287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_48
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 311
+        width: 29
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2758b2243e265948acaf78fcbf6dff0
+      internalID: 49528833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_49
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 311
+        width: 29
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b94ca7c124580d458383d95d3323f88
+      internalID: -2034845153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_50
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 311
+        width: 22
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc676ed30db98ee4dac5ddd32b4dac93
+      internalID: -1704492780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_51
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 311
+        width: 20
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac98d9a0b41641b4ab1bfb8a389abdc9
+      internalID: -844263936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_52
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 311
+        width: 25
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884cc77a902f4234898a008e8a10aa23
+      internalID: -2081604391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_53
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 309
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a487a9b826468d4d877d143f9da47ae
+      internalID: 751964105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_54
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 309
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7faf9737db456f48a470ac7b95194f0
+      internalID: -829468969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_55
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 309
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e3c7b99835883408ab97a1783c5e71
+      internalID: 299559606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_56
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 257
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2ecf2eefed5b341aafd46badea7dfc
+      internalID: -314115348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_57
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 257
+        width: 18
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d986289714565e48a2051bf7ef10848
+      internalID: 511142042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_58
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 257
+        width: 22
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017e2c08ea016b34599160443047a470
+      internalID: -1321370668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_59
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 257
+        width: 34
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4247f08d334d7409c440e9359443b1
+      internalID: 1095145225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_60
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 279
+        width: 5
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a41172cb67b034785780d364f9192f
+      internalID: -1682177723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_61
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 257
+        width: 34
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdff7bc06056f2408ab40b65b1ec559
+      internalID: -331224648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_62
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 257
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf327b8d0496f6b42bf75ce1f341ed3a
+      internalID: -424205335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_63
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 257
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133078a2fbd6e964e84a1ef05b1a3857
+      internalID: -800579471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_64
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 257
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3968a64772be194448fb2854c7d2b19d
+      internalID: -757587080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_65
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 257
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d5cc65e19377244a293b814407ada3
+      internalID: -1947470242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_66
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 209
+        width: 19
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a71781ce077fb42bb2630d9156785a
+      internalID: 43029803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_67
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 209
+        width: 19
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e470ac4fc95a1d40bb292b270ce1b7d
+      internalID: -2026323574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_68
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 209
+        width: 19
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa92e604b4708748be00ab7619ee4b2
+      internalID: -1102367200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_69
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 208
+        width: 34
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b136cb4b826dc40b5b296a0e054709
+      internalID: 2019460650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_70
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 209
+        width: 34
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bc77f4b284ff8419313221a2ac5505
+      internalID: -800290020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_71
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 209
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8227c8617437448992227d2cdfab2f
+      internalID: -1440483609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_72
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 209
+        width: 38
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219a9fa493573944db030adfdbe03f2a
+      internalID: 608035007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_73
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 209
+        width: 38
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e24bb56479551d4e836b738a2ab1876
+      internalID: -210584122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 209
+        width: 38
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db50eec9e1b0803438e7a568c3e59a6e
+      internalID: -680374460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_75
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 161
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2c66b192a50a74689b93ea432ed4ca
+      internalID: -1448521725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_76
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 161
+        width: 21
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ec663efbac4474ba169dc7d3ed8ce0
+      internalID: -1680321104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_77
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 161
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89790324171e5c429324bc8738a9fd3
+      internalID: -1148194030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_78
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 161
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe34aa1980c8204fb355c6c9ce52eaa
+      internalID: 1205074095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_79
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 161
+        width: 25
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e844ffb823b7344b7f1eb3a470d028
+      internalID: 1323965609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_80
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 161
+        width: 23
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bc93b42080b3048aa35a749350d4a7
+      internalID: -817609452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_81
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 161
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b307ffc593a3fff4eaeb3463a4dfd480
+      internalID: -1641586198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_82
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 161
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153d4c055d892014b8fcbbd28f7674d6
+      internalID: -524145217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_83
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 161
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cecd66e7f7ea548b063c4c3c7c2d5c
+      internalID: -1443537773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_84
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 113
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0a3faad5ea448458efd76a9ead8298
+      internalID: -699503205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_85
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 113
+        width: 21
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7c73af9fd918f47901d40154ea8fc0
+      internalID: -832037345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_86
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 113
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dbfae670cd8d245ad5155152904289
+      internalID: 245823803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_87
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 113
+        width: 34
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c0d4ba24207714aa5c72c9c2e22e58
+      internalID: 336557825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_88
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 135
+        width: 5
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393469afac4d8d149b08d146bf4659b2
+      internalID: 1927618907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_89
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 113
+        width: 34
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec16c4ab5ded85438f1733bd85bcdb0
+      internalID: 551380073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_90
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 113
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f5ba7d2bc5f2742a54ecedfece9999
+      internalID: 2051012196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_91
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 113
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8beeacee393eb846a3136767ffaced0
+      internalID: 1577370244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_92
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 113
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad748c58e65db14687be69f0418b6ff
+      internalID: 1275970868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_93
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 113
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5bf891072412d4aa4db63dbbcf3e80
+      internalID: 1218362115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_94
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 65
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db74a00524658140a4dc94abd57cc18
+      internalID: 810338841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_95
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 65
+        width: 21
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284cdde0fe20cb546a35ca60bd2cc5ad
+      internalID: 2091421360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_96
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 65
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174ff25d6bc77cb488b77c3f8bf2cf07
+      internalID: -92653469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_97
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 65
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc913e827d46b74c9dec2ea201309cf
+      internalID: -475986886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_98
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 65
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4e361ea4b32c840998500d92af853a
+      internalID: -1341879921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_99
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 65
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47576c39cccdd994bb4383df3d9f2c39
+      internalID: 1522169412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_100
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 65
+        width: 29
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf074460d74fd846860513b97626e49
+      internalID: -1093288844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_101
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 65
+        width: 29
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bcc00927248a1489f8e4ce17edda11
+      internalID: -1895593778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_102
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 65
+        width: 30
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7805afb5f92931446a525f450cc91219
+      internalID: 79944426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_103
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 15
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e936f609c1215dd4d8a2444363074efa
+      internalID: -1832866331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_104
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 15
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adccc5e6bc503a54eaa9ab52d100deba
+      internalID: 495739826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_105
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 15
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f4c3248e3a57443bfeabdd8a62e315
+      internalID: 1371308455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_106
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 17
+        width: 25
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c2e0b3bab859a48a9d2795029397ab
+      internalID: 778898920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_107
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 17
+        width: 20
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da6b72833a7c0f4a8ba02ae1a5be417
+      internalID: 990306210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_108
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 17
+        width: 22
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e0a078e109d3649b465322120ae363
+      internalID: 958924797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_109
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 17
+        width: 29
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76afdd5b603e334c9eacb0190ae24b8
+      internalID: -1533605838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_110
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 17
+        width: 29
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76dd4b5bc306f5a46a9207b908b5d6b1
+      internalID: -1702210599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackknight_both_111
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 17
+        width: 30
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c41db9fe0acbf4db286bfb49fd2ebc
+      internalID: 1744208059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      blackknight_both_92: 1275970868
+      blackknight_both_73: -210584122
+      blackknight_both_37: 1255179415
+      blackknight_both_62: -424205335
+      blackknight_both_53: 751964105
+      blackknight_both_96: -92653469
+      blackknight_both_63: -800579471
+      blackknight_both_50: -1704492780
+      blackknight_both_12: 1670374282
+      blackknight_both_94: 810338841
+      blackknight_both_105: 1371308455
+      blackknight_both_7: -1542786820
+      blackknight_both_14: -973868341
+      blackknight_both_46: 459028197
+      blackknight_both_78: 1205074095
+      blackknight_both_21: 669176855
+      blackknight_both_111: 1744208059
+      blackknight_both_45: 1472024945
+      blackknight_both_51: -844263936
+      blackknight_both_54: -829468969
+      blackknight_both_87: 336557825
+      blackknight_both_9: 988655631
+      blackknight_both_60: -1682177723
+      blackknight_both_67: -2026323574
+      blackknight_both_81: -1641586198
+      blackknight_both_93: 1218362115
+      blackknight_both_26: -1426211190
+      blackknight_both_79: 1323965609
+      blackknight_both_6: 1808849722
+      blackknight_both_5: -843098050
+      blackknight_both_70: -800290020
+      blackknight_both_17: 355735036
+      blackknight_both_42: -2050785489
+      blackknight_both_11: 479811342
+      blackknight_both_41: 1931144340
+      blackknight_both_59: 1095145225
+      blackknight_both_20: 588564130
+      blackknight_both_25: -894333476
+      blackknight_both_10: -1019421566
+      blackknight_both_95: 2091421360
+      blackknight_both_88: 1927618907
+      blackknight_both_33: -2126130334
+      blackknight_both_28: 1307994524
+      blackknight_both_16: 1834516810
+      blackknight_both_13: 1683592189
+      blackknight_both_71: -1440483609
+      blackknight_both_107: 990306210
+      blackknight_both_36: 430326342
+      blackknight_both_102: 79944426
+      blackknight_both_56: -314115348
+      blackknight_both_48: 49528833
+      blackknight_both_110: -1702210599
+      blackknight_both_52: -2081604391
+      blackknight_both_40: 847998752
+      blackknight_both_80: -817609452
+      blackknight_both_90: 2051012196
+      blackknight_both_0: 1784980494
+      blackknight_both_109: -1533605838
+      blackknight_both_64: -757587080
+      blackknight_both_68: -1102367200
+      blackknight_both_32: 1811314677
+      blackknight_both_97: -475986886
+      blackknight_both_58: -1321370668
+      blackknight_both_104: 495739826
+      blackknight_both_108: 958924797
+      blackknight_both_75: -1448521725
+      blackknight_both_74: -680374460
+      blackknight_both_101: -1895593778
+      blackknight_both_84: -699503205
+      blackknight_both_86: 245823803
+      blackknight_both_34: 496094494
+      blackknight_both_98: -1341879921
+      blackknight_both_35: 1905407259
+      blackknight_both_91: 1577370244
+      blackknight_both_89: 551380073
+      blackknight_both_57: 511142042
+      blackknight_both_8: 1892045610
+      blackknight_both_47: 1668223287
+      blackknight_both_65: -1947470242
+      blackknight_both_23: -538552761
+      blackknight_both_106: 778898920
+      blackknight_both_18: 1936953186
+      blackknight_both_76: -1680321104
+      blackknight_both_66: 43029803
+      blackknight_both_103: -1832866331
+      blackknight_both_29: -1519491502
+      blackknight_both_1: 1561490973
+      blackknight_both_43: 1956272164
+      blackknight_both_49: -2034845153
+      blackknight_both_99: 1522169412
+      blackknight_both_55: 299559606
+      blackknight_both_69: 2019460650
+      blackknight_both_30: -173990786
+      blackknight_both_77: -1148194030
+      blackknight_both_27: 168276946
+      blackknight_both_19: -239348639
+      blackknight_both_39: 1278062092
+      blackknight_both_44: 1211885446
+      blackknight_both_82: -524145217
+      blackknight_both_85: -832037345
+      blackknight_both_4: 1706887966
+      blackknight_both_61: -331224648
+      blackknight_both_100: -1093288844
+      blackknight_both_24: -63874828
+      blackknight_both_15: -704561027
+      blackknight_both_2: -1732252152
+      blackknight_both_38: 1979790626
+      blackknight_both_31: -1435281432
+      blackknight_both_72: 608035007
+      blackknight_both_83: -1443537773
+      blackknight_both_22: 2087322850
+      blackknight_both_3: 1734676147
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

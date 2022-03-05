@@ -555,6 +555,8 @@ public class ChunkCreator : MonoBehaviour
         ec.preset = tile.biome.enemies[Random.Range(0, tile.biome.enemies.Length)];
         //set wander anchor point
         ec.anchorPoint = pos;
+        //set correct assetsLibrary
+        ec.assetsLibrary = ec.preset.assetsLibrary;
 
         //set position and activate
         entity.transform.position = pos;

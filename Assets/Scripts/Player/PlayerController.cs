@@ -217,7 +217,8 @@ public class PlayerController : MonoBehaviour, CombatInterface
         
 
         rigidbody2d.MovePosition(dashPosition);
-        this.transform.position = dashPosition; //otherwise character will walk back to its last "pressed" position
+        //this.transform.position = dashPosition; //otherwise character will walk back to its last "pressed" position
+        rigidbody2d.velocity = dashDir * dashAmount;
         dash = false;
     }
 
@@ -284,9 +285,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
 
     /// <summary>
     /// Attack simulation and animation handling. Sets state action to Attacking
-    /// </summary>
-    /// //TODO dorobit podla videa
-    
+    /// </summary>    
     private void HandleAttack(){
         //only one attack at time
         if(state == State.Attacking && animating == false){
@@ -301,7 +300,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
             EnemyController targetEnemy = EnemyController.GetClosestEnemy(attackPosition, attackRange);
             if (targetEnemy != null)
             {
-                targetEnemy.Damage(transform.position, 20);
+                targetEnemy.Damage(transform.position, 100);
                 attackDir = (targetEnemy.GetPosition() - transform.position).normalized;
             }
             //state = State.Attacking;

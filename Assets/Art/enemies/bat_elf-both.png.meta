@@ -1,0 +1,2498 @@
+fileFormatVersion: 2
+guid: c7a768974fc91e941a43d9550e1c8a37
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bat_elf-both_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 546
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceac717328664c34bbcdb422f1df4c42
+      internalID: 1452365734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 546
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c2c28c78c44ca47b9d45c66309e383
+      internalID: 1293978927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 546
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7771b9fd99c00443817d80e1dce84b5
+      internalID: 328840407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 546
+        width: 32
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539dd0ccbe45516419a95e0dbdcd468a
+      internalID: -53670148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 546
+        width: 31
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7c43039d8975848a333b6c4d2d0d92
+      internalID: -1412901030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 546
+        width: 29
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b002d35de2e394f885d284e6c072cf
+      internalID: 1546010354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 546
+        width: 15
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdae463152a6b14d87132dd8238efc4
+      internalID: 1555611108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 546
+        width: 15
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1265b193a0bb5446a3f30a3bca4d283
+      internalID: -1992628694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_8
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 546
+        width: 15
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7380f1fd9eef26e4bacd416c055118f1
+      internalID: 313725837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 498
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10048db5108ff6342818dc80f25dfb05
+      internalID: 1353153833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 498
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1d69e4c06d9744b91b71b8b96eead7
+      internalID: 147753218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_11
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 498
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3983a5a95654e54e83c2be42da5515a
+      internalID: -1320047231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 498
+        width: 27
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a315776ee81695c49a5510cfdacaab1f
+      internalID: 474785164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_13
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 498
+        width: 32
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3f0c99a9f080144b7650b91efab39c
+      internalID: 383687545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_14
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 498
+        width: 31
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c955b8921809d00488016a16cabfece2
+      internalID: 1815663777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_15
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 498
+        width: 17
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d26044899da2f46bb0f73191dea20c
+      internalID: -1780272933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_16
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 498
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b54e2dacfa3e9d4eaae4e336229734e
+      internalID: -453585226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_17
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 498
+        width: 17
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175ff855e3c47b04ba7cbcf7bf804c89
+      internalID: 728343911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 450
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f148cf783f268945acd959f49c3fc39
+      internalID: 4154171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_19
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 450
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bb16e5b7fda5e44b871172e49253e7
+      internalID: 1838505335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_20
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 450
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cc4b41da706834c9b0b568d8a2a322
+      internalID: -709592760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_21
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 450
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dae2bf72ecaf33429eaad61351629c4
+      internalID: 1440475026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_22
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 450
+        width: 23
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b4e9e01ba171b4791d7637643eb996
+      internalID: 1102679115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_23
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 450
+        width: 23
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a609cf2c2d0644a84fc860cdb49277
+      internalID: 2000665700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_24
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 450
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e592dc4c7e3604891ec90a80ee4620
+      internalID: -1269243957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_25
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 450
+        width: 17
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d07533fbc3f1344b52757604158cf4
+      internalID: -1285710403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_26
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 450
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eadd01a321ef7d4cbafc2e06f248dbc
+      internalID: -412495935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_27
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 402
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8932f0a3f8d35a2448d19aef7d9c7d62
+      internalID: -530494508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_28
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 402
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabfb84d4ba86344bab3d33f1a16d9a8
+      internalID: 546273296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_29
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 402
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50302e636e6bffe42ae831c39ee38e17
+      internalID: -614843284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_30
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 402
+        width: 32
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ad0f535c2c5974daec0bc0b4eca9bc
+      internalID: -290191912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 402
+        width: 31
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce25af0bef3efe041875d4d2390eab13
+      internalID: 595853516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_32
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 402
+        width: 29
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65a2312185e70040bf02f911dfb1dad
+      internalID: 997380228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_33
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 402
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a7c9c6003eb214a9272abbffe2a2a1
+      internalID: -762682427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_34
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 402
+        width: 17
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2c16258d88c694f8e96f07d7d76bc9
+      internalID: -493485875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_35
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 402
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a959e1ab3c7b2234ba00d44e4b09f88c
+      internalID: 837732298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 354
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f3ac4f02f269443a6ca358c82da614
+      internalID: 1028590485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_37
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 354
+        width: 21
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ad7ad9cc714fa45a8aa37d3d16c05e
+      internalID: -553001498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_38
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 354
+        width: 23
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22c8eb3762129445ae4689513ff257c
+      internalID: -38409320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_39
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 354
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00446d5effe20d4c8c54d155d773fcb
+      internalID: -1294653695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_40
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 354
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf563ce1b7888524f9a2f381db003dd1
+      internalID: 1944780242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_41
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 354
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1581033b9079a9f45bfbd8a6eb94c211
+      internalID: -972119485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_42
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 354
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85901b75bbc547479f53814c07375f4
+      internalID: 788513184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_43
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 354
+        width: 17
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3caf379cfd11af448935aafb5b254b61
+      internalID: 125750389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_44
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 354
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30660831256744a49a72172ef0fe080e
+      internalID: 1683971959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_45
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 306
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc55bdb13e7921645985d1b3fe018ed1
+      internalID: -284991750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_46
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 306
+        width: 21
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ed291c905e7414a88a2cb6f2d9e7db
+      internalID: -1803345864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_47
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 306
+        width: 23
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17236858c368ed0449767c7c8a875830
+      internalID: -846944915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_48
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 306
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d9fd24b5483c04da321bb574d4ba3a
+      internalID: 1206608631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_49
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 306
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ddce26469b34d4c845a633a66ee1c2
+      internalID: 1105353959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_50
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 306
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db06120321a4004488551325b21c1070
+      internalID: -977412240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_51
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 305
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffb3727dc820364ba69e5c60d7f69ea
+      internalID: 1136615511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_52
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 305
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cc5617d9e8e574d89d5e422d4c97cc
+      internalID: -1046373166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_53
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 305
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c10eca0e6bb53841abb623a57f86c8d
+      internalID: -574933421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_54
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 263
+        width: 15
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a891f118cc36d524299bd3317d8b5475
+      internalID: 175984451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_55
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 263
+        width: 15
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9876e7686b7ca054db2e081526ce2792
+      internalID: -1793123728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_56
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 263
+        width: 15
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c46de446d455c142b69f2fd10062544
+      internalID: -947607721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_57
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 263
+        width: 29
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a3eafd8b7ed0446a9587384c06d196
+      internalID: -581659168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_58
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 263
+        width: 31
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7f82b7590f29843b9891792c5a7551
+      internalID: 1663014104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_59
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 263
+        width: 32
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02051eedb489074687ff619861d2d62
+      internalID: -1549301644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_60
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 263
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18d67b8ac6bc3f45aa2074a6fa9c00e
+      internalID: -229218033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_61
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 263
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee8136df1dea214c8f456c38f3e82f5
+      internalID: -871123980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_62
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 263
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ce6861d87babd4b9b86cb85772fa3b
+      internalID: -1707878135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_63
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 215
+        width: 17
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ae9ebc89f11ae44b1dfb03c0aec0a2
+      internalID: -391791642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_64
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 215
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee754568fab0564b9d03ab4cc88263d
+      internalID: 1496991352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_65
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 215
+        width: 17
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea48171db661944592465477957ce17
+      internalID: -700784607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_66
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 215
+        width: 31
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813c7f282566c6f48a9056bf2e1a9867
+      internalID: -1519755872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_67
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 215
+        width: 32
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330407c22c101824fa2b026895b9b3f5
+      internalID: 1982957759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_68
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 215
+        width: 27
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd978cb05d41bb84885550ef552fa89d
+      internalID: -931920100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_69
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 215
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cd9f03e12f32e49aa10399a0fa74ee
+      internalID: -713581633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_70
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 215
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51346021ce638f843b9c71114df540e8
+      internalID: -678530890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_71
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 215
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fcefcb14b431347a01b436524b3923
+      internalID: 984133553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_72
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 167
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f7e5a8a5fbefb469aa3a379e320f97
+      internalID: -199658906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_73
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 167
+        width: 17
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dd1c6a8b474cf4d9887732872726d2
+      internalID: 897001597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_74
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 167
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be016a0efefe8554f96491131933fc0a
+      internalID: -1906893694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_75
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 167
+        width: 23
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1e3d30eeac9d44c9657c92d27d3297
+      internalID: 1640905905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_76
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 167
+        width: 23
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b76fc38b769b14dbd4029027cd7cb6
+      internalID: -602678179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_77
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 167
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6324ea103a18c8340a28089b106f80fb
+      internalID: -1215849980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_78
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 167
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc0bd399daad0d4ca51de4f9db768df
+      internalID: -1251869738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_79
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 167
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc58077c1e970f43b03e63ec75060ee
+      internalID: 2045907115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_80
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 167
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca159e3dfb7a03e498c095eef81fe036
+      internalID: 719085273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_81
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 119
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5be47b18e822149aef2777a5a60db7
+      internalID: 232096621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_82
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 119
+        width: 17
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad76e60235be4eb45991d8ef616309c0
+      internalID: 1425973614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_83
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 119
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c65b9f81fd8994d8009bd3858cfc04
+      internalID: -2129237355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_84
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 119
+        width: 29
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66a44b63cbb4ee43b3f23a8d9fa86f5
+      internalID: -1671020706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_85
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 119
+        width: 31
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcee83ee18e9ce448be85a09b6fa005
+      internalID: -543356930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_86
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 119
+        width: 32
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb0b435dfcd4cb4cb9215f1fd4551af
+      internalID: -2108471858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_87
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 119
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b507d20c17818944bcb7595ba0675ae
+      internalID: -1234403598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_88
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 119
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e8aa74c34706740b51dd029ca0bed3
+      internalID: -1092895400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_89
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 119
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa26121d3ed91e14db00e4fc1843586e
+      internalID: -53275624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_90
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 71
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8181725c58d884e44bb8560d5ba4c0c3
+      internalID: -956598020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_91
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 71
+        width: 17
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b540fb6e52bc474ab0893318215c02f
+      internalID: -1045226455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_92
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 71
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2806e47e3d091fa4297bf91760562e70
+      internalID: -859174147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_93
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 71
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2641f9d82e4a444a513e36e61dac26
+      internalID: 218780189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_94
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 71
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc803871ddd71f4087cace64e109108
+      internalID: 1352979524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_95
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 71
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159cfbf978e46734cbf8fb07885dda8e
+      internalID: 1920558494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_96
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 71
+        width: 23
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14143c4dccc4c864ab314b81d55accdb
+      internalID: -735727850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_97
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 71
+        width: 21
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecf2c47ccf47d14caf959eb8be39343
+      internalID: -66569291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_98
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 71
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35bba5d97925464b9b7441cfc675d58
+      internalID: 351981357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_99
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 22
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc477eebabf8a44fbd5900a09fe44b2
+      internalID: 891294478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_100
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 22
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2aa8d8696783f0488c93d045e160fe7
+      internalID: -99346067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_101
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 22
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3fa6801f4a0c24ea1155e1d8964cfb
+      internalID: -419245363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_102
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 23
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4569952f871a2144a10efe95a5b425b
+      internalID: -651752323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_103
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 23
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ba430d583323e41a307a1c1fc179de
+      internalID: -1079396969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_104
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 23
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a318bcd4361a24185281a976a7dc7c
+      internalID: 1717336459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_105
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 23
+        width: 23
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f75e73e991a1045b96587cd51bef52
+      internalID: -303773766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_106
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 23
+        width: 21
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78611e437f80dcd44ae321d09c7a7734
+      internalID: 520242161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_elf-both_107
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 23
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1c1dfd964a8b8439b44017eb3163a0
+      internalID: -2056048073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bat_elf-both_82: 1425973614
+      bat_elf-both_27: -530494508
+      bat_elf-both_47: -846944915
+      bat_elf-both_66: -1519755872
+      bat_elf-both_98: 351981357
+      bat_elf-both_29: -614843284
+      bat_elf-both_16: -453585226
+      bat_elf-both_78: -1251869738
+      bat_elf-both_19: 1838505335
+      bat_elf-both_36: 1028590485
+      bat_elf-both_40: 1944780242
+      bat_elf-both_99: 891294478
+      bat_elf-both_68: -931920100
+      bat_elf-both_55: -1793123728
+      bat_elf-both_58: 1663014104
+      bat_elf-both_101: -419245363
+      bat_elf-both_20: -709592760
+      bat_elf-both_43: 125750389
+      bat_elf-both_60: -229218033
+      bat_elf-both_88: -1092895400
+      bat_elf-both_0: 1452365734
+      bat_elf-both_67: 1982957759
+      bat_elf-both_89: -53275624
+      bat_elf-both_94: 1352979524
+      bat_elf-both_103: -1079396969
+      bat_elf-both_18: 4154171
+      bat_elf-both_37: -553001498
+      bat_elf-both_52: -1046373166
+      bat_elf-both_23: 2000665700
+      bat_elf-both_59: -1549301644
+      bat_elf-both_49: 1105353959
+      bat_elf-both_87: -1234403598
+      bat_elf-both_41: -972119485
+      bat_elf-both_72: -199658906
+      bat_elf-both_12: 474785164
+      bat_elf-both_57: -581659168
+      bat_elf-both_33: -762682427
+      bat_elf-both_15: -1780272933
+      bat_elf-both_9: 1353153833
+      bat_elf-both_24: -1269243957
+      bat_elf-both_1: 1293978927
+      bat_elf-both_17: 728343911
+      bat_elf-both_64: 1496991352
+      bat_elf-both_25: -1285710403
+      bat_elf-both_3: -53670148
+      bat_elf-both_105: -303773766
+      bat_elf-both_79: 2045907115
+      bat_elf-both_42: 788513184
+      bat_elf-both_91: -1045226455
+      bat_elf-both_39: -1294653695
+      bat_elf-both_65: -700784607
+      bat_elf-both_11: -1320047231
+      bat_elf-both_83: -2129237355
+      bat_elf-both_100: -99346067
+      bat_elf-both_92: -859174147
+      bat_elf-both_61: -871123980
+      bat_elf-both_93: 218780189
+      bat_elf-both_34: -493485875
+      bat_elf-both_70: -678530890
+      bat_elf-both_81: 232096621
+      bat_elf-both_35: 837732298
+      bat_elf-both_77: -1215849980
+      bat_elf-both_6: 1555611108
+      bat_elf-both_14: 1815663777
+      bat_elf-both_85: -543356930
+      bat_elf-both_2: 328840407
+      bat_elf-both_38: -38409320
+      bat_elf-both_51: 1136615511
+      bat_elf-both_46: -1803345864
+      bat_elf-both_84: -1671020706
+      bat_elf-both_30: -290191912
+      bat_elf-both_69: -713581633
+      bat_elf-both_10: 147753218
+      bat_elf-both_45: -284991750
+      bat_elf-both_48: 1206608631
+      bat_elf-both_44: 1683971959
+      bat_elf-both_28: 546273296
+      bat_elf-both_80: 719085273
+      bat_elf-both_53: -574933421
+      bat_elf-both_56: -947607721
+      bat_elf-both_13: 383687545
+      bat_elf-both_63: -391791642
+      bat_elf-both_7: -1992628694
+      bat_elf-both_96: -735727850
+      bat_elf-both_71: 984133553
+      bat_elf-both_107: -2056048073
+      bat_elf-both_21: 1440475026
+      bat_elf-both_102: -651752323
+      bat_elf-both_5: 1546010354
+      bat_elf-both_8: 313725837
+      bat_elf-both_75: 1640905905
+      bat_elf-both_76: -602678179
+      bat_elf-both_31: 595853516
+      bat_elf-both_74: -1906893694
+      bat_elf-both_4: -1412901030
+      bat_elf-both_73: 897001597
+      bat_elf-both_50: -977412240
+      bat_elf-both_90: -956598020
+      bat_elf-both_62: -1707878135
+      bat_elf-both_26: -412495935
+      bat_elf-both_32: 997380228
+      bat_elf-both_104: 1717336459
+      bat_elf-both_106: 520242161
+      bat_elf-both_54: 175984451
+      bat_elf-both_97: -66569291
+      bat_elf-both_86: -2108471858
+      bat_elf-both_22: 1102679115
+      bat_elf-both_95: 1920558494
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

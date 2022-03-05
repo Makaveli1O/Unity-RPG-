@@ -15,11 +15,12 @@ public class EnemyController : MonoBehaviour, CombatInterface
     private SpriteRenderer sr;
     private PathFinding pf;
     private Rigidbody2D rb;
+    private CapsuleCollider2D col;
     private CharacterAnimationController animationController;
     private Map mapRef;
     private UnityEngine.U2D.Animation.SpriteLibrary sla;
     private Animator animator;
-    public UnityEngine.U2D.Animation.SpriteLibraryAsset[] spriteLibraries;  //sprite asset library list of possible asset libraries
+    public UnityEngine.U2D.Animation.SpriteLibraryAsset assetsLibrary;  //sprite asset library list of possible asset libraries
 
     //wander
     public float observeTime = 2;
@@ -28,6 +29,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
     private Vector3 moveDir;    //movement direction
     private int wanderRadius = 5;     //movement circle around spawned point
     private int OnEnableCount = 0; //skip first onEnable(that after awake)
+    public bool IsMoving{get;set;}
 
     /*  *   *   *   *   *   *   *
         C   O   M   B   A   T
@@ -44,11 +46,16 @@ public class EnemyController : MonoBehaviour, CombatInterface
     private Transform healthBarTransform;
     private HealthBar healthBar;
     public HealthSystem healthSystem;
+    
+    /*  *   *   *   *   *   *   *   *   *   *
+        F   U   N   C   T   I   O   N   S
+    *   *   *   *   *   *   *  *    *   *   */
     void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
         pf = GetComponent<PathFinding>();
         rb = GetComponent<Rigidbody2D>();
+        col = GetComponent<CapsuleCollider2D>();
         animator = GetComponent<Animator>();
         sla = GetComponent<UnityEngine.U2D.Animation.SpriteLibrary>();
         animationController = GetComponent<CharacterAnimationController>();
@@ -77,7 +84,13 @@ public class EnemyController : MonoBehaviour, CombatInterface
         //start wandering right after enable
         if (OnEnableCount != 0)
         {
+            //set correct assetsLibrary (animations and sprites)
+            sla.spriteLibraryAsset = assetsLibrary;
+            //set random observe time
             observeTime = GetRandomObserveTime();
+            //set to alive
+            Alive();
+            //add to enemyList for targeting
             enemyList.Add(this);
         }else{
             //initialize healthbar on first enable
@@ -88,7 +101,6 @@ public class EnemyController : MonoBehaviour, CombatInterface
 
     private void OnDisable() {
         enemyList.Remove(this);
-
     }
 
     private void Start() {
@@ -118,6 +130,8 @@ public class EnemyController : MonoBehaviour, CombatInterface
 
     private void FixedUpdate() {
         rb.velocity = moveDir * movementSpeed;
+        if (rb.velocity.Equals(Vector3.zero)) IsMoving = false;
+        else IsMoving = true;
     }
 
     /// <summary>
@@ -148,7 +162,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
             if (observeTime > 0)
             {
                 //animate idle
-                animationController.CharacterDirection(moveDir);
+                animationController.CharacterDirection(moveDir, true);
                 moveDir = Vector3.zero; //stop
                 observeTime -= Time.deltaTime;
             //then find new direction towards anchor point and move
@@ -170,27 +184,23 @@ public class EnemyController : MonoBehaviour, CombatInterface
         {
             Vector3 targetPos = RandomPointInRadius();
             moveDir = new Vector3(targetPos.x-this.gameObject.transform.position.x, targetPos.y - this.gameObject.transform.position.y, 0f).normalized;
-            animationController.CharacterMovement(moveDir);
+            animationController.CharacterMovement(moveDir, true);
         }else{
             if (moveDir.x > 0) //moving right, deflect to the left
             {
                 moveDir.x = -moveDir.x;
-               // moveDir.x = Random.Range(-1.0f, 0f);
             }else{//moving left, deflect to the right
                 moveDir.x = -1*moveDir.x;
-                //moveDir.x = Random.Range(0f, 1.0f);
             }
             if (moveDir.y > 0) //moving top, deflect to the bottom
             {
                moveDir.y = -moveDir.y;
-               //moveDir.y = Random.Range(-1.0f, 0f);
             } else{//moving bottom, deflect to the top
                moveDir.y = -1*moveDir.y;
-               //moveDir.y = Random.Range(0f, 1.0f);
             }
         }
         //animate movement
-        animationController.CharacterMovement(moveDir);
+        animationController.CharacterMovement(moveDir,true);
     }
 
     /// <summary>
@@ -265,7 +275,31 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /*  *   *   *   *   *   *   *   *
         C   O   M   B   A   T
     *   *   *   *   *   *   *   *   */
+
+    /// <summary>
+    /// Set dead conditions
+    /// </summary>
     public void Die(){
+        this.IsDead = true;
+        animationController.DeadAnimation(moveDir, true);
+        this.moveDir = Vector3.zero;
+        //disable collision and move to background
+        col.enabled = !enabled;
+        sr.sortingOrder = 0;
+        return;
+    }
+
+    /// <summary>
+    /// Set alive conditions
+    /// </summary>
+    public void Alive(){
+        this.IsDead = false;
+        if (!IsMoving) animationController.CharacterDirection(moveDir, true);
+        else animationController.CharacterMovement(moveDir, true);
+        //disable collision and move to background
+        col.enabled = enabled;
+        sr.sortingOrder = 1;
+        healthSystem.HealMax();
         return;
     }
 
@@ -281,6 +315,8 @@ public class EnemyController : MonoBehaviour, CombatInterface
         //spawn blood
         //healthsystem damage
         healthSystem.Damage(damageAmount);
+        //if health is zero die
+        if (healthSystem.GetHealthPercent() == 0) this.Die();
         return;
     }
 }
