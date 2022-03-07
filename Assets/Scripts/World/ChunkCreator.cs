@@ -34,6 +34,8 @@ public class ChunkCreator : MonoBehaviour
     private bool treesLoaded = false;
     private bool objectsLoaded = false;
     private bool entitiesSpawned = false;
+    private bool containsKeyObj = false;
+    private int2 keyObjPos = new int2(0, 0);
 
     /// <summary>
     /// Function that creates mesh with given width, height and world space. This tile represents
@@ -215,12 +217,13 @@ public class ChunkCreator : MonoBehaviour
                             chunk.trees.Add(treeSprite.name);
                         }else{
                             //pop first sprite from json and assign to tree
-                            treeSprite = SetTreeSprite(treeP, tile, loaded.trees[0]);
-                            
                             if (loaded.trees.Count != 0)
                             {
+                                treeSprite = SetTreeSprite(treeP, tile, loaded.trees[0]);
                                 loaded.trees.RemoveAt(0);
-                            };
+                            }else{
+                                continue;
+                            }
                         }
                         renderedTrees[actualPos] = treeP;
                         AdjustObjCollider(treeP, treeSprite);
@@ -260,6 +263,8 @@ public class ChunkCreator : MonoBehaviour
     /// </summary>
     /// <param name="loaded">Currently processing chunk</param>
     private void LoadedChunkObjects(WorldChunk loaded){
+        this.containsKeyObj = loaded.containsKeyObj;
+        this.keyObjPos = loaded.keyObjPos;
         foreach (WorldChunk.ObjectsStorage item in loaded.objects){
             List<GameObject> availableObjects = objectPool.GetInactiveObjects();
             if (availableObjects.Count > 0 )
@@ -345,7 +350,10 @@ public class ChunkCreator : MonoBehaviour
 
         objectsLoaded = false;
     }
-    // TODO doc
+
+    /// <summary>
+    /// Despawns all spaned entities within chunk.
+    /// </summary>
     public void DespawnEntities(){
         foreach (GameObject obj in spawnedEntities)
         {
@@ -418,9 +426,9 @@ public class ChunkCreator : MonoBehaviour
         if (loaded != null){
             treeRenderer.sprite = tile.biome.GetTree(loaded);
         }else{
-            treeRenderer.sprite = tile.biome.GetRandomTree();
+            treeRenderer.sprite = tile.biome.GetRandomTree(); 
         }
-
+       
         return treeRenderer.sprite;
     }
 
@@ -524,35 +532,69 @@ public class ChunkCreator : MonoBehaviour
     }
     //FIXME make spawning number relative to the biome?
     // make spawning related to the ticks (deltatime)
+    /// <summary>
+    /// Spawning entities within the chunk.
+    /// </summary>
+    /// <param name="chunkKey">Key position of the chunk</param>
+    /// <param name="chunkTopCoords">Top x and y coordinates of this chunk</param>
+    /// <returns>Boolean if entity was spawned</returns>
     public bool EntitySpawner(int2 chunkKey, int2 chunkTopCoords){
         int spawned = 0;
         int randomNum = Random.Range(0,entityPool.amountToPool);
-        while (spawned < randomNum)
-        {
-            int2 spawnPos = new int2(Random.Range(chunkKey.x, chunkTopCoords.x), Random.Range(chunkKey.y, chunkTopCoords.y));
-            TDTile tile = mapReference.GetTile(mapReference.TileRelativePos(spawnPos), mapReference.TileChunkPos(spawnPos));
-            //check if tile is fine to spawn entity on
-            if(mapReference.isSpawnable(tile)){
-                Spawn(tile);
-                spawned++;
+        //key object within this chunk -> spawn guards
+        if (this.containsKeyObj){
+            while (spawned < 8)
+            {
+                //pick random valid position around object +/- 5 tiles
+                int2 spawnPos = new int2(Random.Range(keyObjPos.x - 5, keyObjPos.x + 5), Random.Range(keyObjPos.y - 5, keyObjPos.y + 5));
+                TDTile tile = mapReference.GetTile(mapReference.TileRelativePos(spawnPos), mapReference.TileChunkPos(spawnPos));
+                //tile = mapReference.GetTile(mapReference.TileRelativePos(keyObjPos), mapReference.TileChunkPos(keyObjPos));
+               
+                //check if tile is fine to spawn entity on
+                if(mapReference.isSpawnable(tile)){
+                    Spawn(tile, this.containsKeyObj);
+                    spawned++;
+                }
+            }
+        }else{  //spawn normaly when keyObject is not present
+            while (spawned < randomNum)
+            {
+                int2 spawnPos = new int2(Random.Range(chunkKey.x, chunkTopCoords.x), Random.Range(chunkKey.y, chunkTopCoords.y));
+                TDTile tile = mapReference.GetTile(mapReference.TileRelativePos(spawnPos), mapReference.TileChunkPos(spawnPos));
+                //check if tile is fine to spawn entity on
+                if(mapReference.isSpawnable(tile)){
+                    Spawn(tile, this.containsKeyObj);
+                    spawned++;
+                }
             }
         }
         return true;
     }
+
+    public bool GuardsSpawner(){
+
+        return false;
+    }
+
     /// <summary>
     /// Function handles spawning entity within given tile. Tile is converted into world coordinates
     /// in Vector3 format. Selected tile is scanned for biome type to instantiate proper entity that
     /// belongs into it.
     /// </summary>
     /// <param name="tile">Proccessed tile.</param>
-    private void Spawn(TDTile tile){
+    private void Spawn(TDTile tile, bool spawnGuards){
         //convert to vector position
         Vector3 pos = new Vector3(tile.pos.x, tile.pos.y , 0);
         //get available object
         GameObject entity = this.entityPool.GetPooledObject();
         EnemyController ec = entity.GetComponent<EnemyController>();
         //set correct enemy
-        ec.preset = tile.biome.enemies[Random.Range(0, tile.biome.enemies.Length)];
+        if (spawnGuards)
+        {
+            ec.preset = mapReference.guards[Random.Range(0,1)]; 
+        }else{
+            ec.preset = tile.biome.enemies[Random.Range(0, tile.biome.enemies.Length)];
+        }
         //set wander anchor point
         ec.anchorPoint = pos;
         //set correct assetsLibrary

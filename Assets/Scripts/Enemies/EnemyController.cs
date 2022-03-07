@@ -8,7 +8,6 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /*
         Components
     */
-    public Transform HealthBarPrefab;
     public EnemyPreset preset = null;
     public Vector3 anchorPoint;    //spawned position
     private TDTile anchorTile;
@@ -43,6 +42,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /*  *   *   *   *   *   *   *
         H   E   A   L   T   H
     *   *   *   *   *   *   *  */
+    public Transform HealthBarPrefab;
     private Transform healthBarTransform;
     private HealthBar healthBar;
     public HealthSystem healthSystem;
@@ -76,11 +76,6 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /// Performs on activation
     /// </summary>
     private void OnEnable() {
-        //when creating object pool this is performed, resulting in null
-        if (preset != null)
-        {
-            sr.sprite = preset.sprite;
-        }
         //start wandering right after enable
         if (OnEnableCount != 0)
         {

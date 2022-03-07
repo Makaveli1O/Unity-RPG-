@@ -191,7 +191,7 @@ MonoBehaviour:
     sprites:
     - {fileID: 21300000, guid: 20c01957ce4980544984b52b932932b3, type: 3}
   enemies:
-  - {fileID: 11400000, guid: 53d89e38d31894b4ea0153a41a241d43, type: 2}
+  - {fileID: 11400000, guid: bad1127a0eb5a09448b696a6e94c99d2, type: 2}
   height: 0
   temperature: 0.5
   maxTemperature: 1

@@ -30,6 +30,7 @@ public class Map : MonoBehaviour
 
     public GameObject keyObjectPrefab;
     public Sprite chestSprite;
+    public EnemyPreset[] guards; //guards are always same
     
     //Map dimensions
     [Header("Dimensions")]
@@ -127,14 +128,12 @@ public class Map : MonoBehaviour
         if (keyObjects == null)
         {
             PlaceKeyObjects();
-            //Debug.Log("spawning objects");
         //loading from json
         }else{
             //Debug.Log("Loading objects");
             foreach (Vector3 pos in keyObjects.positions)
             {
-                //Debug.Log("Spawning chest at: "+pos);
-                SpawnKeyObject(pos);
+                SpawnKeyObject(new int2((int)pos.x, (int)pos.y));
             }
         }
         
@@ -170,8 +169,8 @@ public class Map : MonoBehaviour
                 if(isPlacable(tile)){
                     if (usedPositions.Count == 0)
                     {
-                        //Debug.Log("placed"+ tile.biome.type +" key: " + tile.pos);
-                        SpawnKeyObject(new Vector3(tile.pos.x, tile.pos.y, 0));
+                        Debug.Log("placed"+ tile.biome.type +" key: " + tile.pos);
+                        SpawnKeyObject(tile.pos);
                         usedPositions.Add(tile);
                         found = true;
                     }else{
@@ -186,7 +185,7 @@ public class Map : MonoBehaviour
                             {
                                 if (distance >= min_distance)
                                 {
-                                    SpawnKeyObject(new Vector3(tile.pos.x, tile.pos.y, 0));
+                                    SpawnKeyObject(tile.pos);
                                     usedPositions.Add(tile);
                                     found = true;
                                     break;
@@ -213,13 +212,20 @@ public class Map : MonoBehaviour
     /// Spawn key object on the given tile
     /// </summary>
     /// <param name="tile">Processed tile</param>
-    private void SpawnKeyObject(Vector3 pos){
-        GameObject obj = Instantiate(keyObjectPrefab, pos, Quaternion.identity);
+    private void SpawnKeyObject(int2 pos){
+        //get corresponding tile
+        Vector3 v_pos = new Vector3(pos.x, pos.y);
+        //spawn object
+        GameObject obj = Instantiate(keyObjectPrefab, v_pos, Quaternion.identity);
         //properly alter gameobject
         //deprecated, if each biome had different sprite
         //obj.GetComponent<SpriteRenderer>().sprite = tile.biome.objects[2].sprites[0];
         obj.GetComponent<SpriteRenderer>().sprite = chestSprite;
-        //obj.transform.position = new Vector3(tile.pos.x, tile.pos.y, 0);  
+
+        //mark chunk that contanis key object
+        WorldChunk ch = GetChunk(TileChunkPos(pos));
+        ch.containsKeyObj = true;
+        ch.keyObjPos = pos;
         return;
     }
 
@@ -267,7 +273,7 @@ public class Map : MonoBehaviour
     /// FIXME need more in depth possibly
     public bool isSpawnable(TDTile tile){
         //skip ocean, water or beach
-        if (tile.biome == biomes[4] || tile.biome == biomes[6] || tile.biome == biomes[5] || !tile.IsWalkable)
+        if (tile.biome == biomes[4] || tile.biome == biomes[6] || tile.biome == biomes[5] || !tile.IsWalkable || tile == null)
         {
             return false;
         }
@@ -490,7 +496,16 @@ public class Map : MonoBehaviour
     /// <param name="chunkPos">key of chunk (bottom left tile of chunk 32x32)</param>
     /// <returns></returns>
     public TDTile GetTile(int2 relativePos, int2 chunkPos){
-        return map.chunks[chunkPos].sample[relativePos.x, relativePos.y];
+        TDTile retVal;
+        try
+        {
+            retVal = map.chunks[chunkPos].sample[relativePos.x, relativePos.y];
+        }
+        catch
+        {
+             retVal = null;
+        }
+        return retVal;
     }
 
     /// <summary>
@@ -808,7 +823,7 @@ public class Map : MonoBehaviour
     void Update(){
         chunkLoader.LoadChunks(player.transform.position, map.renderDistance,map.renderDistance + 15);
         //TDTile test = GetTile(TileRelativePos(new int2((int)player.transform.position.x, (int)player.transform.position.y)), TileChunkPos(new int2((int)player.transform.position.x, (int)player.transform.position.y)));
-        //Debug.Log(test.pos);
+        //Debug.Log(test.pos + "  " + TileChunkPos(test.pos));
     }
     
 }

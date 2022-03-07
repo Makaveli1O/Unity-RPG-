@@ -608,7 +608,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f4a588f425eebbe418d15c6f047d108e, type: 2}
   - {fileID: 11400000, guid: e6f0d477a766a6046b140a832621cd67, type: 2}
   keyObjectPrefab: {fileID: 8274161314457147329, guid: 7c4c986576def824f8fe83342543e7c7, type: 3}
-  chestSprite: {fileID: 21300000, guid: 20c01957ce4980544984b52b932932b3, type: 3}
+  chestSprite: {fileID: 0}
+  guards:
+  - {fileID: 11400000, guid: a3d44e221f45b584fa06fda2fa4b203f, type: 2}
+  - {fileID: 11400000, guid: 4f865e5d87d359a41a015d7364863465, type: 2}
   map:
     width: 512
     height: 512

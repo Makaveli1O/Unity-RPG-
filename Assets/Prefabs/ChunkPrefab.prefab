@@ -139,7 +139,7 @@ MonoBehaviour:
   id: 1
   amountToPool: 20
   activeObjects: []
-  prefab: {fileID: 8274161314457147329, guid: 7c4c986576def824f8fe83342543e7c7, type: 3}
+  prefab: {fileID: 8274161314457147329, guid: 30f7c72e3141bd2449bb29c9aa88a7c1, type: 3}
 --- !u!114 &8559808869992689912
 MonoBehaviour:
   m_ObjectHideFlags: 0
