@@ -89,13 +89,15 @@ public class PathFinding : MonoBehaviour
         }
         
         //two sets
-        Heap<TDTile> openSet = new Heap<TDTile>(this.map.getMaxTiles);
+        //FIXME tuto heapu pri kazdom frame inicializujem ked followujem hraca
+        // chce to vymysliet nejako mudrejsie
+        Heap<TDTile> openSet = new Heap<TDTile>(200);
         HashSet<TDTile> closedSet = new HashSet<TDTile>();
 
         openSet.Add(startTile);
         while(openSet.Count > 0){
             TDTile currentTile = openSet.RemoveFirst();
-            
+
             closedSet.Add(currentTile);
             //path found
             if (currentTile == targetTile){

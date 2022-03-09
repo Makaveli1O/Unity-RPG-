@@ -17,11 +17,6 @@ public struct TDMap
     public int width;
     public int height;
 
-    public int getMaxTiles{
-        get{
-            return width*height;
-        }
-    }
     public int renderDistance;
 
     // FIXME doc
