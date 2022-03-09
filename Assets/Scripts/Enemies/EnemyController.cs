@@ -2,12 +2,14 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 using Unity.Mathematics;
 using System.Collections.Generic;
+using System;
 
 public class EnemyController : MonoBehaviour, CombatInterface
 {
     /*
         Components
     */
+    private GameObject player;
     public EnemyPreset preset = null;
     public Vector3 anchorPoint;    //spawned position
     private TDTile anchorTile;
@@ -21,7 +23,13 @@ public class EnemyController : MonoBehaviour, CombatInterface
     private Animator animator;
     public UnityEngine.U2D.Animation.SpriteLibraryAsset assetsLibrary;  //sprite asset library list of possible asset libraries
 
-    //wander
+    /*  *   *   *   *   *   *   *   *   *
+        M   O   V   E   M   E   N   T
+    *   *   *   *   *   *   *  *    *   */
+    private Vector3 lastSeen; // last seen position of player to follow-up to
+    private List<Vector3> pathVectorList = null;
+    private int currentPathIndex;
+    public event EventHandler InAggroRadius;
     public float observeTime = 2;
     public float wanderTime = 5; //time before changes direction
     public float movementSpeed = 3f;    //speed same as player
@@ -65,6 +73,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
         try
         {
             mapRef = m.GetComponent<Map>();
+            player = mapRef.player; //get player reference
         }
         catch
         {
@@ -116,11 +125,21 @@ public class EnemyController : MonoBehaviour, CombatInterface
     }
 
     private void Update() {
-        if (!IsDead)
+        //player in aggro radius
+        if (InAggroRadius != null)
         {
-            Wander();
+            InAggroRadius(this, EventArgs.Empty);   //notify player
+            FollowPlayer(player.transform.position);
+        //follow to last known position
+        }else if(lastSeen != Vector3.zero && !IsDead){
+            FollowPlayer(lastSeen, true);
+        //normal behaviour (finish following to last seen position first)
+        }else{
+            if (!IsDead)
+            {
+                Wander();
+            }
         }
-        
     }
 
     private void FixedUpdate() {
@@ -265,6 +284,57 @@ public class EnemyController : MonoBehaviour, CombatInterface
             }
         }
         return closestEnemy;
+    }
+
+    /// <summary>
+    /// Follow player on entering the collider
+    /// </summary>
+    public void FollowPlayer(Vector3 pos, bool notInRadius = false){
+        this.lastSeen = pos; //last seen posotion of the player( to follow toward )
+        if (!notInRadius)
+        {
+            SetTargetPosition(pos);
+        }
+        if (pathVectorList != null && pathVectorList.Count > 0)
+            {
+                //exception handling
+                Vector3 targetPos = pathVectorList[currentPathIndex];
+                
+                if (Vector3.Distance(transform.position, targetPos) >= 0.5f)
+                {
+                    this.moveDir = (targetPos - transform.position).normalized;
+                    this.wanderTime = 0f;
+                    float distanceBefore = Vector3.Distance(transform.position, targetPos);
+                            animationController.CharacterMovement(moveDir, true);
+                }else{
+                    currentPathIndex++;
+                    //destination reached
+                    if (currentPathIndex >= pathVectorList.Count)
+                    {
+                        StopMoving();
+                        animationController.CharacterMovement(moveDir, true);
+                        lastSeen = Vector3.zero;
+                    }
+
+                }
+        
+        }
+        //pf.DrawPath(this.transform.position, pos);
+    }
+
+    private void StopMoving(){
+        lastSeen = Vector3.zero;
+        pathVectorList = null;
+        this.moveDir = Vector3.zero;
+    }
+
+   public void SetTargetPosition(Vector3 targetPosition){
+        currentPathIndex = 0;
+        pathVectorList = pf.FindPathVector(this.transform.position ,targetPosition);
+        
+        if (pathVectorList != null && pathVectorList.Count > 1) {
+            pathVectorList.RemoveAt(0);
+        }
     }
 
     /*  *   *   *   *   *   *   *   *

@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Unity.Mathematics;
+using System.Diagnostics;
+using Debug = UnityEngine.Debug;
 
 public class PathFinding : MonoBehaviour
 {
@@ -50,7 +52,7 @@ public class PathFinding : MonoBehaviour
     }
 
     /// <summary>
-    /// Debug function, that vsualizes found path.
+    /// Debug function, that vsualizes found path. Verypoor performance !!
     /// </summary>
     /// <param name="start">Staring point(player)</param>
     /// <param name="target">End point(mouse clicked)</param>
@@ -87,26 +89,13 @@ public class PathFinding : MonoBehaviour
         }
         
         //two sets
-        List<TDTile> openSet = new List<TDTile>();
+        Heap<TDTile> openSet = new Heap<TDTile>(this.map.getMaxTiles);
         HashSet<TDTile> closedSet = new HashSet<TDTile>();
 
         openSet.Add(startTile);
         while(openSet.Count > 0){
-            TDTile currentTile = openSet[0];
-
-            for (int i = 1; i < openSet.Count; i++)
-            {
-                //find lowest fCost
-                if (openSet[i].fCost < currentTile.fCost || openSet[i].fCost == currentTile.fCost)
-                {
-                    if (openSet[i].hCost < currentTile.hCost)
-                    {
-                        currentTile = openSet[i];
-                    }
-                }
-            }
-            //remove from openm set and add to closed
-            openSet.Remove(currentTile);
+            TDTile currentTile = openSet.RemoveFirst();
+            
             closedSet.Add(currentTile);
             //path found
             if (currentTile == targetTile){

@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 4021146729649016918}
   - component: {fileID: -6920499279396981597}
   - component: {fileID: 5175015147502752583}
-  - component: {fileID: -8256580770961061952}
+  - component: {fileID: -9059170014186704357}
   m_Layer: 0
-  m_Name: Crystal
+  m_Name: KeyObject
   m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -115,7 +115,7 @@ Animator:
   m_GameObject: {fileID: 8274161314457147329}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: dcf5d76cae7157449a50b046ea303f2e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1bb35df6242fb014186242d953028e11, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Library: []
-  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: 889be4bacec0ef74f949ec7cc9a22cee, type: 3}
+  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: c26eb265c4041874a986c647312bbc50, type: 3}
 --- !u!114 &5175015147502752583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_CategoryHash: 0
   m_labelHash: 0
   m_SpriteKey: 1.2362407e-29
---- !u!114 &-8256580770961061952
+--- !u!114 &-9059170014186704357
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -163,12 +163,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8274161314457147329}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d10cd4fafb8f0e848881c1a6d42a6535, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b646bef91c89134ba4eb1bf2b14b232, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pos:
     x: 0
     y: 0
   biome: {fileID: 0}
-  damageState: 0
-  HealthBarPrefab: {fileID: 352537287198798118, guid: 52f0e652fb0450745b47616b5d00e803, type: 3}
+  state: 0

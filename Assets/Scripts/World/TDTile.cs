@@ -6,8 +6,9 @@ using System.Collections.Generic;
 /// position in the world etc.
 /// </summary>
 [System.Serializable]
-public class TDTile
+public class TDTile : IHeapItem<TDTile>
 {  
+    private int heapIndex;
     public bool partial = false; //indicates partial tile only ( cliff ends )
     public int z_index;
     public int2 pos;
@@ -47,9 +48,42 @@ public class TDTile
 
     public int gCost;
     public int hCost;
+    /// <summary>
+    /// Calculating f cost from hCost and gcost (a* algo)
+    /// </summary>
+    /// <value>reeturned heurestic cost</value>
     public int fCost{
         get{return hCost + gCost;}
     }
+
+    /// <summary>
+    /// Heap indexvalue used in heap generic class
+    /// </summary>
+    /// <value>integet index</value>
+    public int HeapIndex{
+        get{
+            return heapIndex;
+        }
+        set{
+            heapIndex = value;
+        }
+    }
+
+    /// <summary>
+    /// Compare function implementinf heapitem interface
+    /// </summary>
+    /// <param name="tile"></param>
+    /// <returns>1 if current item has higher priority, 0 otherwise</returns>
+    public int CompareTo(TDTile tile){
+        int compare = fCost.CompareTo(tile.fCost);
+        //if both are equal, ise heurestic
+        if (compare == 0)
+        {
+            compare = hCost.CompareTo(tile.hCost);
+        }
+        return -compare;    //int compare to works opposite way 
+    }
+
 
     /// <summary>
     /// Return true if on this tile can actually be placed object. If tile is in the

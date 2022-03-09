@@ -22,7 +22,7 @@ public class Map : MonoBehaviour
     GameHandler gameHandler = null;
     ChunkGenerator chunkGenerator = null;
     ChunkLoader chunkLoader = null;
-    [SerializeField] protected GameObject player;
+    [SerializeField] public GameObject player;
 
     //store all biomes and prefabs for each tile
     //public BiomePreset[] biomes;

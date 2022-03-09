@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using Unity.Mathematics;
 
 public class PlayerController : MonoBehaviour, CombatInterface
 {
@@ -12,8 +13,6 @@ public class PlayerController : MonoBehaviour, CombatInterface
     private bool dash = false;
 
     [SerializeField] private LayerMask dashLayerMask; //layers for colision detection of dash
-
-
     private float treshold = 0.5f; //movement treshold (for handling mouse controls)
     public Vector3 moveDir;
     private Vector3 lookingDir;
@@ -52,7 +51,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
 
     private void Awake() {
         healthSystem = new HealthSystem(100);
-        healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(-17.7f,-8.9f), Quaternion.identity, GameObject.FindGameObjectWithTag("MainCamera").transform);
+        healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(-12.7f,-8.9f), Quaternion.identity, GameObject.FindGameObjectWithTag("MainCamera").transform);
         healthBarTransform.localScale = new Vector3(80,40);
         healthBar = healthBarTransform.GetComponent<HealthBar>();
         healthBar.Setup(healthSystem);
@@ -178,12 +177,12 @@ public class PlayerController : MonoBehaviour, CombatInterface
             this.characterMovementController.characterMovementDetection();
         }else{
             this.FindPath();
-            //FIXME remove this later
-            pathFinding.DrawPath(this.transform.position,mousePos);
+            //FIXME remove this later huge performance issue
+            //pathFinding.DrawPath(this.transform.position,mousePos);
         }
 
         /* PATHFINDING MOVEMENT (right click)*/
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButtonDown(1))
         {
             findPath = true;
             mousePos = controllerUtilities.GetMouseWorldPosition();
