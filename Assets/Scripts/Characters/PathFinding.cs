@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Unity.Mathematics;
-using System.Diagnostics;
 using Debug = UnityEngine.Debug;
 
 public class PathFinding : MonoBehaviour
 {
+    private int heapSize;
     private const int STRAIGHT_COST = 10;
     private const int DIAGONAL_COST = 14;
     TDTile startTile;
@@ -91,7 +91,7 @@ public class PathFinding : MonoBehaviour
         //two sets
         //FIXME tuto heapu pri kazdom frame inicializujem ked followujem hraca
         // chce to vymysliet nejako mudrejsie
-        Heap<TDTile> openSet = new Heap<TDTile>(200);
+        Heap<TDTile> openSet = new Heap<TDTile>(150);
         HashSet<TDTile> closedSet = new HashSet<TDTile>();
 
         openSet.Add(startTile);

@@ -299,7 +299,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
             EnemyController targetEnemy = EnemyController.GetClosestEnemy(attackPosition, attackRange);
             if (targetEnemy != null)
             {
-                targetEnemy.Damage(transform.position, 100);
+                targetEnemy.Damage(transform.position, 20);
                 attackDir = (targetEnemy.GetPosition() - transform.position).normalized;
             }
             //state = State.Attacking;

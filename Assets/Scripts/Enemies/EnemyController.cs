@@ -9,6 +9,8 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /*
         Components
     */
+    public bool twoDirEntity;   //defines whenever sprites are only left-right or left-top-right-bot
+    public RuntimeAnimatorController[] aControllers;    //0 -> 2dir, 1 -> 4dir
     private GameObject player;
     public EnemyPreset preset = null;
     public Vector3 anchorPoint;    //spawned position
@@ -23,6 +25,14 @@ public class EnemyController : MonoBehaviour, CombatInterface
     private Animator animator;
     public UnityEngine.U2D.Animation.SpriteLibraryAsset assetsLibrary;  //sprite asset library list of possible asset libraries
 
+    public enum State{
+        Normal,
+        Attacking,
+        Hurting
+    }
+
+    public State state;
+    private bool animating;
     /*  *   *   *   *   *   *   *   *   *
         M   O   V   E   M   E   N   T
     *   *   *   *   *   *   *  *    *   */
@@ -90,6 +100,9 @@ public class EnemyController : MonoBehaviour, CombatInterface
         {
             //set correct assetsLibrary (animations and sprites)
             sla.spriteLibraryAsset = assetsLibrary;
+            //set correct animation controller
+            this.twoDirEntity = this.preset.twoDirSprite;
+            animator.runtimeAnimatorController = (this.twoDirEntity == true) ? aControllers[0] : aControllers[1];
             //set random observe time
             observeTime = GetRandomObserveTime();
             //set to alive
@@ -125,6 +138,29 @@ public class EnemyController : MonoBehaviour, CombatInterface
     }
 
     private void Update() {
+        //if (Input.GetMouseButtonDown(0)) state = State.Attacking;
+
+        //if nor attacking or hurting, movement handling is in place
+        if (state != State.Attacking && state != State.Hurting)
+        {
+            HandleMovement();
+        }else if (state == State.Hurting){
+            Hurt();
+        }else{
+            HandleAttack();
+        }
+    }
+
+    private void FixedUpdate() {
+        rb.velocity = moveDir * movementSpeed;
+        if (rb.velocity.Equals(Vector3.zero)) IsMoving = false;
+        else IsMoving = true;
+    }
+
+    /// <summary>
+    /// Handling entity's movement
+    /// </summary>
+    void HandleMovement(){
         //player in aggro radius
         if (InAggroRadius != null)
         {
@@ -142,10 +178,12 @@ public class EnemyController : MonoBehaviour, CombatInterface
         }
     }
 
-    private void FixedUpdate() {
-        rb.velocity = moveDir * movementSpeed;
-        if (rb.velocity.Equals(Vector3.zero)) IsMoving = false;
-        else IsMoving = true;
+    /// <summary>
+    /// Handles entity's attack coordination.
+    /// </summary>
+    void HandleAttack(){
+        //TODO
+        return;
     }
 
     /// <summary>
@@ -176,7 +214,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
             if (observeTime > 0)
             {
                 //animate idle
-                animationController.CharacterDirection(moveDir, true);
+                animationController.CharacterDirection(moveDir, twoDirEntity);
                 moveDir = Vector3.zero; //stop
                 observeTime -= Time.deltaTime;
             //then find new direction towards anchor point and move
@@ -198,7 +236,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
         {
             Vector3 targetPos = RandomPointInRadius();
             moveDir = new Vector3(targetPos.x-this.gameObject.transform.position.x, targetPos.y - this.gameObject.transform.position.y, 0f).normalized;
-            animationController.CharacterMovement(moveDir, true);
+            animationController.CharacterMovement(moveDir, twoDirEntity);
         }else{
             if (moveDir.x > 0) //moving right, deflect to the left
             {
@@ -214,7 +252,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
             }
         }
         //animate movement
-        animationController.CharacterMovement(moveDir,true);
+        animationController.CharacterMovement(moveDir,twoDirEntity);
     }
 
     /// <summary>
@@ -305,14 +343,14 @@ public class EnemyController : MonoBehaviour, CombatInterface
                     this.moveDir = (targetPos - transform.position).normalized;
                     this.wanderTime = 0f;
                     float distanceBefore = Vector3.Distance(transform.position, targetPos);
-                            animationController.CharacterMovement(moveDir, true);
+                            animationController.CharacterMovement(moveDir, twoDirEntity);
                 }else{
                     currentPathIndex++;
                     //destination reached
                     if (currentPathIndex >= pathVectorList.Count)
                     {
                         StopMoving();
-                        animationController.CharacterMovement(moveDir, true);
+                        animationController.CharacterMovement(moveDir, twoDirEntity);
                         lastSeen = Vector3.zero;
                     }
 
@@ -344,9 +382,9 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /// <summary>
     /// Set dead conditions
     /// </summary>
-    public void Die(){
+    private void Die(){
         this.IsDead = true;
-        animationController.DeadAnimation(moveDir, true);
+        animationController.DeadAnimation(moveDir, twoDirEntity);
         this.moveDir = Vector3.zero;
         //disable collision and move to background
         col.enabled = !enabled;
@@ -355,12 +393,22 @@ public class EnemyController : MonoBehaviour, CombatInterface
     }
 
     /// <summary>
+    /// Handles hurt state of entity.
+    /// </summary>
+    private void Hurt(){
+        this.animating = true;
+        state = State.Hurting;
+        animationController.HurtAnimation(moveDir, twoDirEntity);
+        return;
+    } 
+
+    /// <summary>
     /// Set alive conditions
     /// </summary>
     public void Alive(){
         this.IsDead = false;
-        if (!IsMoving) animationController.CharacterDirection(moveDir, true);
-        else animationController.CharacterMovement(moveDir, true);
+        if (!IsMoving) animationController.CharacterDirection(moveDir, twoDirEntity);
+        else animationController.CharacterMovement(moveDir, twoDirEntity);
         //disable collision and move to background
         col.enabled = enabled;
         sr.sortingOrder = 1;
@@ -372,7 +420,8 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /// Damages this entity
     /// </summary>
     /// <param name="attackerPosition">Position of attacker</param>
-    public void Damage(Vector3 attackerPosition, int damageAmount){
+    /// <retrn>True if entity died, false otherwise.</return>
+    public bool Damage(Vector3 attackerPosition, int damageAmount){
         //knockback
         Vector3 dirFromAttacker = (transform.position - attackerPosition).normalized;
         float knockbackDistance = 0.5f;
@@ -381,7 +430,20 @@ public class EnemyController : MonoBehaviour, CombatInterface
         //healthsystem damage
         healthSystem.Damage(damageAmount);
         //if health is zero die
-        if (healthSystem.GetHealthPercent() == 0) this.Die();
-        return;
+        if (healthSystem.GetHealthPercent() == 0){
+            this.Die();
+            return true;
+        }else{
+            this.Hurt();
+            return false;
+        } 
+    }
+
+    /*
+        Animation events functions.
+    */
+    public void EndAnimation(){
+        this.state = State.Normal;
+        animating = false;
     }
 }

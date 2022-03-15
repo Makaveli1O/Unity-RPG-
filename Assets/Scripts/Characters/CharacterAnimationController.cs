@@ -71,6 +71,18 @@ public class CharacterAnimationController : MonoBehaviour
     }
 
     /// <summary>
+    /// Handles hurt animation
+    /// </summary>
+    /// <param name="direction">Direction looking towards</param>
+    /// <param name="twoDir">Boolean for two directional assets.</param>
+    public void HurtAnimation(Vector3 direction, bool twoDir = false){
+        if(direction.Equals(Vector3.zero)) direction = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
+        if(!twoDir) QuadrantRotation(direction, "hurt");
+        else QuadrantRotation2Dir(direction, "hurt");
+        return;
+    }
+
+    /// <summary>
     /// Calculates angle between horizontal X axis and given normalized looking mouse position vector
     /// </summary>
     /// <param name="x">X point</param>
