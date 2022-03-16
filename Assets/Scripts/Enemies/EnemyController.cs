@@ -436,7 +436,8 @@ public class EnemyController : MonoBehaviour, CombatInterface
         DamagePopup.Create(transform.position, damageAmount);
         //if health is zero die
         if (healthSystem.GetHealthPercent() == 0){
-            this.Die();
+            if (!this.IsDead) this.Die();
+            
             return true;
         }else{
             this.Hurt();

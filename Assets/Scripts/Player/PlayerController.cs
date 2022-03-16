@@ -218,6 +218,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
         
 
         rigidbody2d.MovePosition(dashPosition);
+        SoundManager.PlaySound(SoundManager.Sound.Dash, transform.position);
         //this.transform.position = dashPosition; //otherwise character will walk back to its last "pressed" position
         rigidbody2d.velocity = dashDir * dashAmount;
         dash = false;
