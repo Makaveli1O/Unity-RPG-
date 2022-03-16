@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class HealthBar : MonoBehaviour
 {
+    ParticleSystem ps;
     private HealthSystem healthSystem;
     public void Setup(HealthSystem hs){
         this.healthSystem = hs;
@@ -11,9 +12,10 @@ public class HealthBar : MonoBehaviour
 
     private void HealthSystem_OnHealthChanged(object sender, System.EventArgs e){
         transform.Find("Bar").localScale = new Vector3(healthSystem.GetHealthPercent() , 1);
+        ps.Play();
     }
 
-    private void Update() {
-        
+    private void Awake() {
+        this.ps = GetComponent<ParticleSystem>();
     }
 }

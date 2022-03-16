@@ -59,10 +59,12 @@ MonoBehaviour:
   preset: {fileID: 0}
   anchorPoint: {x: 0, y: 0, z: 0}
   assetsLibrary: {fileID: 0}
+  state: 0
   observeTime: 3
   wanderTime: 5
   movementSpeed: 1
   HealthBarPrefab: {fileID: 352537287198798118, guid: 52f0e652fb0450745b47616b5d00e803, type: 3}
+  pfDamagePopup: {fileID: 0}
 --- !u!114 &-8218431401720009193
 MonoBehaviour:
   m_ObjectHideFlags: 0

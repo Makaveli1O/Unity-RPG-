@@ -12,6 +12,7 @@ public class CharacterMovementController : MonoBehaviour
         get{ return isMoving; }
     }
 
+    //TODO docs
     public void characterPathExpand(){
         for(int i =0; i < previousLocations.Length - 1; i++){
             previousLocations[i] = previousLocations[i+1];
@@ -19,6 +20,7 @@ public class CharacterMovementController : MonoBehaviour
         previousLocations[previousLocations.Length - 1] = this.transform.position;
     }
 
+    //TODO docs
     public void characterMovementDetection(){
         float movementTreshold = 0.0001f;
 

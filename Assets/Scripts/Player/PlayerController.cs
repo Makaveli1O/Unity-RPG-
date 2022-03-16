@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
         Character sprites have pivot anchored x: 0.5 and y: 0.1 (normalized)
         because of topdown angle
     */
+    public AudioClip playerAttack;
     private float movementSpeed = 3f;
     private bool dash = false;
 
@@ -157,6 +158,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
             characterAnimationController.CharacterDirection(lookingDir);  
         }else{    //movement animation
             characterAnimationController.CharacterMovement(moveDir);
+            SoundManager.PlaySound(SoundManager.Sound.GrassStep, this.transform.position);
         }
     }
 
@@ -306,6 +308,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
             //FIXME stop on attack or not? depends on testing
             moveDir = Vector3.zero;
             animating = true;   //performing animation
+            SoundManager.PlaySound(SoundManager.Sound.Attack, transform.position);
             characterAnimationController.CharacterAttack(attackDir); //reset state after complete
             float dashDistance = 1f;
             transform.position += attackDir * dashDistance;

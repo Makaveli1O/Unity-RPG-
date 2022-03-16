@@ -15,6 +15,7 @@ public class GameHandler : MonoBehaviour
         world_seed = mapRef.seed;
         SaveSystem.Init();
         SAVE_FOLDER = Application.dataPath + "/Saves/";
+        SoundManager.Init();    //initialize soundManager
     }
 
     

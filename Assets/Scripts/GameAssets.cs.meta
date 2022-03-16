@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 0e94f2601e86551418aa955cf7a9cff7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerAttack: {fileID: 8300000, guid: 5f6c85064c2ea024bb8ed5916029a245, type: 3}
+  - pfDamagePopup: {fileID: 8779433493166927019, guid: d89a82d24cf12f744b43e1ee5262b1ce, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

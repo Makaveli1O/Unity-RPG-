@@ -361,6 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bb0fab798126444b86ad64c6560a3ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAttack: {fileID: 8300000, guid: 5f6c85064c2ea024bb8ed5916029a245, type: 3}
   dashLayerMask:
     serializedVersion: 2
     m_Bits: 384

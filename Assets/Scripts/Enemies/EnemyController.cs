@@ -385,6 +385,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
     private void Die(){
         this.IsDead = true;
         animationController.DeadAnimation(moveDir, twoDirEntity);
+        SoundManager.PlaySound(SoundManager.Sound.Death, transform.position, GetPresetAudioClip(SoundManager.Sound.Death));
         this.moveDir = Vector3.zero;
         //disable collision and move to background
         col.enabled = !enabled;
@@ -429,6 +430,10 @@ public class EnemyController : MonoBehaviour, CombatInterface
         //spawn blood
         //healthsystem damage
         healthSystem.Damage(damageAmount);
+        //sfx
+        SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position, GetPresetAudioClip(SoundManager.Sound.Hit));
+        //damage popup
+        DamagePopup.Create(transform.position, damageAmount);
         //if health is zero die
         if (healthSystem.GetHealthPercent() == 0){
             this.Die();
@@ -437,6 +442,22 @@ public class EnemyController : MonoBehaviour, CombatInterface
             this.Hurt();
             return false;
         } 
+    }
+
+    /// <summary>
+    /// Finds proper given "sound" from within enemy presets.
+    /// </summary>
+    /// <param name="sound">Desired sound effect</param>
+    /// <returns>Audio clip represented by Sound</returns>
+    public AudioClip GetPresetAudioClip(SoundManager.Sound sound){
+        foreach(GameAssets.SoundAudioClip soundAudioClip in preset.sfx){
+            if (soundAudioClip.sound == sound)
+            {
+                return soundAudioClip.audioClip;
+            }
+        }
+
+        return null;
     }
 
     /*
