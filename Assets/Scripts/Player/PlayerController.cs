@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
+using Unity.Mathematics;
 
 public class PlayerController : MonoBehaviour, CombatInterface
 {
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
     private ParticleSystem dashDust;
     private CharacterAnimationController characterAnimationController;
     private CharacterMovementController characterMovementController;
+    private Map mapRef;
     public Transform HealthBarPrefab;
     private PathFinding pathFinding;
     //pathfinding
@@ -59,6 +61,15 @@ public class PlayerController : MonoBehaviour, CombatInterface
         healthBar = healthBarTransform.GetComponent<HealthBar>();
         healthBar.Setup(healthSystem);
         dashDust = GetComponent<ParticleSystem>();
+        var m = GameObject.FindGameObjectWithTag("Map");
+        try
+        {
+            mapRef = m.GetComponent<Map>();
+        }
+        catch
+        {
+            Debug.Log("Map reference not found in Enemy player controller.");
+        }
     }
     private void Start()
     {
@@ -214,6 +225,21 @@ public class PlayerController : MonoBehaviour, CombatInterface
         }
         // dashPosition is position where player should land
         Vector3 dashPosition = transform.position + dashDir * dashAmount;
+
+        //check landing tile's z-index
+        int2 dashInt2 = new int2((int)dashPosition.x, (int)dashPosition.y);
+        int2 playerInt2 = new int2((int)transform.position.x, (int)transform.position.y);
+        TDTile landTile = mapRef.GetTile(mapRef.TileRelativePos(dashInt2), mapRef.TileChunkPos(dashInt2));
+        TDTile playerTile = mapRef.GetTile(mapRef.TileRelativePos(playerInt2), mapRef.TileChunkPos(playerInt2));
+
+        if (playerTile.z_index != landTile.z_index)
+        {
+            //TODO something with this
+            SoundManager.PlaySound(SoundManager.Sound.Error, transform.position);
+            dash = false;
+            dashPosition = this.transform.position;
+            return;
+        }
 
         RaycastHit2D raycast = Physics2D.Raycast(transform.position, dashDir, dashAmount, dashLayerMask);
         if (raycast.collider != null){
