@@ -83,10 +83,9 @@ public class PathFinding : MonoBehaviour
         this.startTile = mapRef.GetTile(mapRef.TileRelativePos(startPos), mapRef.TileChunkPos(startPos));
         this.targetTile = mapRef.GetTile(mapRef.TileRelativePos(targetPos), mapRef.TileChunkPos(targetPos));
         //invalid path
-        if (startTile == null || targetTile == null)
-        {
-            return null;
-        }
+        //if (startTile == null || targetTile == null || !startTile.IsWalkable || !targetTile.IsWalkable)
+        if (startTile == null || targetTile == null) return null;
+        if (!targetTile.IsWalkable) targetTile = mapRef.ClosestWalkable(targetTile);
         
         //two sets
         //FIXME tuto heapu pri kazdom frame inicializujem ked followujem hraca
@@ -122,7 +121,10 @@ public class PathFinding : MonoBehaviour
                     //set where you came from to this tile
                     neighbour.Value.cameFrom = currentTile;
                     if (!openSet.Contains(neighbour.Value))
+                    { 
                         openSet.Add(neighbour.Value);
+                    }
+                        
                 }
             }
         }

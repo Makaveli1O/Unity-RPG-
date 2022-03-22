@@ -1,6 +1,3 @@
-using UnityEngine;
-using System;
-
 public interface CombatInterface
 {
     int health{

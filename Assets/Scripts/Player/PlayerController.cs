@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
-using Unity.Mathematics;
+using System.Collections;
 
 public class PlayerController : MonoBehaviour, CombatInterface
 {
@@ -11,7 +11,8 @@ public class PlayerController : MonoBehaviour, CombatInterface
     */
     public AudioClip playerAttack;
     private float movementSpeed = 3f;
-    private bool dash = false;
+    private bool dash = false;  //when dash is true, player is invincble
+    private bool isInvincible;
 
     [SerializeField] private LayerMask dashLayerMask; //layers for colision detection of dash
     private float treshold = 0.5f; //movement treshold (for handling mouse controls)
@@ -21,6 +22,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
     private Vector3 mousePos;
     private Rigidbody2D rigidbody2d;
     private ControllerUtilities controllerUtilities;
+    private ParticleSystem dashDust;
     private CharacterAnimationController characterAnimationController;
     private CharacterMovementController characterMovementController;
     public Transform HealthBarPrefab;
@@ -56,6 +58,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
         healthBarTransform.localScale = new Vector3(80,40);
         healthBar = healthBarTransform.GetComponent<HealthBar>();
         healthBar.Setup(healthSystem);
+        dashDust = GetComponent<ParticleSystem>();
     }
     private void Start()
     {
@@ -71,6 +74,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
         state = State.Normal;
     }
     private void Update(){
+
         if (Input.GetMouseButtonDown(0)) state = State.Attacking;
 
         if (state != State.Attacking)
@@ -199,6 +203,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
     /// collided raycast point instead.
     /// </summary>
     private void Dash(){
+        StartCoroutine(BecomeTemporarilyInvincible());
         float dashAmount = 5f;
         Vector3 dashDir = Vector3.zero;
         //player is not moving, so use lookingDir vector instead of moveDir
@@ -215,13 +220,67 @@ public class PlayerController : MonoBehaviour, CombatInterface
             dashPosition = raycast.point;
         }
         //Spawn visual effect here
-        
+        DashDustEffect();
 
         rigidbody2d.MovePosition(dashPosition);
         SoundManager.PlaySound(SoundManager.Sound.Dash, transform.position);
         //this.transform.position = dashPosition; //otherwise character will walk back to its last "pressed" position
         rigidbody2d.velocity = dashDir * dashAmount;
         dash = false;
+    }
+
+    /// <summary>
+    /// Handle dust particless effect when dashing in various directions.
+    /// </summary>
+    private void DashDustEffect(){
+        var shape = dashDust.shape;
+        shape = dashDust.shape;
+        //left or right
+        if (this.moveDir.Equals(Vector3.left) || this.moveDir.Equals(Vector3.right)){
+            shape.scale = new Vector3(6f, 1.5f, 0f);
+            shape.rotation = new Vector3(0f, 0f, 0f);
+            dashDust.Play();
+        //up or down
+        }else if(this.moveDir.Equals(Vector3.up) || this.moveDir.Equals(Vector3.down)){
+            shape.rotation = new Vector3(0f, 0f, 0f);
+            shape.scale = new Vector3(1.5f, 6f, 0f);
+            dashDust.Play();
+        //diagonals
+        }else{
+            Vector3 rightUp = new Vector3(0.71f, 0.71f);
+            Vector3 rightDown = new Vector3(0.71f, -0.71f);
+            Vector3 leftUp = new Vector3(-0.71f, 0.71f);
+            Vector3 leftDown = new Vector3(-0.71f, -0.71f);
+            shape.scale = new Vector3(6f, 1.5f, 0f);
+            if (Vector3.Angle(moveDir, rightUp) == 0f){
+                shape.rotation = new Vector3(0f, 0f, 45f);
+                dashDust.Play();
+            }else if(Vector3.Angle(moveDir, rightDown) == 0f){
+                shape.rotation = new Vector3(0f, 0f, 315f);
+                dashDust.Play();
+            }else if(Vector3.Angle(moveDir, leftUp) == 0f){
+                shape.rotation = new Vector3(0f, 0f, 315f);
+                dashDust.Play();
+            }else if(Vector3.Angle(moveDir, leftDown) == 0f){
+                shape.rotation = new Vector3(0f, 0f, 45f);
+                dashDust.Play();
+            }
+        }
+    }
+
+    /// <summary>
+    /// Invincibility coroutine
+    /// </summary>
+    /// <returns></returns>
+    private IEnumerator BecomeTemporarilyInvincible(){
+        float invincibilityDuration = 0.15f;
+        //Debug.Log("Player turned invincible!");
+        isInvincible = true;
+
+        yield return new WaitForSeconds(invincibilityDuration);
+
+        isInvincible = false;
+        //Debug.Log("Player is no longer invincible!");
     }
 
     /*  *   *   *   *   *   *   *   *   *   *
@@ -322,5 +381,32 @@ public class PlayerController : MonoBehaviour, CombatInterface
     private void EndAttackAnimation(){
         state = State.Normal;
         animating = false;
+    }
+
+    //FIXME do these in cahracters class or interface, and apply to both enemy and palyer
+    public bool Damage(Vector3 attackerPosition, int damageAmount){
+        if (isInvincible) return false;
+
+        //knockback
+        Vector3 dirFromAttacker = (transform.position - attackerPosition).normalized;
+        float knockbackDistance = 0.5f;
+        transform.position += dirFromAttacker * knockbackDistance;
+        //spawn blood
+        //healthsystem damage
+        healthSystem.Damage(damageAmount);
+        //sfx
+        //SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position, GetPresetAudioClip(SoundManager.Sound.Hit));
+        //damage popup
+        DamagePopup.Create(transform.position, damageAmount);
+        //if health is zero die
+        if (healthSystem.GetHealthPercent() == 0){
+            if (!this.IsDead) {//this.Die();
+            }
+            
+            return true;
+        }else{
+            //sthis.Hurt();
+            return false;
+        } 
     }
 }

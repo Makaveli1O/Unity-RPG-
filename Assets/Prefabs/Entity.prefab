@@ -64,7 +64,6 @@ MonoBehaviour:
   wanderTime: 5
   movementSpeed: 1
   HealthBarPrefab: {fileID: 352537287198798118, guid: 52f0e652fb0450745b47616b5d00e803, type: 3}
-  pfDamagePopup: {fileID: 0}
 --- !u!114 &-8218431401720009193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,7 +129,7 @@ SpriteRenderer:
   m_SortingLayerID: -1196205207
   m_SortingLayer: 1
   m_SortingOrder: 1
-  m_Sprite: {fileID: -869908007, guid: 1d99e55dd432e784b9024147161304b6, type: 3}
+  m_Sprite: {fileID: 879096304, guid: 748d51a06b9a81e44ac15ecd43e083d6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -188,7 +187,7 @@ Animator:
   m_GameObject: {fileID: 1755277773436164683}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 312af55299461604aa61bc9c922b6029, type: 2}
+  m_Controller: {fileID: 9100000, guid: a299719e810ab294395830053d5b9d8b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

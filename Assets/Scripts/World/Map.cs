@@ -265,6 +265,24 @@ public class Map : MonoBehaviour
     }
 
     /// <summary>
+    /// Find closest walkable tile to given tile, with same zindex.
+    /// </summary>
+    /// <param name="tile">Targt tile</param>
+    /// <returns>Found tile or null.</returns>
+    public TDTile ClosestWalkable(TDTile tile){
+        List<TDTile> neighbours = tile.GetNeighbourList();
+        foreach (TDTile neighbour in neighbours)
+        {
+            if (neighbour.z_index.Equals(tile.z_index) && neighbour.IsWalkable)
+            {
+                Debug.Log("New tile closest");
+                return neighbour;
+            }
+        }
+        return null;
+    }
+
+    /// <summary>
     /// Check whenever given position is suitable for spawning entity ontop of it.
     /// </summary>
     /// <param name="absolute">Absolute tile position</param>

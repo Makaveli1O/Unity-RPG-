@@ -2,9 +2,10 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 using Unity.Mathematics;
 using System.Collections.Generic;
+using System.Collections;
 using System;
 
-public class EnemyController : MonoBehaviour, CombatInterface
+public class EnemyController : MonoBehaviour
 {
     /*
         Components
@@ -47,11 +48,12 @@ public class EnemyController : MonoBehaviour, CombatInterface
     private int wanderRadius = 5;     //movement circle around spawned point
     private int OnEnableCount = 0; //skip first onEnable(that after awake)
     public bool IsMoving{get;set;}
+    private float movementThresHold = 2f;
 
     /*  *   *   *   *   *   *   *
         C   O   M   B   A   T
     *   *   *   *   *   *   *  */
-    private static List<EnemyController> enemyList;
+    private static List<EnemyController> enemyList; //targeting system
     public int health{get;set;}
     public int armor{get;set;}
     public bool InCombat{get;set;}
@@ -112,6 +114,8 @@ public class EnemyController : MonoBehaviour, CombatInterface
         }else{
             //initialize healthbar on first enable
             InitHealthBar(100);
+            //set preset stats (health, damage etc.)
+            SetPresetStats();
         }
         OnEnableCount++;
     }
@@ -124,6 +128,8 @@ public class EnemyController : MonoBehaviour, CombatInterface
         //get anchor tile
         int2 coords = new int2((int)anchorPoint.x, (int)anchorPoint.y);
         anchorTile =  mapRef.GetTile(mapRef.TileRelativePos(coords), mapRef.TileChunkPos(coords));
+        //events turned off
+        animator.fireEvents = false;
     }
 
     /// <summary>
@@ -138,16 +144,14 @@ public class EnemyController : MonoBehaviour, CombatInterface
     }
 
     private void Update() {
-        //if (Input.GetMouseButtonDown(0)) state = State.Attacking;
-
         //if nor attacking or hurting, movement handling is in place
-        if (state != State.Attacking && state != State.Hurting)
+        if (state == State.Attacking)
         {
-            HandleMovement();
+            if (animating == false) HandleAttack();             
         }else if (state == State.Hurting){
-            Hurt();
+            if (animating == false) HandleHurt(); 
         }else{
-            HandleAttack();
+            HandleMovement();
         }
     }
 
@@ -164,8 +168,16 @@ public class EnemyController : MonoBehaviour, CombatInterface
         //player in aggro radius
         if (InAggroRadius != null)
         {
-            InAggroRadius(this, EventArgs.Empty);   //notify player
-            FollowPlayer(player.transform.position);
+            if (Vector3.Distance(player.transform.position, this.transform.position) >= movementThresHold)
+            {
+                InAggroRadius(this, EventArgs.Empty);   //notify player
+                FollowPlayer(player.transform.position);
+            }else{  //threshold activated, standing next to player
+                animationController.CharacterDirection(this.transform.position - player.transform.position);
+                moveDir = Vector3.zero; //stop
+                HandleAttack();
+            }
+
         //follow to last known position
         }else if(lastSeen != Vector3.zero && !IsDead){
             FollowPlayer(lastSeen, true);
@@ -178,13 +190,6 @@ public class EnemyController : MonoBehaviour, CombatInterface
         }
     }
 
-    /// <summary>
-    /// Handles entity's attack coordination.
-    /// </summary>
-    void HandleAttack(){
-        //TODO
-        return;
-    }
 
     /// <summary>
     /// Initializes this unit's healthbar 
@@ -331,7 +336,11 @@ public class EnemyController : MonoBehaviour, CombatInterface
         this.lastSeen = pos; //last seen posotion of the player( to follow toward )
         if (!notInRadius)
         {
-            SetTargetPosition(pos);
+            //path not found
+            if(!SetTargetPosition(pos)){
+                Wander();
+                return;
+            }
         }
         if (pathVectorList != null && pathVectorList.Count > 0)
             {
@@ -357,6 +366,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
                 }
         
         }
+        //FIXME drawpath debug
         //pf.DrawPath(this.transform.position, pos);
     }
 
@@ -366,18 +376,35 @@ public class EnemyController : MonoBehaviour, CombatInterface
         this.moveDir = Vector3.zero;
     }
 
-   public void SetTargetPosition(Vector3 targetPosition){
+    /// <summary>
+    /// Set target position for pathfinding, to follow up towards.
+    /// </summary>
+    /// <param name="targetPosition">Actual position of target</param>
+    /// <returns>Bool true or false if path is found</returns>
+   public bool SetTargetPosition(Vector3 targetPosition){
         currentPathIndex = 0;
         pathVectorList = pf.FindPathVector(this.transform.position ,targetPosition);
+
+        //path not found (path going through unloaded chunk etc.)
+        if (pathVectorList == null)
+        {
+            return false;
+        }
         
         if (pathVectorList != null && pathVectorList.Count > 1) {
             pathVectorList.RemoveAt(0);
         }
+
+        return true;
     }
 
     /*  *   *   *   *   *   *   *   *
         C   O   M   B   A   T
     *   *   *   *   *   *   *   *   */
+
+    private void SetPresetStats(){
+
+    }
 
     /// <summary>
     /// Set dead conditions
@@ -396,12 +423,57 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /// <summary>
     /// Handles hurt state of entity.
     /// </summary>
-    private void Hurt(){
+    private void HandleHurt(){
+        //trigger animation
         this.animating = true;
-        state = State.Hurting;
         animationController.HurtAnimation(moveDir, twoDirEntity);
+        //trigger start animation events here
+        this.state = State.Hurting;
+        StartCoroutine(Animating(0.3f, State.Hurting));
         return;
     } 
+
+    /// <summary>
+    /// Handles entity's attack coordination.
+    /// </summary>
+    void HandleAttack(){
+        //trigger animation
+        this.animating = true;
+        animationController.CharacterAttack(player.transform.position - this.transform.position);
+        try{
+            SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position, GetPresetAudioClip(SoundManager.Sound.Attack));
+        }catch{
+            //remove this later
+        }
+        
+        //trigger start animation events here
+        this.state = State.Attacking;
+        StartCoroutine(Animating(0.8f, State.Attacking));
+        return;
+    }
+
+    /// <summary>
+    /// Coroutine handling combat actions.
+    /// </summary>
+    /// <returns>enumerator</returns>
+    private IEnumerator Animating(float time, State action){
+        yield return new WaitForSeconds(time);
+        // trigger the stop animation events here
+        switch (action)
+        {
+            case State.Attacking:
+                player.GetComponent<PlayerController>().Damage(transform.position, 20);
+                break;
+            case State.Hurting:
+            
+                break;
+        }
+
+        this.state = State.Normal;
+        //call end animation event
+        EndAnimation();
+        this.animating = false;
+    }
 
     /// <summary>
     /// Set alive conditions
@@ -440,7 +512,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
             
             return true;
         }else{
-            this.Hurt();
+            this.HandleHurt();
             return false;
         } 
     }
