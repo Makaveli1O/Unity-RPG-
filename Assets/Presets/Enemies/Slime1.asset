@@ -15,7 +15,12 @@ MonoBehaviour:
   twoDirSprite: 1
   _name: slime1
   id: 5
-  defaultHealth: 50
-  defaultArmor: 0
-  lvlMultiplier: 0
+  health: 100
+  armor: 0
+  bottomDamage: 1
+  topDamage: 10
+  attackRange: 5
+  attackTime: 5
+  multiplier: 0
   assetsLibrary: {fileID: 7108339969198208228, guid: 66b567f463932cf4a998ad20df0d360e, type: 3}
+  sfx: []

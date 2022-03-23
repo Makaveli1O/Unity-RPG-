@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour, CombatInterface
     private float movementSpeed = 3f;
     private bool dash = false;  //when dash is true, player is invincble
     private bool isInvincible;
+    private float dashTimer = 0f;
+    public const float DASH_DEFAULT = 5f;
 
     [SerializeField] private LayerMask dashLayerMask; //layers for colision detection of dash
     private float treshold = 0.5f; //movement treshold (for handling mouse controls)
@@ -47,6 +49,8 @@ public class PlayerController : MonoBehaviour, CombatInterface
     public int armor{get;set;}
     public bool InCombat{get;set;}
     public bool IsDead{get;set;}
+    public float attackRange{get;set;}
+    public float attackTime{get;set;}
     public enum State{
         Normal,
         Attacking
@@ -85,6 +89,9 @@ public class PlayerController : MonoBehaviour, CombatInterface
         state = State.Normal;
     }
     private void Update(){
+        if (dashTimer > 0){
+            dashTimer -= Time.deltaTime;
+        }
 
         if (Input.GetMouseButtonDown(0)) state = State.Attacking;
 
@@ -102,7 +109,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
         rigidbody2d.velocity = moveDir * movementSpeed;
         //dash
         if(dash){
-            Dash();
+            Dash(); 
         }
     }
 
@@ -183,7 +190,13 @@ public class PlayerController : MonoBehaviour, CombatInterface
     private void HandleMovement(){
         //dash roll
         if(Input.GetKeyDown(KeyCode.Space)){
-            dash = true;
+            if (dashTimer > 0)
+            {
+                SoundManager.PlaySound(SoundManager.Sound.Error, this.transform.position);
+            }else{
+                dashTimer = DASH_DEFAULT;
+                dash = true;
+            }
         } 
         
         /* REGULAR MOVEMENT */
@@ -387,11 +400,10 @@ public class PlayerController : MonoBehaviour, CombatInterface
             EnemyController targetEnemy = EnemyController.GetClosestEnemy(attackPosition, attackRange);
             if (targetEnemy != null)
             {
-                targetEnemy.Damage(transform.position, 20);
+                targetEnemy.Damage(transform.position, "20");
                 attackDir = (targetEnemy.GetPosition() - transform.position).normalized;
             }
-            //state = State.Attacking;
-            //FIXME stop on attack or not? depends on testing
+            state = State.Attacking;
             moveDir = Vector3.zero;
             animating = true;   //performing animation
             SoundManager.PlaySound(SoundManager.Sound.Attack, transform.position);
@@ -409,26 +421,42 @@ public class PlayerController : MonoBehaviour, CombatInterface
         animating = false;
     }
 
-    //FIXME do these in cahracters class or interface, and apply to both enemy and palyer
-    public bool Damage(Vector3 attackerPosition, int damageAmount){
+    /// <summary>
+    /// Function handling player's getting damage. If player is invincible no damage is recieved,
+    /// as well as if palyer is too far away. Spawns popup, sound effect and does damage to health
+    /// system.
+    /// </summary>
+    /// <param name="attackerPosition">Position of attacker</param>
+    /// <param name="damageAmount">Damage amount to player</param>
+    /// <param name="attackRange">Range of attacking entity</param>
+    /// <returns>True if player is hit, false otherwise.</returns>
+    public bool Damage(Vector3 attackerPosition, string damageAmount, float attackRange){
+        //if in dash -> invincible
         if (isInvincible) return false;
+
+        //miss detection ( beyond entity's reach )
+        if (Vector3.Distance(attackerPosition, this.transform.position) > attackRange)
+        {
+            DamagePopup.Create(attackerPosition, "MISS", DamagePopup.Type.Miss);
+            SoundManager.PlaySound(SoundManager.Sound.Miss, attackerPosition);
+            return false;
+        }
 
         //knockback
         Vector3 dirFromAttacker = (transform.position - attackerPosition).normalized;
         float knockbackDistance = 0.5f;
         transform.position += dirFromAttacker * knockbackDistance;
-        //spawn blood
         //healthsystem damage
-        healthSystem.Damage(damageAmount);
+        healthSystem.Damage(int.Parse(damageAmount));
         //sfx
-        //SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position, GetPresetAudioClip(SoundManager.Sound.Hit));
+        SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position);
         //damage popup
         DamagePopup.Create(transform.position, damageAmount);
         //if health is zero die
         if (healthSystem.GetHealthPercent() == 0){
+            //TODO game over screen .. 
             if (!this.IsDead) {//this.Die();
             }
-            
             return true;
         }else{
             //sthis.Hurt();

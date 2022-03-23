@@ -15,7 +15,9 @@ MonoBehaviour:
   twoDirSprite: 1
   _name: bk1
   id: 7
-  defaultHealth: 250
-  defaultArmor: 0
-  lvlMultiplier: 0
+  health: 100
+  armor: 0
+  attackRange: 5
+  attackRate: 1
   assetsLibrary: {fileID: 7108339969198208228, guid: dac55680b52b89043a8c79c75084ba67, type: 3}
+  sfx: []

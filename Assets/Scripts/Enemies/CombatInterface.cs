@@ -16,4 +16,12 @@ public interface CombatInterface
         get;
         set;
     }
+    float attackRange{
+        get;
+        set;
+    }
+    float attackTime{   //higher -> slower attacking rate
+        get;
+        set;
+    }
 }

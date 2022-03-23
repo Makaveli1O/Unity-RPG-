@@ -15,7 +15,9 @@ MonoBehaviour:
   twoDirSprite: 1
   _name: spider
   id: 6
-  defaultHealth: 100
-  defaultArmor: 0
-  lvlMultiplier: 0
+  health: 100
+  armor: 0
+  attackRange: 5
+  attackRate: 1
   assetsLibrary: {fileID: 7108339969198208228, guid: 2c02af6ef4998174897bff9200829d19, type: 3}
+  sfx: []

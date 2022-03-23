@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Collections;
 using System;
 
-public class EnemyController : MonoBehaviour
+public class EnemyController : MonoBehaviour, CombatInterface
 {
     /*
         Components
@@ -34,6 +34,7 @@ public class EnemyController : MonoBehaviour
 
     public State state;
     private bool animating;
+    private float timer;
     /*  *   *   *   *   *   *   *   *   *
         M   O   V   E   M   E   N   T
     *   *   *   *   *   *   *  *    *   */
@@ -58,6 +59,10 @@ public class EnemyController : MonoBehaviour
     public int armor{get;set;}
     public bool InCombat{get;set;}
     public bool IsDead{get;set;}
+    public float attackRange{get;set;}
+    public float attackTime{get;set;}
+    public int bottomDamage;
+    public int topDamage;
 
     /*  *   *   *   *   *   *   *
         H   E   A   L   T   H
@@ -114,8 +119,6 @@ public class EnemyController : MonoBehaviour
         }else{
             //initialize healthbar on first enable
             InitHealthBar(100);
-            //set preset stats (health, damage etc.)
-            SetPresetStats();
         }
         OnEnableCount++;
     }
@@ -173,7 +176,7 @@ public class EnemyController : MonoBehaviour
                 InAggroRadius(this, EventArgs.Empty);   //notify player
                 FollowPlayer(player.transform.position);
             }else{  //threshold activated, standing next to player
-                animationController.CharacterDirection(this.transform.position - player.transform.position);
+                animationController.CharacterDirection(player.transform.position - this.transform.position);
                 moveDir = Vector3.zero; //stop
                 HandleAttack();
             }
@@ -402,8 +405,17 @@ public class EnemyController : MonoBehaviour
         C   O   M   B   A   T
     *   *   *   *   *   *   *   *   */
 
+    /// <summary>
+    /// Set this entity's stats mathincg correct preset stats.
+    /// </summary>
     private void SetPresetStats(){
-
+        this.health = preset.health;
+        this.armor = preset.armor;
+        this.attackRange = preset.attackRange;
+        this.attackTime = 0f;
+        this.bottomDamage = preset.bottomDamage;
+        this.topDamage = preset.topDamage;
+        return;
     }
 
     /// <summary>
@@ -426,7 +438,6 @@ public class EnemyController : MonoBehaviour
     private void HandleHurt(){
         //trigger animation
         this.animating = true;
-        animationController.HurtAnimation(moveDir, twoDirEntity);
         //trigger start animation events here
         this.state = State.Hurting;
         StartCoroutine(Animating(0.3f, State.Hurting));
@@ -437,6 +448,15 @@ public class EnemyController : MonoBehaviour
     /// Handles entity's attack coordination.
     /// </summary>
     void HandleAttack(){
+        //attack rate counter, not yet ready to attack
+        if (attackTime > 0)
+        {
+            attackTime -= Time.deltaTime;  
+            return;
+        }else{
+            //ready to attack, restart attackRate counter
+            attackTime = preset.attackTime;
+        }
         //trigger animation
         this.animating = true;
         animationController.CharacterAttack(player.transform.position - this.transform.position);
@@ -445,10 +465,10 @@ public class EnemyController : MonoBehaviour
         }catch{
             //remove this later
         }
-        
         //trigger start animation events here
+        string damageAmount = Random.Range(bottomDamage, topDamage).ToString();
         this.state = State.Attacking;
-        StartCoroutine(Animating(0.8f, State.Attacking));
+        StartCoroutine(Animating(0.8f, State.Attacking, damageAmount));
         return;
     }
 
@@ -456,19 +476,18 @@ public class EnemyController : MonoBehaviour
     /// Coroutine handling combat actions.
     /// </summary>
     /// <returns>enumerator</returns>
-    private IEnumerator Animating(float time, State action){
+    private IEnumerator Animating(float time, State action, string dmg = "0"){
         yield return new WaitForSeconds(time);
         // trigger the stop animation events here
         switch (action)
         {
             case State.Attacking:
-                player.GetComponent<PlayerController>().Damage(transform.position, 20);
+                player.GetComponent<PlayerController>().Damage(transform.position, dmg, this.preset.attackRange);
                 break;
             case State.Hurting:
-            
+                animationController.HurtAnimation(moveDir, twoDirEntity);
                 break;
         }
-
         this.state = State.Normal;
         //call end animation event
         EndAnimation();
@@ -479,6 +498,8 @@ public class EnemyController : MonoBehaviour
     /// Set alive conditions
     /// </summary>
     public void Alive(){
+        //set preset stats (health, damage etc.)
+        SetPresetStats();
         this.IsDead = false;
         if (!IsMoving) animationController.CharacterDirection(moveDir, twoDirEntity);
         else animationController.CharacterMovement(moveDir, twoDirEntity);
@@ -494,16 +515,21 @@ public class EnemyController : MonoBehaviour
     /// </summary>
     /// <param name="attackerPosition">Position of attacker</param>
     /// <retrn>True if entity died, false otherwise.</return>
-    public bool Damage(Vector3 attackerPosition, int damageAmount){
+    public bool Damage(Vector3 attackerPosition, string damageAmount){
         //knockback
         Vector3 dirFromAttacker = (transform.position - attackerPosition).normalized;
         float knockbackDistance = 0.5f;
         transform.position += dirFromAttacker * knockbackDistance;
         //spawn blood
         //healthsystem damage
-        healthSystem.Damage(damageAmount);
+        healthSystem.Damage(int.Parse(damageAmount));
         //sfx
-        SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position, GetPresetAudioClip(SoundManager.Sound.Hit));
+        try{
+            SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position, GetPresetAudioClip(SoundManager.Sound.Hit));
+        }catch{
+            //FIXME remove this after all sound are correctly assigned
+        }
+        
         //damage popup
         DamagePopup.Create(transform.position, damageAmount);
         //if health is zero die

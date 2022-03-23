@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6f8f4d8f10edeb48806cad5f039ec0c, type: 3}
   m_Name: Test
   m_EditorClassIdentifier: 
+  twoDirSprite: 0
   _name: Test
   id: 0
-  sprite: {fileID: 21300000, guid: 64bb0dce3f79fc243945231890a3e8fe, type: 3}
-  defaultHealth: 1
-  defaultArmor: 1
-  lvlMultiplier: 1
+  health: 100
+  armor: 0
+  attackRange: 5
+  attackRate: 1
+  assetsLibrary: {fileID: 0}
+  sfx: []

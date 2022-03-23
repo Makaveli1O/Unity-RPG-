@@ -15,7 +15,9 @@ MonoBehaviour:
   twoDirSprite: 1
   _name: elf1_advanced
   id: 4
-  defaultHealth: 200
-  defaultArmor: 1
-  lvlMultiplier: 1.2
+  health: 100
+  armor: 0
+  attackRange: 5
+  attackRate: 1
   assetsLibrary: {fileID: 7108339969198208228, guid: 19bd35bb6e51ba1458585d4b452eb35d, type: 3}
+  sfx: []

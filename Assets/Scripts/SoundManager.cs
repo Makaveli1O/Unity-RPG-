@@ -13,7 +13,8 @@ public static class SoundManager
         Hit,
         Hurt,
         Dash,
-        Error
+        Error,
+        Miss
     }
 
     private static Dictionary<Sound,float> soundTimerDictionary;

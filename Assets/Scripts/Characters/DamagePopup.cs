@@ -6,6 +6,15 @@ using TMPro;
 /// </summary>
 public class DamagePopup : MonoBehaviour
 {
+    public enum Type
+    {
+        Damage,
+        Miss,
+        Heal,
+        Critical
+    }
+
+    private Type damageType;
     private const float DISAPPEAR_TIMER_MAX = 1f;
     private TextMeshPro textMesh;
     private float timer;    //disappear timer for popup to hide (seconds)
@@ -18,10 +27,10 @@ public class DamagePopup : MonoBehaviour
     /// <param name="position">Position to be spawned </param>
     /// <param name="damageAmount">Text damage</param>
     /// <returns></returns>
-    public static DamagePopup Create(Vector3 position, int damageAmount, bool isCriticalHit = false){
+    public static DamagePopup Create(Vector3 position, string damageAmount, Type type = Type.Damage){
         Transform damagePopupTransform = Instantiate(GameAssets.Instance.pfDamagePopup, position, Quaternion.identity);
         DamagePopup damagePopup = damagePopupTransform.GetComponent<DamagePopup>();
-        damagePopup.Setup(damageAmount, isCriticalHit);
+        damagePopup.Setup(damageAmount, type);
 
         return damagePopup;
     }
@@ -29,15 +38,26 @@ public class DamagePopup : MonoBehaviour
     /// <summary>
     /// Set correct text to mesh
     /// </summary>
-    /// <param name="damageAmount">Damag eamoung</param>
-    public void Setup(int damageAmount, bool isCriticalHit){
-        textMesh.SetText(damageAmount.ToString());
-        if (isCriticalHit)
-        {
-            textMesh.fontSize = 15;
-        }else{
-            textMesh.fontSize = 10;
+    /// <param name="damageAmount">Damage amoung</param>
+    public void Setup(string damageAmount, Type type){
+        textMesh.SetText(damageAmount);
+        textMesh.fontSize = 10;
+
+        switch (type){
+            case Type.Damage:
+                textMesh.color = Color.cyan;
+                break;
+            case Type.Critical:
+                textMesh.color = Color.red;
+                break;
+            case Type.Miss:
+                textMesh.color = Color.white;
+                break;
+            case Type.Heal:
+                textMesh.color = Color.green;
+                break;
         }
+        
         textColor = textMesh.color;
         timer = DISAPPEAR_TIMER_MAX;
         moveVector = new Vector3(.6f,1f) * 15f;

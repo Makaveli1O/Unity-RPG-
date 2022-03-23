@@ -15,9 +15,13 @@ MonoBehaviour:
   twoDirSprite: 0
   _name: skeleton
   id: 7
-  defaultHealth: 200
-  defaultArmor: 200
-  lvlMultiplier: 0
+  health: 200
+  armor: 0
+  bottomDamage: 5
+  topDamage: 20
+  attackRange: 5
+  attackTime: 2
+  multiplier: 0
   assetsLibrary: {fileID: 7108339969198208228, guid: bedda92cbac9c354da6e26223a033815, type: 3}
   sfx:
   - sound: 3

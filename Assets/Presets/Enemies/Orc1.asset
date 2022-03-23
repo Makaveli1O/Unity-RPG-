@@ -15,7 +15,9 @@ MonoBehaviour:
   twoDirSprite: 1
   _name: orc_1
   id: 1
-  defaultHealth: 100
-  defaultArmor: 1
-  lvlMultiplier: 1.2
+  health: 100
+  armor: 0
+  attackRange: 5
+  attackRate: 1
   assetsLibrary: {fileID: 7108339969198208228, guid: 4926c7a2c955a5849abdc95afbdb1bae, type: 3}
+  sfx: []
