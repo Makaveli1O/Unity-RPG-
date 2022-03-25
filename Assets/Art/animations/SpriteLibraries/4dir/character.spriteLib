@@ -126,8 +126,8 @@ MonoBehaviour:
       m_SpriteOverride: {fileID: -360155282, guid: 5d5218f19400c5544989abaecd0ef94d, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 6
-  - m_Name: down_dead
-    m_Hash: -2090977092
+  - m_Name: down_kneel
+    m_Hash: 521267756
     m_CategoryList: []
     m_OverrideEntries:
     - m_Name: Entry
@@ -270,8 +270,8 @@ MonoBehaviour:
       m_SpriteOverride: {fileID: -1946337685, guid: 0368e9d779a5cb7439224f28b7fb59ea, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 6
-  - m_Name: left_dead
-    m_Hash: -895340309
+  - m_Name: left_kneel
+    m_Hash: -363343245
     m_CategoryList: []
     m_OverrideEntries:
     - m_Name: Entry
@@ -414,8 +414,8 @@ MonoBehaviour:
       m_SpriteOverride: {fileID: -169429789, guid: 12a97d24de20c0741a8fe8efb8600119, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 6
-  - m_Name: right_dead
-    m_Hash: 1695555833
+  - m_Name: right_kneel
+    m_Hash: 423694635
     m_CategoryList: []
     m_OverrideEntries:
     - m_Name: Entry
@@ -558,8 +558,8 @@ MonoBehaviour:
       m_SpriteOverride: {fileID: -1461657695, guid: 61a2205de1d815d47bd1c161ba46d68c, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 6
-  - m_Name: up_dead
-    m_Hash: 1581048593
+  - m_Name: up_kneel
+    m_Hash: -1213507678
     m_CategoryList: []
     m_OverrideEntries:
     - m_Name: Entry

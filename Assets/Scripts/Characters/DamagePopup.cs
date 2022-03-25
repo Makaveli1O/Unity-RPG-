@@ -11,7 +11,8 @@ public class DamagePopup : MonoBehaviour
         Damage,
         Miss,
         Heal,
-        Critical
+        Critical,
+        Shield
     }
 
     private Type damageType;
@@ -45,16 +46,20 @@ public class DamagePopup : MonoBehaviour
 
         switch (type){
             case Type.Damage:
-                textMesh.color = Color.cyan;
+                textMesh.color = Color.red;
                 break;
             case Type.Critical:
-                textMesh.color = Color.red;
+                textMesh.color = Color.yellow;
                 break;
             case Type.Miss:
                 textMesh.color = Color.white;
                 break;
             case Type.Heal:
                 textMesh.color = Color.green;
+                break;
+            case Type.Shield:
+                textMesh.color = Color.cyan;
+                textMesh.fontSize = 7;
                 break;
         }
         

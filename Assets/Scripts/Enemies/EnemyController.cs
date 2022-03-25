@@ -201,10 +201,10 @@ public class EnemyController : MonoBehaviour, CombatInterface
     private void InitHealthBar(int maxHealth){
         healthSystem = new HealthSystem(maxHealth);
         healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(this.transform.position.x, this.transform.position.y + 2f), Quaternion.identity, this.gameObject.transform);
-        healthBarTransform.localScale = new Vector3(11,7);
+        healthBarTransform.localScale = new Vector3(Const.WORLD_HEALTHBAR_WIDTH, Const.WORLD_HEALTHBAR_HEIGHT);
 
         healthBar = healthBarTransform.GetComponent<HealthBar>();
-        healthBar.Setup(healthSystem);
+        healthBar.Setup(healthSystem, Color.red);
     }
 
     /// <summary>
@@ -415,6 +415,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
         this.attackTime = 0f;
         this.bottomDamage = preset.bottomDamage;
         this.topDamage = preset.topDamage;
+        this.movementSpeed = preset.movementSpeed;
         return;
     }
 

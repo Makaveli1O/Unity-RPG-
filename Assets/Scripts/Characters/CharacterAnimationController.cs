@@ -56,6 +56,17 @@ public class CharacterAnimationController : MonoBehaviour
         else  QuadrantRotation2Dir(attackDir, "attack");
         return;
     }
+
+    /// <summary>
+    /// Handles shielding animations
+    /// </summary>
+    /// <param name="attackDir">direction to perform animation</param>
+    /// <param name="onAnimationComplete">Animation complete callback not to interfere animation.</param>
+    /// <param name="twoDir">Boolean for two directional assets.</param>
+    public void CharacterShield(Vector3 dir, bool twoDir = false){
+        QuadrantRotation(dir, "kneel");
+        return;
+    }
     
     /// <summary>
     /// Handles dead animation

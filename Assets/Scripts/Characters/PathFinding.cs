@@ -78,6 +78,7 @@ public class PathFinding : MonoBehaviour
     /// <param name="startPos">Starting point</param>
     /// <param name="targetPos">Ending point</param>
     /// <returns>A* found path list of TDTiles</returns>
+    /// FIXME corner tiles when following, causes exception
     public List<TDTile> FindPath(int2 startPos, int2 targetPos){
         //get correct tile ref
         this.startTile = mapRef.GetTile(mapRef.TileRelativePos(startPos), mapRef.TileChunkPos(startPos));

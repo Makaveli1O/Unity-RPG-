@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
     private ParticleSystem dashDust;
     private CharacterAnimationController characterAnimationController;
     private CharacterMovementController characterMovementController;
+    private Shield shield;
     private Map mapRef;
     public Transform HealthBarPrefab;
     private PathFinding pathFinding;
@@ -53,7 +54,8 @@ public class PlayerController : MonoBehaviour, CombatInterface
     public float attackTime{get;set;}
     public enum State{
         Normal,
-        Attacking
+        Attacking,
+        Blocking
     }
     bool animating = false;
     public State state;    //current state
@@ -63,7 +65,8 @@ public class PlayerController : MonoBehaviour, CombatInterface
         healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(-12.7f,-8.9f), Quaternion.identity, GameObject.FindGameObjectWithTag("MainCamera").transform);
         healthBarTransform.localScale = new Vector3(80,40);
         healthBar = healthBarTransform.GetComponent<HealthBar>();
-        healthBar.Setup(healthSystem);
+        healthBar.Setup(healthSystem, Color.red);
+        shield = GetComponentInChildren<Shield>();
         dashDust = GetComponent<ParticleSystem>();
         var m = GameObject.FindGameObjectWithTag("Map");
         try
@@ -89,18 +92,32 @@ public class PlayerController : MonoBehaviour, CombatInterface
         state = State.Normal;
     }
     private void Update(){
+        //dash
         if (dashTimer > 0){
             dashTimer -= Time.deltaTime;
         }
 
-        if (Input.GetMouseButtonDown(0)) state = State.Attacking;
+        //Attack
+        if (Input.GetMouseButtonDown(0) && state == State.Normal) state = State.Attacking;
+        HandleAttack();
 
-        if (state != State.Attacking)
+        //Shielding
+        if (Input.GetMouseButton(1)){
+            state = State.Blocking;
+            shield.ActivateShield();
+            //TODO sfx shield->ON
+            HandleShielding();
+        }else if(Input.GetMouseButtonUp(1)){
+            state = State.Normal;
+            //TODO sfx shield->off
+            shield.DeactivateShield();
+        }
+
+        //Movement
+        if (state == State.Normal)
         {
             HandleMovement();
-        }
-        
-        HandleAttack();
+        }      
     }
 
     // Fixed Update -> work with rigidbody here
@@ -207,16 +224,6 @@ public class PlayerController : MonoBehaviour, CombatInterface
             this.characterMovementController.characterMovementDetection();
         }else{
             this.FindPath();
-            //FIXME remove this later huge performance issue
-            //pathFinding.DrawPath(this.transform.position,mousePos);
-        }
-
-        /* PATHFINDING MOVEMENT (right click)*/
-        if (Input.GetMouseButtonDown(1))
-        {
-            findPath = true;
-            mousePos = controllerUtilities.GetMouseWorldPosition();
-            SetTargetPosition(mousePos);
         }
     }
 
@@ -305,6 +312,9 @@ public class PlayerController : MonoBehaviour, CombatInterface
                 dashDust.Play();
             }
         }
+        //deactivate shield, since after playing dash particles,
+        //shield also triggers
+        shield.DeactivateShield();
     }
 
     /// <summary>
@@ -313,13 +323,11 @@ public class PlayerController : MonoBehaviour, CombatInterface
     /// <returns></returns>
     private IEnumerator BecomeTemporarilyInvincible(){
         float invincibilityDuration = 0.15f;
-        //Debug.Log("Player turned invincible!");
         isInvincible = true;
 
         yield return new WaitForSeconds(invincibilityDuration);
 
         isInvincible = false;
-        //Debug.Log("Player is no longer invincible!");
     }
 
     /*  *   *   *   *   *   *   *   *   *   *
@@ -421,6 +429,11 @@ public class PlayerController : MonoBehaviour, CombatInterface
         animating = false;
     }
 
+    private void HandleShielding(){
+        characterAnimationController.CharacterShield(lookingDir);
+        moveDir = Vector3.zero;
+    }
+
     /// <summary>
     /// Function handling player's getting damage. If player is invincible no damage is recieved,
     /// as well as if palyer is too far away. Spawns popup, sound effect and does damage to health
@@ -440,18 +453,32 @@ public class PlayerController : MonoBehaviour, CombatInterface
             DamagePopup.Create(attackerPosition, "MISS", DamagePopup.Type.Miss);
             SoundManager.PlaySound(SoundManager.Sound.Miss, attackerPosition);
             return false;
+        }else if(state == State.Blocking){
+            int damage = (shield.healthSystem.GetHealth() - int.Parse(damageAmount));
+            shield.healthSystem.Damage(int.Parse(damageAmount));
+            //damaged below shield's health
+            if (damage < 0)
+            {
+                damageAmount = damage.ToString();
+                //sfx to break shield
+            //full damage consumed by shield
+            }else{
+                DamagePopup.Create(transform.position, "ABSORB", DamagePopup.Type.Shield);
+                //TODO sfx shield absorbing
+                return false;
+            }
+        }else{
+            //sfx
+            SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position);
         }
-
+        //healthsystem damage
+        healthSystem.Damage(int.Parse(damageAmount));
+        //damage popup
+        DamagePopup.Create(transform.position, damageAmount);
         //knockback
         Vector3 dirFromAttacker = (transform.position - attackerPosition).normalized;
         float knockbackDistance = 0.5f;
         transform.position += dirFromAttacker * knockbackDistance;
-        //healthsystem damage
-        healthSystem.Damage(int.Parse(damageAmount));
-        //sfx
-        SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position);
-        //damage popup
-        DamagePopup.Create(transform.position, damageAmount);
         //if health is zero die
         if (healthSystem.GetHealthPercent() == 0){
             //TODO game over screen .. 

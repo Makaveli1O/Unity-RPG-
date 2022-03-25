@@ -22,5 +22,6 @@ MonoBehaviour:
   attackRange: 5
   attackTime: 5
   multiplier: 0
+  movementSpeed: 1
   assetsLibrary: {fileID: 7108339969198208228, guid: 66b567f463932cf4a998ad20df0d360e, type: 3}
   sfx: []

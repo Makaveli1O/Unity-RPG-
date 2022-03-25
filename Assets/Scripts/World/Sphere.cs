@@ -28,7 +28,7 @@ public class Sphere : MonoBehaviour
         healthBarTransform.localScale = new Vector3(11,7);
 
         healthBar = healthBarTransform.GetComponent<HealthBar>();
-        healthBar.Setup(healthSystem);
+        healthBar.Setup(healthSystem, Color.red);
     }
 
     public void LowDamage(){

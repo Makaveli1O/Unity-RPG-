@@ -23,3 +23,18 @@ public static class Helper
         }  
     }
 }
+
+
+/// <summary>
+/// Custom event args for shield notification and health system notification to
+/// distinguish between heal and damage type.
+/// </summary>
+public class ShieldEventArgs : EventArgs
+{
+    public enum Type
+    {
+        Heal,
+        Damage
+    }
+    public Type ChangeHealthType;
+}

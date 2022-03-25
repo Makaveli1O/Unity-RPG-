@@ -17,7 +17,11 @@ MonoBehaviour:
   id: 1
   health: 100
   armor: 0
+  bottomDamage: 100
+  topDamage: 100
   attackRange: 5
-  attackRate: 1
+  attackTime: 5
+  multiplier: 0
+  movementSpeed: 1
   assetsLibrary: {fileID: 7108339969198208228, guid: 4926c7a2c955a5849abdc95afbdb1bae, type: 3}
   sfx: []
