@@ -1,6 +1,9 @@
 using UnityEngine;
 
-//TODO comments
+/// <summary>
+/// Controller for handling movement of player. ( Mouse movement deprecated)
+/// </summary>
+/// FIXME DEPRECATED CLASS
 public class CharacterMovementController : MonoBehaviour
 {
 
@@ -12,7 +15,9 @@ public class CharacterMovementController : MonoBehaviour
         get{ return isMoving; }
     }
 
-    //TODO docs
+    /// <summary>
+    /// Expands path byprevious locations, to prevent character from bugging between two close points.
+    /// </summary>
     public void characterPathExpand(){
         for(int i =0; i < previousLocations.Length - 1; i++){
             previousLocations[i] = previousLocations[i+1];
@@ -20,7 +25,9 @@ public class CharacterMovementController : MonoBehaviour
         previousLocations[previousLocations.Length - 1] = this.transform.position;
     }
 
-    //TODO docs
+    /// <summary>
+    /// Detect character's movement
+    /// </summary>
     public void characterMovementDetection(){
         float movementTreshold = 0.0001f;
 

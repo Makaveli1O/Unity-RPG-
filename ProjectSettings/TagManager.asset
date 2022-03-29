@@ -5,11 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Map
+  - Object
+  - Entity
+  - UI
+  - UI_HP
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - HP
   - Water
   - UI
   - Platforms

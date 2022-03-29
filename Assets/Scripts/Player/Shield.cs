@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class Shield : MonoBehaviour
 {
+    [SerializeField]private Transform mainCamera;
+    private Vector3 cameraSize;
+    private Vector3 worldSize;
     public Transform HealthBarPrefab;
     private Transform healthBarTransform;
     private HealthBar healthBar;
@@ -18,10 +21,14 @@ public class Shield : MonoBehaviour
     }
 
     private void Awake() {
+        cameraSize = new Vector3(80,40);
+        worldSize = new Vector3(Const.WORLD_HEALTHBAR_WIDTH, Const.WORLD_HEALTHBAR_HEIGHT);
         healthSystem = new HealthSystem(shieldHealth);
-        healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(this.transform.position.x,this.transform.position.y + 2f), Quaternion.identity, this.gameObject.transform);
-        healthBarTransform.localScale = new Vector3(Const.WORLD_HEALTHBAR_WIDTH, Const.WORLD_HEALTHBAR_HEIGHT);
-
+        healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(13.55f,-7.77f), Quaternion.identity, mainCamera);
+        healthBarTransform.localScale = cameraSize;
+        //healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(this.transform.position.x,this.transform.position.y + 2f), Quaternion.identity, this.gameObject.transform);
+        //healthBarTransform.localScale = new Vector3(Const.WORLD_HEALTHBAR_WIDTH, Const.WORLD_HEALTHBAR_HEIGHT);
+        
         healthBar = healthBarTransform.GetComponent<HealthBar>();
         healthBar.Setup(healthSystem, Color.cyan);
         healthBar.HideHealthBar();
@@ -70,7 +77,7 @@ public class Shield : MonoBehaviour
     /// </summary>
     public void ActivateShield(){
         particles.Play();
-        healthBar.ShowHealthBar();
+        healthBar.ShowHealthBar(cameraSize);
     }
 
     /// <summary>

@@ -2,21 +2,18 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 using Unity.Mathematics;
+using System;
 
 public class PlayerController : MonoBehaviour, CombatInterface
 {
+    private event EventHandler OnDashActivate;
     /*
         Variables, initializations etc.
         Character sprites have pivot anchored x: 0.5 and y: 0.1 (normalized)
         because of topdown angle
-    */
-    public AudioClip playerAttack;
-    private float movementSpeed = 3f;
+    */    private float movementSpeed = 3f;
     private bool dash = false;  //when dash is true, player is invincble
     private bool isInvincible;
-    private float dashTimer = 0f;
-    public const float DASH_DEFAULT = 5f;
-
     [SerializeField] private LayerMask dashLayerMask; //layers for colision detection of dash
     private float treshold = 0.5f; //movement treshold (for handling mouse controls)
     public Vector3 moveDir;
@@ -28,6 +25,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
     private ParticleSystem dashDust;
     private CharacterAnimationController characterAnimationController;
     private CharacterMovementController characterMovementController;
+    private UIHandler uiHandler;
     private Shield shield;
     private Map mapRef;
     public Transform HealthBarPrefab;
@@ -61,8 +59,9 @@ public class PlayerController : MonoBehaviour, CombatInterface
     public State state;    //current state
 
     private void Awake() {
+        uiHandler = GetComponent<UIHandler>();
         healthSystem = new HealthSystem(100);
-        healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(-12.7f,-8.9f), Quaternion.identity, GameObject.FindGameObjectWithTag("MainCamera").transform);
+        healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(-13.55f,-7.77f), Quaternion.identity, GameObject.FindGameObjectWithTag("MainCamera").transform);
         healthBarTransform.localScale = new Vector3(80,40);
         healthBar = healthBarTransform.GetComponent<HealthBar>();
         healthBar.Setup(healthSystem, Color.red);
@@ -92,10 +91,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
         state = State.Normal;
     }
     private void Update(){
-        //dash
-        if (dashTimer > 0){
-            dashTimer -= Time.deltaTime;
-        }
+
 
         //Attack
         if (Input.GetMouseButtonDown(0) && state == State.Normal) state = State.Attacking;
@@ -207,24 +203,15 @@ public class PlayerController : MonoBehaviour, CombatInterface
     private void HandleMovement(){
         //dash roll
         if(Input.GetKeyDown(KeyCode.Space)){
-            if (dashTimer > 0)
+            if (!uiHandler.IsDashReady)
             {
                 SoundManager.PlaySound(SoundManager.Sound.Error, this.transform.position);
             }else{
-                dashTimer = DASH_DEFAULT;
                 dash = true;
             }
         } 
         
-        /* REGULAR MOVEMENT */
-        if (!findPath){
-            this.KeyboardMovement();
-            //this.MoveMouse();
-            this.characterMovementController.characterPathExpand();
-            this.characterMovementController.characterMovementDetection();
-        }else{
-            this.FindPath();
-        }
+        this.KeyboardMovement();
     }
 
     /// <summary>
@@ -259,6 +246,9 @@ public class PlayerController : MonoBehaviour, CombatInterface
             dash = false;
             dashPosition = this.transform.position;
             return;
+        }else{
+            //UI cooldown
+            uiHandler.DashCooldown();
         }
 
         RaycastHit2D raycast = Physics2D.Raycast(transform.position, dashDir, dashAmount, dashLayerMask);
@@ -395,6 +385,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
     /// Attack simulation and animation handling. Sets state action to Attacking
     /// </summary>    
     private void HandleAttack(){
+        float attackLength = 0.8f;
         //only one attack at time
         if(state == State.Attacking && animating == false){
             float attackOffset = 1.5f;
@@ -412,6 +403,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
                 attackDir = (targetEnemy.GetPosition() - transform.position).normalized;
             }
             state = State.Attacking;
+            StartCoroutine(Attacking(attackLength));
             moveDir = Vector3.zero;
             animating = true;   //performing animation
             SoundManager.PlaySound(SoundManager.Sound.Attack, transform.position);
@@ -419,6 +411,11 @@ public class PlayerController : MonoBehaviour, CombatInterface
             float dashDistance = 1f;
             transform.position += attackDir * dashDistance;
         }
+    }
+
+    private IEnumerator Attacking(float time){
+        yield return new WaitForSeconds(time);
+        EndAttackAnimation();
     }
 
     /// <summary>

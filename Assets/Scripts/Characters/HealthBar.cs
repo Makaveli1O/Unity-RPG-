@@ -42,8 +42,8 @@ public class HealthBar : MonoBehaviour
     /// <summary>
     /// Sets prefab's scale to be visible.
     /// </summary>
-    public void ShowHealthBar(){
-        gameObject.transform.localScale = new Vector3(Const.WORLD_HEALTHBAR_WIDTH, Const.WORLD_HEALTHBAR_HEIGHT);
+    public void ShowHealthBar(Vector3 size){
+        gameObject.transform.localScale = size;
     }
 
     /// <summary>
