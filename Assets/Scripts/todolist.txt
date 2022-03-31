@@ -1,0 +1,3 @@
+-fix corner collisions of entities
+-fix wall collisions sometimes
+-fix follow player null pointer sometimes

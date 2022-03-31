@@ -16,6 +16,7 @@ public class GameHandler : MonoBehaviour
         SaveSystem.Init();
         SAVE_FOLDER = Application.dataPath + "/Saves/";
         SoundManager.Init();    //initialize soundManager
+        GameAssets.Instance.cursorHandler.SetCursorByType(CursorType.Basic);
     }
 
     

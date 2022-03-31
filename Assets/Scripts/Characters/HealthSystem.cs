@@ -37,7 +37,7 @@ public class HealthSystem
             args.ChangeHealthType = ShieldEventArgs.Type.Damage;
             //fire to subscribers
             OnHealthChanged(this, args);
-        } 
+        }
     }
 
     /// <summary>

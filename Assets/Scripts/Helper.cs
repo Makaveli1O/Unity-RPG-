@@ -34,7 +34,8 @@ public class ShieldEventArgs : EventArgs
     public enum Type
     {
         Heal,
-        Damage
+        Damage,
+        Absorb
     }
     public Type ChangeHealthType;
 }

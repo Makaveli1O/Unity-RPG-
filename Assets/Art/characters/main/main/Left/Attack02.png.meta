@@ -209,33 +209,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack02_5
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 6
-        width: 9
-        height: 29
-      alignment: 9
-      pivot: {x: 0.5, y: 0.1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3bfe31c710c7ea94d914395bb5408a2b
-      internalID: 949385724
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Attack02_6
       rect:
         serializedVersion: 2
-        x: 250
+        x: 240
         y: 3
-        width: 27
+        width: 37
         height: 33
       alignment: 9
       pivot: {x: 0.5, y: 0.1}

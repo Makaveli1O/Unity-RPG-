@@ -129,7 +129,6 @@ public class PathFinding : MonoBehaviour
                 }
             }
         }
-
         //no path found
         return null;
     }

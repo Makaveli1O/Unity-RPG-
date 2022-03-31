@@ -5,6 +5,7 @@ using UnityEngine;
 /// </summary>
 public class GameAssets : MonoBehaviour
 {
+    public CursorHandler cursorHandler;
     private static GameAssets _i;
     public static GameAssets Instance{
         get{
@@ -14,15 +15,22 @@ public class GameAssets : MonoBehaviour
         }
     }
 
-
     [System.Serializable]
     public class SoundAudioClip{
         public SoundManager.Sound sound;
         public AudioClip audioClip;
 
     }
+
+    [System.Serializable]
+    public class Cursors{
+        public CursorType type;
+        public Texture2D texture;
+
+    }
+
     public Transform pfDamagePopup;
     public SoundAudioClip[] playerSoundAudioClipArray;
+    public Cursors[] cursors;
     
 }
-

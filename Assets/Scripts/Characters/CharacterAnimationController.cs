@@ -67,6 +67,12 @@ public class CharacterAnimationController : MonoBehaviour
         QuadrantRotation(dir, "kneel");
         return;
     }
+
+    public void CharacterAttack2(Vector3 attackDir, bool twoDir = false){
+        if(!twoDir) QuadrantRotation(attackDir, "attack2");
+        else  QuadrantRotation2Dir(attackDir, "attac2k");
+        return;
+    }
     
     /// <summary>
     /// Handles dead animation

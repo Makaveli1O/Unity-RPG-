@@ -15,7 +15,6 @@ public class Shield : MonoBehaviour
     private int regenRate = 2;
 
     [SerializeField] private ParticleSystem particles;
-    private bool activeStatus;
     public bool isActive{
         get{return particles.isPlaying;}
     }
@@ -26,13 +25,14 @@ public class Shield : MonoBehaviour
         healthSystem = new HealthSystem(shieldHealth);
         healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(13.55f,-7.77f), Quaternion.identity, mainCamera);
         healthBarTransform.localScale = cameraSize;
-        //healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(this.transform.position.x,this.transform.position.y + 2f), Quaternion.identity, this.gameObject.transform);
-        //healthBarTransform.localScale = new Vector3(Const.WORLD_HEALTHBAR_WIDTH, Const.WORLD_HEALTHBAR_HEIGHT);
         
         healthBar = healthBarTransform.GetComponent<HealthBar>();
         healthBar.Setup(healthSystem, Color.cyan);
         healthBar.HideHealthBar();
         healthBar.OnHealthChanged += Shield_OnHealthChanged;
+        //trn off particle system for shield
+        var emission = healthBar.GetComponent<ParticleSystem>().emission;
+        emission.enabled = false;
     }
 
     /// <summary>

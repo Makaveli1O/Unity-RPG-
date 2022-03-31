@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6085435118514833751}
   - component: {fileID: -5429120680311784106}
+  - component: {fileID: -8138566577284330787}
   m_Layer: 0
   m_Name: GameAssets
   m_TagString: Untagged
@@ -44,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e94f2601e86551418aa955cf7a9cff7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorHandler: {fileID: -8138566577284330787}
   pfDamagePopup: {fileID: 8779433493166927019, guid: d89a82d24cf12f744b43e1ee5262b1ce, type: 3}
   playerSoundAudioClipArray:
   - sound: 0
@@ -62,3 +64,24 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: f9c3b06969fe2db41b0b7ff9898fa400, type: 3}
   - sound: 7
     audioClip: {fileID: 8300000, guid: 3914dab272837c64187ca06c735c6b24, type: 3}
+  cursors:
+  - type: 0
+    texture: {fileID: 2800000, guid: 2e71a8202d3b4a3448ec85ced5a40265, type: 3}
+  - type: 1
+    texture: {fileID: 2800000, guid: 8859fce41c5d0a148ad0b7eebfca7fe9, type: 3}
+  - type: 2
+    texture: {fileID: 2800000, guid: 2d18e23e3ce249b4489b8bcdd02d3f48, type: 3}
+  - type: 3
+    texture: {fileID: 2800000, guid: fe2443101ded6f544b32f8dc8690c367, type: 3}
+--- !u!114 &-8138566577284330787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5752284840736322978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c285f0061767d948aec50af7c279f9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,17 +1,15 @@
 using UnityEngine;
-using System.Collections.Generic;
 using System.Collections;
 using Unity.Mathematics;
-using System;
 
 public class PlayerController : MonoBehaviour, CombatInterface
 {
-    private event EventHandler OnDashActivate;
     /*
         Variables, initializations etc.
         Character sprites have pivot anchored x: 0.5 and y: 0.1 (normalized)
         because of topdown angle
-    */    private float movementSpeed = 3f;
+    */    
+    private float movementSpeed = 3f;
     private bool dash = false;  //when dash is true, player is invincble
     private bool isInvincible;
     [SerializeField] private LayerMask dashLayerMask; //layers for colision detection of dash
@@ -27,12 +25,11 @@ public class PlayerController : MonoBehaviour, CombatInterface
     private CharacterMovementController characterMovementController;
     private UIHandler uiHandler;
     private Shield shield;
+    private AoeSpell aoeSpell;
     private Map mapRef;
     public Transform HealthBarPrefab;
     private PathFinding pathFinding;
     //pathfinding
-    private List<Vector3> pathVectorList = null;
-    private int currentPathIndex;
     private bool findPath = false;
     /*  *   *   *   *   *   *   *
         H   E   A   L   T   H
@@ -53,9 +50,11 @@ public class PlayerController : MonoBehaviour, CombatInterface
     public enum State{
         Normal,
         Attacking,
+        Casting,
         Blocking
     }
     bool animating = false;
+    bool aoeReady = false;    //ready state before spell (showing radius and cursor type changed)
     public State state;    //current state
 
     private void Awake() {
@@ -66,6 +65,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
         healthBar = healthBarTransform.GetComponent<HealthBar>();
         healthBar.Setup(healthSystem, Color.red);
         shield = GetComponentInChildren<Shield>();
+        aoeSpell = GetComponentInChildren<AoeSpell>();
         dashDust = GetComponent<ParticleSystem>();
         var m = GameObject.FindGameObjectWithTag("Map");
         try
@@ -93,12 +93,13 @@ public class PlayerController : MonoBehaviour, CombatInterface
     private void Update(){
 
 
-        //Attack
-        if (Input.GetMouseButtonDown(0) && state == State.Normal) state = State.Attacking;
-        HandleAttack();
-
-        //Shielding
-        if (Input.GetMouseButton(1)){
+        //Attack1
+        if (Input.GetMouseButtonDown(0) && state == State.Normal){
+            state = State.Attacking;
+            if (!aoeReady) SimpleAttack();
+            else AoeAttack();
+        //Shield
+        }else if (Input.GetMouseButton(1)){ 
             state = State.Blocking;
             shield.ActivateShield();
             //TODO sfx shield->ON
@@ -107,6 +108,10 @@ public class PlayerController : MonoBehaviour, CombatInterface
             state = State.Normal;
             //TODO sfx shield->off
             shield.DeactivateShield();
+        //Attack aoe
+        }else if(Input.GetKeyDown(KeyCode.F)){
+            aoeReady = true;
+            aoeSpell.ShowRadius();
         }
 
         //Movement
@@ -129,55 +134,6 @@ public class PlayerController : MonoBehaviour, CombatInterface
     /*  *   *   *   *   *   *   *   *   *   *
         M   O   V   E   M   E   N   T
     *   *   *   *   *   *   *   *   *   *   */
-    /// <summary>
-    /// Follow Mouse on hold.
-    /// Gets mouse position and converts it into camera pixel points.
-
-    /// *note:
-    /// Pivot point is anchored on y: 0.1 and x: 0.5. So for better mouse
-    /// control, considering middle of the model is anchor would be more
-    /// advisible.
-    /// </summary>
-     private void MoveMouse(){
-        /* look direction*/
-        mousePos = controllerUtilities.GetMouseWorldPosition();
-        Vector3 playerPos = this.transform.position;
-        playerPos.y += 0.4f; //pivot is normalized to y: 0.1 but for controls purpose consider as middle y: 0.5
-
-        this.lookingDir = controllerUtilities.GetLookingDir(mousePos);
-        /*movement direction on hold*/
-        if (Input.GetMouseButton(0)){
-            targetPos = mousePos;
-            targetPos.z = 0; //for some reason z is always set to -9
-
-            float x = mousePos.x - playerPos.x;
-            float y = mousePos.y - playerPos.y;
-            
-            //walk towards held mouse
-            if (Vector3.Distance(playerPos, targetPos) >=treshold){
-                this.moveDir = new Vector3(x,y).normalized;
-                //animation
-                characterAnimationController.CharacterMovement(moveDir);
-                treshold = 0.5f;
-            }else{
-                this.moveDir = Vector3.zero;
-                //animation
-                characterAnimationController.CharacterDirection(lookingDir);
-                treshold = 1f;
-            }
-        }else{ 
-            /* move to last known held/clicked position */
-            if (Vector3.Distance(playerPos, targetPos) >=treshold && characterMovementController.IsMoving){
-                this.moveDir = new Vector3(targetPos.x-playerPos.x, targetPos.y - playerPos.y, 0f).normalized;
-                characterAnimationController.CharacterMovement(moveDir);
-            }else{
-                this.moveDir = Vector3.zero;
-                //idle animation
-                characterAnimationController.CharacterDirection(lookingDir);
-            }
-        } 
-    }
-
     /// <summary>
     /// Handles keyboard movement and animations
     /// </summary>
@@ -212,223 +168,6 @@ public class PlayerController : MonoBehaviour, CombatInterface
         } 
         
         this.KeyboardMovement();
-    }
-
-    /// <summary>
-    /// Dash function. Teleports RB in the mouse direction when. This function
-    /// workis with physics so must be used within FixedUpdate(). Cast Raycast before actual
-    /// dashing, to prevent going through the walls. If wall is detected, move character to 
-    /// collided raycast point instead.
-    /// </summary>
-    private void Dash(){
-        StartCoroutine(BecomeTemporarilyInvincible());
-        float dashAmount = 5f;
-        Vector3 dashDir = Vector3.zero;
-        //player is not moving, so use lookingDir vector instead of moveDir
-        if(Vector3.Distance(moveDir, Vector3.zero) == 0){
-            dashDir = lookingDir;
-        }else{
-            dashDir = moveDir;
-        }
-        // dashPosition is position where player should land
-        Vector3 dashPosition = transform.position + dashDir * dashAmount;
-
-        //check landing tile's z-index
-        int2 dashInt2 = new int2((int)dashPosition.x, (int)dashPosition.y);
-        int2 playerInt2 = new int2((int)transform.position.x, (int)transform.position.y);
-        TDTile landTile = mapRef.GetTile(mapRef.TileRelativePos(dashInt2), mapRef.TileChunkPos(dashInt2));
-        TDTile playerTile = mapRef.GetTile(mapRef.TileRelativePos(playerInt2), mapRef.TileChunkPos(playerInt2));
-
-        if (playerTile.z_index != landTile.z_index)
-        {
-            //TODO something with this
-            SoundManager.PlaySound(SoundManager.Sound.Error, transform.position);
-            dash = false;
-            dashPosition = this.transform.position;
-            return;
-        }else{
-            //UI cooldown
-            uiHandler.DashCooldown();
-        }
-
-        RaycastHit2D raycast = Physics2D.Raycast(transform.position, dashDir, dashAmount, dashLayerMask);
-        if (raycast.collider != null){
-            dashPosition = raycast.point;
-        }
-        //Spawn visual effect here
-        DashDustEffect();
-
-        rigidbody2d.MovePosition(dashPosition);
-        SoundManager.PlaySound(SoundManager.Sound.Dash, transform.position);
-        //this.transform.position = dashPosition; //otherwise character will walk back to its last "pressed" position
-        rigidbody2d.velocity = dashDir * dashAmount;
-        dash = false;
-    }
-
-    /// <summary>
-    /// Handle dust particless effect when dashing in various directions.
-    /// </summary>
-    private void DashDustEffect(){
-        var shape = dashDust.shape;
-        shape = dashDust.shape;
-        //left or right
-        if (this.moveDir.Equals(Vector3.left) || this.moveDir.Equals(Vector3.right)){
-            shape.scale = new Vector3(6f, 1.5f, 0f);
-            shape.rotation = new Vector3(0f, 0f, 0f);
-            dashDust.Play();
-        //up or down
-        }else if(this.moveDir.Equals(Vector3.up) || this.moveDir.Equals(Vector3.down)){
-            shape.rotation = new Vector3(0f, 0f, 0f);
-            shape.scale = new Vector3(1.5f, 6f, 0f);
-            dashDust.Play();
-        //diagonals
-        }else{
-            Vector3 rightUp = new Vector3(0.71f, 0.71f);
-            Vector3 rightDown = new Vector3(0.71f, -0.71f);
-            Vector3 leftUp = new Vector3(-0.71f, 0.71f);
-            Vector3 leftDown = new Vector3(-0.71f, -0.71f);
-            shape.scale = new Vector3(6f, 1.5f, 0f);
-            if (Vector3.Angle(moveDir, rightUp) == 0f){
-                shape.rotation = new Vector3(0f, 0f, 45f);
-                dashDust.Play();
-            }else if(Vector3.Angle(moveDir, rightDown) == 0f){
-                shape.rotation = new Vector3(0f, 0f, 315f);
-                dashDust.Play();
-            }else if(Vector3.Angle(moveDir, leftUp) == 0f){
-                shape.rotation = new Vector3(0f, 0f, 315f);
-                dashDust.Play();
-            }else if(Vector3.Angle(moveDir, leftDown) == 0f){
-                shape.rotation = new Vector3(0f, 0f, 45f);
-                dashDust.Play();
-            }
-        }
-        //deactivate shield, since after playing dash particles,
-        //shield also triggers
-        shield.DeactivateShield();
-    }
-
-    /// <summary>
-    /// Invincibility coroutine
-    /// </summary>
-    /// <returns></returns>
-    private IEnumerator BecomeTemporarilyInvincible(){
-        float invincibilityDuration = 0.15f;
-        isInvincible = true;
-
-        yield return new WaitForSeconds(invincibilityDuration);
-
-        isInvincible = false;
-    }
-
-    /*  *   *   *   *   *   *   *   *   *   *
-            P A T H  F I N D I N G
-    *   *   *   *   *   *   *   *   *   *   */
-    /// <summary>
-    /// Uses Pathfinding controller to find shortest path to clicked position.
-    /// </summary>
-    private void FindPath(){
-        if (findPath == false)
-        {
-            return;
-        }
-        mousePos = controllerUtilities.GetMouseWorldPosition();
-        Vector3 playerPos = this.transform.position;
-        playerPos.y += 0.4f; //pivot is normalized to y: 0.1 but for controls purpose consider as middle y: 0.5
-
-        this.lookingDir = controllerUtilities.GetLookingDir(mousePos);
-
-        if (pathVectorList != null)
-        {
-            //exception handling
-            Vector3 targetPos = pathVectorList[currentPathIndex];
-            
-            if (Vector3.Distance(transform.position, targetPos) >= treshold)
-            {
-                this.moveDir = (targetPos - transform.position).normalized;
-                float distanceBefore = Vector3.Distance(transform.position, targetPos);
-                characterAnimationController.CharacterMovement(moveDir);
-            }else{
-                currentPathIndex++;
-                if (currentPathIndex >= pathVectorList.Count)
-                {
-                    StopMoving();
-                    characterAnimationController.CharacterDirection(lookingDir);
-                    findPath = false;
-                }
-
-            }
-        }
-    }
-
-    /// <summary>
-    /// Used to stop movement when using pathfinding algorithm.
-    /// </summary>
-    private void StopMoving(){
-        pathVectorList = null;
-        this.moveDir = Vector3.zero;
-    }
-
-    /// <summary>
-    /// Set pathfinding target position to reach.
-    /// </summary>
-    /// <param name="targetPosition"></param>
-    public void SetTargetPosition(Vector3 targetPosition){
-        currentPathIndex = 0;
-        pathVectorList = pathFinding.FindPathVector(this.transform.position ,targetPosition);
-
-        if (pathVectorList != null && pathVectorList.Count > 1) {
-            pathVectorList.RemoveAt(0);
-        }
-    }
-
-    /// <summary>
-    /// Attack simulation and animation handling. Sets state action to Attacking
-    /// </summary>    
-    private void HandleAttack(){
-        float attackLength = 0.8f;
-        //only one attack at time
-        if(state == State.Attacking && animating == false){
-            float attackOffset = 1.5f;
-            this.mousePos = controllerUtilities.GetMouseWorldPosition();
-            this.lookingDir = controllerUtilities.GetLookingDir(mousePos);
-            Vector3 attackPosition = transform.position + lookingDir * attackOffset;
-
-            Vector3 attackDir = lookingDir;
-
-            float attackRange = 1.5f;
-            EnemyController targetEnemy = EnemyController.GetClosestEnemy(attackPosition, attackRange);
-            if (targetEnemy != null)
-            {
-                targetEnemy.Damage(transform.position, "20");
-                attackDir = (targetEnemy.GetPosition() - transform.position).normalized;
-            }
-            state = State.Attacking;
-            StartCoroutine(Attacking(attackLength));
-            moveDir = Vector3.zero;
-            animating = true;   //performing animation
-            SoundManager.PlaySound(SoundManager.Sound.Attack, transform.position);
-            characterAnimationController.CharacterAttack(attackDir); //reset state after complete
-            float dashDistance = 1f;
-            transform.position += attackDir * dashDistance;
-        }
-    }
-
-    private IEnumerator Attacking(float time){
-        yield return new WaitForSeconds(time);
-        EndAttackAnimation();
-    }
-
-    /// <summary>
-    /// Event handler(animator)
-    /// </summary>
-    private void EndAttackAnimation(){
-        state = State.Normal;
-        animating = false;
-    }
-
-    private void HandleShielding(){
-        characterAnimationController.CharacterShield(lookingDir);
-        moveDir = Vector3.zero;
     }
 
     /// <summary>
@@ -483,8 +222,183 @@ public class PlayerController : MonoBehaviour, CombatInterface
             }
             return true;
         }else{
-            //sthis.Hurt();
             return false;
         } 
+    }
+
+    /*  *   *   *   *   *   *   *
+        C   O   M   B   A   T
+    *   *   *   *   *   *   *  */
+    /// <summary>
+    /// Attack simulation and animation handling. Sets state action to Attacking
+    /// </summary>    
+    private void SimpleAttack(){
+        float attackLength = 0.35f;
+        //only one attack at time
+        if(state == State.Attacking && animating == false){
+            float attackOffset = 1.5f;
+            this.mousePos = controllerUtilities.GetMouseWorldPosition();
+            this.lookingDir = controllerUtilities.GetLookingDir(mousePos);
+            Vector3 attackPosition = transform.position + lookingDir * attackOffset;
+
+            Vector3 attackDir = lookingDir;
+
+            float attackRange = 1.5f;
+            EnemyController targetEnemy = EnemyController.GetClosestEnemy(attackPosition, attackRange);
+            if (targetEnemy != null)
+            {
+                targetEnemy.Damage(transform.position, "20");
+                attackDir = (targetEnemy.GetPosition() - transform.position).normalized;
+            }
+            state = State.Attacking;
+            StartCoroutine(Attacking(attackLength));
+            moveDir = Vector3.zero;
+            animating = true;   //performing animation
+            SoundManager.PlaySound(SoundManager.Sound.Attack, transform.position);
+            characterAnimationController.CharacterAttack(attackDir); //reset state after complete
+            float dashDistance = 1f;
+            transform.position += attackDir * dashDistance;
+        }
+    }
+
+    private void AoeAttack(){
+        float attackLength = 0.75f;
+        //TODO functionality, effects, sfx etc
+        StartCoroutine(Attacking(attackLength));
+        characterAnimationController.CharacterAttack2(lookingDir);
+        aoeSpell.HideRadius();
+        moveDir = Vector3.zero;
+        aoeReady = false;
+        animating = true;
+    }
+
+    private IEnumerator Attacking(float time){
+        yield return new WaitForSeconds(time);
+        state = State.Normal;
+        animating = false;
+        //EndAttackAnimation();
+    }
+
+    /// <summary>
+    /// Event handler(animator)
+    /// </summary>
+    private void EndAttackAnimation(){
+        //state = State.Normal;
+        //animating = false;
+        return;
+    }
+
+    /// <summary>
+    /// Handles shied movement and animation.
+    /// </summary>
+    private void HandleShielding(){
+        characterAnimationController.CharacterShield(lookingDir);
+        moveDir = Vector3.zero;
+    }
+
+    /// <summary>
+    /// Invincibility coroutine
+    /// </summary>
+    /// <returns></returns>
+    private IEnumerator BecomeTemporarilyInvincible(){
+        float invincibilityDuration = 0.15f;
+        isInvincible = true;
+
+        yield return new WaitForSeconds(invincibilityDuration);
+
+        isInvincible = false;
+    }
+
+    /// <summary>
+    /// Handle dust particless effect when dashing in various directions.
+    /// </summary>
+    private void DashDustEffect(){
+        var shape = dashDust.shape;
+        shape = dashDust.shape;
+        //left or right
+        if (this.moveDir.Equals(Vector3.left) || this.moveDir.Equals(Vector3.right)){
+            shape.scale = new Vector3(6f, 1.5f, 0f);
+            shape.rotation = new Vector3(0f, 0f, 0f);
+            dashDust.Play();
+        //up or down
+        }else if(this.moveDir.Equals(Vector3.up) || this.moveDir.Equals(Vector3.down)){
+            shape.rotation = new Vector3(0f, 0f, 0f);
+            shape.scale = new Vector3(1.5f, 6f, 0f);
+            dashDust.Play();
+        //diagonals
+        }else{
+            Vector3 rightUp = new Vector3(0.71f, 0.71f);
+            Vector3 rightDown = new Vector3(0.71f, -0.71f);
+            Vector3 leftUp = new Vector3(-0.71f, 0.71f);
+            Vector3 leftDown = new Vector3(-0.71f, -0.71f);
+            shape.scale = new Vector3(6f, 1.5f, 0f);
+            if (Vector3.Angle(moveDir, rightUp) == 0f){
+                shape.rotation = new Vector3(0f, 0f, 45f);
+                dashDust.Play();
+            }else if(Vector3.Angle(moveDir, rightDown) == 0f){
+                shape.rotation = new Vector3(0f, 0f, 315f);
+                dashDust.Play();
+            }else if(Vector3.Angle(moveDir, leftUp) == 0f){
+                shape.rotation = new Vector3(0f, 0f, 315f);
+                dashDust.Play();
+            }else if(Vector3.Angle(moveDir, leftDown) == 0f){
+                shape.rotation = new Vector3(0f, 0f, 45f);
+                dashDust.Play();
+            }
+        }
+        //deactivate shield, since after playing dash particles,
+        //shield also triggers
+        shield.DeactivateShield();
+    }
+
+    /// <summary>
+    /// Dash function. Teleports RB in the mouse direction when. This function
+    /// workis with physics so must be used within FixedUpdate(). Cast Raycast before actual
+    /// dashing, to prevent going through the walls. If wall is detected, move character to 
+    /// collided raycast point instead.
+    /// </summary>
+    private void Dash(){
+        StartCoroutine(BecomeTemporarilyInvincible());
+        float dashAmount = 5f;
+        Vector3 dashDir = Vector3.zero;
+        //player is not moving, so use lookingDir vector instead of moveDir
+        if(Vector3.Distance(moveDir, Vector3.zero) == 0){
+            dashDir = lookingDir;
+        }else{
+            dashDir = moveDir;
+        }
+        // dashPosition is position where player should land
+        Vector3 dashPosition = transform.position + dashDir * dashAmount;
+
+        //check landing tile's z-index
+        int2 dashInt2 = new int2((int)dashPosition.x, (int)dashPosition.y);
+        int2 playerInt2 = new int2((int)transform.position.x, (int)transform.position.y);
+        TDTile landTile = mapRef.GetTile(mapRef.TileRelativePos(dashInt2), mapRef.TileChunkPos(dashInt2));
+        TDTile playerTile = mapRef.GetTile(mapRef.TileRelativePos(playerInt2), mapRef.TileChunkPos(playerInt2));
+
+        if (playerTile.z_index != landTile.z_index)
+        {
+            //TODO something with this
+            SoundManager.PlaySound(SoundManager.Sound.Error, transform.position);
+            dash = false;
+            dashPosition = this.transform.position;
+            return;
+        }else{
+            //UI cooldown
+            uiHandler.DashCooldown();
+        }
+
+        RaycastHit2D raycast = Physics2D.Raycast(transform.position, dashDir, dashAmount, dashLayerMask);
+        if (raycast.collider != null){
+            dashPosition = raycast.point;
+        }
+        //Spawn visual effect here
+        DashDustEffect();
+
+        rigidbody2d.MovePosition(dashPosition);
+        SoundManager.PlaySound(SoundManager.Sound.Dash, transform.position);
+        //this.transform.position = dashPosition; //otherwise character will walk back to its last "pressed" position
+        rigidbody2d.velocity = dashDir * dashAmount;
+        dash = false;
     }
 }

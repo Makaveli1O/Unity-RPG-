@@ -23,4 +23,5 @@ public class UIHandler : MonoBehaviour
     public void DashCooldown(){
         dashScript.UseButton();
     }
+
 }
