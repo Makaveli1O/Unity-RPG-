@@ -96,8 +96,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
         //Attack1
         if (Input.GetMouseButtonDown(0) && state == State.Normal){
             state = State.Attacking;
-            if (!aoeReady) SimpleAttack();
-            else AoeAttack();
+            HandleAttack();
         //Shield
         }else if (Input.GetMouseButton(1)){ 
             state = State.Blocking;
@@ -110,8 +109,16 @@ public class PlayerController : MonoBehaviour, CombatInterface
             shield.DeactivateShield();
         //Attack aoe
         }else if(Input.GetKeyDown(KeyCode.F)){
-            aoeReady = true;
-            aoeSpell.ShowRadius();
+            if (aoeReady){
+                aoeReady = false;
+                aoeSpell.HideGuidelines();
+            }else if(uiHandler.IsAoeReady){
+                aoeReady = true;
+                aoeSpell.ShowGuidelines();
+            }else{
+                SoundManager.PlaySound(SoundManager.Sound.Error, this.transform.position);
+                state = State.Normal;
+            }
         }
 
         //Movement
@@ -229,6 +236,14 @@ public class PlayerController : MonoBehaviour, CombatInterface
     /*  *   *   *   *   *   *   *
         C   O   M   B   A   T
     *   *   *   *   *   *   *  */
+
+    public void HandleAttack(){
+        if (!aoeReady){
+            SimpleAttack();
+        }else{
+            AoeAttack();
+        }
+    }
     /// <summary>
     /// Attack simulation and animation handling. Sets state action to Attacking
     /// </summary>    
@@ -261,12 +276,17 @@ public class PlayerController : MonoBehaviour, CombatInterface
         }
     }
 
+    /// <summary>
+    /// Perfors aoe attack from AoeSpell.cs
+    /// </summary>
     private void AoeAttack(){
+        uiHandler.AoeCooldown();    //UI visuals
         float attackLength = 0.75f;
+        aoeSpell.HideGuidelines();
+        aoeSpell.Perform();
         //TODO functionality, effects, sfx etc
         StartCoroutine(Attacking(attackLength));
         characterAnimationController.CharacterAttack2(lookingDir);
-        aoeSpell.HideRadius();
         moveDir = Vector3.zero;
         aoeReady = false;
         animating = true;

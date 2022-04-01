@@ -10,11 +10,20 @@ public class UIHandler : MonoBehaviour
             return dashScript.IsReady;
         }
     }
+
+    public bool IsAoeReady{
+        get{
+            return aoeScript.IsReady;
+        }
+    }
     
     [SerializeField]private Transform DashIcon;
+    [SerializeField]private Transform AoeIcon;
     private UIButton dashScript;
+    private UIButton aoeScript;
     private void Start() {
         dashScript = DashIcon.GetComponent<UIButton>();
+        aoeScript = AoeIcon.GetComponent<UIButton>();
     }
 
     /// <summary>
@@ -22,6 +31,10 @@ public class UIHandler : MonoBehaviour
     /// </summary>
     public void DashCooldown(){
         dashScript.UseButton();
+    }
+
+    public void AoeCooldown(){
+        aoeScript.UseButton();
     }
 
 }

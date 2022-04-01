@@ -47,7 +47,43 @@ MonoBehaviour:
   - m_Name: Ground
     m_Hash: -1605138850
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: Entry
+      m_Hash: -354373004
+      m_Sprite: {fileID: -474227801, guid: 1b34adead736f214ca9efaacb7b86df7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -474227801, guid: 1b34adead736f214ca9efaacb7b86df7, type: 3}
+    - m_Name: Entry_0
+      m_Hash: 874506106
+      m_Sprite: {fileID: -1165231069, guid: 1b34adead736f214ca9efaacb7b86df7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1165231069, guid: 1b34adead736f214ca9efaacb7b86df7, type: 3}
+    - m_Name: Entry_1
+      m_Hash: 1125701612
+      m_Sprite: {fileID: -2033903064, guid: 1b34adead736f214ca9efaacb7b86df7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2033903064, guid: 1b34adead736f214ca9efaacb7b86df7, type: 3}
+    - m_Name: Entry_2
+      m_Hash: -636385706
+      m_Sprite: {fileID: -1209440296, guid: 1b34adead736f214ca9efaacb7b86df7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1209440296, guid: 1b34adead736f214ca9efaacb7b86df7, type: 3}
+    - m_Name: Entry_3
+      m_Hash: -1391020352
+      m_Sprite: {fileID: -2028302377, guid: 1b34adead736f214ca9efaacb7b86df7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2028302377, guid: 1b34adead736f214ca9efaacb7b86df7, type: 3}
+    - m_Name: Entry_4
+      m_Hash: 863118179
+      m_Sprite: {fileID: -986812302, guid: 1b34adead736f214ca9efaacb7b86df7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -986812302, guid: 1b34adead736f214ca9efaacb7b86df7, type: 3}
     m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: New Category
+    m_Hash: -1887952825
+    m_CategoryList: []
+    m_OverrideEntries: []
+    m_FromMain: 0
     m_EntryOverrideCount: 0
   m_PrimaryLibraryGUID: 8c9955f5d44a960418b2c2ff2c42961a
