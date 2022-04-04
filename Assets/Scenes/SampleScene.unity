@@ -6910,6 +6910,7 @@ Transform:
   - {fileID: 784624205}
   - {fileID: 477739014}
   - {fileID: 1025197322}
+  - {fileID: 1690404067}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6963,6 +6964,10 @@ MonoBehaviour:
     m_Bits: 384
   moveDir: {x: 0, y: 0, z: 0}
   HealthBarPrefab: {fileID: 352537287198798118, guid: 52f0e652fb0450745b47616b5d00e803, type: 3}
+  aoeSpellDuration: 1
+  aoeSpellDamage: 5
+  aoeAttackRadius: 10
+  aoeAttackDamage: 7
   state: 0
 --- !u!95 &633504736
 Animator:
@@ -11916,6 +11921,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DashIcon: {fileID: 98019327}
   AoeIcon: {fileID: 117015975}
+  ShieldIcon: {fileID: 2059001740}
+  SlashIcon: {fileID: 419254032}
 --- !u!1 &638171505
 GameObject:
   m_ObjectHideFlags: 0
@@ -12532,7 +12539,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784624204}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -13193,7 +13200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5883112209357246548, guid: 1646711c8bfb3db46a42a0c83be416a4, type: 3}
       propertyPath: COOLDOWN
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5883112209357246550, guid: 1646711c8bfb3db46a42a0c83be416a4, type: 3}
       propertyPath: m_Sprite
@@ -13323,7 +13330,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vfxPrefab: {fileID: 6921790645369972855, guid: f9a29d8426b5d6d42ac5a870e3aa0d39, type: 3}
-  ps: {fileID: 0}
   lr: {fileID: 1025197326}
 --- !u!120 &1025197326
 LineRenderer:
@@ -14428,6 +14434,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664024910}
   m_CullTransparentMesh: 1
+--- !u!1 &1690404066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1690404067}
+  - component: {fileID: 1690404069}
+  m_Layer: 0
+  m_Name: AoeAttack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1690404067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690404066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 633504732}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1690404069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690404066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d7bce2d43a3dd14097ef1acf7caabc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vfxPrefab: {fileID: 6921790645369972855, guid: f9a29d8426b5d6d42ac5a870e3aa0d39, type: 3}
+  ps: {fileID: 0}
+  aoeAttackDuration: 0.65
 --- !u!1 &1795101330
 GameObject:
   m_ObjectHideFlags: 0

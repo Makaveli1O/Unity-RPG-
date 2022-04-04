@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using Unity.Mathematics;
-
+using System.Collections.Generic;
 public class PlayerController : MonoBehaviour, CombatInterface
 {
     /*
@@ -25,7 +25,6 @@ public class PlayerController : MonoBehaviour, CombatInterface
     private CharacterMovementController characterMovementController;
     private UIHandler uiHandler;
     private Shield shield;
-    private AoeSpell aoeSpell;
     private Map mapRef;
     public Transform HealthBarPrefab;
     private PathFinding pathFinding;
@@ -53,8 +52,14 @@ public class PlayerController : MonoBehaviour, CombatInterface
         Casting,
         Blocking
     }
-    bool animating = false;
-    bool aoeReady = false;    //ready state before spell (showing radius and cursor type changed)
+    private AoeSpell aoeSpell;
+    private AoeAttack aoeAttack;
+    private bool animating = false;
+    private bool aoeReady = false;    //ready state before spell (showing radius and cursor type changed)
+    public float aoeSpellDuration = 1f;
+    public int aoeSpellDamage = 5;
+    public float aoeAttackRadius;
+    public int aoeAttackDamage = 7;
     public State state;    //current state
 
     private void Awake() {
@@ -66,6 +71,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
         healthBar.Setup(healthSystem, Color.red);
         shield = GetComponentInChildren<Shield>();
         aoeSpell = GetComponentInChildren<AoeSpell>();
+        aoeAttack = GetComponentInChildren<AoeAttack>();
         dashDust = GetComponent<ParticleSystem>();
         var m = GameObject.FindGameObjectWithTag("Map");
         try
@@ -101,13 +107,17 @@ public class PlayerController : MonoBehaviour, CombatInterface
         }else if (Input.GetMouseButton(1)){ 
             state = State.Blocking;
             shield.ActivateShield();
-            //TODO sfx shield->ON
             HandleShielding();
+            //ui effects
+            uiHandler.ShieldCooldown();
+            //TODO sfx shield->ON
         }else if(Input.GetMouseButtonUp(1)){
             state = State.Normal;
-            //TODO sfx shield->off
             shield.DeactivateShield();
-        //Attack aoe
+            //ui effects
+            uiHandler.ShieldCooldownDeactivate();
+            //TODO sfx shield->off
+        //aoe spell
         }else if(Input.GetKeyDown(KeyCode.F)){
             if (aoeReady){
                 aoeReady = false;
@@ -119,6 +129,16 @@ public class PlayerController : MonoBehaviour, CombatInterface
                 SoundManager.PlaySound(SoundManager.Sound.Error, this.transform.position);
                 state = State.Normal;
             }
+        //aoe attack
+        }else if(Input.GetKeyDown(KeyCode.E)){
+            if (uiHandler.IsSlashReady)
+            {
+                AoeAttack();
+            }else{
+                SoundManager.PlaySound(SoundManager.Sound.Error, this.transform.position);
+                state = State.Normal; 
+            }
+            
         }
 
         //Movement
@@ -241,7 +261,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
         if (!aoeReady){
             SimpleAttack();
         }else{
-            AoeAttack();
+            AoeSpell();
         }
     }
     /// <summary>
@@ -279,17 +299,34 @@ public class PlayerController : MonoBehaviour, CombatInterface
     /// <summary>
     /// Perfors aoe attack from AoeSpell.cs
     /// </summary>
-    private void AoeAttack(){
+    private void AoeSpell(){
         uiHandler.AoeCooldown();    //UI visuals
         float attackLength = 0.75f;
         aoeSpell.HideGuidelines();
-        aoeSpell.Perform();
-        //TODO functionality, effects, sfx etc
+        aoeSpell.Perform(aoeSpellDuration, aoeSpellDamage);
+        //TODO sfx
         StartCoroutine(Attacking(attackLength));
-        characterAnimationController.CharacterAttack2(lookingDir);
+        characterAnimationController.CharacterAttack3(lookingDir);
         moveDir = Vector3.zero;
         aoeReady = false;
         animating = true;
+    }
+
+    private void AoeAttack(){
+        uiHandler.SlashCooldown();
+        state = State.Attacking;
+        float aoeAttackLength = 0.75f;
+        moveDir = Vector3.zero;
+        animating = true;
+        List<EnemyController> enemiesWithinRadius = EnemyController.GetEnemiesWithinRadius(transform.position, aoeAttackRadius);
+        if (enemiesWithinRadius != null)
+        {
+            aoeAttack.Perform(enemiesWithinRadius, aoeAttackDamage);
+        }
+        StartCoroutine(Attacking(aoeAttackLength));
+        characterAnimationController.CharacterAttack2(lookingDir);
+        //TODO sfx, fucntionality
+
     }
 
     private IEnumerator Attacking(float time){

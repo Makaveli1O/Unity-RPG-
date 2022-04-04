@@ -33,10 +33,32 @@ public class UIButton : MonoBehaviour
     }
 
     /// <summary>
-    /// Starts corouotine of button. Cooldown visibility.
+    /// Starts coroutine loading simulation on button
     /// </summary>
-    public void UseButton(){
-        StartCoroutine(CooldownLoading(COOLDOWN));
+    /// <param name="onHold">Loading only on hold of specific key.</param>
+    public void UseButton(bool onHold = false){
+        if (onHold)
+        {
+            OnHoldCooldown();
+        }else{
+            StartCoroutine(CooldownLoading(COOLDOWN));
+        }
+    }
+
+    /// <summary>
+    /// Deactivates cooldown status. ( used for shielding )
+    /// </summary>
+    public void DeactivateButton(){
+        cooldownImage.fillAmount = 0.0f;
+        spellReady = true;
+    }
+
+    /// <summary>
+    /// Handles UI icon being actiivated on hold of input.
+    /// </summary>
+    private void OnHoldCooldown(){
+        cooldownImage.fillAmount = 1.0f;
+        spellReady = false;
     }
 
     /// <summary>

@@ -6,25 +6,19 @@ using UnityEngine;
 public class AoeSpell : MonoBehaviour
 {
     [SerializeField] private GameObject vfxPrefab;
-    [SerializeField] private ParticleSystem ps;
     [SerializeField] private LineRenderer lr;
     private Vfx vfxScript;
     private float radius;
     private float offset = (Mathf.Sqrt(2)/2);
     private void Awake() {
         vfxScript = vfxPrefab.GetComponent<Vfx>();
-        //radius seems to be half of the scale I've entered in inspector
-        if (ps != null) radius = ps.transform.localScale.x / 2f;
-    }
-    
-    public bool isActive{
-        get{return ps.isPlaying;}
     }
 
     /// <summary>
     /// Performs this aoe attack.
     /// </summary>
-    public void Perform(){
+    /// <param name="time">Duration of the spell(distance travelled)</param>
+    public void Perform(float time, int damage){
         
         Vector3[] directions = new [] {Vector3.left, (Vector3.left + Vector3.up) * offset, Vector3.up, (Vector3.up + Vector3.right) * offset , Vector3.right, (Vector3.right + Vector3.down) * offset , Vector3.down, (Vector3.down + Vector3.left) * offset};
         //spawn tornado in 8 directions
@@ -33,8 +27,9 @@ public class AoeSpell : MonoBehaviour
             GameObject vfxObj = Instantiate(vfxPrefab, this.transform.position + direction, Quaternion.identity);
             vfxObj.transform.parent = this.transform;
             Vfx tornado = vfxObj.GetComponent<Vfx>();
+            tornado.SetVFXType(Vfx.ElementType.Wind);
             //TODO equation time - radius relation
-            float time = 1f; //roughly 1 second in this speed to reach radius
+            tornado.SetDamageAmount(damage);
             tornado.Move(direction, time);   //move tornado
         }
     }
@@ -81,22 +76,5 @@ public class AoeSpell : MonoBehaviour
     public void HideGuidelines(){
         lr.enabled = false;
         GameAssets.Instance.cursorHandler.SetCursorByType(CursorType.Basic); 
-    }
-
-    public void ShowRadius(){
-        ps.Play();
-        GameAssets.Instance.cursorHandler.SetCursorByType(CursorType.Apply);
-    }
-
-    /// <summary>
-    /// Hide aoe radius around player
-    /// </summary>
-    public void HideRadius(){
-        //hide radius circle
-        ps.Stop(); 
-        ps.Clear();
-        //change cursor type back to  basic
-        GameAssets.Instance.cursorHandler.SetCursorByType(CursorType.Basic); 
-        return;
     }
 }

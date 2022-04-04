@@ -10,12 +10,12 @@ public class Vfx : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private Rigidbody2D rb;
     public VfxBundle[] vfxs;
-    private bool movement;
+    private bool moving;
     private float radius;
     private Vector3 initialPosition;
     private float moveSpeed = 3f;
-
     private EnemyController enemy;
+    private int damage;
 
 
     /// <summary>
@@ -25,7 +25,8 @@ public class Vfx : MonoBehaviour
     {
         Wind,
         Fire,
-        Holy
+        Holy,
+        Slash
     }
     /// <summary>
     /// Bundle of type of vfx and assetsLibrary
@@ -36,21 +37,6 @@ public class Vfx : MonoBehaviour
         public UnityEngine.U2D.Animation.SpriteLibraryAsset assetsLibrary;
     }
 
-    /// <summary>
-    /// Update is called every frame, if the MonoBehaviour is enabled.
-    /// </summary>
-    void Update()
-    {
-        /*if (movement)
-        {
-            float distance = Vector3.Distance(transform.position, initialPosition);
-            //destroy tornado after out of radius
-            if (distance > radius)
-            {
-                Object.Destroy(this.gameObject);
-            }
-        }*/
-    }
 
     /// <summary>
     /// Awake is called when the script instance is being loaded.
@@ -64,27 +50,57 @@ public class Vfx : MonoBehaviour
         if (other.gameObject.tag == "Entity")
         {
             enemy = other.gameObject.GetComponent<EnemyController>();
-            enemy.Damage(this.transform.position, "50");
+            enemy.Damage(this.transform.position, damage.ToString());
         }
     }
 
+    public void SetVFXType(ElementType type){
+        foreach (var item in vfxs)
+        {
+            if (item.type == type)
+            {
+                var sla = GetComponent<UnityEngine.U2D.Animation.SpriteLibrary>();
+                sla.spriteLibraryAsset = item.assetsLibrary;
+            }
+        }
+    }
+
+    public void SetDamageAmount(int damageAmount){
+        this.damage = damageAmount;
+    }
+
     /// <summary>
-    /// Perform movement of attached gameobject
+    /// Perform movement of attached gameobject, and sets damage of this object.
     /// </summary>
     /// <param name="direction"></param>
     /// <param name="radius"></param>
     public void Move(Vector3 direction, float time){
+        moving = true;
         StartCoroutine(Moving(direction, time));
     }
 
     /// <summary>
-    /// Coroutine moving gameobject, after time is done destroy object
+    /// Coroutine moving gameobject, after time is done, destroy continuously.
     /// </summary>
     /// <param name="direction">direction of gameobject</param>
     /// <param name="time">life time</param>
     /// <returns></returns>
     private IEnumerator Moving(Vector3 direction, float time){
         rb.AddForce(direction * moveSpeed, ForceMode2D.Impulse);
+        yield return new WaitForSeconds(time);
+        Object.Destroy(this.gameObject);
+    }
+
+    /// <summary>
+    /// Performs only on top of the enemy and destroy.
+    /// </summary>
+    public void EnemyPerform(Vector3 enemyPos, float time){
+        this.transform.position = enemyPos;
+        StartCoroutine(Performing(time));
+        return;
+    }
+
+    private IEnumerator Performing(float time){
         yield return new WaitForSeconds(time);
         Object.Destroy(this.gameObject);
     }

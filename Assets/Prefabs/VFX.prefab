@@ -181,6 +181,8 @@ MonoBehaviour:
     assetsLibrary: {fileID: 7108339969198208228, guid: 4265cfda4cdd0b1479acff27153715d3, type: 3}
   - type: 2
     assetsLibrary: {fileID: 7108339969198208228, guid: 4265cfda4cdd0b1479acff27153715d3, type: 3}
+  - type: 3
+    assetsLibrary: {fileID: 7108339969198208228, guid: c8af6b841c73cb74593cb2c5bb96baa7, type: 3}
 --- !u!58 &-4541627193010488771
 CircleCollider2D:
   m_ObjectHideFlags: 0

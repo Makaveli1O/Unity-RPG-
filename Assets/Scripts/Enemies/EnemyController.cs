@@ -333,6 +333,70 @@ public class EnemyController : MonoBehaviour, CombatInterface
     }
 
     /// <summary>
+    /// Get closest enemy that is not in the skiplist
+    /// </summary>
+    /// <param name="position">Position of the plaayer</param>
+    /// <param name="range">Radius range</param>
+    /// <param name="skipList">List of gameobject instances id's to skip</param>
+    /// <returns></returns>
+   public static EnemyController GetClosestEnemyNotInList(Vector3 position, float range, List<Int32> skipList){
+        //no enemies yet
+        if (enemyList == null) return null;
+
+        EnemyController closestEnemy = null;
+
+        for (int i = 0; i < enemyList.Count; i++)
+        {
+            EnemyController testEnemy = enemyList[i];
+            //skip id in list
+            if (skipList.Contains(testEnemy.gameObject.GetInstanceID()))
+            {
+                continue;
+            }
+            //too far skip
+            if (Vector3.Distance(position, testEnemy.GetPosition()) > range) continue;
+            //no closest enemy assigned yet
+            if (closestEnemy == null)
+            {
+                closestEnemy = testEnemy;
+            }else{
+                //already has closest enemy decide closer one
+                if (Vector3.Distance(position, testEnemy.GetPosition()) < Vector3.Distance(position, closestEnemy.GetPosition()))
+                {
+                    closestEnemy = testEnemy;
+                }
+            }
+        }
+        return closestEnemy;
+    }
+
+    /// <summary>
+    /// Finds all enemies within given radius from given's position
+    /// </summary>
+    /// <param name="position">Target position</param>
+    /// <param name="radius">radiusaroun position</param>
+    /// <returns>Found list of enemies within given position in given radius.</returns>
+    public static List<EnemyController> GetEnemiesWithinRadius(Vector3 position, float radius){
+        List<EnemyController> enemiesWithinRadius = new List<EnemyController>();
+        List<Int32> enemyInstances = new List<Int32>();
+        EnemyController enemyFound = GetClosestEnemy(position, radius);
+        while (enemyFound != null && !enemyInstances.Contains(enemyFound.gameObject.GetInstanceID()))
+        {
+            enemyInstances.Add(enemyFound.gameObject.GetInstanceID());
+            enemiesWithinRadius.Add(enemyFound);
+            enemyFound = GetClosestEnemyNotInList(position, radius, enemyInstances);
+        }
+        
+        if (enemiesWithinRadius.Count == 0 || enemiesWithinRadius == null)
+        {
+            return null;
+        }else{
+            return enemiesWithinRadius;
+        }
+        
+    }
+
+    /// <summary>
     /// Follow player on entering the collider
     /// </summary>
     public void FollowPlayer(Vector3 pos, bool notInRadius = false){

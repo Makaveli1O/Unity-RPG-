@@ -16,14 +16,26 @@ public class UIHandler : MonoBehaviour
             return aoeScript.IsReady;
         }
     }
+
+    public bool IsSlashReady{
+        get{
+            return slashScript.IsReady;
+        }
+    }
     
     [SerializeField]private Transform DashIcon;
     [SerializeField]private Transform AoeIcon;
+    [SerializeField]private Transform ShieldIcon;
+    [SerializeField]private Transform SlashIcon;
     private UIButton dashScript;
     private UIButton aoeScript;
+    private UIButton shieldScript;
+    private UIButton slashScript;
     private void Start() {
         dashScript = DashIcon.GetComponent<UIButton>();
         aoeScript = AoeIcon.GetComponent<UIButton>();
+        shieldScript = ShieldIcon.GetComponent<UIButton>();
+        slashScript = SlashIcon.GetComponent<UIButton>();
     }
 
     /// <summary>
@@ -35,6 +47,18 @@ public class UIHandler : MonoBehaviour
 
     public void AoeCooldown(){
         aoeScript.UseButton();
+    }
+
+    public void ShieldCooldown(){
+        shieldScript.UseButton(true);
+    }
+
+    public void ShieldCooldownDeactivate(){
+        shieldScript.DeactivateButton();
+    }
+
+    public void SlashCooldown(){
+        slashScript.UseButton();
     }
 
 }

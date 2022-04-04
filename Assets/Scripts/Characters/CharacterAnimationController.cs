@@ -70,7 +70,13 @@ public class CharacterAnimationController : MonoBehaviour
 
     public void CharacterAttack2(Vector3 attackDir, bool twoDir = false){
         if(!twoDir) QuadrantRotation(attackDir, "attack2");
-        else  QuadrantRotation2Dir(attackDir, "attac2k");
+        else  QuadrantRotation2Dir(attackDir, "attack2");
+        return;
+    }
+
+    public void CharacterAttack3(Vector3 attackDir, bool twoDir = false){
+        if(!twoDir) QuadrantRotation(attackDir, "attack3");
+        else  QuadrantRotation2Dir(attackDir, "attac3");
         return;
     }
     
