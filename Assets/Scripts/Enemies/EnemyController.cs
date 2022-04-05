@@ -152,7 +152,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
         {
             if (animating == false) HandleAttack();             
         }else if (state == State.Hurting){
-            if (animating == false) HandleHurt(); 
+            if (animating == false) Hurt(); 
         }else{
             HandleMovement();
         }
@@ -315,8 +315,8 @@ public class EnemyController : MonoBehaviour, CombatInterface
         for (int i = 0; i < enemyList.Count; i++)
         {
             EnemyController testEnemy = enemyList[i];
-            //too far skip
-            if (Vector3.Distance(position, testEnemy.GetPosition()) > range) continue;
+            //too far or dead skip
+            if (Vector3.Distance(position, testEnemy.GetPosition()) > range || testEnemy.IsDead) continue;
             //no closest enemy assigned yet
             if (closestEnemy == null)
             {
@@ -433,8 +433,6 @@ public class EnemyController : MonoBehaviour, CombatInterface
                 }
         
         }
-        //FIXME drawpath debug
-        //pf.DrawPath(this.transform.position, pos);
     }
 
     private void StopMoving(){
@@ -486,7 +484,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /// <summary>
     /// Set dead conditions
     /// </summary>
-    private void Die(){
+    public void Die(){
         this.IsDead = true;
         animationController.DeadAnimation(moveDir, twoDirEntity);
         SoundManager.PlaySound(SoundManager.Sound.Death, transform.position, GetPresetAudioClip(SoundManager.Sound.Death));
@@ -500,7 +498,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /// <summary>
     /// Handles hurt state of entity.
     /// </summary>
-    private void HandleHurt(){
+    public void Hurt(){
         //trigger animation
         this.animating = true;
         //trigger start animation events here
@@ -580,7 +578,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /// </summary>
     /// <param name="attackerPosition">Position of attacker</param>
     /// <retrn>True if entity died, false otherwise.</return>
-    public bool Damage(Vector3 attackerPosition, string damageAmount){
+    public bool Damage(Vector3 attackerPosition, string damageAmount, float attackRange = 0f){
         //knockback
         Vector3 dirFromAttacker = (transform.position - attackerPosition).normalized;
         float knockbackDistance = 0.5f;
@@ -603,7 +601,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
             
             return true;
         }else{
-            this.HandleHurt();
+            this.Hurt();
             return false;
         } 
     }

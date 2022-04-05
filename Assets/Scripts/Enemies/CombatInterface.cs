@@ -1,3 +1,4 @@
+using UnityEngine;
 public interface CombatInterface
 {
     int health{
@@ -5,10 +6,6 @@ public interface CombatInterface
         set;
     }
     int armor{
-        get;
-        set;
-    }
-    bool InCombat{
         get;
         set;
     }
@@ -24,4 +21,8 @@ public interface CombatInterface
         get;
         set;
     }
+    public void Die();
+    public void Alive();
+    public void Hurt();
+    public bool Damage(Vector3 attackerPosition, string damageAmount, float attackRange = 0f);
 }

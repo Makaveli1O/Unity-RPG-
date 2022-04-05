@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 4021146729649016918}
   - component: {fileID: -6920499279396981597}
   - component: {fileID: 5175015147502752583}
-  - component: {fileID: -9059170014186704357}
+  - component: {fileID: 796469101053643189}
+  - component: {fileID: 5357139366929699684}
   m_Layer: 0
-  m_Name: KeyObject
+  m_Name: KeyObjectPrefab
   m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -115,7 +116,7 @@ Animator:
   m_GameObject: {fileID: 8274161314457147329}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1bb35df6242fb014186242d953028e11, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4f18fa21500c00d4ab320ccc06850bd4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -138,7 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Library: []
-  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: c26eb265c4041874a986c647312bbc50, type: 3}
+  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: 889be4bacec0ef74f949ec7cc9a22cee, type: 3}
 --- !u!114 &5175015147502752583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,8 +154,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CategoryHash: 0
   m_labelHash: 0
-  m_SpriteKey: 1.2362407e-29
---- !u!114 &-9059170014186704357
+  m_SpriteKey: 2.9059498e-16
+--- !u!114 &796469101053643189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8274161314457147329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 336115ff5ac82c94193595a9e5eb343e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5357139366929699684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -170,4 +183,29 @@ MonoBehaviour:
     x: 0
     y: 0
   biome: {fileID: 0}
-  state: 0
+  completed: 0
+  locks:
+  - name: forest
+    unlocked: 0
+    sprite: {fileID: -85327618, guid: 81c36a603a4c41e4a81509007b903e01, type: 3}
+  - name: jungle
+    unlocked: 0
+    sprite: {fileID: 455539918, guid: 81c36a603a4c41e4a81509007b903e01, type: 3}
+  - name: ashland
+    unlocked: 0
+    sprite: {fileID: -104926378, guid: 81c36a603a4c41e4a81509007b903e01, type: 3}
+  - name: desert
+    unlocked: 0
+    sprite: {fileID: -1942076049, guid: 81c36a603a4c41e4a81509007b903e01, type: 3}
+  - name: forest
+    unlocked: 1
+    sprite: {fileID: -446356388, guid: 81c36a603a4c41e4a81509007b903e01, type: 3}
+  - name: jungle
+    unlocked: 1
+    sprite: {fileID: 1584275318, guid: 81c36a603a4c41e4a81509007b903e01, type: 3}
+  - name: ashland
+    unlocked: 1
+    sprite: {fileID: -894470278, guid: 81c36a603a4c41e4a81509007b903e01, type: 3}
+  - name: desert
+    unlocked: 1
+    sprite: {fileID: -1354592437, guid: 81c36a603a4c41e4a81509007b903e01, type: 3}

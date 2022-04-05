@@ -378,7 +378,7 @@ public class ChunkCreator : MonoBehaviour
     /// </summary>
     /// <returns>Loaded chunk data</returns>
     private WorldChunk LoadChunk(){
-        return gameHandler.Load<WorldChunk>(ObjType.Chunk,this.x, this.y);
+        return gameHandler.Load<WorldChunk>(ObjType.Chunk,null, this.x, this.y);
     }
 
     /// <summary>

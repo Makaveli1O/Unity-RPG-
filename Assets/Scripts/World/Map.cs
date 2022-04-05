@@ -27,7 +27,7 @@ public class Map : MonoBehaviour
     //store all biomes and prefabs for each tile
     //public BiomePreset[] biomes;
     public List<BiomePreset> biomes = new List<BiomePreset>();
-
+    public List<BiomePreset> keyObjectBiomes = new List<BiomePreset>();
     public GameObject keyObjectPrefab;
     public Sprite chestSprite;
     public EnemyPreset[] guards; //guards are always same
@@ -123,18 +123,24 @@ public class Map : MonoBehaviour
         PlaceStairs();
         //if generating the world for the first time, generate key objects,
         //else load from json
-        SaveKeyObjects keyObjects = gameHandler.Load<SaveKeyObjects>(ObjType.KeyObjects);
+        bool previouslyGenerated = true;
+        foreach (BiomePreset biome in keyObjectBiomes)
+        {
+            SaveKeyObject keyObject = gameHandler.Load<SaveKeyObject>(ObjType.KeyObject, biome);
+            if (keyObject != null)
+            {
+                previouslyGenerated = true;
+            }else{
+                previouslyGenerated = false;
+                break;
+            }
+            TDTile tile = GetTile(TileRelativePos(new int2((int)keyObject.position.x, (int)keyObject.position.y)), TileChunkPos(new int2((int)keyObject.position.x, (int)keyObject.position.y)));
+            SpawnKeyObject(tile);
+        }
         //first time generation
-        if (keyObjects == null)
+        if (!previouslyGenerated)
         {
             PlaceKeyObjects();
-        //loading from json
-        }else{
-            //Debug.Log("Loading objects");
-            foreach (Vector3 pos in keyObjects.positions)
-            {
-                SpawnKeyObject(new int2((int)pos.x, (int)pos.y));
-            }
         }
         
         //pass generated chunks to chunk loader
@@ -155,6 +161,8 @@ public class Map : MonoBehaviour
         bool found = false;
         //set for coordinates that contains placed key
         List<TDTile> usedPositions = new List<TDTile>();
+        //list for save system
+        List<SaveKeyObject> saveKeyObjects = new List<SaveKeyObject>();
         //each list (forest, ashland ..)
         foreach (List<TDTile> list in map.biomeTiles.Values)
         {
@@ -169,8 +177,9 @@ public class Map : MonoBehaviour
                 if(isPlacable(tile)){
                     if (usedPositions.Count == 0)
                     {
-                        Debug.Log("placed"+ tile.biome.type +" key: " + tile.pos);
-                        SpawnKeyObject(tile.pos);
+                        Debug.Log("placed "+ tile.biome.type +" key: " + tile.pos);
+                        SaveKeyObject newObj = SpawnKeyObject(tile);
+                        saveKeyObjects.Add(newObj);
                         usedPositions.Add(tile);
                         found = true;
                     }else{
@@ -185,7 +194,9 @@ public class Map : MonoBehaviour
                             {
                                 if (distance >= min_distance)
                                 {
-                                    SpawnKeyObject(tile.pos);
+                                    Debug.Log("placed "+ tile.biome.type +" key: " + tile.pos);
+                                    SaveKeyObject newObj = SpawnKeyObject(tile);
+                                    saveKeyObjects.Add(newObj);
                                     usedPositions.Add(tile);
                                     found = true;
                                     break;
@@ -205,37 +216,49 @@ public class Map : MonoBehaviour
         }
 
         //save them
-        SaveKeyObjects(usedPositions);
+        SaveKeyObjects(saveKeyObjects);
     }
 
     /// <summary>
     /// Spawn key object on the given tile
     /// </summary>
     /// <param name="tile">Processed tile</param>
-    private void SpawnKeyObject(int2 pos){
+    private SaveKeyObject SpawnKeyObject(TDTile tile){
+        //save object 
+        SaveKeyObject newObj = new SaveKeyObject(tile);
+        newObj.position = new Vector3(tile.pos.x, tile.pos.y);
+        newObj.biome = tile.biome.name;
+        newObj.completed = false;
+        newObj.tile = tile;
+
         //get corresponding tile
-        Vector3 v_pos = new Vector3(pos.x, pos.y);
+        Vector3 v_pos = new Vector3(tile.pos.x, tile.pos.y);
         //spawn object
         GameObject obj = Instantiate(keyObjectPrefab, v_pos, Quaternion.identity);
-        //properly alter gameobject
-        //deprecated, if each biome had different sprite
-        //obj.GetComponent<SpriteRenderer>().sprite = tile.biome.objects[2].sprites[0];
-        obj.GetComponent<SpriteRenderer>().sprite = chestSprite;
+        //script attached to gameObject
+        KeyObject keyObjScript = obj.GetComponent<KeyObject>();
+        keyObjScript.biome = tile.biome;
+        keyObjScript.pos = tile.pos;
+        keyObjScript.completed = false;
 
         //mark chunk that contanis key object
-        WorldChunk ch = GetChunk(TileChunkPos(pos));
+        WorldChunk ch = GetChunk(TileChunkPos(tile.pos));
         ch.containsKeyObj = true;
-        ch.keyObjPos = pos;
-        return;
+        ch.keyObjPos = tile.pos;
+        //return object to saveSystem
+        return newObj;
     }
 
     /// <summary>
     /// Save freshly generated key object into JSON attached to this seed.
     /// </summary>
     /// <param name="usedPositions">Positions of key objects (4)</param>
-    private void SaveKeyObjects(List<TDTile> usedPositions){
-        SaveKeyObjects saveObj = new SaveKeyObjects(usedPositions);
-        gameHandler.Save<SaveKeyObjects>(saveObj, ObjType.KeyObjects, new Vector3(0,0,0));  //3rd argument irrelevant here
+    private void SaveKeyObjects(List<SaveKeyObject> spawnedKeyObjects){
+        foreach (SaveKeyObject keyObject in spawnedKeyObjects)
+        {
+            SaveKeyObject saveObj = new SaveKeyObject(keyObject.tile);
+            gameHandler.Save<SaveKeyObject>(saveObj, ObjType.KeyObject, new Vector3(0,0,0), keyObject.tile.biome);  //3rd argument irrelevant here
+        }
         return;
     }
 
@@ -307,7 +330,6 @@ public class Map : MonoBehaviour
     /// </summary>
     /// FIXME alter this a bit, stairs too close to each other
     private void PlaceStairs(){
-        int maxContinuousStairs = 5;
         int stairsCounter = 0;
         int2 next = new int2(0,0);
         int lastPlacedX = 0;

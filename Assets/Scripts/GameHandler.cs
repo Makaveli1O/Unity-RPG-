@@ -10,8 +10,14 @@ public class GameHandler : MonoBehaviour
 {
     private string SAVE_FOLDER;
     float world_seed; //parent folder for all things within this seed
+    private Map mapRef; 
+    private enum KeyObjectHandlerType
+    {
+        Save,
+        Load
+    }
     private void Awake(){
-        Map mapRef = GetComponent<Map>();
+        mapRef = GetComponent<Map>();
         world_seed = mapRef.seed;
         SaveSystem.Init();
         SAVE_FOLDER = Application.dataPath + "/Saves/";
@@ -28,14 +34,14 @@ public class GameHandler : MonoBehaviour
     /// <param name="key">Type of object</param>
     /// <param name="position">Position ( used in player and objects)</param>
     /// <typeparam name="T"></typeparam>
-     public void Save<T>(T saveObj, ObjType key, Vector3 position){
+     public void Save<T>(T saveObj, ObjType key, Vector3 position, BiomePreset biome = null){
         string json = JsonUtility.ToJson(saveObj);
 
         if(key == ObjType.Player){
             SaveSystem.Save(json,key+".json", world_seed.ToString());
             //saving key objects
-        }else if(key == ObjType.KeyObjects){
-            SaveSystem.Save(json,key+".json", world_seed.ToString());  
+        }else if(key == ObjType.KeyObject){
+            KeyObjectHandler(biome, json, key, KeyObjectHandlerType.Save);
         //save chunks with key in name
         }else{
             SaveSystem.Save(json,key+"_"+position.x+","+position.y+".json", world_seed.ToString());
@@ -50,13 +56,16 @@ public class GameHandler : MonoBehaviour
     /// <param name="y_pos">Y position of object(optional)</param>
     /// <typeparam name="T"></typeparam>
     /// <returns>Loaded object or null</returns>
-    public T Load<T>(ObjType key, int x_pos = -1, int y_pos = -1){
+    public T Load<T>(ObjType key, BiomePreset biome = null, int x_pos = -1, int y_pos = -1){
         //read saved json
         string saveString = null;
 
         //load on specific coords
         if (x_pos != -1 || y_pos != -1){
             saveString = SaveSystem.Load(key+"_"+x_pos+","+y_pos+".json", world_seed.ToString());
+        //key objects
+        }else if(key == ObjType.KeyObject){
+            saveString = KeyObjectHandler(biome, null, key, KeyObjectHandlerType.Load);
         }else{
             saveString = SaveSystem.Load(key+".json", world_seed.ToString());
         }
@@ -69,6 +78,55 @@ public class GameHandler : MonoBehaviour
         }
 
         return returnValue;
+    }
+
+    /// <summary>
+    /// Support function for handling save and load of key objects.
+    /// </summary>
+    /// <param name="biome">Type of biome</param>
+    /// <param name="json">json string</param>
+    /// <param name="key">Object key type</param>
+    /// <param name="type">Type of key object operation (save/load)</param>
+    /// <returns></returns>
+    private string KeyObjectHandler (BiomePreset biome,string json, ObjType key, KeyObjectHandlerType type){
+        string saveString = null;
+        //save key ob
+        if (type == KeyObjectHandlerType.Save)
+        {
+            switch (biome.name)
+            {
+                case "Rainforest":
+                    SaveSystem.Save(json,key+"_rainforest.json", world_seed.ToString());
+                    break;
+                case "Desert":
+                    SaveSystem.Save(json,key+"_desert.json", world_seed.ToString());
+                    break;
+                case "Forest":
+                    SaveSystem.Save(json,key+"_fores.json", world_seed.ToString());
+                    break;
+                case "Ashland":
+                    SaveSystem.Save(json,key+"_ashland.json", world_seed.ToString());
+                    break;
+            }
+        //load key obj
+        }else{
+            switch (biome.name)
+            {
+                case "Rainforest":
+                    saveString = SaveSystem.Load(key+"_rainforest.json", world_seed.ToString());
+                    break;
+                case "Desert":
+                    saveString = SaveSystem.Load(key+"_desert.json", world_seed.ToString());
+                    break;
+                case "Forest":
+                    saveString = SaveSystem.Load(key+"_fores.json", world_seed.ToString());
+                    break;
+                case "Ashland":
+                    saveString = SaveSystem.Load(key+"_ashland.json", world_seed.ToString());
+                    break;
+            }
+        }
+        return saveString;
     }
 }
 
@@ -88,18 +146,19 @@ public class SavePosition
 /// Class representing key object to save in regular form.
 /// </summary>
 [System.Serializable]
-public class SaveKeyObjects
+public class SaveKeyObject
 {
-    public List<Vector3> positions;
+    [System.NonSerialized] public TDTile tile;
+    public Vector3 position;
+    public string biome;
+    public bool completed;
 
-    public SaveKeyObjects(List<TDTile> tiles){
-        this.positions = new List<Vector3>();
-        foreach (TDTile t in tiles)
-        {
-            int2 coord = new int2(t.pos.x, t.pos.y);
-            Vector3 pos = new Vector3(coord.x, coord.y, 0);
-            this.positions.Add(pos);
-        }
+    public SaveKeyObject(TDTile tile){
+        int2 coord = new int2(tile.pos.x, tile.pos.y);
+        Vector3 pos = new Vector3(coord.x, coord.y, 0);
+        this.position = pos;
+        this.biome = tile.biome.name;
+        this.completed = false;
     }
 }
 
@@ -123,7 +182,7 @@ public enum ObjType{
     Player,
     Entity,
     Chunk,
-    KeyObjects,
+    KeyObject,
 }
 
 

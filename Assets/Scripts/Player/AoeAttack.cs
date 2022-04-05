@@ -28,6 +28,8 @@ public class AoeAttack : MonoBehaviour
 
         foreach (EnemyController enemy in enemiesWithinRadius)
         {
+            //skip dead enemies
+            if (enemy.IsDead) continue;
             GameObject vfxObj = Instantiate(vfxPrefab, this.transform.position, Quaternion.identity);
             vfxObj.transform.parent = this.transform;
             Vfx slash = vfxObj.GetComponent<Vfx>();

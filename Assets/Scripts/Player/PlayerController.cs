@@ -64,11 +64,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
 
     private void Awake() {
         uiHandler = GetComponent<UIHandler>();
-        healthSystem = new HealthSystem(100);
-        healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(-13.55f,-7.77f), Quaternion.identity, GameObject.FindGameObjectWithTag("MainCamera").transform);
-        healthBarTransform.localScale = new Vector3(80,40);
-        healthBar = healthBarTransform.GetComponent<HealthBar>();
-        healthBar.Setup(healthSystem, Color.red);
+        Alive();
         shield = GetComponentInChildren<Shield>();
         aoeSpell = GetComponentInChildren<AoeSpell>();
         aoeAttack = GetComponentInChildren<AoeAttack>();
@@ -195,6 +191,25 @@ public class PlayerController : MonoBehaviour, CombatInterface
         } 
         
         this.KeyboardMovement();
+    }
+
+    //TODO
+    public void Die(){
+        return;
+    }
+    /// <summary>
+    /// Set initial healthbar stats.
+    /// </summary>
+    public void Alive(){
+        healthSystem = new HealthSystem(100);
+        healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(-13.55f,-7.77f), Quaternion.identity, GameObject.FindGameObjectWithTag("MainCamera").transform);
+        healthBarTransform.localScale = new Vector3(80,40);
+        healthBar = healthBarTransform.GetComponent<HealthBar>();
+        healthBar.Setup(healthSystem, Color.red);
+        return;
+    }
+    public void Hurt(){
+        return;
     }
 
     /// <summary>

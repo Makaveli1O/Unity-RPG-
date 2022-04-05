@@ -211,8 +211,8 @@ GameObject:
   - component: {fileID: 42012817}
   - component: {fileID: 42012816}
   m_Layer: 5
-  m_Name: Key (2)
-  m_TagString: Untagged
+  m_Name: ashland
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6419,7 +6419,7 @@ GameObject:
   - component: {fileID: 492632749}
   m_Layer: 5
   m_Name: bottom
-  m_TagString: Untagged
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6966,7 +6966,7 @@ MonoBehaviour:
   HealthBarPrefab: {fileID: 352537287198798118, guid: 52f0e652fb0450745b47616b5d00e803, type: 3}
   aoeSpellDuration: 1
   aoeSpellDamage: 5
-  aoeAttackRadius: 10
+  aoeAttackRadius: 5
   aoeAttackDamage: 7
   state: 0
 --- !u!95 &633504736
@@ -12423,8 +12423,8 @@ GameObject:
   - component: {fileID: 760049534}
   - component: {fileID: 760049533}
   m_Layer: 5
-  m_Name: Key (3)
-  m_TagString: Untagged
+  m_Name: desert
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12539,7 +12539,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784624204}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -12823,7 +12823,7 @@ GameObject:
   - component: {fileID: 868917243}
   m_Layer: 5
   m_Name: Keys
-  m_TagString: Untagged
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12930,7 +12930,7 @@ GameObject:
   - component: {fileID: 871398663}
   m_Layer: 5
   m_Name: bg
-  m_TagString: Untagged
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13748,8 +13748,8 @@ GameObject:
   - component: {fileID: 1258605269}
   - component: {fileID: 1258605268}
   m_Layer: 5
-  m_Name: Key (1)
-  m_TagString: Untagged
+  m_Name: jungle
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14537,6 +14537,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: dec115d81f296a043ac39d9410c117a1, type: 2}
   - {fileID: 11400000, guid: f4a588f425eebbe418d15c6f047d108e, type: 2}
   - {fileID: 11400000, guid: e6f0d477a766a6046b140a832621cd67, type: 2}
+  keyObjectBiomes:
+  - {fileID: 11400000, guid: 681f3e231ba8a684ea2118e4b9f2f83c, type: 2}
+  - {fileID: 11400000, guid: 71963d684a3a4d4469d4deedb257d6e7, type: 2}
+  - {fileID: 11400000, guid: 580b6bec3c75faa428ea97e4c8097075, type: 2}
+  - {fileID: 11400000, guid: f8bc5eb6d87616445a05e46282490518, type: 2}
   keyObjectPrefab: {fileID: 8274161314457147329, guid: a032a665d8930724692486b971df17fb, type: 3}
   chestSprite: {fileID: 0}
   guards:
@@ -14823,8 +14828,8 @@ GameObject:
   - component: {fileID: 1966735509}
   - component: {fileID: 1966735508}
   m_Layer: 5
-  m_Name: Key
-  m_TagString: Untagged
+  m_Name: forest
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14976,7 +14981,7 @@ GameObject:
   - component: {fileID: 2050660413}
   m_Layer: 5
   m_Name: Top
-  m_TagString: Untagged
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
