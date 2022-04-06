@@ -106,6 +106,15 @@ public class CharacterAnimationController : MonoBehaviour
     }
 
     /// <summary>
+    /// Interaction ( casting ) animation, when interacting with te keystone
+    /// </summary>
+    /// <param name="direction">Direction heading towards</param>
+    public void CharacterInteraction(Vector3 direction){
+        QuadrantRotation(direction, "attack3");
+        return;
+    }
+
+    /// <summary>
     /// Calculates angle between horizontal X axis and given normalized looking mouse position vector
     /// </summary>
     /// <param name="x">X point</param>

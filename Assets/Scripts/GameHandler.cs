@@ -153,12 +153,13 @@ public class SaveKeyObject
     public string biome;
     public bool completed;
 
-    public SaveKeyObject(TDTile tile){
+    public SaveKeyObject(TDTile tile, bool cmpl = false){
+        this.tile = tile;
         int2 coord = new int2(tile.pos.x, tile.pos.y);
         Vector3 pos = new Vector3(coord.x, coord.y, 0);
         this.position = pos;
         this.biome = tile.biome.name;
-        this.completed = false;
+        this.completed = cmpl;
     }
 }
 

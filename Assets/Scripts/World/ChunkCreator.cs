@@ -530,8 +530,7 @@ public class ChunkCreator : MonoBehaviour
             }
         }
     }
-    //FIXME make spawning number relative to the biome?
-    // make spawning related to the ticks (deltatime)
+
     /// <summary>
     /// Spawning entities within the chunk.
     /// </summary>
@@ -542,17 +541,19 @@ public class ChunkCreator : MonoBehaviour
         int spawned = 0;
         int randomNum = Random.Range(0,entityPool.amountToPool);
         //key object within this chunk -> spawn guards
-        if (this.containsKeyObj){
+        if (chunk.containsKeyObj){
             while (spawned < 8)
             {
                 //pick random valid position around object +/- 5 tiles
-                int2 spawnPos = new int2(Random.Range(keyObjPos.x - 5, keyObjPos.x + 5), Random.Range(keyObjPos.y - 5, keyObjPos.y + 5));
+                //this can cause exception, when obj is in the corner of chunk, and others are not generated yet
+                //int2 spawnPos = new int2(Random.Range(keyObjPos.x - 5, keyObjPos.x + 5), Random.Range(keyObjPos.y - 5, keyObjPos.y + 5));
+                int2 spawnPos = new int2(Random.Range(chunkKey.x, chunkTopCoords.x), Random.Range(chunkKey.y, chunkTopCoords.y));
                 TDTile tile = mapReference.GetTile(mapReference.TileRelativePos(spawnPos), mapReference.TileChunkPos(spawnPos));
                 //tile = mapReference.GetTile(mapReference.TileRelativePos(keyObjPos), mapReference.TileChunkPos(keyObjPos));
                
                 //check if tile is fine to spawn entity on
                 if(mapReference.isSpawnable(tile)){
-                    Spawn(tile, this.containsKeyObj);
+                    Spawn(tile, chunk.containsKeyObj);
                     spawned++;
                 }
             }
@@ -571,10 +572,6 @@ public class ChunkCreator : MonoBehaviour
         return true;
     }
 
-    public bool GuardsSpawner(){
-
-        return false;
-    }
 
     /// <summary>
     /// Function handles spawning entity within given tile. Tile is converted into world coordinates

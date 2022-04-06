@@ -61,7 +61,7 @@ public class ChunkLoader : MonoBehaviour
         chunkCreator.DespawnEntities();
         //deactivate chunk
         renderedChunks[new int2(x, y)].SetActive(false);
-        renderedChunks.Remove(new int2(x, y));
+        renderedChunks.Remove(new int2(x, y));    
     }
 
     /// <summary>
@@ -84,10 +84,12 @@ public class ChunkLoader : MonoBehaviour
             Mesh mesh = new Mesh();
             map.chunks[chunkKey].chunkMesh = chunkCreator.CreateTileMesh(map.chunks[chunkKey], mesh);
             renderedChunks.Add(chunkKey, chunkP);
+
         }
     }
 
     private void Awake(){
         chunkPool = GetComponent<ObjectPool>();
     }
+
 }

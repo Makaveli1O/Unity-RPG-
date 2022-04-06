@@ -49,19 +49,19 @@ public class PlayerController : MonoBehaviour, CombatInterface
     public enum State{
         Normal,
         Attacking,
-        Casting,
+        Interacting,
         Blocking
     }
     private AoeSpell aoeSpell;
     private AoeAttack aoeAttack;
-    private bool animating = false;
+    public bool animating = false;
     private bool aoeReady = false;    //ready state before spell (showing radius and cursor type changed)
     public float aoeSpellDuration = 1f;
     public int aoeSpellDamage = 5;
     public float aoeAttackRadius;
     public int aoeAttackDamage = 7;
-    public State state;    //current state
-
+    private State state;    //current state
+    private bool interruptCoroutine = false;
     private void Awake() {
         uiHandler = GetComponent<UIHandler>();
         Alive();
@@ -93,7 +93,17 @@ public class PlayerController : MonoBehaviour, CombatInterface
         state = State.Normal;
     }
     private void Update(){
-
+        //interacting
+        if (state == State.Interacting){
+            if (Input.GetAxisRaw("Horizontal") != 0f || Input.GetAxisRaw("Vertical") != 0f)
+            {
+                SoundManager.PlaySound(SoundManager.Sound.Error, this.transform.position);
+                state = State.Normal;
+                interruptCoroutine = true;
+            }else{
+                return;
+            }   
+        } 
 
         //Attack1
         if (Input.GetMouseButtonDown(0) && state == State.Normal){
@@ -472,5 +482,40 @@ public class PlayerController : MonoBehaviour, CombatInterface
         //this.transform.position = dashPosition; //otherwise character will walk back to its last "pressed" position
         rigidbody2d.velocity = dashDir * dashAmount;
         dash = false;
+    }
+
+    /// <summary>
+    /// Interaction simulation with keeystone.
+    /// </summary>
+    /// <param name="interactionTime">TIme interacting with the keystone.</param>
+    public void Interaction(float interactionTime, GameObject keystone){
+        state = PlayerController.State.Interacting;
+        animating = true;
+        characterAnimationController.CharacterInteraction(lookingDir);
+
+        StartCoroutine(Interacting(interactionTime, keystone));
+    }
+
+    /// <summary>
+    /// Interacting coroutine, interruptable via interruptCoroutine.
+    /// </summary>
+    /// <param name="time">Time to interact.</param>
+    /// <param name="keystone">Keystone interacting with.</param>
+    /// <returns></returns>
+    private IEnumerator Interacting(float time, GameObject keystone){
+        for( time = 5 ; time >= 0 ; time -= Time.deltaTime )
+        {
+            //TODO sfx
+            if( interruptCoroutine )
+            {
+                interruptCoroutine = false;
+                animating = false;
+                yield break ;
+            }
+            yield return null ;
+        }
+        state = PlayerController.State.Normal;
+        animating = false;
+        keystone.GetComponent<KeyObject>().Completed();
     }
 }

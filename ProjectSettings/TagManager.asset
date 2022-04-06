@@ -9,6 +9,7 @@ TagManager:
   - Entity
   - UI
   - UI_HP
+  - keyObject
   layers:
   - Default
   - TransparentFX

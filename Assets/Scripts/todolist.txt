@@ -1,4 +1,4 @@
 -fix corner collisions of entities
 -fix wall collisions sometimes
 -fix follow player null pointer sometimes
--sounds - (sphere, hits, other mobs, other grounds?, spells)
+-sounds - (sphere, hits, other mobs, other grounds?, spells, interaction and keystone sounds)

@@ -1,7 +1,6 @@
 using UnityEngine;
 using Unity.Mathematics; 
 using System.Collections.Generic;
-using System.Runtime.Serialization;
 
 /// <summary>
 /// Class representing single chunk in the map.
@@ -26,6 +25,7 @@ public class WorldChunk
         containsKeyObj = false;
         keyObjPos = new int2(0,0);
     }
+
     [System.Serializable]
     public class ObjectsStorage
     {

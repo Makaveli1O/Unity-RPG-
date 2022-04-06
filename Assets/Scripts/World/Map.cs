@@ -93,6 +93,9 @@ public class Map : MonoBehaviour
         //initialization for inspector mode
         if (chunkGenerator == null) chunkGenerator = GetComponent<ChunkGenerator>();
 
+        /*  *   *   *   *   *   *   *   *
+        N   O   I   S   E       M   A   P
+        *   *   *   *   *   *   *   *   */
         /* get perlin values in advance ( doing this when loading chunks is irrelevant generating values is fast ) */
         for (int x = 0; x < map.width; x+=Const.CHUNK_SIZE)
         {
@@ -106,21 +109,19 @@ public class Map : MonoBehaviour
                                                             new int2(map.width,map.height), treeScale);
             }
         }
+        /*  *   *   *   *   *   *   *   *
+                T   I   L   E   S
+        *   *   *   *   *   *   *   *   */
+        ConstructChunkTilesMap();
 
-        // loop through generated map and assign fill TDTile
-        // for each tileand 8 direction neighbour pointers
-        // similiar to flood-fill
-        foreach (WorldChunk chunk in map.chunks.Values)
-        {
-            for (int x = 0; x < Const.CHUNK_SIZE; x++)
-            {
-                for (int y = 0; y < Const.CHUNK_SIZE; y++)
-                {
-                    AssignNeighbours(GetTile(new int2(x, y),chunk.position), chunk.position);
-                }   
-            }
-        }
+        /*  *   *   *   *   *   *   *   *
+                S   T   A   I   R   S
+        *   *   *   *   *   *   *   *   */
         PlaceStairs();
+
+        /*  *   *   *   *   *   *   *   *
+        K   E   Y   S   T   O   N   E   S
+        *   *   *   *   *   *   *   *   */
         //if generating the world for the first time, generate key objects,
         //else load from json
         bool previouslyGenerated = true;
@@ -135,7 +136,7 @@ public class Map : MonoBehaviour
                 break;
             }
             TDTile tile = GetTile(TileRelativePos(new int2((int)keyObject.position.x, (int)keyObject.position.y)), TileChunkPos(new int2((int)keyObject.position.x, (int)keyObject.position.y)));
-            SpawnKeyObject(tile);
+            SpawnKeyObject(tile, keyObject);
         }
         //first time generation
         if (!previouslyGenerated)
@@ -145,6 +146,25 @@ public class Map : MonoBehaviour
         
         //pass generated chunks to chunk loader
         chunkLoader.map = map;
+    }
+
+    /// <summary>
+    /// loop through generated map and assign fill TDTile
+    /// for each tileand 8 direction neighbour pointers
+    /// similiar to flood-fill
+    /// </summary>
+    private void ConstructChunkTilesMap(){
+        foreach (WorldChunk chunk in map.chunks.Values)
+        {
+            for (int x = 0; x < Const.CHUNK_SIZE; x++)
+            {
+                for (int y = 0; y < Const.CHUNK_SIZE; y++)
+                {
+                    AssignNeighbours(GetTile(new int2(x, y),chunk.position), chunk.position);
+                }   
+            }
+        }
+        return;
     }
 
     /// <summary>
@@ -177,7 +197,6 @@ public class Map : MonoBehaviour
                 if(isPlacable(tile)){
                     if (usedPositions.Count == 0)
                     {
-                        Debug.Log("placed "+ tile.biome.type +" key: " + tile.pos);
                         SaveKeyObject newObj = SpawnKeyObject(tile);
                         saveKeyObjects.Add(newObj);
                         usedPositions.Add(tile);
@@ -194,7 +213,6 @@ public class Map : MonoBehaviour
                             {
                                 if (distance >= min_distance)
                                 {
-                                    Debug.Log("placed "+ tile.biome.type +" key: " + tile.pos);
                                     SaveKeyObject newObj = SpawnKeyObject(tile);
                                     saveKeyObjects.Add(newObj);
                                     usedPositions.Add(tile);
@@ -223,13 +241,16 @@ public class Map : MonoBehaviour
     /// Spawn key object on the given tile
     /// </summary>
     /// <param name="tile">Processed tile</param>
-    private SaveKeyObject SpawnKeyObject(TDTile tile){
+    private SaveKeyObject SpawnKeyObject(TDTile tile, SaveKeyObject loaded = null){
+        SaveKeyObject newObj = loaded;
         //save object 
-        SaveKeyObject newObj = new SaveKeyObject(tile);
-        newObj.position = new Vector3(tile.pos.x, tile.pos.y);
-        newObj.biome = tile.biome.name;
-        newObj.completed = false;
-        newObj.tile = tile;
+        if(loaded == null){
+            newObj = new SaveKeyObject(tile);
+            newObj.position = new Vector3(tile.pos.x, tile.pos.y);
+            newObj.biome = tile.biome.name;
+            newObj.completed = false;
+            newObj.tile = tile;
+        }
 
         //get corresponding tile
         Vector3 v_pos = new Vector3(tile.pos.x, tile.pos.y);
@@ -238,27 +259,37 @@ public class Map : MonoBehaviour
         //script attached to gameObject
         KeyObject keyObjScript = obj.GetComponent<KeyObject>();
         keyObjScript.biome = tile.biome;
-        keyObjScript.pos = tile.pos;
-        keyObjScript.completed = false;
+        keyObjScript.tile = tile;
+        keyObjScript.completed = newObj.completed;
 
-        //mark chunk that contanis key object
+        //mark chunk that contains key object
         WorldChunk ch = GetChunk(TileChunkPos(tile.pos));
         ch.containsKeyObj = true;
         ch.keyObjPos = tile.pos;
+        //update chunk in TDMap
+        map.UpdateChunk(ch);
         //return object to saveSystem
         return newObj;
     }
 
     /// <summary>
-    /// Save freshly generated key object into JSON attached to this seed.
+    /// Save freshly generated key objects into JSON attached to this seed.
     /// </summary>
-    /// <param name="usedPositions">Positions of key objects (4)</param>
-    private void SaveKeyObjects(List<SaveKeyObject> spawnedKeyObjects){
+    /// <param name="spawnedKeyObjects">List of spawned objects</param>
+    public void SaveKeyObjects(List<SaveKeyObject> spawnedKeyObjects){
         foreach (SaveKeyObject keyObject in spawnedKeyObjects)
         {
-            SaveKeyObject saveObj = new SaveKeyObject(keyObject.tile);
-            gameHandler.Save<SaveKeyObject>(saveObj, ObjType.KeyObject, new Vector3(0,0,0), keyObject.tile.biome);  //3rd argument irrelevant here
+            SaveKeyObject(keyObject);
         }
+        return;
+    }
+
+    /// <summary>
+    /// Save single keyobject to corresponding json file.
+    /// </summary>
+    /// <param name="keystone">Keystone to save</param>
+    public void SaveKeyObject(SaveKeyObject keystone){
+        gameHandler.Save<SaveKeyObject>(keystone, ObjType.KeyObject, new Vector3(0,0,0), keystone.tile.biome);  //3rd argument irrelevant here
         return;
     }
 
@@ -311,7 +342,6 @@ public class Map : MonoBehaviour
     /// <param name="absolute">Absolute tile position</param>
     /// <param name="chunkKey">Position of chunk.</param>
     /// <returns></returns>
-    /// FIXME need more in depth possibly
     public bool isSpawnable(TDTile tile){
         //skip ocean, water or beach
         if (tile.biome == biomes[4] || tile.biome == biomes[6] || tile.biome == biomes[5] || !tile.IsWalkable || tile == null)
@@ -328,7 +358,6 @@ public class Map : MonoBehaviour
     /// another staircase is placed to increase width o staircase. Next staircase can be placed beyond
     /// radius, or on the different z-index level.
     /// </summary>
-    /// FIXME alter this a bit, stairs too close to each other
     private void PlaceStairs(){
         int stairsCounter = 0;
         int2 next = new int2(0,0);

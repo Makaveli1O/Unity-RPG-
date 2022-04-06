@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using Unity.Mathematics; //int2
-using Random = UnityEngine.Random;
 
 /// <summary>
 /// Structure holding map dimensions intel
@@ -18,6 +17,18 @@ public struct TDMap
     public int height;
 
     public int renderDistance;
+
+    public void UpdateChunk(WorldChunk newChunk){
+        foreach (int2 item in chunks.Keys)
+        {
+            if (item.Equals(newChunk.position))
+            {
+              chunks[item] = newChunk;  
+              break;
+            }
+        }
+        return;
+    }
 
     // FIXME doc
     public void InitializeTileLists(){

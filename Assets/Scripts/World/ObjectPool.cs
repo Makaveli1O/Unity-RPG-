@@ -18,8 +18,6 @@ public class ObjectPool : MonoBehaviour, ObjectPoolInterface
     {
         for (int i = 0; i < amountToPool; i++)
         {
-            //FIXME changed z to 1 because of line renderer ( if for some reason rendering becomes problematic 
-            // this might be the cause)
             GameObject obj = Instantiate(prefab, new Vector3(0,0,1), Quaternion.identity);
             obj.transform.parent = gameObject.transform;
             obj.SetActive(false);

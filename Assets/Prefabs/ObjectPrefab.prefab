@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -2947972331311489048}
   m_Layer: 0
   m_Name: ObjectPrefab
-  m_TagString: Object
+  m_TagString: keyObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
