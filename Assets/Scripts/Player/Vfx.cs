@@ -88,6 +88,7 @@ public class Vfx : MonoBehaviour
     private IEnumerator Moving(Vector3 direction, float time){
         rb.AddForce(direction * moveSpeed, ForceMode2D.Impulse);
         yield return new WaitForSeconds(time);
+        moving = false;
         Object.Destroy(this.gameObject);
     }
 

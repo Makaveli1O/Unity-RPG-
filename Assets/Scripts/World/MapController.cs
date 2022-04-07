@@ -1,5 +1,6 @@
 using UnityEngine;
 using Unity.Mathematics;
+using System.Collections;
 
 
 /// <summary>
@@ -16,6 +17,7 @@ public class MapController : MonoBehaviour
     private GameObject playerObj = null;
     private GameHandler gameHandler = null;
     private PlayerController playerController;
+    private bool generationDone = false;
     void Awake()
     {
         mapObj = GetComponent<Map>();   //get reference to map
@@ -43,26 +45,38 @@ public class MapController : MonoBehaviour
 
     void Update()
     {
-        int xPos = (int)playerObj.transform.position.x;
-        int yPos = (int)playerObj.transform.position.y;
-        int zPos = (int)playerObj.transform.position.z;
+        if (generationDone)
+        {
+            int xPos = (int)playerObj.transform.position.x;
+            int yPos = (int)playerObj.transform.position.y;
+            int zPos = (int)playerObj.transform.position.z;
 
-        int2 chunkKey = mapObj.TileChunkPos(new int2(xPos, yPos));
-        int2 relativePos = mapObj.TileRelativePos(new int2(xPos, yPos));
+            int2 chunkKey = mapObj.TileChunkPos(new int2(xPos, yPos));
+            int2 relativePos = mapObj.TileRelativePos(new int2(xPos, yPos));
 
-        TDTile tile = mapObj.GetTile(relativePos, chunkKey);
-        
-        if (tile.IsWalkable) {
-            playerPos = new Vector3(playerObj.transform.position.x,playerObj.transform.position.y,0);
-        //non-walkable tiles
-        }else{
-            if(tile.partial){
-                TileEdgesCollision(tile,playerPos);
-            }else{  //full cliffs unable to walk every where
-                playerObj.transform.position = playerPos; // stop
+            TDTile tile = mapObj.GetTile(relativePos, chunkKey);
+            
+            if (tile.IsWalkable) {
+                playerPos = new Vector3(playerObj.transform.position.x,playerObj.transform.position.y,0);
+            //non-walkable tiles
+            }else{
+                if(tile.partial){
+                    TileEdgesCollision(tile,playerPos);
+                }else{  //full cliffs unable to walk every where
+                    playerObj.transform.position = playerPos; // stop
+                }
             }
         }
+
     }
+
+    private IEnumerable WaitForGenerationToFinish(){
+        yield return new WaitUntil(()=>mapObj.generationComplete);
+        generationDone = true;
+    }
+
+
+
     void OnApplicationQuit() {
         SavePosition savePlayer = new SavePosition(playerPos);
         gameHandler.Save<SavePosition>(savePlayer, ObjType.Player,playerPos);

@@ -1,8 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Unity.Mathematics;
-//TODO
-//make changing the seed to have bigger impact. Maps looks too similar ( play with precipitation height seed derivation)
+using System.Collections;
 
 /// <summary>
 /// Map generating is composed by 3 individual maps that are being generated within ChunkGenerator. 
@@ -19,9 +18,10 @@ public class Map : MonoBehaviour
     /*
         Object references
     */
-    GameHandler gameHandler = null;
-    ChunkGenerator chunkGenerator = null;
-    ChunkLoader chunkLoader = null;
+    private GameHandler gameHandler = null;
+    private ChunkGenerator chunkGenerator = null;
+    private ChunkLoader chunkLoader = null;
+    private SceneLoader sceneLoader = null;
     [SerializeField] public GameObject player;
 
     //store all biomes and prefabs for each tile
@@ -78,13 +78,14 @@ public class Map : MonoBehaviour
     public float precipitationLacunarity;
     [Header("Objects (trees etc)")]
     public float treeScale;
+    public bool generationComplete = false;
 
     /// <summary>
     /// This function generates whole map from noise. Actually 3 types of noise maps are created. Those are
     /// saved in to Map structure and proper biomes are set in the second cycle throughout the chunks and whole map
     /// Each tile has now properly set TDTile class assigned to them. Second loop makes sure of that
     /// </summary>
-    public void MapGeneration(){
+    public IEnumerator MapGeneration(){
         /* for inspector because global initialization does not affect inspector in this case */
         map.chunks = new Dictionary<int2, WorldChunk>();
         map.InitializeTileLists();
@@ -93,6 +94,7 @@ public class Map : MonoBehaviour
         //initialization for inspector mode
         if (chunkGenerator == null) chunkGenerator = GetComponent<ChunkGenerator>();
 
+        sceneLoader.textMesh.SetText("Generating noise maps...");
         /*  *   *   *   *   *   *   *   *
         N   O   I   S   E       M   A   P
         *   *   *   *   *   *   *   *   */
@@ -108,16 +110,23 @@ public class Map : MonoBehaviour
                                                             heightExp, precipitationLacunarity, temperatureLoss,
                                                             new int2(map.width,map.height), treeScale);
             }
+            //wait for another frame and update slider 
+            yield return null;  
+            sceneLoader.UpdateSliderValue((float)x / (float)map.width);
         }
+        
         /*  *   *   *   *   *   *   *   *
                 T   I   L   E   S
         *   *   *   *   *   *   *   *   */
+        sceneLoader.NewLoading("Constructing tiles...");
         ConstructChunkTilesMap();
-
+        yield return null;  //wait for another frame
         /*  *   *   *   *   *   *   *   *
                 S   T   A   I   R   S
         *   *   *   *   *   *   *   *   */
+        sceneLoader.NewLoading("Placing stairs and key objects...");
         PlaceStairs();
+        yield return null;  //wait for another frame
 
         /*  *   *   *   *   *   *   *   *
         K   E   Y   S   T   O   N   E   S
@@ -146,6 +155,10 @@ public class Map : MonoBehaviour
         
         //pass generated chunks to chunk loader
         chunkLoader.map = map;
+        generationComplete = true;
+        //turn off loading screen
+        sceneLoader.loadingScreen.SetActive(false);
+        yield break;
     }
 
     /// <summary>
@@ -862,37 +875,25 @@ public class Map : MonoBehaviour
                 break;
         }
     }
-    
 
-    /* * * * * * * * * * * * * * * ** 
-    
-    
-    Debbuging functions( inspector )
-
-
-    * * * * * * * * * * * * * * * * */
-
-    public void DestroyChildPrefabs(){
-        foreach(Transform child in this.transform)
-        {
-            DestroyImmediate(child.gameObject);
-        }
-        if (this.transform.childCount > 0){
-            DestroyChildPrefabs();
-        }
-    }
-
-    void Start(){
+    /// <summary>
+    /// Awake is called when the script instance is being loaded.
+    /// </summary>
+    void Awake()
+    {
         chunkGenerator = GetComponent<ChunkGenerator>();
         chunkLoader = GetComponent<ChunkLoader>();
         gameHandler = GetComponent<GameHandler>();
-        MapGeneration(); //generate map
+        sceneLoader = GetComponent<SceneLoader>();
     }
+
+    void Start(){
+        StartCoroutine(MapGeneration()); //generate map
+    }
+
 
     void Update(){
         chunkLoader.LoadChunks(player.transform.position, map.renderDistance,map.renderDistance + 15);
-        //TDTile test = GetTile(TileRelativePos(new int2((int)player.transform.position.x, (int)player.transform.position.y)), TileChunkPos(new int2((int)player.transform.position.x, (int)player.transform.position.y)));
-        //Debug.Log(test.pos + "  " + TileChunkPos(test.pos));
     }
     
 }
