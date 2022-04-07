@@ -12543,6 +12543,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Generating map ...
       objectReference: {fileID: 0}
+    - target: {fileID: 3362274819042263752, guid: 0dd48cf38b0f5514798411c2387d2526, type: 3}
+      propertyPath: m_margin.z
+      value: -568.321
+      objectReference: {fileID: 0}
     - target: {fileID: 3588430643664685263, guid: 0dd48cf38b0f5514798411c2387d2526, type: 3}
       propertyPath: m_SizeDelta.x
       value: 370.379
