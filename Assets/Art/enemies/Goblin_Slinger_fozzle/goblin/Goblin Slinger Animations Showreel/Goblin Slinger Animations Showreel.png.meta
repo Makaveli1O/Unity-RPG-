@@ -1,0 +1,2298 @@
+fileFormatVersion: 2
+guid: 9d44b35f9d9a3894f9eef7a2b2a7b217
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2306490590586033219
+    second: Goblin Slinger Animations Showreel00
+  - first:
+      213: -1572212774906397966
+    second: Goblin Slinger Animations Showreel01
+  - first:
+      213: 5260124655197820796
+    second: Goblin Slinger Animations Showreel02
+  - first:
+      213: -5552642021215630597
+    second: Goblin Slinger Animations Showreel03
+  - first:
+      213: 4108255295564256220
+    second: Goblin Slinger Animations Showreel04
+  - first:
+      213: -590783324070326512
+    second: Goblin Slinger Animations Showreel05
+  - first:
+      213: -7449499193170604890
+    second: Goblin Slinger Animations Showreel06
+  - first:
+      213: 6064365285351837464
+    second: Goblin Slinger Animations Showreel07
+  - first:
+      213: 3712888959440545391
+    second: Goblin Slinger Animations Showreel08
+  - first:
+      213: 8504976651922101876
+    second: Goblin Slinger Animations Showreel09
+  - first:
+      213: 2091900224794250479
+    second: Goblin Slinger Animations Showreel10
+  - first:
+      213: 291121333294396222
+    second: Goblin Slinger Animations Showreel11
+  - first:
+      213: 3120128369635262874
+    second: Goblin Slinger Animations Showreel12
+  - first:
+      213: 3895174118966032095
+    second: Goblin Slinger Animations Showreel13
+  - first:
+      213: -8255646664262921618
+    second: Goblin Slinger Animations Showreel14
+  - first:
+      213: -3099054273144914931
+    second: Goblin Slinger Animations Showreel15
+  - first:
+      213: 4316524793417350396
+    second: Goblin Slinger Animations Showreel16
+  - first:
+      213: -3082812930532923689
+    second: Goblin Slinger Animations Showreel17
+  - first:
+      213: 70201358786583392
+    second: Goblin Slinger Animations Showreel18
+  - first:
+      213: 3867316281412190263
+    second: Goblin Slinger Animations Showreel19
+  - first:
+      213: -8542688501276745718
+    second: Goblin Slinger Animations Showreel20
+  - first:
+      213: 3088780767931901771
+    second: Goblin Slinger Animations Showreel21
+  - first:
+      213: 3166736839097263044
+    second: Goblin Slinger Animations Showreel22
+  - first:
+      213: -5746854862496251100
+    second: Goblin Slinger Animations Showreel23
+  - first:
+      213: -1979279971242797205
+    second: Goblin Slinger Animations Showreel24
+  - first:
+      213: -2777431675370645590
+    second: Goblin Slinger Animations Showreel25
+  - first:
+      213: 2882706613205518765
+    second: Goblin Slinger Animations Showreel26
+  - first:
+      213: 5073273894034893263
+    second: Goblin Slinger Animations Showreel27
+  - first:
+      213: -2559436313362542572
+    second: Goblin Slinger Animations Showreel28
+  - first:
+      213: 3896598666866551820
+    second: Goblin Slinger Animations Showreel29
+  - first:
+      213: 8276093305775529777
+    second: Goblin Slinger Animations Showreel30
+  - first:
+      213: -8366339161051509689
+    second: Goblin Slinger Animations Showreel31
+  - first:
+      213: -5516071711302924731
+    second: Goblin Slinger Animations Showreel32
+  - first:
+      213: -5320831488820701159
+    second: Goblin Slinger Animations Showreel33
+  - first:
+      213: -3566831986407559607
+    second: Goblin Slinger Animations Showreel34
+  - first:
+      213: -666126644514064929
+    second: Goblin Slinger Animations Showreel35
+  - first:
+      213: 3217077215113267054
+    second: Goblin Slinger Animations Showreel36
+  - first:
+      213: 101149241665769008
+    second: Goblin Slinger Animations Showreel37
+  - first:
+      213: -7555586127745401587
+    second: Goblin Slinger Animations Showreel38
+  - first:
+      213: 2361747519434254815
+    second: Goblin Slinger Animations Showreel39
+  - first:
+      213: 6192762369060880101
+    second: Goblin Slinger Animations Showreel40
+  - first:
+      213: -6104098417873867745
+    second: Goblin Slinger Animations Showreel41
+  - first:
+      213: 2855500521534318829
+    second: Goblin Slinger Animations Showreel42
+  - first:
+      213: -1889160241609573070
+    second: Goblin Slinger Animations Showreel43
+  - first:
+      213: 6848631610371127033
+    second: Goblin Slinger Animations Showreel44
+  - first:
+      213: 3484821658689089255
+    second: Goblin Slinger Animations Showreel45
+  - first:
+      213: 8440643837186252638
+    second: Goblin Slinger Animations Showreel46
+  - first:
+      213: -4084564087016949826
+    second: Goblin Slinger Animations Showreel47
+  - first:
+      213: 6264537229772425127
+    second: Goblin Slinger Animations Showreel48
+  - first:
+      213: -1865721801508539973
+    second: Goblin Slinger Animations Showreel49
+  - first:
+      213: 2077219224647049005
+    second: Goblin Slinger Animations Showreel50
+  - first:
+      213: -7908734181175997914
+    second: Goblin Slinger Animations Showreel51
+  - first:
+      213: -7620125878256527902
+    second: Goblin Slinger Animations Showreel52
+  - first:
+      213: 7111295637634314910
+    second: Goblin Slinger Animations Showreel53
+  - first:
+      213: 5513617893493812369
+    second: Goblin Slinger Animations Showreel54
+  - first:
+      213: 2269321944249003173
+    second: Goblin Slinger Animations Showreel55
+  - first:
+      213: -1892228340599584957
+    second: Goblin Slinger Animations Showreel56
+  - first:
+      213: -6701542575382284671
+    second: Goblin Slinger Animations Showreel57
+  - first:
+      213: 1035515772004089955
+    second: Goblin Slinger Animations Showreel58
+  - first:
+      213: 9221048931203195974
+    second: Goblin Slinger Animations Showreel59
+  - first:
+      213: -3861713731275798895
+    second: Goblin Slinger Animations Showreel60
+  - first:
+      213: -603987298951485666
+    second: Goblin Slinger Animations Showreel61
+  - first:
+      213: 591255317769652506
+    second: Goblin Slinger Animations Showreel62
+  - first:
+      213: -1737129219466871558
+    second: Goblin Slinger Animations Showreel63
+  - first:
+      213: -7223941584396286669
+    second: Goblin Slinger Animations Showreel64
+  - first:
+      213: -5543759565426301821
+    second: Goblin Slinger Animations Showreel65
+  - first:
+      213: -8396077555134591288
+    second: Goblin Slinger Animations Showreel66
+  - first:
+      213: -731203240142389775
+    second: Goblin Slinger Animations Showreel67
+  - first:
+      213: 630200925108466755
+    second: Goblin Slinger Animations Showreel68
+  - first:
+      213: 6665988833677045735
+    second: Goblin Slinger Animations Showreel69
+  - first:
+      213: 4651171878437103715
+    second: Goblin Slinger Animations Showreel70
+  - first:
+      213: 6653150655232408714
+    second: Goblin Slinger Animations Showreel71
+  - first:
+      213: 2062761050465971423
+    second: Goblin Slinger Animations Showreel72
+  - first:
+      213: -6038708143583665791
+    second: Goblin Slinger Animations Showreel73
+  - first:
+      213: -3468965701035699045
+    second: Goblin Slinger Animations Showreel74
+  - first:
+      213: 2758098747990434346
+    second: Goblin Slinger Animations Showreel75
+  - first:
+      213: 4075475593870667409
+    second: Goblin Slinger Animations Showreel76
+  - first:
+      213: 619379517515451138
+    second: Goblin Slinger Animations Showreel77
+  - first:
+      213: -7901944053916362756
+    second: Goblin Slinger Animations Showreel78
+  - first:
+      213: 4704827708338089428
+    second: Goblin Slinger Animations Showreel79
+  - first:
+      213: 8240182537192811444
+    second: Goblin Slinger Animations Showreel80
+  - first:
+      213: -3665833837000561928
+    second: Goblin Slinger Animations Showreel81
+  - first:
+      213: -7293836932405270472
+    second: Goblin Slinger Animations Showreel82
+  - first:
+      213: -3331377718208088455
+    second: Goblin Slinger Animations Showreel83
+  - first:
+      213: -8006162180744818052
+    second: Goblin Slinger Animations Showreel84
+  - first:
+      213: 1770066183404102377
+    second: Goblin Slinger Animations Showreel85
+  - first:
+      213: 6734458664372240221
+    second: Goblin Slinger Animations Showreel86
+  - first:
+      213: -8881422374383012917
+    second: Goblin Slinger Animations Showreel87
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34459a9c8fc420020800000000000000
+      internalID: 2306490590586033219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel01
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa7f58afc06e2ae0800000000000000
+      internalID: -1572212774906397966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel02
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77175b2187bff840800000000000000
+      internalID: 5260124655197820796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel03
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa0988308d01f2b0800000000000000
+      internalID: -5552642021215630597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel04
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd399b2cc64730930800000000000000
+      internalID: 4108255295564256220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel05
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f409562bd1dc7f0800000000000000
+      internalID: -590783324070326512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel06
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acc184f3ff0e9890800000000000000
+      internalID: -7449499193170604890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel07
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f4b9db814f82450800000000000000
+      internalID: 6064365285351837464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel08
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f666ced36d4d68330800000000000000
+      internalID: 3712888959440545391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel09
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476dec0243fb70670800000000000000
+      internalID: 8504976651922101876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feccb6ccb2ce70d10800000000000000
+      internalID: 2091900224794250479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33fc896f454a0400800000000000000
+      internalID: 291121333294396222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel12
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a918ab5983cec4b20800000000000000
+      internalID: 3120128369635262874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel13
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6f34349307e0630800000000000000
+      internalID: 3895174118966032095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel14
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e625871691d0e6d80800000000000000
+      internalID: -8255646664262921618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel15
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c7a8dde82fdf4d0800000000000000
+      internalID: -3099054273144914931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel16
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcbecffd6067eb30800000000000000
+      internalID: 4316524793417350396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel17
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6aa9e19f5a735d0800000000000000
+      internalID: -3082812930532923689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel18
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b593d83c769f000800000000000000
+      internalID: 70201358786583392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel19
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73088a30ba77ba530800000000000000
+      internalID: 3867316281412190263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00e596b116427980800000000000000
+      internalID: -8542688501276745718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel21
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47a3ad4ebd8dda20800000000000000
+      internalID: 3088780767931901771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel22
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c32987806282fb20800000000000000
+      internalID: 3166736839097263044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel23
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4234f2163f11f30b0800000000000000
+      internalID: -5746854862496251100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel24
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6717035a5f2884e0800000000000000
+      internalID: -1979279971242797205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel25
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa75d915b949479d0800000000000000
+      internalID: -2777431675370645590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel26
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9c8c7346e610820800000000000000
+      internalID: 2882706613205518765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel27
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9663e2ab3e76640800000000000000
+      internalID: 5073273894034893263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel28
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4105ac4cb3e0b7cd0800000000000000
+      internalID: -2559436313362542572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel29
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c67daa7df731630800000000000000
+      internalID: 3896598666866551820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f1db253079ad270800000000000000
+      internalID: 8276093305775529777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel31
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cc51b1cdac4eb80800000000000000
+      internalID: -8366339161051509689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel32
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5464534010af273b0800000000000000
+      internalID: -5516071711302924731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel33
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918112fa3fb9826b0800000000000000
+      internalID: -5320831488820701159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel34
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e2dacc431108ec0800000000000000
+      internalID: -3566831986407559607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel35
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5f05a985171c6f0800000000000000
+      internalID: -666126644514064929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel36
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6744ddaeaa55ac20800000000000000
+      internalID: 3217077215113267054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel37
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ec9ca03ba576100800000000000000
+      internalID: 101149241665769008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel38
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0dbdd1b27a252790800000000000000
+      internalID: -7555586127745401587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel39
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9e9091bdc96c020800000000000000
+      internalID: 2361747519434254815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eeb742609c11f550800000000000000
+      internalID: 6192762369060880101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel41
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1caa9074d2e94ba0800000000000000
+      internalID: -6104098417873867745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel42
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8eef16896c0a720800000000000000
+      internalID: 2855500521534318829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel43
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23df11bf4ca58c5e0800000000000000
+      internalID: -1889160241609573070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel44
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6beadf92a3b0f50800000000000000
+      internalID: 6848631610371127033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel45
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee20cfc5d29c5030800000000000000
+      internalID: 3484821658689089255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel46
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f931779d0332570800000000000000
+      internalID: 8440643837186252638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel47
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb779039a96b057c0800000000000000
+      internalID: -4084564087016949826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel48
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a78bc66b6b10f650800000000000000
+      internalID: 6264537229772425127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel49
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1b16318ef9b16e0800000000000000
+      internalID: -1865721801508539973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f13b511e3c3dc10800000000000000
+      internalID: 2077219224647049005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel51
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ac30c1a288e3290800000000000000
+      internalID: -7908734181175997914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel52
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e512ca03efdf3690800000000000000
+      internalID: -7620125878256527902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel53
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e927af584b560b260800000000000000
+      internalID: 7111295637634314910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel54
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cafe0034e448c40800000000000000
+      internalID: 5513617893493812369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel55
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ace5ffe8404e7f10800000000000000
+      internalID: 2269321944249003173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel56
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34782a489547db5e0800000000000000
+      internalID: -1892228340599584957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel57
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186be23b8865ff2a0800000000000000
+      internalID: -6701542575382284671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel58
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3604e95bb14ee5e00800000000000000
+      internalID: 1035515772004089955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel59
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644acd0d52fb7ff70800000000000000
+      internalID: 9221048931203195974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196ce0752df686ac0800000000000000
+      internalID: -3861713731275798895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel61
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17262d60c43e97f0800000000000000
+      internalID: -603987298951485666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel62
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a198833349f843800800000000000000
+      internalID: 591255317769652506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel63
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcb9b8bd2a74e7e0800000000000000
+      internalID: -1737129219466871558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel64
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33503ef27676fbb90800000000000000
+      internalID: -7223941584396286669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel65
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384679e1c0c9013b0800000000000000
+      internalID: -5543759565426301821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel66
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce829ba2f32b7b80800000000000000
+      internalID: -8396077555134591288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel67
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdb2b4f68e3ad5f0800000000000000
+      internalID: -731203240142389775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel68
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3447636076ceeb800800000000000000
+      internalID: 630200925108466755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel69
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef6a0cb689528c50800000000000000
+      internalID: 6665988833677045735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel70
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368a7833e284c8040800000000000000
+      internalID: 4651171878437103715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel71
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cf842654db45c50800000000000000
+      internalID: 6653150655232408714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel72
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc29851f3660ac10800000000000000
+      internalID: 2062761050465971423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel73
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181ef6710f2323ca0800000000000000
+      internalID: -6038708143583665791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel74
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94d0c30312cbdfc0800000000000000
+      internalID: -3468965701035699045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel75
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a226b61c23cb64620800000000000000
+      internalID: 2758098747990434346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel76
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e6f67b57ffe8830800000000000000
+      internalID: 4075475593870667409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel77
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b49aab36a789800800000000000000
+      internalID: 619379517515451138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel78
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf71e4fcfb7a65290800000000000000
+      internalID: -7901944053916362756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel79
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd28ec9fd7ea4140800000000000000
+      internalID: 4704827708338089428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb21c5fb520b5270800000000000000
+      internalID: 8240182537192811444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel81
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa69f33c87502dc0800000000000000
+      internalID: -3665833837000561928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel82
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838eb5254f517ca90800000000000000
+      internalID: -7293836932405270472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel83
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9763e8d9d9194c1d0800000000000000
+      internalID: -3331377718208088455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel84
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72d9824ae564e090800000000000000
+      internalID: -8006162180744818052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel85
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2abbac0d9809810800000000000000
+      internalID: 1770066183404102377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel86
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f757c797a957d50800000000000000
+      internalID: 6734458664372240221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Slinger Animations Showreel87
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3b1b20869deb480800000000000000
+      internalID: -8881422374383012917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Goblin Slinger Animations Showreel47: -4084564087016949826
+      Goblin Slinger Animations Showreel76: 4075475593870667409
+      Goblin Slinger Animations Showreel37: 101149241665769008
+      Goblin Slinger Animations Showreel27: 5073273894034893263
+      Goblin Slinger Animations Showreel48: 6264537229772425127
+      Goblin Slinger Animations Showreel68: 630200925108466755
+      Goblin Slinger Animations Showreel32: -5516071711302924731
+      Goblin Slinger Animations Showreel50: 2077219224647049005
+      Goblin Slinger Animations Showreel84: -8006162180744818052
+      Goblin Slinger Animations Showreel71: 6653150655232408714
+      Goblin Slinger Animations Showreel86: 6734458664372240221
+      Goblin Slinger Animations Showreel28: -2559436313362542572
+      Goblin Slinger Animations Showreel01: -1572212774906397966
+      Goblin Slinger Animations Showreel13: 3895174118966032095
+      Goblin Slinger Animations Showreel05: -590783324070326512
+      Goblin Slinger Animations Showreel04: 4108255295564256220
+      Goblin Slinger Animations Showreel12: 3120128369635262874
+      Goblin Slinger Animations Showreel57: -6701542575382284671
+      Goblin Slinger Animations Showreel65: -5543759565426301821
+      Goblin Slinger Animations Showreel74: -3468965701035699045
+      Goblin Slinger Animations Showreel34: -3566831986407559607
+      Goblin Slinger Animations Showreel53: 7111295637634314910
+      Goblin Slinger Animations Showreel78: -7901944053916362756
+      Goblin Slinger Animations Showreel77: 619379517515451138
+      Goblin Slinger Animations Showreel44: 6848631610371127033
+      Goblin Slinger Animations Showreel64: -7223941584396286669
+      Goblin Slinger Animations Showreel07: 6064365285351837464
+      Goblin Slinger Animations Showreel80: 8240182537192811444
+      Goblin Slinger Animations Showreel30: 8276093305775529777
+      Goblin Slinger Animations Showreel14: -8255646664262921618
+      Goblin Slinger Animations Showreel61: -603987298951485666
+      Goblin Slinger Animations Showreel59: 9221048931203195974
+      Goblin Slinger Animations Showreel83: -3331377718208088455
+      Goblin Slinger Animations Showreel23: -5746854862496251100
+      Goblin Slinger Animations Showreel51: -7908734181175997914
+      Goblin Slinger Animations Showreel63: -1737129219466871558
+      Goblin Slinger Animations Showreel09: 8504976651922101876
+      Goblin Slinger Animations Showreel31: -8366339161051509689
+      Goblin Slinger Animations Showreel60: -3861713731275798895
+      Goblin Slinger Animations Showreel08: 3712888959440545391
+      Goblin Slinger Animations Showreel36: 3217077215113267054
+      Goblin Slinger Animations Showreel87: -8881422374383012917
+      Goblin Slinger Animations Showreel43: -1889160241609573070
+      Goblin Slinger Animations Showreel17: -3082812930532923689
+      Goblin Slinger Animations Showreel72: 2062761050465971423
+      Goblin Slinger Animations Showreel33: -5320831488820701159
+      Goblin Slinger Animations Showreel70: 4651171878437103715
+      Goblin Slinger Animations Showreel29: 3896598666866551820
+      Goblin Slinger Animations Showreel15: -3099054273144914931
+      Goblin Slinger Animations Showreel03: -5552642021215630597
+      Goblin Slinger Animations Showreel39: 2361747519434254815
+      Goblin Slinger Animations Showreel73: -6038708143583665791
+      Goblin Slinger Animations Showreel02: 5260124655197820796
+      Goblin Slinger Animations Showreel82: -7293836932405270472
+      Goblin Slinger Animations Showreel22: 3166736839097263044
+      Goblin Slinger Animations Showreel79: 4704827708338089428
+      Goblin Slinger Animations Showreel25: -2777431675370645590
+      Goblin Slinger Animations Showreel58: 1035515772004089955
+      Goblin Slinger Animations Showreel20: -8542688501276745718
+      Goblin Slinger Animations Showreel67: -731203240142389775
+      Goblin Slinger Animations Showreel11: 291121333294396222
+      Goblin Slinger Animations Showreel41: -6104098417873867745
+      Goblin Slinger Animations Showreel21: 3088780767931901771
+      Goblin Slinger Animations Showreel38: -7555586127745401587
+      Goblin Slinger Animations Showreel40: 6192762369060880101
+      Goblin Slinger Animations Showreel54: 5513617893493812369
+      Goblin Slinger Animations Showreel55: 2269321944249003173
+      Goblin Slinger Animations Showreel66: -8396077555134591288
+      Goblin Slinger Animations Showreel49: -1865721801508539973
+      Goblin Slinger Animations Showreel24: -1979279971242797205
+      Goblin Slinger Animations Showreel10: 2091900224794250479
+      Goblin Slinger Animations Showreel52: -7620125878256527902
+      Goblin Slinger Animations Showreel18: 70201358786583392
+      Goblin Slinger Animations Showreel26: 2882706613205518765
+      Goblin Slinger Animations Showreel81: -3665833837000561928
+      Goblin Slinger Animations Showreel62: 591255317769652506
+      Goblin Slinger Animations Showreel45: 3484821658689089255
+      Goblin Slinger Animations Showreel42: 2855500521534318829
+      Goblin Slinger Animations Showreel00: 2306490590586033219
+      Goblin Slinger Animations Showreel56: -1892228340599584957
+      Goblin Slinger Animations Showreel19: 3867316281412190263
+      Goblin Slinger Animations Showreel46: 8440643837186252638
+      Goblin Slinger Animations Showreel35: -666126644514064929
+      Goblin Slinger Animations Showreel75: 2758098747990434346
+      Goblin Slinger Animations Showreel06: -7449499193170604890
+      Goblin Slinger Animations Showreel85: 1770066183404102377
+      Goblin Slinger Animations Showreel16: 4316524793417350396
+      Goblin Slinger Animations Showreel69: 6665988833677045735
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

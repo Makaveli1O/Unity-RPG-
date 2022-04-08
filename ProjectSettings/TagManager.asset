@@ -10,6 +10,7 @@ TagManager:
   - UI
   - UI_HP
   - keyObject
+  - Loader
   layers:
   - Default
   - TransparentFX

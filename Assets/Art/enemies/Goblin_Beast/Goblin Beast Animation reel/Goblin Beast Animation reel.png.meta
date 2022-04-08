@@ -1,0 +1,3723 @@
+fileFormatVersion: 2
+guid: a11b4e58f488f4241bbb3f38174a8bcd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2016064436381170570
+    second: Goblin Beast Animation reel000
+  - first:
+      213: -4922206494995427213
+    second: Goblin Beast Animation reel001
+  - first:
+      213: -6790339186671172845
+    second: Goblin Beast Animation reel002
+  - first:
+      213: -1232513010852688152
+    second: Goblin Beast Animation reel003
+  - first:
+      213: 1574146230067591589
+    second: Goblin Beast Animation reel004
+  - first:
+      213: -3796543591649263488
+    second: Goblin Beast Animation reel005
+  - first:
+      213: 394999830566725915
+    second: Goblin Beast Animation reel006
+  - first:
+      213: -1477913462164638365
+    second: Goblin Beast Animation reel007
+  - first:
+      213: 9123575700780635315
+    second: Goblin Beast Animation reel008
+  - first:
+      213: 4349308542373281222
+    second: Goblin Beast Animation reel009
+  - first:
+      213: 2365122042172309350
+    second: Goblin Beast Animation reel010
+  - first:
+      213: -6578292620693949296
+    second: Goblin Beast Animation reel011
+  - first:
+      213: 6717627639323466705
+    second: Goblin Beast Animation reel012
+  - first:
+      213: -3169401523366937614
+    second: Goblin Beast Animation reel013
+  - first:
+      213: 5147585119312088778
+    second: Goblin Beast Animation reel014
+  - first:
+      213: 7237375526280717234
+    second: Goblin Beast Animation reel015
+  - first:
+      213: 2385567624264756551
+    second: Goblin Beast Animation reel016
+  - first:
+      213: -9166970802487440225
+    second: Goblin Beast Animation reel017
+  - first:
+      213: 6113812537558735092
+    second: Goblin Beast Animation reel018
+  - first:
+      213: -8161087881252243433
+    second: Goblin Beast Animation reel019
+  - first:
+      213: -6603219991487121289
+    second: Goblin Beast Animation reel020
+  - first:
+      213: -5987733757155432781
+    second: Goblin Beast Animation reel021
+  - first:
+      213: 4920931976770374050
+    second: Goblin Beast Animation reel022
+  - first:
+      213: 6432893538910440292
+    second: Goblin Beast Animation reel023
+  - first:
+      213: -2242904381884793546
+    second: Goblin Beast Animation reel024
+  - first:
+      213: -9209605866107963332
+    second: Goblin Beast Animation reel025
+  - first:
+      213: 5215380320821407547
+    second: Goblin Beast Animation reel026
+  - first:
+      213: -8537817327866251870
+    second: Goblin Beast Animation reel027
+  - first:
+      213: 740013770242240793
+    second: Goblin Beast Animation reel028
+  - first:
+      213: 4551902407214759752
+    second: Goblin Beast Animation reel029
+  - first:
+      213: -33950341874921854
+    second: Goblin Beast Animation reel030
+  - first:
+      213: -591578633632436545
+    second: Goblin Beast Animation reel031
+  - first:
+      213: 6367023222368441934
+    second: Goblin Beast Animation reel032
+  - first:
+      213: -3136824452786900238
+    second: Goblin Beast Animation reel033
+  - first:
+      213: 6367382073000833963
+    second: Goblin Beast Animation reel034
+  - first:
+      213: -2396481444836343825
+    second: Goblin Beast Animation reel035
+  - first:
+      213: 5957825623734395143
+    second: Goblin Beast Animation reel036
+  - first:
+      213: -8597851582915406372
+    second: Goblin Beast Animation reel037
+  - first:
+      213: -8180335978934472046
+    second: Goblin Beast Animation reel038
+  - first:
+      213: -1815469116780413862
+    second: Goblin Beast Animation reel039
+  - first:
+      213: 5906262380086718546
+    second: Goblin Beast Animation reel040
+  - first:
+      213: 1279472415816741256
+    second: Goblin Beast Animation reel041
+  - first:
+      213: -5077823766389001101
+    second: Goblin Beast Animation reel042
+  - first:
+      213: 4141051506878075311
+    second: Goblin Beast Animation reel043
+  - first:
+      213: 5915943725769570258
+    second: Goblin Beast Animation reel044
+  - first:
+      213: -8410516024136521312
+    second: Goblin Beast Animation reel045
+  - first:
+      213: 3658081130871880783
+    second: Goblin Beast Animation reel046
+  - first:
+      213: -4400536486106039028
+    second: Goblin Beast Animation reel047
+  - first:
+      213: -8132923954069416305
+    second: Goblin Beast Animation reel048
+  - first:
+      213: -7318883358151505929
+    second: Goblin Beast Animation reel049
+  - first:
+      213: -3017190947970283304
+    second: Goblin Beast Animation reel050
+  - first:
+      213: -6339175644135338560
+    second: Goblin Beast Animation reel051
+  - first:
+      213: 2533112165597968845
+    second: Goblin Beast Animation reel052
+  - first:
+      213: -2946497820749111771
+    second: Goblin Beast Animation reel053
+  - first:
+      213: 8319180304384983145
+    second: Goblin Beast Animation reel054
+  - first:
+      213: 4386494190689412967
+    second: Goblin Beast Animation reel055
+  - first:
+      213: -6865160040414113481
+    second: Goblin Beast Animation reel056
+  - first:
+      213: -2959820233478124925
+    second: Goblin Beast Animation reel057
+  - first:
+      213: -3483546372162088615
+    second: Goblin Beast Animation reel058
+  - first:
+      213: 6613716472254415695
+    second: Goblin Beast Animation reel059
+  - first:
+      213: 8740608476183653685
+    second: Goblin Beast Animation reel060
+  - first:
+      213: -4776131474485535706
+    second: Goblin Beast Animation reel061
+  - first:
+      213: 2653689990633718232
+    second: Goblin Beast Animation reel062
+  - first:
+      213: 2038044110592859194
+    second: Goblin Beast Animation reel063
+  - first:
+      213: 3976568458020529293
+    second: Goblin Beast Animation reel064
+  - first:
+      213: -8813015846873688441
+    second: Goblin Beast Animation reel065
+  - first:
+      213: 4489235140650179045
+    second: Goblin Beast Animation reel066
+  - first:
+      213: -854655818227567416
+    second: Goblin Beast Animation reel067
+  - first:
+      213: 4691159919201072793
+    second: Goblin Beast Animation reel068
+  - first:
+      213: -646987759317960130
+    second: Goblin Beast Animation reel069
+  - first:
+      213: 41041627840038235
+    second: Goblin Beast Animation reel070
+  - first:
+      213: 6439510122237649772
+    second: Goblin Beast Animation reel071
+  - first:
+      213: -5773956047631730475
+    second: Goblin Beast Animation reel072
+  - first:
+      213: 8830652574525587043
+    second: Goblin Beast Animation reel073
+  - first:
+      213: 8348674216475343125
+    second: Goblin Beast Animation reel074
+  - first:
+      213: 6643502814708638155
+    second: Goblin Beast Animation reel075
+  - first:
+      213: -3013960955357036837
+    second: Goblin Beast Animation reel076
+  - first:
+      213: -1523796358991321955
+    second: Goblin Beast Animation reel077
+  - first:
+      213: -4638428887908287863
+    second: Goblin Beast Animation reel078
+  - first:
+      213: -6676871419127691466
+    second: Goblin Beast Animation reel079
+  - first:
+      213: -9205274095228510144
+    second: Goblin Beast Animation reel080
+  - first:
+      213: -8851217504291179087
+    second: Goblin Beast Animation reel081
+  - first:
+      213: -7539741265653116754
+    second: Goblin Beast Animation reel082
+  - first:
+      213: 1756421841841611252
+    second: Goblin Beast Animation reel083
+  - first:
+      213: -3608960988648049122
+    second: Goblin Beast Animation reel084
+  - first:
+      213: 6710051788232211862
+    second: Goblin Beast Animation reel085
+  - first:
+      213: -3944335576201238856
+    second: Goblin Beast Animation reel086
+  - first:
+      213: 3308120045807663566
+    second: Goblin Beast Animation reel087
+  - first:
+      213: -904399043772221088
+    second: Goblin Beast Animation reel088
+  - first:
+      213: -5094843422955085182
+    second: Goblin Beast Animation reel089
+  - first:
+      213: 4843345806794933367
+    second: Goblin Beast Animation reel090
+  - first:
+      213: -8581295617021588707
+    second: Goblin Beast Animation reel091
+  - first:
+      213: -7704926747666343228
+    second: Goblin Beast Animation reel092
+  - first:
+      213: 7321607849360662555
+    second: Goblin Beast Animation reel093
+  - first:
+      213: 9128206664186029042
+    second: Goblin Beast Animation reel094
+  - first:
+      213: 2979168260830370703
+    second: Goblin Beast Animation reel095
+  - first:
+      213: 6242828863070109913
+    second: Goblin Beast Animation reel096
+  - first:
+      213: 8830873588527434531
+    second: Goblin Beast Animation reel097
+  - first:
+      213: 1903427392058999991
+    second: Goblin Beast Animation reel098
+  - first:
+      213: 3114131750130146684
+    second: Goblin Beast Animation reel099
+  - first:
+      213: 8242460931695076900
+    second: Goblin Beast Animation reel100
+  - first:
+      213: -452291007588915963
+    second: Goblin Beast Animation reel101
+  - first:
+      213: -2102879494399096910
+    second: Goblin Beast Animation reel102
+  - first:
+      213: 3072560491900964155
+    second: Goblin Beast Animation reel103
+  - first:
+      213: -1529287569297434599
+    second: Goblin Beast Animation reel104
+  - first:
+      213: 133744689472689044
+    second: Goblin Beast Animation reel105
+  - first:
+      213: -1864813720034127720
+    second: Goblin Beast Animation reel106
+  - first:
+      213: 3433382185062368132
+    second: Goblin Beast Animation reel107
+  - first:
+      213: -6298539612802141472
+    second: Goblin Beast Animation reel108
+  - first:
+      213: 7105405162755628865
+    second: Goblin Beast Animation reel109
+  - first:
+      213: -5964476686449887635
+    second: Goblin Beast Animation reel110
+  - first:
+      213: 7193140451079455196
+    second: Goblin Beast Animation reel111
+  - first:
+      213: -2357778399150932133
+    second: Goblin Beast Animation reel112
+  - first:
+      213: -820165023673219313
+    second: Goblin Beast Animation reel113
+  - first:
+      213: 8470035003740329115
+    second: Goblin Beast Animation reel114
+  - first:
+      213: -2870784945265796105
+    second: Goblin Beast Animation reel115
+  - first:
+      213: -4884002951831762130
+    second: Goblin Beast Animation reel116
+  - first:
+      213: -6000928645740833454
+    second: Goblin Beast Animation reel117
+  - first:
+      213: -8164426817119332605
+    second: Goblin Beast Animation reel118
+  - first:
+      213: -4359610676163573691
+    second: Goblin Beast Animation reel119
+  - first:
+      213: -565591017024527626
+    second: Goblin Beast Animation reel120
+  - first:
+      213: -4356866548768231087
+    second: Goblin Beast Animation reel121
+  - first:
+      213: 3573706972596924083
+    second: Goblin Beast Animation reel122
+  - first:
+      213: -6509754703584753929
+    second: Goblin Beast Animation reel123
+  - first:
+      213: -5842596323719403990
+    second: Goblin Beast Animation reel124
+  - first:
+      213: 1880416435575967689
+    second: Goblin Beast Animation reel125
+  - first:
+      213: 903445026557292490
+    second: Goblin Beast Animation reel126
+  - first:
+      213: 9112315356112192003
+    second: Goblin Beast Animation reel127
+  - first:
+      213: 2867851243828567638
+    second: Goblin Beast Animation reel128
+  - first:
+      213: 7058200919717827781
+    second: Goblin Beast Animation reel129
+  - first:
+      213: 2607326995848242975
+    second: Goblin Beast Animation reel130
+  - first:
+      213: 57671859710329340
+    second: Goblin Beast Animation reel131
+  - first:
+      213: -6504449399698796987
+    second: Goblin Beast Animation reel132
+  - first:
+      213: -2902428875747272353
+    second: Goblin Beast Animation reel133
+  - first:
+      213: 3072042427177957626
+    second: Goblin Beast Animation reel134
+  - first:
+      213: 5578169517256805437
+    second: Goblin Beast Animation reel135
+  - first:
+      213: 934042958648444504
+    second: Goblin Beast Animation reel136
+  - first:
+      213: 2814225677300590253
+    second: Goblin Beast Animation reel137
+  - first:
+      213: -1914934255935881283
+    second: Goblin Beast Animation reel138
+  - first:
+      213: 4179875149577802054
+    second: Goblin Beast Animation reel139
+  - first:
+      213: 3393527390439084780
+    second: Goblin Beast Animation reel140
+  - first:
+      213: 5260897455210679668
+    second: Goblin Beast Animation reel141
+  - first:
+      213: 3900726096371339069
+    second: Goblin Beast Animation reel142
+  - first:
+      213: 3740755775778416478
+    second: Goblin Beast Animation reel143
+  - first:
+      213: -5615470217093659621
+    second: Goblin Beast Animation reel144
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b3cce5cef7afb10800000000000000
+      internalID: 2016064436381170570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel001
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3705da2954fc0bbb0800000000000000
+      internalID: -4922206494995427213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel002
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313cc0a8c7ed3c1a0800000000000000
+      internalID: -6790339186671172845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel003
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee041f52fb35eee0800000000000000
+      internalID: -1232513010852688152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel004
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9f2b3f7ad78d510800000000000000
+      internalID: 1574146230067591589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel005
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080c575e7b7ff4bc0800000000000000
+      internalID: -3796543591649263488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel006
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19e44bc0425b7500800000000000000
+      internalID: 394999830566725915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel007
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365b8e659856d7be0800000000000000
+      internalID: -1477913462164638365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel008
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b45a66d2c37d9e70800000000000000
+      internalID: 9123575700780635315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel009
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd3bbe5319db5c30800000000000000
+      internalID: 4349308542373281222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel010
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f702667f992d020800000000000000
+      internalID: 2365122042172309350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel011
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094b6faf6b535b4a0800000000000000
+      internalID: -6578292620693949296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel012
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db98371fbec93d50800000000000000
+      internalID: 6717627639323466705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbb1215b160404d0800000000000000
+      internalID: -3169401523366937614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel014
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace0fa79465ef6740800000000000000
+      internalID: 5147585119312088778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel015
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3611622b2507460800000000000000
+      internalID: 7237375526280717234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel016
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d29ff6d1d3b1120800000000000000
+      internalID: 2385567624264756551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel017
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ccb53bf9068c080800000000000000
+      internalID: -9166970802487440225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel018
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8948c4c10a8d450800000000000000
+      internalID: 6113812537558735092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel019
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718f631bfcdfdbe80800000000000000
+      internalID: -8161087881252243433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel020
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778f6a13766ac54a0800000000000000
+      internalID: -6603219991487121289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel021
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6a22b4fdb47eca0800000000000000
+      internalID: -5987733757155432781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel022
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a942478f89aa4440800000000000000
+      internalID: 4920931976770374050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel023
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b89a8379a364950800000000000000
+      internalID: 6432893538910440292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel024
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63df69c195a9fd0e0800000000000000
+      internalID: -2242904381884793546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel025
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38f7456248e03080800000000000000
+      internalID: -9209605866107963332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel026
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f6f1ff4c0c06840800000000000000
+      internalID: 5215380320821407547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel027
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a57b572064938980800000000000000
+      internalID: -8537817327866251870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel028
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911bf207a9e054a00800000000000000
+      internalID: 740013770242240793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel029
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ff7425f1b9b2f30800000000000000
+      internalID: 4551902407214759752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel030
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28eca8c0852678ff0800000000000000
+      internalID: -33950341874921854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel031
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbea0a5fd5a4ac7f0800000000000000
+      internalID: -591578633632436545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel032
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e461fe503e53c5850800000000000000
+      internalID: 6367023222368441934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel033
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2b0e0a7c2c774d0800000000000000
+      internalID: -3136824452786900238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel034
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3b762724c7d5850800000000000000
+      internalID: 6367382073000833963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel035
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feff6b1b2dcfdbed0800000000000000
+      internalID: -2396481444836343825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel036
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701a860c6d27ea250800000000000000
+      internalID: 5957825623734395143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel037
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd51cc8e98b4ea880800000000000000
+      internalID: -8597851582915406372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel038
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2927348b4cb997e80800000000000000
+      internalID: -8180335978934472046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel039
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c7c9105782ec6e0800000000000000
+      internalID: -1815469116780413862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel040
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250725b875247f150800000000000000
+      internalID: 5906262380086718546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel041
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881faac126991c110800000000000000
+      internalID: 1279472415816741256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel042
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374f85c1032f789b0800000000000000
+      internalID: -5077823766389001101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel043
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa15010c768f77930800000000000000
+      internalID: 4141051506878075311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel044
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d732bd7977a91250800000000000000
+      internalID: 5915943725769570258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel045
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9ac93ac38d74b80800000000000000
+      internalID: -8410516024136521312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel046
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c7d2d386d14c230800000000000000
+      internalID: 3658081130871880783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel047
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0df08481672ee2c0800000000000000
+      internalID: -4400536486106039028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel048
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f865d6cf0cc022f80800000000000000
+      internalID: -8132923954069416305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel049
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f78cd4ec5a1e6a90800000000000000
+      internalID: -7318883358151505929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel050
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d805be81d8c026d0800000000000000
+      internalID: -3017190947970283304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel051
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd418a8659b608a0800000000000000
+      internalID: -6339175644135338560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel052
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9ffa6f71c672320800000000000000
+      internalID: 2533112165597968845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel053
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e59ced7dfeb17d0800000000000000
+      internalID: -2946497820749111771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel054
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9600b41f86aa37370800000000000000
+      internalID: 8319180304384983145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel055
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7676b5dc935ffdc30800000000000000
+      internalID: 4386494190689412967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel056
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73119e0015d0ab0a0800000000000000
+      internalID: -6865160040414113481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel057
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ac580fd2b9ce6d0800000000000000
+      internalID: -2959820233478124925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel058
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9519da8f705f7afc0800000000000000
+      internalID: -3483546372162088615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel059
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43cfdd2714a8cb50800000000000000
+      internalID: 6613716472254415695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel060
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53de1bf6911ec4970800000000000000
+      internalID: 8740608476183653685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel061
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c1abe9ab5c7bdb0800000000000000
+      internalID: -4776131474485535706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel062
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d18bb39cfcc3d420800000000000000
+      internalID: 2653689990633718232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel063
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cd6701256984c10800000000000000
+      internalID: 2038044110592859194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel064
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84265d91fb9f2730800000000000000
+      internalID: 3976568458020529293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel065
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7869437d7c0e1b580800000000000000
+      internalID: -8813015846873688441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel066
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e997af4397fc4e30800000000000000
+      internalID: 4489235140650179045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel067
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4335dbf07a324f0800000000000000
+      internalID: -854655818227567416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel068
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996b78877195a1140800000000000000
+      internalID: 4691159919201072793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel069
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ab3df8f007507f0800000000000000
+      internalID: -646987759317960130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel070
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55c860a42fc19000800000000000000
+      internalID: 41041627840038235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel071
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63e183965cbd5950800000000000000
+      internalID: 6439510122237649772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel072
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d831300199cedfa0800000000000000
+      internalID: -5773956047631730475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel073
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e7c7fcab7cc8a70800000000000000
+      internalID: 8830652574525587043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel074
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519b97a77f27cd370800000000000000
+      internalID: 8348674216475343125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel075
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc124077c96723c50800000000000000
+      internalID: 6643502814708638155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel076
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdefb01da724c26d0800000000000000
+      internalID: -3013960955357036837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel077
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94e940f8436adae0800000000000000
+      internalID: -1523796358991321955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel078
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98af05c708df0afb0800000000000000
+      internalID: -4638428887908287863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel079
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6378fe3e1dcf653a0800000000000000
+      internalID: -6676871419127691466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel080
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040acc56bfb404080800000000000000
+      internalID: -9205274095228510144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel081
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5310b53982a2580800000000000000
+      internalID: -8851217504291179087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel082
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0546224457d5790800000000000000
+      internalID: -7539741265653116754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel083
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1e4b6fb50106810800000000000000
+      internalID: 1756421841841611252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel084
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16f3671a156aedc0800000000000000
+      internalID: -3608960988648049122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel085
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d3e0ecc84ee1d50800000000000000
+      internalID: 6710051788232211862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel086
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6e69101b7e249c0800000000000000
+      internalID: -3944335576201238856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel087
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9f6bc87adc8ed20800000000000000
+      internalID: 3308120045807663566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel088
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069f0c48cdde273f0800000000000000
+      internalID: -904399043772221088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel089
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282e68486ea7b49b0800000000000000
+      internalID: -5094843422955085182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel090
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774c362a955073340800000000000000
+      internalID: 4843345806794933367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel091
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bcfca1a1d19e880800000000000000
+      internalID: -8581295617021588707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel092
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca11f802f9921590800000000000000
+      internalID: -7704926747666343228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel093
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10aad52c839b9560800000000000000
+      internalID: 7321607849360662555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel094
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f369270997edae70800000000000000
+      internalID: 9128206664186029042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel095
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b99e8bfb1285920800000000000000
+      internalID: 2979168260830370703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel096
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d089d866cbf2a650800000000000000
+      internalID: 6242828863070109913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel097
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b8e84adb09d8a70800000000000000
+      internalID: 8830873588527434531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel098
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4cc67d0255a6a10800000000000000
+      internalID: 1903427392058999991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel099
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7dd54ec35e973b20800000000000000
+      internalID: 3114131750130146684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel100
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42668b40c8a136270800000000000000
+      internalID: 8242460931695076900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel101
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5052f8599b329b9f0800000000000000
+      internalID: -452291007588915963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel102
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b783eacd3211d2e0800000000000000
+      internalID: -2102879494399096910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel103
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d08aefc7de3aa20800000000000000
+      internalID: 3072560491900964155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9181b98ee01e6cae0800000000000000
+      internalID: -1529287569297434599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel105
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4935d9226182bd100800000000000000
+      internalID: 133744689472689044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel106
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89057154dc9de16e0800000000000000
+      internalID: -1864813720034127720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel107
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4830cce08e2d5af20800000000000000
+      internalID: 3433382185062368132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel108
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2b33fd7971798a0800000000000000
+      internalID: -6298539612802141472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel109
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f964779587b9260800000000000000
+      internalID: 7105405162755628865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel110
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d663e090e0ce93da0800000000000000
+      internalID: -5964476686449887635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel111
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1851e112b23d360800000000000000
+      internalID: 7193140451079455196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel112
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ff48bb90d774fd0800000000000000
+      internalID: -2357778399150932133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel113
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0702c2a1403e94f0800000000000000
+      internalID: -820165023673219313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel114
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b941111b5fb9b8570800000000000000
+      internalID: 8470035003740329115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel115
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb94e66d4ce828d0800000000000000
+      internalID: -2870784945265796105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel116
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2bcb1e1139883cb0800000000000000
+      internalID: -4884002951831762130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel117
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255d624e03b68bca0800000000000000
+      internalID: -6000928645740833454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel118
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307ddea111122be80800000000000000
+      internalID: -8164426817119332605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel119
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5480540303d8f73c0800000000000000
+      internalID: -4359610676163573691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel120
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2e91677fd9628f0800000000000000
+      internalID: -565591017024527626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel121
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15133e225fc4983c0800000000000000
+      internalID: -4356866548768231087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel122
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bee9f8ae8b589130800000000000000
+      internalID: 3573706972596924083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel123
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f607e55694b8a5a0800000000000000
+      internalID: -6509754703584753929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel124
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26a3b6599deaeea0800000000000000
+      internalID: -5842596323719403990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel125
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfcf4809c4981a10800000000000000
+      internalID: 1880416435575967689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel126
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf6a0a077ea98c00800000000000000
+      internalID: 903445026557292490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel127
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302876a8982757e70800000000000000
+      internalID: 9112315356112192003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel128
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e50110387acc720800000000000000
+      internalID: 2867851243828567638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel129
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4dd1d2754c3f160800000000000000
+      internalID: 7058200919717827781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel130
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1722d8a6161f2420800000000000000
+      internalID: 2607326995848242975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel131
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf102973044ecc000800000000000000
+      internalID: 57671859710329340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel132
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e4377abbd8bb5a0800000000000000
+      internalID: -6504449399698796987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel133
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f595f33b05088b7d0800000000000000
+      internalID: -2902428875747272353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel134
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8fed6af4612aa20800000000000000
+      internalID: 3072042427177957626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel135
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c010d1f93a96d40800000000000000
+      internalID: 5578169517256805437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel136
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85602334f1366fc00800000000000000
+      internalID: 934042958648444504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel137
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6e845d7532e0720800000000000000
+      internalID: 2814225677300590253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel138
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbff6b2a079cc65e0800000000000000
+      internalID: -1914934255935881283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel139
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64151187d46e10a30800000000000000
+      internalID: 4179875149577802054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel140
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce21ea29e2b381f20800000000000000
+      internalID: 3393527390439084780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel141
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dc691bc56720940800000000000000
+      internalID: 5260897455210679668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel142
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f4f4cb7b9222630800000000000000
+      internalID: 3900726096371339069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel143
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5763c60f85d9e330800000000000000
+      internalID: 3740755775778416478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Beast Animation reel144
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14c85fe697d112b0800000000000000
+      internalID: -5615470217093659621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Goblin Beast Animation reel084: -3608960988648049122
+      Goblin Beast Animation reel011: -6578292620693949296
+      Goblin Beast Animation reel065: -8813015846873688441
+      Goblin Beast Animation reel061: -4776131474485535706
+      Goblin Beast Animation reel087: 3308120045807663566
+      Goblin Beast Animation reel091: -8581295617021588707
+      Goblin Beast Animation reel133: -2902428875747272353
+      Goblin Beast Animation reel052: 2533112165597968845
+      Goblin Beast Animation reel030: -33950341874921854
+      Goblin Beast Animation reel132: -6504449399698796987
+      Goblin Beast Animation reel049: -7318883358151505929
+      Goblin Beast Animation reel003: -1232513010852688152
+      Goblin Beast Animation reel134: 3072042427177957626
+      Goblin Beast Animation reel074: 8348674216475343125
+      Goblin Beast Animation reel075: 6643502814708638155
+      Goblin Beast Animation reel046: 3658081130871880783
+      Goblin Beast Animation reel034: 6367382073000833963
+      Goblin Beast Animation reel019: -8161087881252243433
+      Goblin Beast Animation reel096: 6242828863070109913
+      Goblin Beast Animation reel024: -2242904381884793546
+      Goblin Beast Animation reel069: -646987759317960130
+      Goblin Beast Animation reel010: 2365122042172309350
+      Goblin Beast Animation reel093: 7321607849360662555
+      Goblin Beast Animation reel106: -1864813720034127720
+      Goblin Beast Animation reel032: 6367023222368441934
+      Goblin Beast Animation reel025: -9209605866107963332
+      Goblin Beast Animation reel021: -5987733757155432781
+      Goblin Beast Animation reel109: 7105405162755628865
+      Goblin Beast Animation reel013: -3169401523366937614
+      Goblin Beast Animation reel040: 5906262380086718546
+      Goblin Beast Animation reel004: 1574146230067591589
+      Goblin Beast Animation reel048: -8132923954069416305
+      Goblin Beast Animation reel026: 5215380320821407547
+      Goblin Beast Animation reel102: -2102879494399096910
+      Goblin Beast Animation reel079: -6676871419127691466
+      Goblin Beast Animation reel068: 4691159919201072793
+      Goblin Beast Animation reel140: 3393527390439084780
+      Goblin Beast Animation reel016: 2385567624264756551
+      Goblin Beast Animation reel027: -8537817327866251870
+      Goblin Beast Animation reel044: 5915943725769570258
+      Goblin Beast Animation reel078: -4638428887908287863
+      Goblin Beast Animation reel039: -1815469116780413862
+      Goblin Beast Animation reel057: -2959820233478124925
+      Goblin Beast Animation reel124: -5842596323719403990
+      Goblin Beast Animation reel143: 3740755775778416478
+      Goblin Beast Animation reel128: 2867851243828567638
+      Goblin Beast Animation reel014: 5147585119312088778
+      Goblin Beast Animation reel060: 8740608476183653685
+      Goblin Beast Animation reel045: -8410516024136521312
+      Goblin Beast Animation reel059: 6613716472254415695
+      Goblin Beast Animation reel130: 2607326995848242975
+      Goblin Beast Animation reel138: -1914934255935881283
+      Goblin Beast Animation reel129: 7058200919717827781
+      Goblin Beast Animation reel054: 8319180304384983145
+      Goblin Beast Animation reel135: 5578169517256805437
+      Goblin Beast Animation reel055: 4386494190689412967
+      Goblin Beast Animation reel028: 740013770242240793
+      Goblin Beast Animation reel051: -6339175644135338560
+      Goblin Beast Animation reel088: -904399043772221088
+      Goblin Beast Animation reel111: 7193140451079455196
+      Goblin Beast Animation reel022: 4920931976770374050
+      Goblin Beast Animation reel123: -6509754703584753929
+      Goblin Beast Animation reel110: -5964476686449887635
+      Goblin Beast Animation reel070: 41041627840038235
+      Goblin Beast Animation reel122: 3573706972596924083
+      Goblin Beast Animation reel083: 1756421841841611252
+      Goblin Beast Animation reel092: -7704926747666343228
+      Goblin Beast Animation reel077: -1523796358991321955
+      Goblin Beast Animation reel058: -3483546372162088615
+      Goblin Beast Animation reel115: -2870784945265796105
+      Goblin Beast Animation reel043: 4141051506878075311
+      Goblin Beast Animation reel001: -4922206494995427213
+      Goblin Beast Animation reel098: 1903427392058999991
+      Goblin Beast Animation reel131: 57671859710329340
+      Goblin Beast Animation reel009: 4349308542373281222
+      Goblin Beast Animation reel000: 2016064436381170570
+      Goblin Beast Animation reel005: -3796543591649263488
+      Goblin Beast Animation reel041: 1279472415816741256
+      Goblin Beast Animation reel064: 3976568458020529293
+      Goblin Beast Animation reel105: 133744689472689044
+      Goblin Beast Animation reel107: 3433382185062368132
+      Goblin Beast Animation reel050: -3017190947970283304
+      Goblin Beast Animation reel101: -452291007588915963
+      Goblin Beast Animation reel099: 3114131750130146684
+      Goblin Beast Animation reel100: 8242460931695076900
+      Goblin Beast Animation reel108: -6298539612802141472
+      Goblin Beast Animation reel033: -3136824452786900238
+      Goblin Beast Animation reel047: -4400536486106039028
+      Goblin Beast Animation reel082: -7539741265653116754
+      Goblin Beast Animation reel073: 8830652574525587043
+      Goblin Beast Animation reel020: -6603219991487121289
+      Goblin Beast Animation reel007: -1477913462164638365
+      Goblin Beast Animation reel137: 2814225677300590253
+      Goblin Beast Animation reel066: 4489235140650179045
+      Goblin Beast Animation reel086: -3944335576201238856
+      Goblin Beast Animation reel035: -2396481444836343825
+      Goblin Beast Animation reel081: -8851217504291179087
+      Goblin Beast Animation reel037: -8597851582915406372
+      Goblin Beast Animation reel116: -4884002951831762130
+      Goblin Beast Animation reel071: 6439510122237649772
+      Goblin Beast Animation reel121: -4356866548768231087
+      Goblin Beast Animation reel038: -8180335978934472046
+      Goblin Beast Animation reel042: -5077823766389001101
+      Goblin Beast Animation reel126: 903445026557292490
+      Goblin Beast Animation reel018: 6113812537558735092
+      Goblin Beast Animation reel008: 9123575700780635315
+      Goblin Beast Animation reel063: 2038044110592859194
+      Goblin Beast Animation reel053: -2946497820749111771
+      Goblin Beast Animation reel089: -5094843422955085182
+      Goblin Beast Animation reel036: 5957825623734395143
+      Goblin Beast Animation reel136: 934042958648444504
+      Goblin Beast Animation reel095: 2979168260830370703
+      Goblin Beast Animation reel002: -6790339186671172845
+      Goblin Beast Animation reel127: 9112315356112192003
+      Goblin Beast Animation reel023: 6432893538910440292
+      Goblin Beast Animation reel006: 394999830566725915
+      Goblin Beast Animation reel090: 4843345806794933367
+      Goblin Beast Animation reel097: 8830873588527434531
+      Goblin Beast Animation reel114: 8470035003740329115
+      Goblin Beast Animation reel144: -5615470217093659621
+      Goblin Beast Animation reel012: 6717627639323466705
+      Goblin Beast Animation reel015: 7237375526280717234
+      Goblin Beast Animation reel125: 1880416435575967689
+      Goblin Beast Animation reel103: 3072560491900964155
+      Goblin Beast Animation reel112: -2357778399150932133
+      Goblin Beast Animation reel067: -854655818227567416
+      Goblin Beast Animation reel029: 4551902407214759752
+      Goblin Beast Animation reel056: -6865160040414113481
+      Goblin Beast Animation reel104: -1529287569297434599
+      Goblin Beast Animation reel017: -9166970802487440225
+      Goblin Beast Animation reel113: -820165023673219313
+      Goblin Beast Animation reel119: -4359610676163573691
+      Goblin Beast Animation reel085: 6710051788232211862
+      Goblin Beast Animation reel117: -6000928645740833454
+      Goblin Beast Animation reel062: 2653689990633718232
+      Goblin Beast Animation reel072: -5773956047631730475
+      Goblin Beast Animation reel031: -591578633632436545
+      Goblin Beast Animation reel118: -8164426817119332605
+      Goblin Beast Animation reel080: -9205274095228510144
+      Goblin Beast Animation reel094: 9128206664186029042
+      Goblin Beast Animation reel139: 4179875149577802054
+      Goblin Beast Animation reel142: 3900726096371339069
+      Goblin Beast Animation reel141: 5260897455210679668
+      Goblin Beast Animation reel120: -565591017024527626
+      Goblin Beast Animation reel076: -3013960955357036837
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

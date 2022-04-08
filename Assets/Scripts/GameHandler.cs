@@ -1,6 +1,6 @@
 using UnityEngine;
-using System.Collections.Generic;
 using Unity.Mathematics;
+using System.IO;
 
 /// <summary>
 /// Gamestate handling class. This class handles retrieving correct gamestate. Correctly
@@ -16,13 +16,14 @@ public class GameHandler : MonoBehaviour
         Save,
         Load
     }
-    private void Awake(){
+    private void Start(){
         mapRef = GetComponent<Map>();
         world_seed = mapRef.seed;
         SaveSystem.Init();
         SAVE_FOLDER = Application.dataPath + "/Saves/";
         SoundManager.Init();    //initialize soundManager
         GameAssets.Instance.cursorHandler.SetCursorByType(CursorType.Basic);
+        
     }
 
     

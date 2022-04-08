@@ -29,7 +29,8 @@ public class EnemyController : MonoBehaviour, CombatInterface
     public enum State{
         Normal,
         Attacking,
-        Hurting
+        Hurting,
+        Dieing
     }
 
     public State state;
@@ -147,6 +148,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
     }
 
     private void Update() {
+        if (this.IsDead) return;
         //if nor attacking or hurting, movement handling is in place
         if (state == State.Attacking)
         {
@@ -186,6 +188,13 @@ public class EnemyController : MonoBehaviour, CombatInterface
             FollowPlayer(lastSeen, true);
         //normal behaviour (finish following to last seen position first)
         }else{
+            if (IsMoving)
+            {
+                animationController.CharacterMovement(player.transform.position - this.transform.position);
+            }else{
+                animationController.CharacterDirection(player.transform.position - this.transform.position);
+            }
+            
             if (!IsDead)
             {
                 Wander();
@@ -486,9 +495,9 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /// </summary>
     public void Die(){
         this.IsDead = true;
-        animationController.DeadAnimation(moveDir, twoDirEntity);
         SoundManager.PlaySound(SoundManager.Sound.Death, transform.position, GetPresetAudioClip(SoundManager.Sound.Death));
         this.moveDir = Vector3.zero;
+        StartCoroutine(Animating(0.3f, State.Dieing));
         //disable collision and move to background
         col.enabled = !enabled;
         sr.sortingOrder = 0;
@@ -540,7 +549,6 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /// </summary>
     /// <returns>enumerator</returns>
     private IEnumerator Animating(float time, State action, string dmg = "0"){
-        yield return new WaitForSeconds(time);
         // trigger the stop animation events here
         switch (action)
         {
@@ -549,12 +557,15 @@ public class EnemyController : MonoBehaviour, CombatInterface
                 break;
             case State.Hurting:
                 animationController.HurtAnimation(moveDir, twoDirEntity);
+                //yield return new WaitUntil(()=>animationController.playingAnimation);
+                break;
+            case State.Dieing:
+                animationController.DeadAnimation(moveDir, twoDirEntity);
                 break;
         }
-        this.state = State.Normal;
+        yield return new WaitForSeconds(time);
         //call end animation event
         EndAnimation();
-        this.animating = false;
     }
 
     /// <summary>
@@ -596,6 +607,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
         //damage popup
         DamagePopup.Create(transform.position, damageAmount);
         //if health is zero die
+        Debug.Log(healthSystem.GetHealthPercent());
         if (healthSystem.GetHealthPercent() == 0){
             if (!this.IsDead) this.Die();
             

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PossesedDownAttack01
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 4724464717422491332, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: -7512141168847700136, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: 4567831169784693125, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: 8876628579750502841, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: -5171736981387637011, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: -9055062641616192055, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: 3303899829396080617, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: 3016948980100060115, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: -8060571766719721239, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: 6596249298833821392, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: -1282502400366348940, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: 4724464717422491332, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: -7512141168847700136, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: 4567831169784693125, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: 8876628579750502841, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: -5171736981387637011, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: -9055062641616192055, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: 3303899829396080617, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: 3016948980100060115, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: -8060571766719721239, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: 6596249298833821392, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    - {fileID: -1282502400366348940, guid: 21da95acf823f204c8aadba82b6f7c93, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
+  m_RenderDataMap: {}
+  m_Tag: PossesedDownAttack01
+  m_IsVariant: 1

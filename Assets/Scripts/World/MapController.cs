@@ -18,29 +18,38 @@ public class MapController : MonoBehaviour
     private GameHandler gameHandler = null;
     private PlayerController playerController;
     private bool generationDone = false;
-    void Awake()
-    {
-        mapObj = GetComponent<Map>();   //get reference to map
-        gameHandler = GetComponent<GameHandler>();
 
+    //reworked instead start, and awake
+    public void InitMapController()
+    {
         if (playerObj == null)          //get player obj
             playerObj = GameObject.Find("Player");
 
         //beggining position ( spawn )
         try{
+            Debug.Log("loading");
             playerController = playerObj.GetComponent<PlayerController>();
             SavePosition playerSave = gameHandler.Load<SavePosition>(ObjType.Player);
             playerPos = playerSave.pos;
             playerObj.transform.position = playerPos;
         }catch{
             //first encounter
-            playerPos = new Vector3(50,40,0);
+            TDTile spawnableTile = mapObj.GetSpawableTile(new int2(32,32), new int2(96, 96));
+            Debug.Log("Spawning on: " + spawnableTile.pos);
+            playerController.transform.position = new Vector3(spawnableTile.pos.x, spawnableTile.pos.y);
         }
 
+        BoxCollider2D col = mapObj.GetComponent<BoxCollider2D>();
     }
 
-    private void Start() {
-        BoxCollider2D col = mapObj.GetComponent<BoxCollider2D>();
+    /// <summary>
+    /// Awake is called when the script instance is being loaded.
+    /// </summary>
+    void Awake()
+    {
+        mapObj = GetComponent<Map>();   //get reference to map
+        gameHandler = GetComponent<GameHandler>();
+        StartCoroutine(WaitForGenerationToFinish());
     }
 
     void Update()
@@ -70,8 +79,9 @@ public class MapController : MonoBehaviour
 
     }
 
-    private IEnumerable WaitForGenerationToFinish(){
+    private IEnumerator WaitForGenerationToFinish(){
         yield return new WaitUntil(()=>mapObj.generationComplete);
+        InitMapController();
         generationDone = true;
     }
 

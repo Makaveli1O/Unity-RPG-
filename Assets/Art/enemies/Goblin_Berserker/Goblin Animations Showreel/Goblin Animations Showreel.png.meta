@@ -1,0 +1,2023 @@
+fileFormatVersion: 2
+guid: 30781bfb82b583443a7b8442eb7a9531
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4271898112277441678
+    second: Goblin Animations Showreel00
+  - first:
+      213: 8681162856888142657
+    second: Goblin Animations Showreel01
+  - first:
+      213: -5769264044290432930
+    second: Goblin Animations Showreel02
+  - first:
+      213: 6886862427346069567
+    second: Goblin Animations Showreel03
+  - first:
+      213: 1538929887638266599
+    second: Goblin Animations Showreel04
+  - first:
+      213: 5083184715019662858
+    second: Goblin Animations Showreel05
+  - first:
+      213: -6423724029370668493
+    second: Goblin Animations Showreel06
+  - first:
+      213: 3198195698193947162
+    second: Goblin Animations Showreel07
+  - first:
+      213: 4891871794070242047
+    second: Goblin Animations Showreel08
+  - first:
+      213: 7945832995603445995
+    second: Goblin Animations Showreel09
+  - first:
+      213: -3106610758143798439
+    second: Goblin Animations Showreel10
+  - first:
+      213: -6437287451575857580
+    second: Goblin Animations Showreel11
+  - first:
+      213: -5925149565606746709
+    second: Goblin Animations Showreel12
+  - first:
+      213: 1001056501329205539
+    second: Goblin Animations Showreel13
+  - first:
+      213: 3058600717085347231
+    second: Goblin Animations Showreel14
+  - first:
+      213: -3485564157730569508
+    second: Goblin Animations Showreel15
+  - first:
+      213: 2898628607361449058
+    second: Goblin Animations Showreel16
+  - first:
+      213: 7233987886096826628
+    second: Goblin Animations Showreel17
+  - first:
+      213: 6954248697503795948
+    second: Goblin Animations Showreel18
+  - first:
+      213: 5256852832682911552
+    second: Goblin Animations Showreel19
+  - first:
+      213: -1220671407200483877
+    second: Goblin Animations Showreel20
+  - first:
+      213: -4142895104002153658
+    second: Goblin Animations Showreel21
+  - first:
+      213: 2585514755472241921
+    second: Goblin Animations Showreel22
+  - first:
+      213: -1637132093158700596
+    second: Goblin Animations Showreel23
+  - first:
+      213: -4891359657665674222
+    second: Goblin Animations Showreel24
+  - first:
+      213: 3343220392302911310
+    second: Goblin Animations Showreel25
+  - first:
+      213: 1337082702654721808
+    second: Goblin Animations Showreel26
+  - first:
+      213: -8459265086722463332
+    second: Goblin Animations Showreel27
+  - first:
+      213: 4755470739650027457
+    second: Goblin Animations Showreel28
+  - first:
+      213: -4008972153548279367
+    second: Goblin Animations Showreel29
+  - first:
+      213: -2281213525326313186
+    second: Goblin Animations Showreel30
+  - first:
+      213: -5703183502337548661
+    second: Goblin Animations Showreel31
+  - first:
+      213: -5350766245639077824
+    second: Goblin Animations Showreel32
+  - first:
+      213: -5214044351522214006
+    second: Goblin Animations Showreel33
+  - first:
+      213: 5914015243733503767
+    second: Goblin Animations Showreel34
+  - first:
+      213: 8872863717356518339
+    second: Goblin Animations Showreel35
+  - first:
+      213: -8234191445667748830
+    second: Goblin Animations Showreel36
+  - first:
+      213: 2757240398408774634
+    second: Goblin Animations Showreel37
+  - first:
+      213: 794993220398311629
+    second: Goblin Animations Showreel38
+  - first:
+      213: -5735217322359674422
+    second: Goblin Animations Showreel39
+  - first:
+      213: -7247972620345130394
+    second: Goblin Animations Showreel40
+  - first:
+      213: 5203404040337766719
+    second: Goblin Animations Showreel41
+  - first:
+      213: 7944490721390725884
+    second: Goblin Animations Showreel42
+  - first:
+      213: -6157080755402159314
+    second: Goblin Animations Showreel43
+  - first:
+      213: -7472171353043411556
+    second: Goblin Animations Showreel44
+  - first:
+      213: -2318270500201355949
+    second: Goblin Animations Showreel45
+  - first:
+      213: 7476864917072003516
+    second: Goblin Animations Showreel46
+  - first:
+      213: -4467829131241429641
+    second: Goblin Animations Showreel47
+  - first:
+      213: -4288161274118310307
+    second: Goblin Animations Showreel48
+  - first:
+      213: -5424369311876470624
+    second: Goblin Animations Showreel49
+  - first:
+      213: 4171592832741254173
+    second: Goblin Animations Showreel50
+  - first:
+      213: 7502656167269642601
+    second: Goblin Animations Showreel51
+  - first:
+      213: 3395678843464001765
+    second: Goblin Animations Showreel52
+  - first:
+      213: 2109907304672942404
+    second: Goblin Animations Showreel53
+  - first:
+      213: -5623399965672966757
+    second: Goblin Animations Showreel54
+  - first:
+      213: 2787937314525654501
+    second: Goblin Animations Showreel55
+  - first:
+      213: 345304859559288766
+    second: Goblin Animations Showreel56
+  - first:
+      213: -7369254328612659578
+    second: Goblin Animations Showreel57
+  - first:
+      213: 7335060111069168674
+    second: Goblin Animations Showreel58
+  - first:
+      213: 4009506096168422204
+    second: Goblin Animations Showreel59
+  - first:
+      213: -3337205993105480085
+    second: Goblin Animations Showreel60
+  - first:
+      213: 2653567976382409650
+    second: Goblin Animations Showreel61
+  - first:
+      213: -2132962927003212429
+    second: Goblin Animations Showreel62
+  - first:
+      213: 4286718279455040791
+    second: Goblin Animations Showreel63
+  - first:
+      213: -7872968098769670421
+    second: Goblin Animations Showreel64
+  - first:
+      213: -7928588298852043959
+    second: Goblin Animations Showreel65
+  - first:
+      213: -7971209574204939355
+    second: Goblin Animations Showreel66
+  - first:
+      213: 7363132972889810343
+    second: Goblin Animations Showreel67
+  - first:
+      213: 2726842896301611821
+    second: Goblin Animations Showreel68
+  - first:
+      213: -7828467295561329824
+    second: Goblin Animations Showreel69
+  - first:
+      213: -1418559293690103779
+    second: Goblin Animations Showreel70
+  - first:
+      213: 4053073627661362101
+    second: Goblin Animations Showreel71
+  - first:
+      213: 8570378787332103493
+    second: Goblin Animations Showreel72
+  - first:
+      213: -4620406580180962676
+    second: Goblin Animations Showreel73
+  - first:
+      213: -7140513458292038610
+    second: Goblin Animations Showreel74
+  - first:
+      213: -4594644280629676056
+    second: Goblin Animations Showreel75
+  - first:
+      213: -4437080537876209360
+    second: Goblin Animations Showreel76
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin Animations Showreel00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c65fa13b4d84b30800000000000000
+      internalID: 4271898112277441678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel01
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b0222af9fa97870800000000000000
+      internalID: 8681162856888142657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel02
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50a2a82be47fefa0800000000000000
+      internalID: -5769264044290432930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel03
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3862f6b3ec039f50800000000000000
+      internalID: 6886862427346069567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel04
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e229e644906b5510800000000000000
+      internalID: 1538929887638266599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel05
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06317201991b8640800000000000000
+      internalID: 5083184715019662858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel06
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a683697095ad6a0800000000000000
+      internalID: -6423724029370668493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel07
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a5801fa06426c20800000000000000
+      internalID: 3198195698193947162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel08
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff24f4c7a7b63e340800000000000000
+      internalID: 4891871794070242047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8758bb205454e60800000000000000
+      internalID: 7945832995603445995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9539e6999f913e4d0800000000000000
+      internalID: -3106610758143798439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel11
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ecdb34b292aa6a0800000000000000
+      internalID: -6437287451575857580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel12
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba523f4ecd3a5cda0800000000000000
+      internalID: -5925149565606746709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel13
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32992d9859774ed00800000000000000
+      internalID: 1001056501329205539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel14
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d80a3a525527a20800000000000000
+      internalID: 3058600717085347231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel15
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2c2a8add9c0afc0800000000000000
+      internalID: -3485564157730569508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel16
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c709d5c5ff93820800000000000000
+      internalID: 2898628607361449058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel17
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401c744b7a9446460800000000000000
+      internalID: 7233987886096826628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceacf6e5854728060800000000000000
+      internalID: 6954248697503795948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel19
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0472290acc714f840800000000000000
+      internalID: 5256852832682911552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel20
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5c65292dd4f0fe0800000000000000
+      internalID: -1220671407200483877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel21
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6432f385ada7186c0800000000000000
+      internalID: -4142895104002153658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel22
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1053471b8f791e320800000000000000
+      internalID: 2585514755472241921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel23
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc942e0090db749e0800000000000000
+      internalID: -1637132093158700596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel24
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21449209e466e1cb0800000000000000
+      internalID: -4891359657665674222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel25
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f9e01db31856e20800000000000000
+      internalID: 3343220392302911310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel26
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fcd0742a54e8210800000000000000
+      internalID: 1337082702654721808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c992b050937aa9a80800000000000000
+      internalID: -8459265086722463332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel28
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf9a903173def140800000000000000
+      internalID: 4755470739650027457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel29
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1725911154d58c0800000000000000
+      internalID: -4008972153548279367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel30
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19cb1692608750e0800000000000000
+      internalID: -2281213525326313186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel31
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e5d4642d83ad0b0800000000000000
+      internalID: -5703183502337548661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel32
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040488cf2724eb5b0800000000000000
+      internalID: -5350766245639077824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel33
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fe268994ef3a7b0800000000000000
+      internalID: -5214044351522214006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel34
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f0bf6c78dc21250800000000000000
+      internalID: 5914015243733503767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel35
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbbc7d5a8eb22b70800000000000000
+      internalID: 8872863717356518339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224e96cb1864abd80800000000000000
+      internalID: -8234191445667748830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel37
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3f28ba88fa34620800000000000000
+      internalID: 2757240398408774634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel38
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc86fa43f12680b00800000000000000
+      internalID: 794993220398311629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel39
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9a5175b3a6860b0800000000000000
+      internalID: -5735217322359674422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel40
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662429e9d470a6b90800000000000000
+      internalID: -7247972620345130394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel41
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f393a27e764363840800000000000000
+      internalID: 5203404040337766719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel42
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa81e92830804e60800000000000000
+      internalID: 7944490721390725884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel43
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b4cd0bca7ad8aa0800000000000000
+      internalID: -6157080755402159314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel44
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d5ff06eb38d4890800000000000000
+      internalID: -7472171353043411556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3552b364349d3dfd0800000000000000
+      internalID: -2318270500201355949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel46
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb148a7270923c760800000000000000
+      internalID: 7476864917072003516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel47
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7756633a3151ff1c0800000000000000
+      internalID: -4467829131241429641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel48
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5677947a046d74c0800000000000000
+      internalID: -4288161274118310307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel49
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8a213b9d4c8b4b0800000000000000
+      internalID: -5424369311876470624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel50
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14ab1f449974e930800000000000000
+      internalID: 4171592832741254173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel51
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961300a880ace1860800000000000000
+      internalID: 7502656167269642601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel52
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e82bf3caefdf1f20800000000000000
+      internalID: 3395678843464001765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel53
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449580cc385e74d10800000000000000
+      internalID: 2109907304672942404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel54
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b957e18768ba5f1b0800000000000000
+      internalID: -5623399965672966757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel55
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edab58673eb0b620800000000000000
+      internalID: 2787937314525654501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel56
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf5f35b0f4cac400800000000000000
+      internalID: 345304859559288766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel57
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e588b6b362bb990800000000000000
+      internalID: -7369254328612659578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel58
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2244a66ee4e5bc560800000000000000
+      internalID: 7335060111069168674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel59
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bc1ea1d80a4a730800000000000000
+      internalID: 4009506096168422204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel60
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66a4ae94dcdfa1d0800000000000000
+      internalID: -3337205993105480085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel61
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb20abe30e53d420800000000000000
+      internalID: 2653567976382409650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel62
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37565e0d4813662e0800000000000000
+      internalID: -2132962927003212429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel63
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715671b209b7d7b30800000000000000
+      internalID: 4286718279455040791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel64
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beee9d81a399db290800000000000000
+      internalID: -7872968098769670421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel65
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943fa9c13fef7f190800000000000000
+      internalID: -7928588298852043959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel66
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a362532023906190800000000000000
+      internalID: -7971209574204939355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel67
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a520136d6a1f2660800000000000000
+      internalID: 7363132972889810343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel68
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2bda50ba21b7d520800000000000000
+      internalID: 2726842896301611821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel69
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063dd40c872bb5390800000000000000
+      internalID: -7828467295561329824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel70
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18b5c696d3405ce0800000000000000
+      internalID: -1418559293690103779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel71
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b362418df86f3830800000000000000
+      internalID: 4053073627661362101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d1979691a10f670800000000000000
+      internalID: 8570378787332103493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel73
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82bf6ef1b401efb0800000000000000
+      internalID: -4620406580180962676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel74
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e246b9c77dcc7ec90800000000000000
+      internalID: -7140513458292038610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel75
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7b9c7ce5b8c30c0800000000000000
+      internalID: -4594644280629676056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Animations Showreel76
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031e61c62c25c62c0800000000000000
+      internalID: -4437080537876209360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Goblin Animations Showreel76: -4437080537876209360
+      Goblin Animations Showreel01: 8681162856888142657
+      Goblin Animations Showreel06: -6423724029370668493
+      Goblin Animations Showreel71: 4053073627661362101
+      Goblin Animations Showreel75: -4594644280629676056
+      Goblin Animations Showreel26: 1337082702654721808
+      Goblin Animations Showreel55: 2787937314525654501
+      Goblin Animations Showreel70: -1418559293690103779
+      Goblin Animations Showreel18: 6954248697503795948
+      Goblin Animations Showreel29: -4008972153548279367
+      Goblin Animations Showreel08: 4891871794070242047
+      Goblin Animations Showreel03: 6886862427346069567
+      Goblin Animations Showreel16: 2898628607361449058
+      Goblin Animations Showreel51: 7502656167269642601
+      Goblin Animations Showreel35: 8872863717356518339
+      Goblin Animations Showreel12: -5925149565606746709
+      Goblin Animations Showreel56: 345304859559288766
+      Goblin Animations Showreel64: -7872968098769670421
+      Goblin Animations Showreel41: 5203404040337766719
+      Goblin Animations Showreel42: 7944490721390725884
+      Goblin Animations Showreel40: -7247972620345130394
+      Goblin Animations Showreel69: -7828467295561329824
+      Goblin Animations Showreel38: 794993220398311629
+      Goblin Animations Showreel47: -4467829131241429641
+      Goblin Animations Showreel34: 5914015243733503767
+      Goblin Animations Showreel62: -2132962927003212429
+      Goblin Animations Showreel50: 4171592832741254173
+      Goblin Animations Showreel72: 8570378787332103493
+      Goblin Animations Showreel07: 3198195698193947162
+      Goblin Animations Showreel39: -5735217322359674422
+      Goblin Animations Showreel59: 4009506096168422204
+      Goblin Animations Showreel23: -1637132093158700596
+      Goblin Animations Showreel21: -4142895104002153658
+      Goblin Animations Showreel02: -5769264044290432930
+      Goblin Animations Showreel24: -4891359657665674222
+      Goblin Animations Showreel52: 3395678843464001765
+      Goblin Animations Showreel15: -3485564157730569508
+      Goblin Animations Showreel28: 4755470739650027457
+      Goblin Animations Showreel33: -5214044351522214006
+      Goblin Animations Showreel49: -5424369311876470624
+      Goblin Animations Showreel65: -7928588298852043959
+      Goblin Animations Showreel10: -3106610758143798439
+      Goblin Animations Showreel27: -8459265086722463332
+      Goblin Animations Showreel66: -7971209574204939355
+      Goblin Animations Showreel04: 1538929887638266599
+      Goblin Animations Showreel11: -6437287451575857580
+      Goblin Animations Showreel32: -5350766245639077824
+      Goblin Animations Showreel68: 2726842896301611821
+      Goblin Animations Showreel31: -5703183502337548661
+      Goblin Animations Showreel63: 4286718279455040791
+      Goblin Animations Showreel44: -7472171353043411556
+      Goblin Animations Showreel19: 5256852832682911552
+      Goblin Animations Showreel25: 3343220392302911310
+      Goblin Animations Showreel05: 5083184715019662858
+      Goblin Animations Showreel13: 1001056501329205539
+      Goblin Animations Showreel37: 2757240398408774634
+      Goblin Animations Showreel48: -4288161274118310307
+      Goblin Animations Showreel57: -7369254328612659578
+      Goblin Animations Showreel20: -1220671407200483877
+      Goblin Animations Showreel54: -5623399965672966757
+      Goblin Animations Showreel36: -8234191445667748830
+      Goblin Animations Showreel46: 7476864917072003516
+      Goblin Animations Showreel53: 2109907304672942404
+      Goblin Animations Showreel43: -6157080755402159314
+      Goblin Animations Showreel30: -2281213525326313186
+      Goblin Animations Showreel22: 2585514755472241921
+      Goblin Animations Showreel58: 7335060111069168674
+      Goblin Animations Showreel14: 3058600717085347231
+      Goblin Animations Showreel67: 7363132972889810343
+      Goblin Animations Showreel60: -3337205993105480085
+      Goblin Animations Showreel09: 7945832995603445995
+      Goblin Animations Showreel73: -4620406580180962676
+      Goblin Animations Showreel17: 7233987886096826628
+      Goblin Animations Showreel74: -7140513458292038610
+      Goblin Animations Showreel45: -2318270500201355949
+      Goblin Animations Showreel00: 4271898112277441678
+      Goblin Animations Showreel61: 2653567976382409650
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

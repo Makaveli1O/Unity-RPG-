@@ -63,6 +63,8 @@ MonoBehaviour:
   observeTime: 3
   wanderTime: 5
   movementSpeed: 1
+  bottomDamage: 0
+  topDamage: 0
   HealthBarPrefab: {fileID: 352537287198798118, guid: 52f0e652fb0450745b47616b5d00e803, type: 3}
 --- !u!114 &-8218431401720009193
 MonoBehaviour:
@@ -88,6 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 336115ff5ac82c94193595a9e5eb343e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playingAnimation: 0
 --- !u!212 &483535862635479153
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -210,7 +213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Library: []
-  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: bedda92cbac9c354da6e26223a033815, type: 3}
+  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: e5affdc1d23702d47b727de010dca7fc, type: 3}
 --- !u!114 &4356612417140085512
 MonoBehaviour:
   m_ObjectHideFlags: 0

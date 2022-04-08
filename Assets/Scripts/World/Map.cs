@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Unity.Mathematics;
 using System.Collections;
+using Random = UnityEngine.Random;
 
 /// <summary>
 /// Map generating is composed by 3 individual maps that are being generated within ChunkGenerator. 
@@ -158,7 +159,18 @@ public class Map : MonoBehaviour
         generationComplete = true;
         //turn off loading screen
         sceneLoader.loadingScreen.SetActive(false);
+        //start mapcontroller
         yield break;
+    }
+
+    public TDTile GetSpawableTile(int2 min, int2 max){
+        //calculate new position
+        int x = Random.Range(min.x, max.x);
+        int y = Random.Range(min.y, max.y);
+        int2 pos = new int2(x, y);
+        TDTile tile = GetTile(TileRelativePos(pos), TileChunkPos(pos)); 
+
+        return tile;
     }
 
     /// <summary>
@@ -881,6 +893,8 @@ public class Map : MonoBehaviour
     /// </summary>
     void Awake()
     {
+        this.seed = SceneIntel.seed;    //set either loaded seed, or main menu slider seed
+        Debug.Log(seed);
         chunkGenerator = GetComponent<ChunkGenerator>();
         chunkLoader = GetComponent<ChunkLoader>();
         gameHandler = GetComponent<GameHandler>();

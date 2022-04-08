@@ -18,12 +18,13 @@ public class LoadMenu : MonoBehaviour
         int i = 1;
         // Display the names of the directories.
         foreach (DirectoryInfo dri in diArr){
-            Vector3 newPos = new Vector3(0f, 180f - offset * i);
+            Vector3 newPos = new Vector3(0f, 160f - offset * i);
             GameObject btn = Instantiate(loadButtonPrefab, newPos, Quaternion.identity, scrollViewContent.transform);
             RectTransform rectTransform = btn.GetComponent<RectTransform>();
             rectTransform.anchoredPosition = newPos;
             LoadButton btnScript = btn.GetComponent<LoadButton>();
             btnScript.text.SetText(dri.Name);
+            btnScript.saveSeed = int.Parse(dri.Name);
             i++;
         }
     }

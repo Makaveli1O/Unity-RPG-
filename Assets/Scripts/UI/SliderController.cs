@@ -12,11 +12,13 @@ public class SliderController : MonoBehaviour
     private void Awake() {
         textMesh = textObj.GetComponent<TextMeshProUGUI>();
         slider = GetComponent<Slider>();
+        SceneIntel.seed = (int) slider.value;
     }
 
 
     public void ChangeValue(){
         textMesh.SetText(slider.value.ToString());
+        SceneIntel.seed = (int) slider.value;
         return;
     }
 

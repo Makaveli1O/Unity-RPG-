@@ -9,10 +9,22 @@ Character Animation controller
 public class CharacterAnimationController : MonoBehaviour
 {
     private Animator animator;
+    public bool playingAnimation = false;
 
     private void Start()
     {
         this.animator = GetComponent<Animator>();
+    }
+
+    /// <summary>
+    /// Update is called every frame, if the MonoBehaviour is enabled.
+    /// </summary>
+    void Update()
+    {
+        if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
+            playingAnimation = false;      
+        else 
+            playingAnimation = true; 
     }
 
     /// <summary>

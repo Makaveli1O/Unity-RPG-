@@ -226,7 +226,10 @@ public class ChunkCreator : MonoBehaviour
                             }
                         }
                         renderedTrees[actualPos] = treeP;
-                        AdjustObjCollider(treeP, treeSprite);
+                        if (treeP != null)
+                        {
+                            AdjustObjCollider(treeP, treeSprite);
+                        }
                     }
                 }
             }
