@@ -23,7 +23,7 @@ public class Shield : MonoBehaviour
         cameraSize = new Vector3(80,40);
         worldSize = new Vector3(Const.WORLD_HEALTHBAR_WIDTH, Const.WORLD_HEALTHBAR_HEIGHT);
         healthSystem = new HealthSystem(shieldHealth);
-        healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(13.55f,-7.77f), Quaternion.identity, mainCamera);
+        healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(Const.CAMERA_BAR_X,Const.CAMERA_BAR_Y), Quaternion.identity, mainCamera);
         healthBarTransform.localScale = cameraSize;
         
         healthBar = healthBarTransform.GetComponent<HealthBar>();

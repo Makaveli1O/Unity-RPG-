@@ -1,0 +1,2248 @@
+fileFormatVersion: 2
+guid: 8c532c4afb962fa4cae1c6370aa88da4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8784720955449949206
+    second: Goblin Rider Animation Reel00
+  - first:
+      213: 4542537381515645810
+    second: Goblin Rider Animation Reel01
+  - first:
+      213: -315697970066882821
+    second: Goblin Rider Animation Reel02
+  - first:
+      213: 5044164117850008485
+    second: Goblin Rider Animation Reel03
+  - first:
+      213: 6018523219973347804
+    second: Goblin Rider Animation Reel04
+  - first:
+      213: -4051370368898277011
+    second: Goblin Rider Animation Reel05
+  - first:
+      213: 928926282622332568
+    second: Goblin Rider Animation Reel06
+  - first:
+      213: 3047623616493113921
+    second: Goblin Rider Animation Reel07
+  - first:
+      213: -898949788976376558
+    second: Goblin Rider Animation Reel08
+  - first:
+      213: -7078043820196751212
+    second: Goblin Rider Animation Reel09
+  - first:
+      213: -480664208439096981
+    second: Goblin Rider Animation Reel10
+  - first:
+      213: -4470069313480626559
+    second: Goblin Rider Animation Reel11
+  - first:
+      213: -5951137613066970629
+    second: Goblin Rider Animation Reel12
+  - first:
+      213: 3211479149664386044
+    second: Goblin Rider Animation Reel13
+  - first:
+      213: -5679140996235626176
+    second: Goblin Rider Animation Reel14
+  - first:
+      213: 2686221452162978612
+    second: Goblin Rider Animation Reel15
+  - first:
+      213: 4504411901551173843
+    second: Goblin Rider Animation Reel16
+  - first:
+      213: 537917530203079941
+    second: Goblin Rider Animation Reel17
+  - first:
+      213: 2227936315631874373
+    second: Goblin Rider Animation Reel18
+  - first:
+      213: 6962658083168286856
+    second: Goblin Rider Animation Reel19
+  - first:
+      213: 1100881616065793350
+    second: Goblin Rider Animation Reel20
+  - first:
+      213: 3387744440885528169
+    second: Goblin Rider Animation Reel21
+  - first:
+      213: -5678677139435604168
+    second: Goblin Rider Animation Reel22
+  - first:
+      213: -4110093726146210940
+    second: Goblin Rider Animation Reel23
+  - first:
+      213: 2713107137435024410
+    second: Goblin Rider Animation Reel24
+  - first:
+      213: -4113785086498189811
+    second: Goblin Rider Animation Reel25
+  - first:
+      213: -2367788512965391106
+    second: Goblin Rider Animation Reel26
+  - first:
+      213: 6088121755529724481
+    second: Goblin Rider Animation Reel27
+  - first:
+      213: -2843190528677681245
+    second: Goblin Rider Animation Reel28
+  - first:
+      213: -6940758690035945966
+    second: Goblin Rider Animation Reel29
+  - first:
+      213: 594897377055298659
+    second: Goblin Rider Animation Reel30
+  - first:
+      213: 1809842621012125417
+    second: Goblin Rider Animation Reel31
+  - first:
+      213: 1180612632392686817
+    second: Goblin Rider Animation Reel32
+  - first:
+      213: 5181900800638001120
+    second: Goblin Rider Animation Reel33
+  - first:
+      213: -4471779272792331797
+    second: Goblin Rider Animation Reel34
+  - first:
+      213: 8991929521054633457
+    second: Goblin Rider Animation Reel35
+  - first:
+      213: 3561929168822508082
+    second: Goblin Rider Animation Reel36
+  - first:
+      213: 3983836399606021188
+    second: Goblin Rider Animation Reel37
+  - first:
+      213: -1949775200476452431
+    second: Goblin Rider Animation Reel38
+  - first:
+      213: -5305820970793989895
+    second: Goblin Rider Animation Reel39
+  - first:
+      213: -6948129071455216585
+    second: Goblin Rider Animation Reel40
+  - first:
+      213: -3651166888413884872
+    second: Goblin Rider Animation Reel41
+  - first:
+      213: -368399219384844807
+    second: Goblin Rider Animation Reel42
+  - first:
+      213: -6919389868427215939
+    second: Goblin Rider Animation Reel43
+  - first:
+      213: 8866075129024937377
+    second: Goblin Rider Animation Reel44
+  - first:
+      213: -1353828827637129873
+    second: Goblin Rider Animation Reel45
+  - first:
+      213: -2389212797650257479
+    second: Goblin Rider Animation Reel46
+  - first:
+      213: 6892511296784205704
+    second: Goblin Rider Animation Reel47
+  - first:
+      213: 8893247947789315510
+    second: Goblin Rider Animation Reel48
+  - first:
+      213: -4556533489684801192
+    second: Goblin Rider Animation Reel49
+  - first:
+      213: 766167748094221821
+    second: Goblin Rider Animation Reel50
+  - first:
+      213: 4671112344116207183
+    second: Goblin Rider Animation Reel51
+  - first:
+      213: 599561167862637211
+    second: Goblin Rider Animation Reel52
+  - first:
+      213: 3494937445808124356
+    second: Goblin Rider Animation Reel53
+  - first:
+      213: 4528694226497835906
+    second: Goblin Rider Animation Reel54
+  - first:
+      213: -1025184662995373526
+    second: Goblin Rider Animation Reel55
+  - first:
+      213: -156329811317310234
+    second: Goblin Rider Animation Reel56
+  - first:
+      213: -2958808647109414785
+    second: Goblin Rider Animation Reel57
+  - first:
+      213: 4215753734667025825
+    second: Goblin Rider Animation Reel58
+  - first:
+      213: 2416224558119221563
+    second: Goblin Rider Animation Reel59
+  - first:
+      213: 1225661074792914534
+    second: Goblin Rider Animation Reel60
+  - first:
+      213: -640307249630244508
+    second: Goblin Rider Animation Reel61
+  - first:
+      213: -3209407797844276369
+    second: Goblin Rider Animation Reel62
+  - first:
+      213: 6604289716939437377
+    second: Goblin Rider Animation Reel63
+  - first:
+      213: 6174474609452301976
+    second: Goblin Rider Animation Reel64
+  - first:
+      213: -6294931458670711365
+    second: Goblin Rider Animation Reel65
+  - first:
+      213: 347822710602027257
+    second: Goblin Rider Animation Reel66
+  - first:
+      213: -8922580742388174535
+    second: Goblin Rider Animation Reel67
+  - first:
+      213: -209180405010961860
+    second: Goblin Rider Animation Reel68
+  - first:
+      213: 8180828963021582313
+    second: Goblin Rider Animation Reel69
+  - first:
+      213: 810122636419500664
+    second: Goblin Rider Animation Reel70
+  - first:
+      213: 6855233351393518033
+    second: Goblin Rider Animation Reel71
+  - first:
+      213: 5671664088782274723
+    second: Goblin Rider Animation Reel72
+  - first:
+      213: -6888719852716690928
+    second: Goblin Rider Animation Reel73
+  - first:
+      213: -1449113441762670090
+    second: Goblin Rider Animation Reel74
+  - first:
+      213: -8406468877234786516
+    second: Goblin Rider Animation Reel75
+  - first:
+      213: 4263940934077155041
+    second: Goblin Rider Animation Reel76
+  - first:
+      213: 4198580432051749829
+    second: Goblin Rider Animation Reel77
+  - first:
+      213: 4825836493768346995
+    second: Goblin Rider Animation Reel78
+  - first:
+      213: 1513119198459214156
+    second: Goblin Rider Animation Reel79
+  - first:
+      213: -3964516952455791218
+    second: Goblin Rider Animation Reel80
+  - first:
+      213: -466677989753673437
+    second: Goblin Rider Animation Reel81
+  - first:
+      213: -2274477864444187915
+    second: Goblin Rider Animation Reel82
+  - first:
+      213: 6879452431363200137
+    second: Goblin Rider Animation Reel83
+  - first:
+      213: -4466359766368905359
+    second: Goblin Rider Animation Reel84
+  - first:
+      213: 1740225910617847135
+    second: Goblin Rider Animation Reel85
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1747
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3c97f95d6661680800000000000000
+      internalID: -8784720955449949206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel01
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1747
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2735c2c5ea55a0f30800000000000000
+      internalID: 4542537381515645810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel02
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1747
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfef9dd6e5a6e9bf0800000000000000
+      internalID: -315697970066882821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel03
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1747
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aba8314a88700640800000000000000
+      internalID: 5044164117850008485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel04
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1747
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd993f62bf6168350800000000000000
+      internalID: 6018523219973347804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel05
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1747
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6166445d14a6c7c0800000000000000
+      internalID: -4051370368898277011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel06
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1747
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e6a3a488534ec00800000000000000
+      internalID: 928926282622332568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel07
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1747
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142d92e38855b4a20800000000000000
+      internalID: 3047623616493113921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel08
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1747
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21596250ee94683f0800000000000000
+      internalID: -898949788976376558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel09
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1747
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498168885acb5cd90800000000000000
+      internalID: -7078043820196751212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1553
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b694eb7f2765459f0800000000000000
+      internalID: -480664208439096981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1553
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18eec9094af17f1c0800000000000000
+      internalID: -4470069313480626559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel12
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1553
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf95da31fdf496da0800000000000000
+      internalID: -5951137613066970629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel13
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1553
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbb15f7547719c20800000000000000
+      internalID: 3211479149664386044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel14
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1553
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04974027a53af21b0800000000000000
+      internalID: -5679140996235626176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel15
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1553
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4335534bd20674520800000000000000
+      internalID: 2686221452162978612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel16
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1553
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0eff152c2e28e30800000000000000
+      internalID: 4504411901551173843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel17
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1553
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505c53ac421177700800000000000000
+      internalID: 537917530203079941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel18
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1553
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5413e6366483bee10800000000000000
+      internalID: 2227936315631874373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel19
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1553
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8887fbb03a450a060800000000000000
+      internalID: 6962658083168286856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1359
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d0c514ffd174f00800000000000000
+      internalID: 1100881616065793350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel21
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1359
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96649c4be9fa30f20800000000000000
+      internalID: 3387744440885528169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel22
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1359
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8373fc58a394131b0800000000000000
+      internalID: -5678677139435604168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel23
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1359
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4835e73488306f6c0800000000000000
+      internalID: -4110093726146210940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel24
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1359
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c346c1194e6a520800000000000000
+      internalID: 2713107137435024410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel25
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1359
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ec9f47246e8e6c0800000000000000
+      internalID: -4113785086498189811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel26
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1359
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc827d74ece32fd0800000000000000
+      internalID: -2367788512965391106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel27
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1359
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1424dabfa7a5d7450800000000000000
+      internalID: 6088121755529724481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel28
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1359
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7696d2745fa88d0800000000000000
+      internalID: -2843190528677681245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel29
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1359
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ea3b0ceb87daf90800000000000000
+      internalID: -6940758690035945966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1165
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36451353300814800800000000000000
+      internalID: 594897377055298659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1165
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e62acc564add1910800000000000000
+      internalID: 1809842621012125417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel32
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1165
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ecda1b1fe0626010800000000000000
+      internalID: 1180612632392686817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel33
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1165
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef1753c25fc9e740800000000000000
+      internalID: 5181900800638001120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel34
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1165
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be92243a17c01f1c0800000000000000
+      internalID: -4471779272792331797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel35
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1165
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd4fc31240c9cc70800000000000000
+      internalID: 8991929521054633457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel36
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1165
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a94c605b38e6130800000000000000
+      internalID: 3561929168822508082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel37
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1165
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44cb9c1291e694730800000000000000
+      internalID: 3983836399606021188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel38
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1165
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b92cb719c101f4e0800000000000000
+      internalID: -1949775200476452431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel39
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1165
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8810240ffed56b0800000000000000
+      internalID: -5305820970793989895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 971
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73cd85a1c69439f90800000000000000
+      internalID: -6948129071455216585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel41
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 971
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e0c684f03745dc0800000000000000
+      internalID: -3651166888413884872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel42
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 971
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdf801acde23eaf0800000000000000
+      internalID: -368399219384844807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel43
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 971
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb75fd339369ff90800000000000000
+      internalID: -6919389868427215939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel44
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 971
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adf479fa50aa0b70800000000000000
+      internalID: 8866075129024937377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel45
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 971
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d510aaadb363de0800000000000000
+      internalID: -1353828827637129873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel46
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 971
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b93d3f7e9fc7ded0800000000000000
+      internalID: -2389212797650257479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel47
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 971
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887803f918e17af50800000000000000
+      internalID: 6892511296784205704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel48
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 971
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd247bd3e92b6b70800000000000000
+      internalID: 8893247947789315510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel49
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 971
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8599a24cee0f3c0c0800000000000000
+      internalID: -4556533489684801192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd548fe189f1aa00800000000000000
+      internalID: 766167748094221821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel51
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e1df8adef13d040800000000000000
+      internalID: 4671112344116207183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel52
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92229f94b1125800800000000000000
+      internalID: 599561167862637211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel53
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1ba990713808030800000000000000
+      internalID: 3494937445808124356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel54
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28314caa76729de30800000000000000
+      internalID: 4528694226497835906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel55
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a227bfc0bffc5c1f0800000000000000
+      internalID: -1025184662995373526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel56
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecb0a86dda94ddf0800000000000000
+      internalID: -156329811317310234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel57
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7070be363330f6d0800000000000000
+      internalID: -2958808647109414785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel58
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adba578fad518a30800000000000000
+      internalID: 4215753734667025825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel59
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 777
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3975441f67288120800000000000000
+      internalID: 2416224558119221563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 583
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e1e02f04c620110800000000000000
+      internalID: 1225661074792914534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel61
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 583
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4619eaee2fb2d17f0800000000000000
+      internalID: -640307249630244508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel62
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 583
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b8f1eac94e573d0800000000000000
+      internalID: -3209407797844276369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel63
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 583
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145b0fba18627ab50800000000000000
+      internalID: 6604289716939437377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel64
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 583
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89eb21b81f320b550800000000000000
+      internalID: 6174474609452301976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel65
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 583
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd2088b039e3a8a0800000000000000
+      internalID: -6294931458670711365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel66
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 583
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f05f3699e6b3d400800000000000000
+      internalID: 347822710602027257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel67
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 583
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9313632b610ac2480800000000000000
+      internalID: -8922580742388174535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel68
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 583
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a6959a787d81df0800000000000000
+      internalID: -209180405010961860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel69
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 583
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9efe0251994288170800000000000000
+      internalID: 8180828963021582313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel70
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 389
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a8940ee322e3b00800000000000000
+      internalID: 810122636419500664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel71
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 389
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1a83a996ea22f50800000000000000
+      internalID: 6855233351393518033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel72
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 389
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a00531607cc5be40800000000000000
+      internalID: 5671664088782274723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel73
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 389
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012f3adbac95660a0800000000000000
+      internalID: -6888719852716690928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel74
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 389
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f90e70a007b3ebe0800000000000000
+      internalID: -1449113441762670090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel75
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 389
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f2b057819365b80800000000000000
+      internalID: -8406468877234786516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel76
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 389
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e68aee20bf8c2b30800000000000000
+      internalID: 4263940934077155041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel77
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 389
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3c95d68aa544a30800000000000000
+      internalID: 4198580432051749829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel78
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 389
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dcd2309b0d8f240800000000000000
+      internalID: 4825836493768346995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel79
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 389
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c493cf6e4edaff410800000000000000
+      internalID: 1513119198459214156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 195
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8dbbde26d43bf8c0800000000000000
+      internalID: -3964516952455791218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel81
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 195
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3292d3447d60689f0800000000000000
+      internalID: -466677989753673437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel82
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 195
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5faa058de6e6f60e0800000000000000
+      internalID: -2274477864444187915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel83
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 195
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984d9949989b87f50800000000000000
+      internalID: 6879452431363200137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel84
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 195
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1771c7ec47d4402c0800000000000000
+      internalID: -4466359766368905359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Rider Animation Reel85
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 195
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55be4fde36862810800000000000000
+      internalID: 1740225910617847135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Goblin Rider Animation Reel58: 4215753734667025825
+      Goblin Rider Animation Reel10: -480664208439096981
+      Goblin Rider Animation Reel54: 4528694226497835906
+      Goblin Rider Animation Reel18: 2227936315631874373
+      Goblin Rider Animation Reel56: -156329811317310234
+      Goblin Rider Animation Reel19: 6962658083168286856
+      Goblin Rider Animation Reel16: 4504411901551173843
+      Goblin Rider Animation Reel27: 6088121755529724481
+      Goblin Rider Animation Reel55: -1025184662995373526
+      Goblin Rider Animation Reel67: -8922580742388174535
+      Goblin Rider Animation Reel21: 3387744440885528169
+      Goblin Rider Animation Reel30: 594897377055298659
+      Goblin Rider Animation Reel71: 6855233351393518033
+      Goblin Rider Animation Reel72: 5671664088782274723
+      Goblin Rider Animation Reel85: 1740225910617847135
+      Goblin Rider Animation Reel15: 2686221452162978612
+      Goblin Rider Animation Reel47: 6892511296784205704
+      Goblin Rider Animation Reel20: 1100881616065793350
+      Goblin Rider Animation Reel60: 1225661074792914534
+      Goblin Rider Animation Reel59: 2416224558119221563
+      Goblin Rider Animation Reel63: 6604289716939437377
+      Goblin Rider Animation Reel40: -6948129071455216585
+      Goblin Rider Animation Reel78: 4825836493768346995
+      Goblin Rider Animation Reel81: -466677989753673437
+      Goblin Rider Animation Reel37: 3983836399606021188
+      Goblin Rider Animation Reel29: -6940758690035945966
+      Goblin Rider Animation Reel83: 6879452431363200137
+      Goblin Rider Animation Reel57: -2958808647109414785
+      Goblin Rider Animation Reel22: -5678677139435604168
+      Goblin Rider Animation Reel14: -5679140996235626176
+      Goblin Rider Animation Reel31: 1809842621012125417
+      Goblin Rider Animation Reel75: -8406468877234786516
+      Goblin Rider Animation Reel05: -4051370368898277011
+      Goblin Rider Animation Reel79: 1513119198459214156
+      Goblin Rider Animation Reel80: -3964516952455791218
+      Goblin Rider Animation Reel32: 1180612632392686817
+      Goblin Rider Animation Reel34: -4471779272792331797
+      Goblin Rider Animation Reel45: -1353828827637129873
+      Goblin Rider Animation Reel33: 5181900800638001120
+      Goblin Rider Animation Reel42: -368399219384844807
+      Goblin Rider Animation Reel03: 5044164117850008485
+      Goblin Rider Animation Reel84: -4466359766368905359
+      Goblin Rider Animation Reel35: 8991929521054633457
+      Goblin Rider Animation Reel25: -4113785086498189811
+      Goblin Rider Animation Reel62: -3209407797844276369
+      Goblin Rider Animation Reel00: -8784720955449949206
+      Goblin Rider Animation Reel82: -2274477864444187915
+      Goblin Rider Animation Reel26: -2367788512965391106
+      Goblin Rider Animation Reel01: 4542537381515645810
+      Goblin Rider Animation Reel50: 766167748094221821
+      Goblin Rider Animation Reel74: -1449113441762670090
+      Goblin Rider Animation Reel66: 347822710602027257
+      Goblin Rider Animation Reel46: -2389212797650257479
+      Goblin Rider Animation Reel65: -6294931458670711365
+      Goblin Rider Animation Reel28: -2843190528677681245
+      Goblin Rider Animation Reel41: -3651166888413884872
+      Goblin Rider Animation Reel43: -6919389868427215939
+      Goblin Rider Animation Reel61: -640307249630244508
+      Goblin Rider Animation Reel69: 8180828963021582313
+      Goblin Rider Animation Reel09: -7078043820196751212
+      Goblin Rider Animation Reel24: 2713107137435024410
+      Goblin Rider Animation Reel52: 599561167862637211
+      Goblin Rider Animation Reel04: 6018523219973347804
+      Goblin Rider Animation Reel51: 4671112344116207183
+      Goblin Rider Animation Reel08: -898949788976376558
+      Goblin Rider Animation Reel64: 6174474609452301976
+      Goblin Rider Animation Reel44: 8866075129024937377
+      Goblin Rider Animation Reel70: 810122636419500664
+      Goblin Rider Animation Reel77: 4198580432051749829
+      Goblin Rider Animation Reel13: 3211479149664386044
+      Goblin Rider Animation Reel76: 4263940934077155041
+      Goblin Rider Animation Reel49: -4556533489684801192
+      Goblin Rider Animation Reel48: 8893247947789315510
+      Goblin Rider Animation Reel68: -209180405010961860
+      Goblin Rider Animation Reel02: -315697970066882821
+      Goblin Rider Animation Reel17: 537917530203079941
+      Goblin Rider Animation Reel36: 3561929168822508082
+      Goblin Rider Animation Reel06: 928926282622332568
+      Goblin Rider Animation Reel07: 3047623616493113921
+      Goblin Rider Animation Reel73: -6888719852716690928
+      Goblin Rider Animation Reel38: -1949775200476452431
+      Goblin Rider Animation Reel53: 3494937445808124356
+      Goblin Rider Animation Reel12: -5951137613066970629
+      Goblin Rider Animation Reel11: -4470069313480626559
+      Goblin Rider Animation Reel39: -5305820970793989895
+      Goblin Rider Animation Reel23: -4110093726146210940
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

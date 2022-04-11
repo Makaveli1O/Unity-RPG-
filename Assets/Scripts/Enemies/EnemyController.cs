@@ -540,7 +540,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
         //trigger start animation events here
         string damageAmount = Random.Range(bottomDamage, topDamage).ToString();
         this.state = State.Attacking;
-        StartCoroutine(Animating(0.8f, State.Attacking, damageAmount));
+        StartCoroutine(Animating(2f, State.Attacking, damageAmount));
         return;
     }
 
@@ -607,7 +607,6 @@ public class EnemyController : MonoBehaviour, CombatInterface
         //damage popup
         DamagePopup.Create(transform.position, damageAmount);
         //if health is zero die
-        Debug.Log(healthSystem.GetHealthPercent());
         if (healthSystem.GetHealthPercent() == 0){
             if (!this.IsDead) this.Die();
             

@@ -23,7 +23,7 @@ MonoBehaviour:
   attackTime: 2
   multiplier: 0
   movementSpeed: 2
-  assetsLibrary: {fileID: 7108339969198208228, guid: c10194fa3dff6da4abd47e7fd1c45745, type: 3}
+  assetsLibrary: {fileID: 7108339969198208228, guid: bb7169ffedb9de74c8889d459d8efff5, type: 3}
   sfx:
   - sound: 3
     audioClip: {fileID: 8300000, guid: ba7d76f6ff2936e43a6936c6a61eff66, type: 3}

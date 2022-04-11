@@ -1,0 +1,2698 @@
+fileFormatVersion: 2
+guid: c6bcd292e97fb994b9e4175ebab7cff8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4688724905455171775
+    second: Sorceress Animation Showreel000
+  - first:
+      213: 6530290563033148196
+    second: Sorceress Animation Showreel001
+  - first:
+      213: -1012684759224891823
+    second: Sorceress Animation Showreel002
+  - first:
+      213: -4183323464355174965
+    second: Sorceress Animation Showreel003
+  - first:
+      213: -6844064791341123677
+    second: Sorceress Animation Showreel004
+  - first:
+      213: 6557116581456143425
+    second: Sorceress Animation Showreel005
+  - first:
+      213: -2150994145667464189
+    second: Sorceress Animation Showreel006
+  - first:
+      213: 5635809363550418150
+    second: Sorceress Animation Showreel007
+  - first:
+      213: -6756160243115688783
+    second: Sorceress Animation Showreel008
+  - first:
+      213: 4113930800070566132
+    second: Sorceress Animation Showreel009
+  - first:
+      213: 1465751269027174213
+    second: Sorceress Animation Showreel010
+  - first:
+      213: 5492905490653140618
+    second: Sorceress Animation Showreel011
+  - first:
+      213: 6733986607116520373
+    second: Sorceress Animation Showreel012
+  - first:
+      213: 6920237412538722155
+    second: Sorceress Animation Showreel013
+  - first:
+      213: -5352127822750816796
+    second: Sorceress Animation Showreel014
+  - first:
+      213: 5264401089811691595
+    second: Sorceress Animation Showreel015
+  - first:
+      213: -2650984287018906714
+    second: Sorceress Animation Showreel016
+  - first:
+      213: -2513906869646240197
+    second: Sorceress Animation Showreel017
+  - first:
+      213: -1562693586038465933
+    second: Sorceress Animation Showreel018
+  - first:
+      213: 7952351253817111593
+    second: Sorceress Animation Showreel019
+  - first:
+      213: 6589087797411667603
+    second: Sorceress Animation Showreel020
+  - first:
+      213: 321466962308544311
+    second: Sorceress Animation Showreel021
+  - first:
+      213: 4355082944426727706
+    second: Sorceress Animation Showreel022
+  - first:
+      213: 9176475224258134578
+    second: Sorceress Animation Showreel023
+  - first:
+      213: 2658418973963060819
+    second: Sorceress Animation Showreel024
+  - first:
+      213: 5168907487739260465
+    second: Sorceress Animation Showreel025
+  - first:
+      213: -8030007724502420787
+    second: Sorceress Animation Showreel026
+  - first:
+      213: 4269673088415808589
+    second: Sorceress Animation Showreel027
+  - first:
+      213: 4326564347179912334
+    second: Sorceress Animation Showreel028
+  - first:
+      213: -3046978022253548953
+    second: Sorceress Animation Showreel029
+  - first:
+      213: -7425250993003289604
+    second: Sorceress Animation Showreel030
+  - first:
+      213: 4109824230325971102
+    second: Sorceress Animation Showreel031
+  - first:
+      213: -5157037708192614174
+    second: Sorceress Animation Showreel032
+  - first:
+      213: 1406389876400318408
+    second: Sorceress Animation Showreel033
+  - first:
+      213: -4527415248138422551
+    second: Sorceress Animation Showreel034
+  - first:
+      213: 3372000206032905516
+    second: Sorceress Animation Showreel035
+  - first:
+      213: -5712733859036753365
+    second: Sorceress Animation Showreel036
+  - first:
+      213: -7888494137982991477
+    second: Sorceress Animation Showreel037
+  - first:
+      213: 6945104720756027720
+    second: Sorceress Animation Showreel038
+  - first:
+      213: -6116192703206245029
+    second: Sorceress Animation Showreel039
+  - first:
+      213: -5809040643471435872
+    second: Sorceress Animation Showreel040
+  - first:
+      213: -3328262239582160632
+    second: Sorceress Animation Showreel041
+  - first:
+      213: -4853312537891489714
+    second: Sorceress Animation Showreel042
+  - first:
+      213: 8019024407398646238
+    second: Sorceress Animation Showreel043
+  - first:
+      213: -7789121353384266582
+    second: Sorceress Animation Showreel044
+  - first:
+      213: -3258333144910173391
+    second: Sorceress Animation Showreel045
+  - first:
+      213: 8648887155627705173
+    second: Sorceress Animation Showreel046
+  - first:
+      213: -8144205618718210803
+    second: Sorceress Animation Showreel047
+  - first:
+      213: -8379600308114704675
+    second: Sorceress Animation Showreel048
+  - first:
+      213: -5234269380053154999
+    second: Sorceress Animation Showreel049
+  - first:
+      213: -8113018320213343181
+    second: Sorceress Animation Showreel050
+  - first:
+      213: 6556690177143298078
+    second: Sorceress Animation Showreel051
+  - first:
+      213: -5792089776594095010
+    second: Sorceress Animation Showreel052
+  - first:
+      213: -2603284680460911113
+    second: Sorceress Animation Showreel053
+  - first:
+      213: -5000643132275033285
+    second: Sorceress Animation Showreel054
+  - first:
+      213: 3345479870211866410
+    second: Sorceress Animation Showreel055
+  - first:
+      213: -8645430796284635256
+    second: Sorceress Animation Showreel056
+  - first:
+      213: 7120174169110032843
+    second: Sorceress Animation Showreel057
+  - first:
+      213: 6454091846521799501
+    second: Sorceress Animation Showreel058
+  - first:
+      213: -5481763764866390632
+    second: Sorceress Animation Showreel059
+  - first:
+      213: 5263290779097993352
+    second: Sorceress Animation Showreel060
+  - first:
+      213: 6932524102167353190
+    second: Sorceress Animation Showreel061
+  - first:
+      213: -1438795114049731858
+    second: Sorceress Animation Showreel062
+  - first:
+      213: -6879008239272952552
+    second: Sorceress Animation Showreel063
+  - first:
+      213: 6477004940389974547
+    second: Sorceress Animation Showreel064
+  - first:
+      213: 9047173205877399774
+    second: Sorceress Animation Showreel065
+  - first:
+      213: 875814885958764198
+    second: Sorceress Animation Showreel066
+  - first:
+      213: -4347124268322744222
+    second: Sorceress Animation Showreel067
+  - first:
+      213: -1476390761304536133
+    second: Sorceress Animation Showreel068
+  - first:
+      213: -6538577433491273409
+    second: Sorceress Animation Showreel069
+  - first:
+      213: 6006451009363993280
+    second: Sorceress Animation Showreel070
+  - first:
+      213: 3114043621781200716
+    second: Sorceress Animation Showreel071
+  - first:
+      213: 1313043868207012314
+    second: Sorceress Animation Showreel072
+  - first:
+      213: 1658578005256737232
+    second: Sorceress Animation Showreel073
+  - first:
+      213: 3119669638509855593
+    second: Sorceress Animation Showreel074
+  - first:
+      213: 3866583571232043108
+    second: Sorceress Animation Showreel075
+  - first:
+      213: 7317435218324675086
+    second: Sorceress Animation Showreel076
+  - first:
+      213: 7127845762461222028
+    second: Sorceress Animation Showreel077
+  - first:
+      213: -3966722236068103237
+    second: Sorceress Animation Showreel078
+  - first:
+      213: 724172040626825087
+    second: Sorceress Animation Showreel079
+  - first:
+      213: 2433682403595512537
+    second: Sorceress Animation Showreel080
+  - first:
+      213: -973302620113918121
+    second: Sorceress Animation Showreel081
+  - first:
+      213: 3103074679004430099
+    second: Sorceress Animation Showreel082
+  - first:
+      213: -4480695807239531788
+    second: Sorceress Animation Showreel083
+  - first:
+      213: 5474986964811356543
+    second: Sorceress Animation Showreel084
+  - first:
+      213: -7225795755386647973
+    second: Sorceress Animation Showreel085
+  - first:
+      213: -256241739718472819
+    second: Sorceress Animation Showreel086
+  - first:
+      213: -5799030167223161243
+    second: Sorceress Animation Showreel087
+  - first:
+      213: -8137838843135730564
+    second: Sorceress Animation Showreel088
+  - first:
+      213: -5115543340082409130
+    second: Sorceress Animation Showreel089
+  - first:
+      213: 6085553153614772121
+    second: Sorceress Animation Showreel090
+  - first:
+      213: -1840187730904015250
+    second: Sorceress Animation Showreel091
+  - first:
+      213: 2912875967275735529
+    second: Sorceress Animation Showreel092
+  - first:
+      213: 1110922959812208424
+    second: Sorceress Animation Showreel093
+  - first:
+      213: -1552651299086009878
+    second: Sorceress Animation Showreel094
+  - first:
+      213: -2233956442248198108
+    second: Sorceress Animation Showreel095
+  - first:
+      213: 8750931582842110201
+    second: Sorceress Animation Showreel096
+  - first:
+      213: 3774547808460203945
+    second: Sorceress Animation Showreel097
+  - first:
+      213: -7665484690803164168
+    second: Sorceress Animation Showreel098
+  - first:
+      213: -5964248071215953650
+    second: Sorceress Animation Showreel099
+  - first:
+      213: -301632267734470347
+    second: Sorceress Animation Showreel100
+  - first:
+      213: -3764308858867532513
+    second: Sorceress Animation Showreel101
+  - first:
+      213: -6774305288852160328
+    second: Sorceress Animation Showreel102
+  - first:
+      213: -3812044542933506376
+    second: Sorceress Animation Showreel103
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8be27a572b11140800000000000000
+      internalID: 4688724905455171775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel001
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b2da90ba040aa50800000000000000
+      internalID: 6530290563033148196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel002
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156c2f0b39832f1f0800000000000000
+      internalID: -1012684759224891823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel003
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5ad8e2979d1f5c0800000000000000
+      internalID: -4183323464355174965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel004
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7ba5c655ff401a0800000000000000
+      internalID: -6844064791341123677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel005
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144648c2ace8ffa50800000000000000
+      internalID: 6557116581456143425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel006
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304cb8198322622e0800000000000000
+      internalID: -2150994145667464189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel007
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e43e30a1ca663e40800000000000000
+      internalID: 5635809363550418150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel008
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcf877fd0c4d32a0800000000000000
+      internalID: -6756160243115688783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel009
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0aeb0244e971930800000000000000
+      internalID: 4113930800070566132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel010
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54751776305675410800000000000000
+      internalID: 1465751269027174213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a865c2be078ba3c40800000000000000
+      internalID: 5492905490653140618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel012
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb0b67142de37d50800000000000000
+      internalID: 6733986607116520373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel013
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b672dbff24f990060800000000000000
+      internalID: 6920237412538722155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel014
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5e37c1a1c69b5b0800000000000000
+      internalID: -5352127822750816796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel015
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48b76136e8ee0940800000000000000
+      internalID: 5264401089811691595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel016
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab881326dfc53bd0800000000000000
+      internalID: -2650984287018906714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel017
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b365254750fcc1dd0800000000000000
+      internalID: -2513906869646240197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel018
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a55678672305ae0800000000000000
+      internalID: -1562693586038465933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel019
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924b6ecf45d6c5e60800000000000000
+      internalID: 7952351253817111593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel020
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e5596f074217b50800000000000000
+      internalID: 6589087797411667603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel021
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737bc6fbf74167400800000000000000
+      internalID: 321466962308544311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19daed1ddc507c30800000000000000
+      internalID: 4355082944426727706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel023
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2324410f893695f70800000000000000
+      internalID: 9176475224258134578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel024
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3560a3fc8f994e420800000000000000
+      internalID: 2658418973963060819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel025
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e2e8b59f5abb740800000000000000
+      internalID: 5168907487739260465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel026
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2f365f48eaf8090800000000000000
+      internalID: -8030007724502420787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel027
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cb11e5d0de04b30800000000000000
+      internalID: 4269673088415808589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel028
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c4783c95b0b0c30800000000000000
+      internalID: 4326564347179912334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel029
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76aa721e1a5f6b5d0800000000000000
+      internalID: -3046978022253548953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel030
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf32ce1009534f890800000000000000
+      internalID: -7425250993003289604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel031
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e986fd9dc57090930800000000000000
+      internalID: 4109824230325971102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel032
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e872ed07858e68b0800000000000000
+      internalID: -5157037708192614174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel033
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7eb862420848310800000000000000
+      internalID: 1406389876400318408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel034
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6b500b1d36b21c0800000000000000
+      internalID: -4527415248138422551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel035
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25a22f5250cbce20800000000000000
+      internalID: 3372000206032905516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel036
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2294c392da48b0b0800000000000000
+      internalID: -5712733859036753365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel037
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83c5c46060768290800000000000000
+      internalID: -7888494137982991477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel038
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8413d8062f7f16060800000000000000
+      internalID: 6945104720756027720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel039
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d3e83342bee1ba0800000000000000
+      internalID: -6116192703206245029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel040
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a71418ff44226fa0800000000000000
+      internalID: -5809040643471435872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel041
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809fb528023afc1d0800000000000000
+      internalID: -3328262239582160632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel042
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e483703f5f195acb0800000000000000
+      internalID: -4853312537891489714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel043
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed10f20463c494f60800000000000000
+      internalID: 8019024407398646238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel044
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4fe1bc56b77e390800000000000000
+      internalID: -7789121353384266582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel045
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b6fb1a44318c2d0800000000000000
+      internalID: -3258333144910173391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel046
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553c0a55b05070870800000000000000
+      internalID: 8648887155627705173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel047
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d058f8eb328f9fe80800000000000000
+      internalID: -8144205618718210803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel048
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6b113baeda5bb80800000000000000
+      internalID: -8379600308114704675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel049
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9434a3f2bb32c57b0800000000000000
+      internalID: -5234269380053154999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel050
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334827782d4c86f80800000000000000
+      internalID: -8113018320213343181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel051
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e185bee2afa0efa50800000000000000
+      internalID: 6556690177143298078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel052
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54ffe6390d5e9fa0800000000000000
+      internalID: -5792089776594095010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel053
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd39eb30664fdbd0800000000000000
+      internalID: -2603284680460911113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel054
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bff34d0952a9ab0800000000000000
+      internalID: -5000643132275033285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel055
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2fb23387388d6e20800000000000000
+      internalID: 3345479870211866410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel056
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8875b390f72450880800000000000000
+      internalID: -8645430796284635256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel057
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc137b8bea0ffc260800000000000000
+      internalID: 7120174169110032843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel058
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d434da3d65a819950800000000000000
+      internalID: 6454091846521799501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel059
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895e78446ecdce3b0800000000000000
+      internalID: -5481763764866390632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel060
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88099b5d317fa0940800000000000000
+      internalID: 5263290779097993352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel061
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667d48ad0f5453060800000000000000
+      internalID: 6932524102167353190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel062
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee28f72877f580ce0800000000000000
+      internalID: -1438795114049731858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel063
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d7623f37ad880a0800000000000000
+      internalID: -6879008239272952552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel064
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31205683da1f2e950800000000000000
+      internalID: 6477004940389974547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel065
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed021c5c8140e8d70800000000000000
+      internalID: 9047173205877399774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel066
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6429e9ff4872c00800000000000000
+      internalID: 875814885958764198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel067
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26894209289eba3c0800000000000000
+      internalID: -4347124268322744222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel068
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb46c2cc6ec28be0800000000000000
+      internalID: -1476390761304536133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel069
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f390e54977e4245a0800000000000000
+      internalID: -6538577433491273409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel070
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c26de59e533b5350800000000000000
+      internalID: 6006451009363993280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel071
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fd653dc2e473b20800000000000000
+      internalID: 3114043621781200716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel072
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9dbfaf07ed83210800000000000000
+      internalID: 1313043868207012314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel073
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d19a9388e3740710800000000000000
+      internalID: 1658578005256737232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel074
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96383fbe10b4b4b20800000000000000
+      internalID: 3119669638509855593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel075
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460b5a1a54dd8a530800000000000000
+      internalID: 3866583571232043108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel076
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0adc27cf80cc8560800000000000000
+      internalID: 7317435218324675086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel077
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84464db4f13be260800000000000000
+      internalID: 7127845762461222028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel078
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb7484942f53f8c0800000000000000
+      internalID: -3966722236068103237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel079
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77e4d552a6cc0a00800000000000000
+      internalID: 724172040626825087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel080
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9daed6a704d26c120800000000000000
+      internalID: 2433682403595512537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel081
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757272d7c622e72f0800000000000000
+      internalID: -973302620113918121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel082
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f7191daf5501b20800000000000000
+      internalID: 3103074679004430099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel083
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2d7ee27ee51d1c0800000000000000
+      internalID: -4480695807239531788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel084
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79997303af0bfb40800000000000000
+      internalID: 5474986964811356543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel085
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a47ac5b01d8bb90800000000000000
+      internalID: -7225795755386647973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel086
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bc37fce75a17cf0800000000000000
+      internalID: -256241739718472819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel087
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ea3e899c4b58fa0800000000000000
+      internalID: -5799030167223161243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel088
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7cd48330b6901f80800000000000000
+      internalID: -8137838843135730564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel089
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651d54d7f60f109b0800000000000000
+      internalID: -5115543340082409130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel090
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99777feb95a347450800000000000000
+      internalID: 6085553153614772121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel091
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e1f6b22075676e0800000000000000
+      internalID: -1840187730904015250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel092
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e91e38524d9c6820800000000000000
+      internalID: 2912875967275735529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel093
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827ae68cb8aca6f00800000000000000
+      internalID: 1110922959812208424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel094
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9fde9aedfd37ae0800000000000000
+      internalID: -1552651299086009878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel095
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428c918a3746ff0e0800000000000000
+      internalID: -2233956442248198108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel096
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f00d0109ed817970800000000000000
+      internalID: 8750931582842110201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel097
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7effebb33e16430800000000000000
+      internalID: 3774547808460203945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel098
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb7b75894abe9590800000000000000
+      internalID: -7665484690803164168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel099
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e094ddaaafbba3da0800000000000000
+      internalID: -5964248071215953650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel100
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53134e4fc0360dbf0800000000000000
+      internalID: -301632267734470347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel101
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d385a790d72cbc0800000000000000
+      internalID: -3764308858867532513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel102
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0cae94b35dcf1a0800000000000000
+      internalID: -6774305288852160328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sorceress Animation Showreel103
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b66b7e6fa5e81bc0800000000000000
+      internalID: -3812044542933506376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sorceress Animation Showreel040: -5809040643471435872
+      Sorceress Animation Showreel006: -2150994145667464189
+      Sorceress Animation Showreel046: 8648887155627705173
+      Sorceress Animation Showreel067: -4347124268322744222
+      Sorceress Animation Showreel068: -1476390761304536133
+      Sorceress Animation Showreel076: 7317435218324675086
+      Sorceress Animation Showreel005: 6557116581456143425
+      Sorceress Animation Showreel009: 4113930800070566132
+      Sorceress Animation Showreel035: 3372000206032905516
+      Sorceress Animation Showreel047: -8144205618718210803
+      Sorceress Animation Showreel093: 1110922959812208424
+      Sorceress Animation Showreel063: -6879008239272952552
+      Sorceress Animation Showreel043: 8019024407398646238
+      Sorceress Animation Showreel083: -4480695807239531788
+      Sorceress Animation Showreel054: -5000643132275033285
+      Sorceress Animation Showreel021: 321466962308544311
+      Sorceress Animation Showreel056: -8645430796284635256
+      Sorceress Animation Showreel059: -5481763764866390632
+      Sorceress Animation Showreel087: -5799030167223161243
+      Sorceress Animation Showreel101: -3764308858867532513
+      Sorceress Animation Showreel103: -3812044542933506376
+      Sorceress Animation Showreel098: -7665484690803164168
+      Sorceress Animation Showreel012: 6733986607116520373
+      Sorceress Animation Showreel022: 4355082944426727706
+      Sorceress Animation Showreel073: 1658578005256737232
+      Sorceress Animation Showreel028: 4326564347179912334
+      Sorceress Animation Showreel060: 5263290779097993352
+      Sorceress Animation Showreel077: 7127845762461222028
+      Sorceress Animation Showreel055: 3345479870211866410
+      Sorceress Animation Showreel080: 2433682403595512537
+      Sorceress Animation Showreel033: 1406389876400318408
+      Sorceress Animation Showreel041: -3328262239582160632
+      Sorceress Animation Showreel090: 6085553153614772121
+      Sorceress Animation Showreel007: 5635809363550418150
+      Sorceress Animation Showreel038: 6945104720756027720
+      Sorceress Animation Showreel008: -6756160243115688783
+      Sorceress Animation Showreel039: -6116192703206245029
+      Sorceress Animation Showreel015: 5264401089811691595
+      Sorceress Animation Showreel051: 6556690177143298078
+      Sorceress Animation Showreel066: 875814885958764198
+      Sorceress Animation Showreel092: 2912875967275735529
+      Sorceress Animation Showreel079: 724172040626825087
+      Sorceress Animation Showreel084: 5474986964811356543
+      Sorceress Animation Showreel020: 6589087797411667603
+      Sorceress Animation Showreel013: 6920237412538722155
+      Sorceress Animation Showreel011: 5492905490653140618
+      Sorceress Animation Showreel031: 4109824230325971102
+      Sorceress Animation Showreel085: -7225795755386647973
+      Sorceress Animation Showreel057: 7120174169110032843
+      Sorceress Animation Showreel026: -8030007724502420787
+      Sorceress Animation Showreel070: 6006451009363993280
+      Sorceress Animation Showreel089: -5115543340082409130
+      Sorceress Animation Showreel100: -301632267734470347
+      Sorceress Animation Showreel018: -1562693586038465933
+      Sorceress Animation Showreel048: -8379600308114704675
+      Sorceress Animation Showreel029: -3046978022253548953
+      Sorceress Animation Showreel032: -5157037708192614174
+      Sorceress Animation Showreel082: 3103074679004430099
+      Sorceress Animation Showreel037: -7888494137982991477
+      Sorceress Animation Showreel086: -256241739718472819
+      Sorceress Animation Showreel094: -1552651299086009878
+      Sorceress Animation Showreel097: 3774547808460203945
+      Sorceress Animation Showreel061: 6932524102167353190
+      Sorceress Animation Showreel003: -4183323464355174965
+      Sorceress Animation Showreel023: 9176475224258134578
+      Sorceress Animation Showreel044: -7789121353384266582
+      Sorceress Animation Showreel000: 4688724905455171775
+      Sorceress Animation Showreel024: 2658418973963060819
+      Sorceress Animation Showreel036: -5712733859036753365
+      Sorceress Animation Showreel042: -4853312537891489714
+      Sorceress Animation Showreel099: -5964248071215953650
+      Sorceress Animation Showreel052: -5792089776594095010
+      Sorceress Animation Showreel030: -7425250993003289604
+      Sorceress Animation Showreel071: 3114043621781200716
+      Sorceress Animation Showreel053: -2603284680460911113
+      Sorceress Animation Showreel058: 6454091846521799501
+      Sorceress Animation Showreel019: 7952351253817111593
+      Sorceress Animation Showreel027: 4269673088415808589
+      Sorceress Animation Showreel025: 5168907487739260465
+      Sorceress Animation Showreel062: -1438795114049731858
+      Sorceress Animation Showreel088: -8137838843135730564
+      Sorceress Animation Showreel102: -6774305288852160328
+      Sorceress Animation Showreel081: -973302620113918121
+      Sorceress Animation Showreel016: -2650984287018906714
+      Sorceress Animation Showreel072: 1313043868207012314
+      Sorceress Animation Showreel095: -2233956442248198108
+      Sorceress Animation Showreel096: 8750931582842110201
+      Sorceress Animation Showreel078: -3966722236068103237
+      Sorceress Animation Showreel001: 6530290563033148196
+      Sorceress Animation Showreel050: -8113018320213343181
+      Sorceress Animation Showreel014: -5352127822750816796
+      Sorceress Animation Showreel074: 3119669638509855593
+      Sorceress Animation Showreel017: -2513906869646240197
+      Sorceress Animation Showreel002: -1012684759224891823
+      Sorceress Animation Showreel004: -6844064791341123677
+      Sorceress Animation Showreel010: 1465751269027174213
+      Sorceress Animation Showreel034: -4527415248138422551
+      Sorceress Animation Showreel069: -6538577433491273409
+      Sorceress Animation Showreel075: 3866583571232043108
+      Sorceress Animation Showreel091: -1840187730904015250
+      Sorceress Animation Showreel045: -3258333144910173391
+      Sorceress Animation Showreel065: 9047173205877399774
+      Sorceress Animation Showreel064: 6477004940389974547
+      Sorceress Animation Showreel049: -5234269380053154999
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

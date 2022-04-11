@@ -1,0 +1,2323 @@
+fileFormatVersion: 2
+guid: 37e9cf376552e46409a295aacc161db3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2920389961483760666
+    second: Cultist Animation Showreel00
+  - first:
+      213: -7519877157724947843
+    second: Cultist Animation Showreel01
+  - first:
+      213: 7717988249787985536
+    second: Cultist Animation Showreel02
+  - first:
+      213: -8932828070479404222
+    second: Cultist Animation Showreel03
+  - first:
+      213: -8327096879402152513
+    second: Cultist Animation Showreel04
+  - first:
+      213: 6814754030318531111
+    second: Cultist Animation Showreel05
+  - first:
+      213: 3540077927192238002
+    second: Cultist Animation Showreel06
+  - first:
+      213: -7951150764712528094
+    second: Cultist Animation Showreel07
+  - first:
+      213: 8987295547357934023
+    second: Cultist Animation Showreel08
+  - first:
+      213: -9053559900618154943
+    second: Cultist Animation Showreel09
+  - first:
+      213: 7622211075015634298
+    second: Cultist Animation Showreel10
+  - first:
+      213: 2312092452874913036
+    second: Cultist Animation Showreel11
+  - first:
+      213: 387620034372452151
+    second: Cultist Animation Showreel12
+  - first:
+      213: 8098506417046920334
+    second: Cultist Animation Showreel13
+  - first:
+      213: -7421902200932576016
+    second: Cultist Animation Showreel14
+  - first:
+      213: 5130621050299633870
+    second: Cultist Animation Showreel15
+  - first:
+      213: 8235326364483214839
+    second: Cultist Animation Showreel16
+  - first:
+      213: -8733558176690653624
+    second: Cultist Animation Showreel17
+  - first:
+      213: 496802990207023600
+    second: Cultist Animation Showreel18
+  - first:
+      213: -5840872096202458467
+    second: Cultist Animation Showreel19
+  - first:
+      213: -6630483383332748052
+    second: Cultist Animation Showreel20
+  - first:
+      213: 3483080182661687649
+    second: Cultist Animation Showreel21
+  - first:
+      213: -894884692592417984
+    second: Cultist Animation Showreel22
+  - first:
+      213: -1954684898520187481
+    second: Cultist Animation Showreel23
+  - first:
+      213: -2960839140747986593
+    second: Cultist Animation Showreel24
+  - first:
+      213: -3390079081665430454
+    second: Cultist Animation Showreel25
+  - first:
+      213: 6640240876428344056
+    second: Cultist Animation Showreel26
+  - first:
+      213: 7024215702819342030
+    second: Cultist Animation Showreel27
+  - first:
+      213: 3065235686469684648
+    second: Cultist Animation Showreel28
+  - first:
+      213: -4565169275473481537
+    second: Cultist Animation Showreel29
+  - first:
+      213: -8652326872158894966
+    second: Cultist Animation Showreel30
+  - first:
+      213: -8365897855385622131
+    second: Cultist Animation Showreel31
+  - first:
+      213: 951454127694387771
+    second: Cultist Animation Showreel32
+  - first:
+      213: -2872333468407394516
+    second: Cultist Animation Showreel33
+  - first:
+      213: -7256842810424576624
+    second: Cultist Animation Showreel34
+  - first:
+      213: 4725244726997206496
+    second: Cultist Animation Showreel35
+  - first:
+      213: -4351459585162170363
+    second: Cultist Animation Showreel36
+  - first:
+      213: -5794483625520275148
+    second: Cultist Animation Showreel37
+  - first:
+      213: 1675628435879464055
+    second: Cultist Animation Showreel38
+  - first:
+      213: -8227441514486602507
+    second: Cultist Animation Showreel39
+  - first:
+      213: -5550597656895549275
+    second: Cultist Animation Showreel40
+  - first:
+      213: 4742297410855444544
+    second: Cultist Animation Showreel41
+  - first:
+      213: -4753101762543740908
+    second: Cultist Animation Showreel42
+  - first:
+      213: -405804024750470180
+    second: Cultist Animation Showreel43
+  - first:
+      213: -703564281510022830
+    second: Cultist Animation Showreel44
+  - first:
+      213: 3133186524425292109
+    second: Cultist Animation Showreel45
+  - first:
+      213: -8309787624607328178
+    second: Cultist Animation Showreel46
+  - first:
+      213: 8290372822353879421
+    second: Cultist Animation Showreel47
+  - first:
+      213: 3539751293557306587
+    second: Cultist Animation Showreel48
+  - first:
+      213: -8023156959583689829
+    second: Cultist Animation Showreel49
+  - first:
+      213: -343054538721831609
+    second: Cultist Animation Showreel50
+  - first:
+      213: 5111754809547293099
+    second: Cultist Animation Showreel51
+  - first:
+      213: -1145558878158759857
+    second: Cultist Animation Showreel52
+  - first:
+      213: -5867751899390763086
+    second: Cultist Animation Showreel53
+  - first:
+      213: 1878712529971620040
+    second: Cultist Animation Showreel54
+  - first:
+      213: -1696922827435767102
+    second: Cultist Animation Showreel55
+  - first:
+      213: 4321907807391436100
+    second: Cultist Animation Showreel56
+  - first:
+      213: 8860663217626396757
+    second: Cultist Animation Showreel57
+  - first:
+      213: -8923627130180778987
+    second: Cultist Animation Showreel58
+  - first:
+      213: 7490538310190868874
+    second: Cultist Animation Showreel59
+  - first:
+      213: -6152345123695436516
+    second: Cultist Animation Showreel60
+  - first:
+      213: 6415047930761628946
+    second: Cultist Animation Showreel61
+  - first:
+      213: -3479970368936208952
+    second: Cultist Animation Showreel62
+  - first:
+      213: -2253435117071305554
+    second: Cultist Animation Showreel63
+  - first:
+      213: 8485956157566408203
+    second: Cultist Animation Showreel64
+  - first:
+      213: 622378564190739126
+    second: Cultist Animation Showreel65
+  - first:
+      213: 725491986991798015
+    second: Cultist Animation Showreel66
+  - first:
+      213: -4807622243679143836
+    second: Cultist Animation Showreel67
+  - first:
+      213: -4083815549600891282
+    second: Cultist Animation Showreel68
+  - first:
+      213: 5736629385995637409
+    second: Cultist Animation Showreel69
+  - first:
+      213: -4585902009181311497
+    second: Cultist Animation Showreel70
+  - first:
+      213: -8711873367432374279
+    second: Cultist Animation Showreel71
+  - first:
+      213: 2620974684142764807
+    second: Cultist Animation Showreel72
+  - first:
+      213: -8385688547731839565
+    second: Cultist Animation Showreel73
+  - first:
+      213: 9017982026160442514
+    second: Cultist Animation Showreel74
+  - first:
+      213: 4421740295648723201
+    second: Cultist Animation Showreel75
+  - first:
+      213: -6619658326281228807
+    second: Cultist Animation Showreel76
+  - first:
+      213: 6218127772108683491
+    second: Cultist Animation Showreel77
+  - first:
+      213: -765491318643383089
+    second: Cultist Animation Showreel78
+  - first:
+      213: -1175755928490795180
+    second: Cultist Animation Showreel79
+  - first:
+      213: -5049244674472484154
+    second: Cultist Animation Showreel80
+  - first:
+      213: -8490604763731733362
+    second: Cultist Animation Showreel81
+  - first:
+      213: -5101774099065201583
+    second: Cultist Animation Showreel82
+  - first:
+      213: 1256580019705310719
+    second: Cultist Animation Showreel83
+  - first:
+      213: -2819192598506871736
+    second: Cultist Animation Showreel84
+  - first:
+      213: 4667159663911656219
+    second: Cultist Animation Showreel85
+  - first:
+      213: -362087183828254513
+    second: Cultist Animation Showreel86
+  - first:
+      213: 3615190848193112060
+    second: Cultist Animation Showreel87
+  - first:
+      213: -4636748949900425880
+    second: Cultist Animation Showreel88
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cultist Animation Showreel00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebc42c8dc0b877d0800000000000000
+      internalID: -2920389961483760666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel01
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7afa3b219704a790800000000000000
+      internalID: -7519877157724947843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel02
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e6049eb6dcb1b60800000000000000
+      internalID: 7717988249787985536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel03
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243ef63b238380480800000000000000
+      internalID: -8932828070479404222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel04
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd88fcc185307c80800000000000000
+      internalID: -8327096879402152513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel05
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7223cc83faed29e50800000000000000
+      internalID: 6814754030318531111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel06
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b79e7f5e12e02130800000000000000
+      internalID: 3540077927192238002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel07
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227fbb9a186d7a190800000000000000
+      internalID: -7951150764712528094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel08
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c138bffea949bc70800000000000000
+      internalID: 8987295547357934023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel09
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c1feafc3b4b5280800000000000000
+      internalID: -9053559900618154943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7dea59a69887c960800000000000000
+      internalID: 7622211075015634298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05887df5d3361020800000000000000
+      internalID: 2312092452874913036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel12
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f38981e5a116500800000000000000
+      internalID: 387620034372452151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel13
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c9d47bdaca36070800000000000000
+      internalID: 8098506417046920334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel14
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f459bb654b100990800000000000000
+      internalID: -7421902200932576016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel15
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0504c79a0a33740800000000000000
+      internalID: 5130621050299633870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel16
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd5e6422b1c94270800000000000000
+      internalID: 8235326364483214839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel17
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84635255c1b2cc680800000000000000
+      internalID: -8733558176690653624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel18
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f934aaffaff4e600800000000000000
+      internalID: 496802990207023600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel19
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a7c5756cd01fea0800000000000000
+      internalID: -5840872096202458467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4425f1e7acbf3a0800000000000000
+      internalID: -6630483383332748052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel21
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169a0c3d8f2665030800000000000000
+      internalID: 3483080182661687649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel22
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04328170d1bb493f0800000000000000
+      internalID: -894884692592417984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel23
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad32efe0709fd4e0800000000000000
+      internalID: -1954684898520187481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel24
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59b4aa1d7cf8e6d0800000000000000
+      internalID: -2960839140747986593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel25
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c79d0690504f0d0800000000000000
+      internalID: -3390079081665430454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel26
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa3a8645efd62c50800000000000000
+      internalID: 6640240876428344056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel27
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6844047f60b7160800000000000000
+      internalID: 7024215702819342030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel28
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad40e4dd97e98a20800000000000000
+      internalID: 3065235686469684648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel29
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb030e33bb245a0c0800000000000000
+      internalID: -4565169275473481537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8407604d82cce780800000000000000
+      internalID: -8652326872158894966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel31
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89a986993c56eb80800000000000000
+      internalID: -8365897855385622131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel32
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a9d45fc7e343d00800000000000000
+      internalID: 951454127694387771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel33
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f8c13cdeb6328d0800000000000000
+      internalID: -2872333468407394516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel34
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095bbcd89e38a4b90800000000000000
+      internalID: -7256842810424576624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel35
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5c4753b01739140800000000000000
+      internalID: 4725244726997206496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel36
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500b0f3ff828c93c0800000000000000
+      internalID: -4351459585162170363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel37
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431eb04d7dbd59fa0800000000000000
+      internalID: -5794483625520275148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel38
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c83204f27014710800000000000000
+      internalID: 1675628435879464055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel39
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f469be888142dd80800000000000000
+      internalID: -8227441514486602507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a010a1e6d058f2b0800000000000000
+      internalID: -5550597656895549275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel41
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0402b419e5600d140800000000000000
+      internalID: 4742297410855444544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel42
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4181c464127990eb0800000000000000
+      internalID: -4753101762543740908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel43
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb0358b36b4e5af0800000000000000
+      internalID: -405804024750470180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel44
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25131fb73007c36f0800000000000000
+      internalID: -703564281510022830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel45
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49096b2b805b7b20800000000000000
+      internalID: 3133186524425292109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel46
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48d75cbe24bdac80800000000000000
+      internalID: -8309787624607328178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel47
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71a4fb58225d0370800000000000000
+      internalID: 8290372822353879421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel48
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd476bd0c09bf1130800000000000000
+      internalID: 3539751293557306587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel49
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93afc6f04508a090800000000000000
+      internalID: -8023156959583689829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74556e0f6b93d3bf0800000000000000
+      internalID: -343054538721831609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel51
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba106f18ae990f640800000000000000
+      internalID: 5111754809547293099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel52
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f485d0e05482a10f0800000000000000
+      internalID: -1145558878158759857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel53
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf90b67cbe819ea0800000000000000
+      internalID: -5867751899390763086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel54
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8a8089717821a10800000000000000
+      internalID: 1878712529971620040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel55
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca807bdda15378e0800000000000000
+      internalID: -1696922827435767102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel56
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dcd8b90408afb30800000000000000
+      internalID: 4321907807391436100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel57
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558bdf8204667fa70800000000000000
+      internalID: 8860663217626396757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel58
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514498d8768e82480800000000000000
+      internalID: -8923627130180778987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel59
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89a16318ecb3f760800000000000000
+      internalID: 7490538310190868874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1dd68ed4ba7e9aa0800000000000000
+      internalID: -6152345123695436516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel61
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21dc62aca14d60950800000000000000
+      internalID: 6415047930761628946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel62
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c51caa1369a4bfc0800000000000000
+      internalID: -3479970368936208952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel63
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4f29243b03ab0e0800000000000000
+      internalID: -2253435117071305554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel64
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06d84f2a2c24c570800000000000000
+      internalID: 8485956157566408203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel65
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba1862b10223a800800000000000000
+      internalID: 622378564190739126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel66
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6d90c4e17711a00800000000000000
+      internalID: 725491986991798015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel67
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468fc3f8a05e74db0800000000000000
+      internalID: -4807622243679143836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel68
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e72d5056f5357c0800000000000000
+      internalID: -4083815549600891282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel69
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a25658580a9c9f40800000000000000
+      internalID: 5736629385995637409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel70
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd6ff77b6a9b50c0800000000000000
+      internalID: -4585902009181311497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel71
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7d10e6455391780800000000000000
+      internalID: -8711873367432374279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel72
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7030f95b6929f5420800000000000000
+      internalID: 2620974684142764807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel73
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5e163f1bc00ab80800000000000000
+      internalID: -8385688547731839565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel74
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c862c9fde462d70800000000000000
+      internalID: 9017982026160442514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel75
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1014c2b1f5d2d5d30800000000000000
+      internalID: 4421740295648723201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel76
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdec8f13df3224a0800000000000000
+      internalID: -6619658326281228807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel77
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e87780834a3b4650800000000000000
+      internalID: 6218127772108683491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel78
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4ad9193bd6065f0800000000000000
+      internalID: -765491318643383089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel79
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f1fb36630eeafe0800000000000000
+      internalID: -1175755928490795180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2e80a78ba7de9b0800000000000000
+      internalID: -5049244674472484154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel81
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84d789d3ff4b2a80800000000000000
+      internalID: -8490604763731733362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel82
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c1eecbc7bd239b0800000000000000
+      internalID: -5101774099065201583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel83
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd636aced4407110800000000000000
+      internalID: 1256580019705310719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel84
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8446694b44730e8d0800000000000000
+      internalID: -2819192598506871736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel85
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b5c759cf415c040800000000000000
+      internalID: 4667159663911656219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel86
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0023eef9b99faf0800000000000000
+      internalID: -362087183828254513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel87
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf72bcd1cecbb2230800000000000000
+      internalID: 3615190848193112060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cultist Animation Showreel88
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86505888565f6afb0800000000000000
+      internalID: -4636748949900425880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cultist Animation Showreel53: -5867751899390763086
+      Cultist Animation Showreel54: 1878712529971620040
+      Cultist Animation Showreel74: 9017982026160442514
+      Cultist Animation Showreel19: -5840872096202458467
+      Cultist Animation Showreel70: -4585902009181311497
+      Cultist Animation Showreel81: -8490604763731733362
+      Cultist Animation Showreel22: -894884692592417984
+      Cultist Animation Showreel73: -8385688547731839565
+      Cultist Animation Showreel26: 6640240876428344056
+      Cultist Animation Showreel10: 7622211075015634298
+      Cultist Animation Showreel64: 8485956157566408203
+      Cultist Animation Showreel42: -4753101762543740908
+      Cultist Animation Showreel02: 7717988249787985536
+      Cultist Animation Showreel34: -7256842810424576624
+      Cultist Animation Showreel60: -6152345123695436516
+      Cultist Animation Showreel77: 6218127772108683491
+      Cultist Animation Showreel56: 4321907807391436100
+      Cultist Animation Showreel04: -8327096879402152513
+      Cultist Animation Showreel63: -2253435117071305554
+      Cultist Animation Showreel87: 3615190848193112060
+      Cultist Animation Showreel29: -4565169275473481537
+      Cultist Animation Showreel09: -9053559900618154943
+      Cultist Animation Showreel48: 3539751293557306587
+      Cultist Animation Showreel44: -703564281510022830
+      Cultist Animation Showreel21: 3483080182661687649
+      Cultist Animation Showreel23: -1954684898520187481
+      Cultist Animation Showreel79: -1175755928490795180
+      Cultist Animation Showreel86: -362087183828254513
+      Cultist Animation Showreel58: -8923627130180778987
+      Cultist Animation Showreel52: -1145558878158759857
+      Cultist Animation Showreel85: 4667159663911656219
+      Cultist Animation Showreel30: -8652326872158894966
+      Cultist Animation Showreel31: -8365897855385622131
+      Cultist Animation Showreel37: -5794483625520275148
+      Cultist Animation Showreel11: 2312092452874913036
+      Cultist Animation Showreel06: 3540077927192238002
+      Cultist Animation Showreel65: 622378564190739126
+      Cultist Animation Showreel25: -3390079081665430454
+      Cultist Animation Showreel08: 8987295547357934023
+      Cultist Animation Showreel05: 6814754030318531111
+      Cultist Animation Showreel14: -7421902200932576016
+      Cultist Animation Showreel82: -5101774099065201583
+      Cultist Animation Showreel07: -7951150764712528094
+      Cultist Animation Showreel13: 8098506417046920334
+      Cultist Animation Showreel18: 496802990207023600
+      Cultist Animation Showreel59: 7490538310190868874
+      Cultist Animation Showreel69: 5736629385995637409
+      Cultist Animation Showreel62: -3479970368936208952
+      Cultist Animation Showreel71: -8711873367432374279
+      Cultist Animation Showreel84: -2819192598506871736
+      Cultist Animation Showreel67: -4807622243679143836
+      Cultist Animation Showreel83: 1256580019705310719
+      Cultist Animation Showreel45: 3133186524425292109
+      Cultist Animation Showreel61: 6415047930761628946
+      Cultist Animation Showreel15: 5130621050299633870
+      Cultist Animation Showreel66: 725491986991798015
+      Cultist Animation Showreel38: 1675628435879464055
+      Cultist Animation Showreel68: -4083815549600891282
+      Cultist Animation Showreel33: -2872333468407394516
+      Cultist Animation Showreel32: 951454127694387771
+      Cultist Animation Showreel47: 8290372822353879421
+      Cultist Animation Showreel46: -8309787624607328178
+      Cultist Animation Showreel88: -4636748949900425880
+      Cultist Animation Showreel35: 4725244726997206496
+      Cultist Animation Showreel55: -1696922827435767102
+      Cultist Animation Showreel43: -405804024750470180
+      Cultist Animation Showreel28: 3065235686469684648
+      Cultist Animation Showreel03: -8932828070479404222
+      Cultist Animation Showreel24: -2960839140747986593
+      Cultist Animation Showreel36: -4351459585162170363
+      Cultist Animation Showreel39: -8227441514486602507
+      Cultist Animation Showreel20: -6630483383332748052
+      Cultist Animation Showreel00: -2920389961483760666
+      Cultist Animation Showreel12: 387620034372452151
+      Cultist Animation Showreel16: 8235326364483214839
+      Cultist Animation Showreel41: 4742297410855444544
+      Cultist Animation Showreel49: -8023156959583689829
+      Cultist Animation Showreel51: 5111754809547293099
+      Cultist Animation Showreel50: -343054538721831609
+      Cultist Animation Showreel27: 7024215702819342030
+      Cultist Animation Showreel80: -5049244674472484154
+      Cultist Animation Showreel75: 4421740295648723201
+      Cultist Animation Showreel76: -6619658326281228807
+      Cultist Animation Showreel78: -765491318643383089
+      Cultist Animation Showreel01: -7519877157724947843
+      Cultist Animation Showreel17: -8733558176690653624
+      Cultist Animation Showreel40: -5550597656895549275
+      Cultist Animation Showreel57: 8860663217626396757
+      Cultist Animation Showreel72: 2620974684142764807
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

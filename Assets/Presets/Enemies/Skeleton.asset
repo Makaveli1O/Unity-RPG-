@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skeleton
   m_EditorClassIdentifier: 
   twoDirSprite: 0
-  _name: skeleton
+  _name: skeleton1
   id: 7
   health: 200
   armor: 0

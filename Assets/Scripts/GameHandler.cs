@@ -138,8 +138,12 @@ public class GameHandler : MonoBehaviour
 public class SavePosition
 {
     public Vector3 pos;
-    public SavePosition(Vector3 pos){
+    public int healthAmount;
+    public int shieldAmount;
+    public SavePosition(Vector3 pos, int health, int shield){
         this.pos = pos;
+        this.healthAmount = health;
+        this.shieldAmount = shield;
     }
 }
 

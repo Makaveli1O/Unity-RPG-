@@ -1,0 +1,3998 @@
+fileFormatVersion: 2
+guid: 2f2453a4fc93a634f9e448afe6ec890b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 313333386914322791
+    second: Necromancer animations showreel000
+  - first:
+      213: 3798347625105764932
+    second: Necromancer animations showreel001
+  - first:
+      213: -4046724168697124118
+    second: Necromancer animations showreel002
+  - first:
+      213: 5294292919177053819
+    second: Necromancer animations showreel003
+  - first:
+      213: -1743276208425331604
+    second: Necromancer animations showreel004
+  - first:
+      213: 7837390967542010797
+    second: Necromancer animations showreel005
+  - first:
+      213: -794302718255396850
+    second: Necromancer animations showreel006
+  - first:
+      213: -1693246853981421357
+    second: Necromancer animations showreel007
+  - first:
+      213: -3898267731510898493
+    second: Necromancer animations showreel008
+  - first:
+      213: -2723306279625062577
+    second: Necromancer animations showreel009
+  - first:
+      213: -6357146378386064280
+    second: Necromancer animations showreel010
+  - first:
+      213: -5954475669252388310
+    second: Necromancer animations showreel011
+  - first:
+      213: -6692949578180783242
+    second: Necromancer animations showreel012
+  - first:
+      213: -8217712375223987928
+    second: Necromancer animations showreel013
+  - first:
+      213: 519433755703862169
+    second: Necromancer animations showreel014
+  - first:
+      213: -6854069368502551956
+    second: Necromancer animations showreel015
+  - first:
+      213: 7734173464665094978
+    second: Necromancer animations showreel016
+  - first:
+      213: -6267778560148994175
+    second: Necromancer animations showreel017
+  - first:
+      213: 8914872377679655973
+    second: Necromancer animations showreel018
+  - first:
+      213: 1524315650755375813
+    second: Necromancer animations showreel019
+  - first:
+      213: 3015776468022357638
+    second: Necromancer animations showreel020
+  - first:
+      213: -6460885618067171033
+    second: Necromancer animations showreel021
+  - first:
+      213: -1838866412696614340
+    second: Necromancer animations showreel022
+  - first:
+      213: 9131969013080216861
+    second: Necromancer animations showreel023
+  - first:
+      213: 7041159154512946068
+    second: Necromancer animations showreel024
+  - first:
+      213: 1242092320381278174
+    second: Necromancer animations showreel025
+  - first:
+      213: -2973178015815797361
+    second: Necromancer animations showreel026
+  - first:
+      213: 8828373035907302775
+    second: Necromancer animations showreel027
+  - first:
+      213: 1437840420865530545
+    second: Necromancer animations showreel028
+  - first:
+      213: -8699086217799000160
+    second: Necromancer animations showreel029
+  - first:
+      213: -2772194621746660588
+    second: Necromancer animations showreel030
+  - first:
+      213: 5213312726401304611
+    second: Necromancer animations showreel031
+  - first:
+      213: -5514444745772045309
+    second: Necromancer animations showreel032
+  - first:
+      213: -6181898609227214163
+    second: Necromancer animations showreel033
+  - first:
+      213: 2571042245351524525
+    second: Necromancer animations showreel034
+  - first:
+      213: -7733048723680221164
+    second: Necromancer animations showreel035
+  - first:
+      213: -7319437662018526551
+    second: Necromancer animations showreel036
+  - first:
+      213: -1443004330454008715
+    second: Necromancer animations showreel037
+  - first:
+      213: -7573814789010625460
+    second: Necromancer animations showreel038
+  - first:
+      213: 8734264977325318373
+    second: Necromancer animations showreel039
+  - first:
+      213: -31445898435893579
+    second: Necromancer animations showreel040
+  - first:
+      213: 1523745997073237147
+    second: Necromancer animations showreel041
+  - first:
+      213: -4468570101024463395
+    second: Necromancer animations showreel042
+  - first:
+      213: 8843660223808481216
+    second: Necromancer animations showreel043
+  - first:
+      213: -7259790839005701306
+    second: Necromancer animations showreel044
+  - first:
+      213: 5257534250980346742
+    second: Necromancer animations showreel045
+  - first:
+      213: -882184506880397560
+    second: Necromancer animations showreel046
+  - first:
+      213: -1053000636893514434
+    second: Necromancer animations showreel047
+  - first:
+      213: 5621037224070719727
+    second: Necromancer animations showreel048
+  - first:
+      213: 8891353622116881137
+    second: Necromancer animations showreel049
+  - first:
+      213: 8703332271450095703
+    second: Necromancer animations showreel050
+  - first:
+      213: 7646463362080057276
+    second: Necromancer animations showreel051
+  - first:
+      213: -3255109353856214314
+    second: Necromancer animations showreel052
+  - first:
+      213: 7184122884801561789
+    second: Necromancer animations showreel053
+  - first:
+      213: -7703529831273838418
+    second: Necromancer animations showreel054
+  - first:
+      213: 891197723503162273
+    second: Necromancer animations showreel055
+  - first:
+      213: -1849208127479297718
+    second: Necromancer animations showreel056
+  - first:
+      213: -8808857041338926332
+    second: Necromancer animations showreel057
+  - first:
+      213: -7425850555506296426
+    second: Necromancer animations showreel058
+  - first:
+      213: 8356320473433632038
+    second: Necromancer animations showreel059
+  - first:
+      213: 4807637823335325656
+    second: Necromancer animations showreel060
+  - first:
+      213: -1275061906695520874
+    second: Necromancer animations showreel061
+  - first:
+      213: 8877335133101106830
+    second: Necromancer animations showreel062
+  - first:
+      213: 4469071380188438453
+    second: Necromancer animations showreel063
+  - first:
+      213: -4887977187849384584
+    second: Necromancer animations showreel064
+  - first:
+      213: 629452305850866237
+    second: Necromancer animations showreel065
+  - first:
+      213: 855312025376965440
+    second: Necromancer animations showreel066
+  - first:
+      213: -1317767962067134769
+    second: Necromancer animations showreel067
+  - first:
+      213: -8619333095075992065
+    second: Necromancer animations showreel068
+  - first:
+      213: 7118776647772224977
+    second: Necromancer animations showreel069
+  - first:
+      213: 8540989644989440554
+    second: Necromancer animations showreel070
+  - first:
+      213: 5361635997389928222
+    second: Necromancer animations showreel071
+  - first:
+      213: 6256788347354223311
+    second: Necromancer animations showreel072
+  - first:
+      213: -9128089107186216865
+    second: Necromancer animations showreel073
+  - first:
+      213: 3058287339511839676
+    second: Necromancer animations showreel074
+  - first:
+      213: -176965418404277670
+    second: Necromancer animations showreel075
+  - first:
+      213: 3558970407536832432
+    second: Necromancer animations showreel076
+  - first:
+      213: -5903531675609673039
+    second: Necromancer animations showreel077
+  - first:
+      213: -3059200220540664880
+    second: Necromancer animations showreel078
+  - first:
+      213: 1167600021967242932
+    second: Necromancer animations showreel079
+  - first:
+      213: 3337847155358217866
+    second: Necromancer animations showreel080
+  - first:
+      213: 1658566031599198698
+    second: Necromancer animations showreel081
+  - first:
+      213: 5011643672254410174
+    second: Necromancer animations showreel082
+  - first:
+      213: 4800183194282283781
+    second: Necromancer animations showreel083
+  - first:
+      213: -5357453392544440538
+    second: Necromancer animations showreel084
+  - first:
+      213: -6341354428183378472
+    second: Necromancer animations showreel085
+  - first:
+      213: -9009330017253951523
+    second: Necromancer animations showreel086
+  - first:
+      213: 5577795398275383506
+    second: Necromancer animations showreel087
+  - first:
+      213: 2082293223562342560
+    second: Necromancer animations showreel088
+  - first:
+      213: 2527981133716222673
+    second: Necromancer animations showreel089
+  - first:
+      213: -8280071017863463880
+    second: Necromancer animations showreel090
+  - first:
+      213: 5097516367684459538
+    second: Necromancer animations showreel091
+  - first:
+      213: -8761388751828338203
+    second: Necromancer animations showreel092
+  - first:
+      213: 89258078188488876
+    second: Necromancer animations showreel093
+  - first:
+      213: -5634867618073562042
+    second: Necromancer animations showreel094
+  - first:
+      213: 7452735663694277369
+    second: Necromancer animations showreel095
+  - first:
+      213: -4461001826151261396
+    second: Necromancer animations showreel096
+  - first:
+      213: -38962342529050831
+    second: Necromancer animations showreel097
+  - first:
+      213: 5061070738959251775
+    second: Necromancer animations showreel098
+  - first:
+      213: -2385566451919050921
+    second: Necromancer animations showreel099
+  - first:
+      213: 5238152363865949080
+    second: Necromancer animations showreel100
+  - first:
+      213: 6370489291620385523
+    second: Necromancer animations showreel101
+  - first:
+      213: 554566565293560447
+    second: Necromancer animations showreel102
+  - first:
+      213: -4889136415918718842
+    second: Necromancer animations showreel103
+  - first:
+      213: 2917189927929416089
+    second: Necromancer animations showreel104
+  - first:
+      213: 4455495484165205526
+    second: Necromancer animations showreel105
+  - first:
+      213: 4984759679694761910
+    second: Necromancer animations showreel106
+  - first:
+      213: 2236084858484805516
+    second: Necromancer animations showreel107
+  - first:
+      213: 4732019588665870780
+    second: Necromancer animations showreel108
+  - first:
+      213: -1759487938956145542
+    second: Necromancer animations showreel109
+  - first:
+      213: 7220753281389390329
+    second: Necromancer animations showreel110
+  - first:
+      213: 4944609193516258669
+    second: Necromancer animations showreel111
+  - first:
+      213: 3922585720511516096
+    second: Necromancer animations showreel112
+  - first:
+      213: -6918019295715254010
+    second: Necromancer animations showreel113
+  - first:
+      213: 6210925944746414554
+    second: Necromancer animations showreel114
+  - first:
+      213: 8318118381117137752
+    second: Necromancer animations showreel115
+  - first:
+      213: -3471275516982196475
+    second: Necromancer animations showreel116
+  - first:
+      213: 3138578133426110054
+    second: Necromancer animations showreel117
+  - first:
+      213: 8956289496779691659
+    second: Necromancer animations showreel118
+  - first:
+      213: -5382241606327638413
+    second: Necromancer animations showreel119
+  - first:
+      213: 3944107492766965157
+    second: Necromancer animations showreel120
+  - first:
+      213: 6757669648121277675
+    second: Necromancer animations showreel121
+  - first:
+      213: 2578099834337073435
+    second: Necromancer animations showreel122
+  - first:
+      213: -6984726135817346593
+    second: Necromancer animations showreel123
+  - first:
+      213: 602949767916803379
+    second: Necromancer animations showreel124
+  - first:
+      213: 7550139723212565259
+    second: Necromancer animations showreel125
+  - first:
+      213: 2369419816126219184
+    second: Necromancer animations showreel126
+  - first:
+      213: 8985091782027379951
+    second: Necromancer animations showreel127
+  - first:
+      213: 3869328760437348451
+    second: Necromancer animations showreel128
+  - first:
+      213: 2910068132329079317
+    second: Necromancer animations showreel129
+  - first:
+      213: -2136318782926640265
+    second: Necromancer animations showreel130
+  - first:
+      213: -4407142889469342151
+    second: Necromancer animations showreel131
+  - first:
+      213: -1785818489779581428
+    second: Necromancer animations showreel132
+  - first:
+      213: -5314103517828064404
+    second: Necromancer animations showreel133
+  - first:
+      213: 1880341030766071088
+    second: Necromancer animations showreel134
+  - first:
+      213: 485262795275760358
+    second: Necromancer animations showreel135
+  - first:
+      213: 8802548110584948421
+    second: Necromancer animations showreel136
+  - first:
+      213: 4922016843310834199
+    second: Necromancer animations showreel137
+  - first:
+      213: -1210519120457406114
+    second: Necromancer animations showreel138
+  - first:
+      213: -584736668609612820
+    second: Necromancer animations showreel139
+  - first:
+      213: 7463784651324170639
+    second: Necromancer animations showreel140
+  - first:
+      213: -6725344140943639358
+    second: Necromancer animations showreel141
+  - first:
+      213: -4735555253215624511
+    second: Necromancer animations showreel142
+  - first:
+      213: 1273669442997004535
+    second: Necromancer animations showreel143
+  - first:
+      213: -8162761486284135986
+    second: Necromancer animations showreel144
+  - first:
+      213: 1644518468290765576
+    second: Necromancer animations showreel145
+  - first:
+      213: -7445881344794355582
+    second: Necromancer animations showreel146
+  - first:
+      213: 7018688401911560995
+    second: Necromancer animations showreel147
+  - first:
+      213: 6779047786579099194
+    second: Necromancer animations showreel148
+  - first:
+      213: -3428554209140935453
+    second: Necromancer animations showreel149
+  - first:
+      213: 6123697908619944785
+    second: Necromancer animations showreel150
+  - first:
+      213: 262667848279106973
+    second: Necromancer animations showreel151
+  - first:
+      213: 4263699875072916828
+    second: Necromancer animations showreel152
+  - first:
+      213: -1332796896276694950
+    second: Necromancer animations showreel153
+  - first:
+      213: 6865485211392332463
+    second: Necromancer animations showreel154
+  - first:
+      213: 6305825399132778324
+    second: Necromancer animations showreel155
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Necromancer animations showreel000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7695c472e0f295400800000000000000
+      internalID: 313333386914322791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel001
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442b0ef5a0176b430800000000000000
+      internalID: 3798347625105764932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel002
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeae1dc1fc527d7c0800000000000000
+      internalID: -4046724168697124118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel003
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b760a601c5b197940800000000000000
+      internalID: 5294292919177053819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel004
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c641b635683aec7e0800000000000000
+      internalID: -1743276208425331604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel005
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3523a8f8104cc60800000000000000
+      internalID: 7837390967542010797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel006
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08824ad2e11af4f0800000000000000
+      internalID: -794302718255396850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel007
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0c36f15f06088e0800000000000000
+      internalID: -1693246853981421357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel008
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0dcefe62296e9c0800000000000000
+      internalID: -3898267731510898493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel009
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f478b5c0e5fd43ad0800000000000000
+      internalID: -2723306279625062577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel010
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c332bec01e6c7a0800000000000000
+      internalID: -6357146378386064280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel011
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a418e4de37d5da0800000000000000
+      internalID: -5954475669252388310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel012
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1561
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6731fe4c1dddd13a0800000000000000
+      internalID: -6692949578180783242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82151705222d4fd80800000000000000
+      internalID: -8217712375223987928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel014
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993631daf36653700800000000000000
+      internalID: 519433755703862169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel015
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6af488493471e0a0800000000000000
+      internalID: -6854069368502551956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel016
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b7d98e9cd455b60800000000000000
+      internalID: 7734173464665094978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel017
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187828f8b906409a0800000000000000
+      internalID: -6267778560148994175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel018
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524b989c13df7bb70800000000000000
+      internalID: 8914872377679655973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel019
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2b7d81205772510800000000000000
+      internalID: 1524315650755375813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel020
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e647a28b03ad920800000000000000
+      internalID: 3015776468022357638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel021
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7291da8f2c25656a0800000000000000
+      internalID: -6460885618067171033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel022
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a42d98db80b76e0800000000000000
+      internalID: -1838866412696614340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel023
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1555842f654bbe70800000000000000
+      internalID: 9131969013080216861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel024
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493ebb302f837b160800000000000000
+      internalID: 7041159154512946068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel025
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1431
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7119e626ccc3110800000000000000
+      internalID: 1242092320381278174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel026
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f857c41e8562db6d0800000000000000
+      internalID: -2973178015815797361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel027
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77544ed508ea48a70800000000000000
+      internalID: 8828373035907302775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel028
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba5369ae3c34f310800000000000000
+      internalID: 1437840420865530545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel029
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af1895bc23a64780800000000000000
+      internalID: -8699086217799000160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel030
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bba82edaf2789d0800000000000000
+      internalID: -2772194621746660588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel031
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3284c28ad48695840800000000000000
+      internalID: 5213312726401304611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel032
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cecb278b1c873b0800000000000000
+      internalID: -5514444745772045309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel033
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2d78fc7fb753aa0800000000000000
+      internalID: -6181898609227214163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel034
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da843b8dc4d2ea320800000000000000
+      internalID: 2571042245351524525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel035
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418a0424821bea490800000000000000
+      internalID: -7733048723680221164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel036
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a225c7f9322c6a90800000000000000
+      internalID: -7319437662018526551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel037
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c30f1f43b69fbe0800000000000000
+      internalID: -1443004330454008715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel038
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1301
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ceb62c39764e690800000000000000
+      internalID: -7573814789010625460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel039
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e06c9388b7563970800000000000000
+      internalID: 8734264977325318373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel040
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6e51a3f18409ff0800000000000000
+      internalID: -31445898435893579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel041
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94497349ee652510800000000000000
+      internalID: 1523745997073237147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel042
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5618a2b237cf1c0800000000000000
+      internalID: -4468570101024463395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel043
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c72b5a2e1efaba70800000000000000
+      internalID: 8843660223808481216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel044
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b1e6922ba004b90800000000000000
+      internalID: -7259790839005701306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel045
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b0220bb8386f840800000000000000
+      internalID: 5257534250980346742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel046
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f6a017dd9d1c3f0800000000000000
+      internalID: -882184506880397560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel047
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35b3b1ff7df261f0800000000000000
+      internalID: -1053000636893514434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel048
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8abf1e29fe10e40800000000000000
+      internalID: 5621037224070719727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel049
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2d8aac20f646b70800000000000000
+      internalID: 8891353622116881137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel050
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7500af1b69278c870800000000000000
+      internalID: 8703332271450095703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel051
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1171
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb722d44ae1bd1a60800000000000000
+      internalID: 7646463362080057276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel052
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da595af94783d2d0800000000000000
+      internalID: -3255109353856214314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel053
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db40a5b53b123b360800000000000000
+      internalID: 7184122884801561789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel054
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea84c4afe60971590800000000000000
+      internalID: -7703529831273838418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel055
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3fa069b9b2e5c00800000000000000
+      internalID: 891197723503162273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel056
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49c4dd610b4656e0800000000000000
+      internalID: -1849208127479297718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel057
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b7bc53137a0c580800000000000000
+      internalID: -8808857041338926332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel058
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699f8eb734412f890800000000000000
+      internalID: -7425850555506296426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel059
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62de558623d97f370800000000000000
+      internalID: 8356320473433632038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel060
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df52acd02928b240800000000000000
+      internalID: 4807637823335325656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel061
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69df7c093f11e4ee0800000000000000
+      internalID: -1275061906695520874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel062
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e862698f441a23b70800000000000000
+      internalID: 8877335133101106830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel063
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf1ffbfdb4550e30800000000000000
+      internalID: 4469071380188438453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel064
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d460035aa6a2cb0800000000000000
+      internalID: -4887977187849384584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel065
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a9a4589834cb800800000000000000
+      internalID: 629452305850866237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel066
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043c6b461cdaedb00800000000000000
+      internalID: 855312025376965440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel067
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc61994350956bde0800000000000000
+      internalID: -1317767962067134769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel068
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd2a3b973af16880800000000000000
+      internalID: -8619333095075992065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel069
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd3fcde4a9fac260800000000000000
+      internalID: 7118776647772224977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel070
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22a2eb74d0b78670800000000000000
+      internalID: 8540989644989440554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel071
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17bf5f488b586a40800000000000000
+      internalID: 5361635997389928222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel072
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc21ade1ad394d650800000000000000
+      internalID: 6256788347354223311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel073
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f509d08d153825180800000000000000
+      internalID: -9128089107186216865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel074
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb7dacb128317a20800000000000000
+      internalID: 3058287339511839676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel075
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a521c7ab3ea4b8df0800000000000000
+      internalID: -176965418404277670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel076
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf2c5bbab0046130800000000000000
+      internalID: 3558970407536832432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel077
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 911
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2d4032831721ea0800000000000000
+      internalID: -5903531675609673039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel078
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d380e59b998b85d0800000000000000
+      internalID: -3059200220540664880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel079
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b68815a806243010800000000000000
+      internalID: 1167600021967242932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel080
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86bca99d4a625e20800000000000000
+      internalID: 3337847155358217866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel081
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1effda409640710800000000000000
+      internalID: 1658566031599198698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel082
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdee89fd5fec8540800000000000000
+      internalID: 5011643672254410174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel083
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503def7ce2dad9240800000000000000
+      internalID: 4800183194282283781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel084
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f5da4468086a5b0800000000000000
+      internalID: -5357453392544440538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel085
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d58749debbfef7a0800000000000000
+      internalID: -6341354428183378472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel086
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd77051351e68f280800000000000000
+      internalID: -9009330017253951523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel087
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d04300cc5f486d40800000000000000
+      internalID: 5577795398275383506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel088
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0f2a487aac5ec10800000000000000
+      internalID: 2082293223562342560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel089
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d27b028271351320800000000000000
+      internalID: 2527981133716222673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel090
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 781
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cbd396747471d80800000000000000
+      internalID: -8280071017863463880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel091
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c529ce0240eb640800000000000000
+      internalID: 5097516367684459538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel092
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e93b2c995b496680800000000000000
+      internalID: -8761388751828338203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel093
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca842cbcfbb1d3100800000000000000
+      internalID: 89258078188488876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel094
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644bf5491cdecc1b0800000000000000
+      internalID: -5634867618073562042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel095
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fae16f899f6d6760800000000000000
+      internalID: 7452735663694277369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel096
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b92e979765712c0800000000000000
+      internalID: -4461001826151261396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel097
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13750f5b4f3957ff0800000000000000
+      internalID: -38962342529050831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel098
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f393acab5098c3640800000000000000
+      internalID: 5061070738959251775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel099
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757a64583f3c4eed0800000000000000
+      internalID: -2385566451919050921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel100
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8934a9f62d7a1b840800000000000000
+      internalID: 5238152363865949080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel101
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f286782246886850800000000000000
+      internalID: 6370489291620385523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel102
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7291a85a5732b700800000000000000
+      internalID: 554566565293560447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel103
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 651
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6800dbe555c462cb0800000000000000
+      internalID: -4889136415918718842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999849498c0fb7820800000000000000
+      internalID: 2917189927929416089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel105
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e2600698915dd30800000000000000
+      internalID: 4455495484165205526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel106
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf65eea48c6d2540800000000000000
+      internalID: 4984759679694761910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel107
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fcd9dd45b280f10800000000000000
+      internalID: 2236084858484805516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel108
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb98e9c9eb28ba140800000000000000
+      internalID: 4732019588665870780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel109
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c4febaa0b0597e0800000000000000
+      internalID: -1759487938956145542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel110
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f963fb2ad4453460800000000000000
+      internalID: 7220753281389390329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel111
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65daa42dd7ce9440800000000000000
+      internalID: 4944609193516258669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel112
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdcb181ee2df6630800000000000000
+      internalID: 3922585720511516096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel113
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60128919a124eff90800000000000000
+      internalID: -6918019295715254010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel114
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad11ed66d34a13650800000000000000
+      internalID: 6210925944746414554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel115
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853622aa894ef6370800000000000000
+      internalID: 8318118381117137752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel116
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50704c41f4d83dfc0800000000000000
+      internalID: -3471275516982196475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel117
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66efba6fe287e8b20800000000000000
+      internalID: 3138578133426110054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel118
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b869d1948d12b4c70800000000000000
+      internalID: 8956289496779691659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel119
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376638f76cf6e45b0800000000000000
+      internalID: -5382241606327638413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel120
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5add45e2ed84cb630800000000000000
+      internalID: 3944107492766965157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel121
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec25b5cdb018cd50800000000000000
+      internalID: 6757669648121277675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel122
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b199725d32047c320800000000000000
+      internalID: 2578099834337073435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel123
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1683d0694411f90800000000000000
+      internalID: -6984726135817346593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel124
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335d51e8e9b1e5800800000000000000
+      internalID: 602949767916803379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel125
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ba6ae631c77c860800000000000000
+      internalID: 7550139723212565259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel126
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b389ffd4ced1e020800000000000000
+      internalID: 2369419816126219184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel127
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe40606ee5571bc70800000000000000
+      internalID: 8985091782027379951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel128
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368121dc10e92b530800000000000000
+      internalID: 3869328760437348451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel129
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 391
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512c8a35c83a26820800000000000000
+      internalID: 2910068132329079317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel130
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ba9a8b2654a52e0800000000000000
+      internalID: -2136318782926640265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel131
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e8ace54eea6d2c0800000000000000
+      internalID: -4407142889469342151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel132
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e0d539b8f7737e0800000000000000
+      internalID: -1785818489779581428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel133
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b543081038046b0800000000000000
+      internalID: -5314103517828064404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel134
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d476b7430581a10800000000000000
+      internalID: 1880341030766071088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel135
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2ff17f0fffbb600800000000000000
+      internalID: 485262795275760358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel136
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6a3b16edee82a70800000000000000
+      internalID: 8802548110584948421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel137
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7122804bd348e4440800000000000000
+      internalID: 4922016843310834199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel138
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e596157064f533fe0800000000000000
+      internalID: -1210519120457406114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel139
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3f064191992e7f0800000000000000
+      internalID: -584736668609612820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel140
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81a0367890b49760800000000000000
+      internalID: 7463784651324170639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel141
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ccbcced227caa2a0800000000000000
+      internalID: -6725344140943639358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel142
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 261
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c209d5569de74eb0800000000000000
+      internalID: -4735555253215624511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel143
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f82b173c9bfca110800000000000000
+      internalID: 1273669442997004535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel144
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec16bc72dab08be80800000000000000
+      internalID: -8162761486284135986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel145
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8036a0975d082d610800000000000000
+      internalID: 1644518468290765576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel146
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28813dbed5aeaa890800000000000000
+      internalID: -7445881344794355582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel147
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bb7193ae3676160800000000000000
+      internalID: 7018688401911560995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel148
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ef1728b04041e50800000000000000
+      internalID: 6779047786579099194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel149
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4fbfeac145b60d0800000000000000
+      internalID: -3428554209140935453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel150
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153281b9dcebbf450800000000000000
+      internalID: 6123697908619944785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel151
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95a79e240f25a300800000000000000
+      internalID: 262667848279106973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel152
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d39924274bb2b30800000000000000
+      internalID: 4263699875072916828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel153
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a583fa7c844f08de0800000000000000
+      internalID: -1332796896276694950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel154
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2dcb3cc6a174f50800000000000000
+      internalID: 6865485211392332463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Necromancer animations showreel155
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fe1f27acac28750800000000000000
+      internalID: 6305825399132778324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Necromancer animations showreel024: 7041159154512946068
+      Necromancer animations showreel033: -6181898609227214163
+      Necromancer animations showreel056: -1849208127479297718
+      Necromancer animations showreel104: 2917189927929416089
+      Necromancer animations showreel091: 5097516367684459538
+      Necromancer animations showreel121: 6757669648121277675
+      Necromancer animations showreel038: -7573814789010625460
+      Necromancer animations showreel082: 5011643672254410174
+      Necromancer animations showreel135: 485262795275760358
+      Necromancer animations showreel040: -31445898435893579
+      Necromancer animations showreel020: 3015776468022357638
+      Necromancer animations showreel049: 8891353622116881137
+      Necromancer animations showreel035: -7733048723680221164
+      Necromancer animations showreel037: -1443004330454008715
+      Necromancer animations showreel098: 5061070738959251775
+      Necromancer animations showreel054: -7703529831273838418
+      Necromancer animations showreel094: -5634867618073562042
+      Necromancer animations showreel141: -6725344140943639358
+      Necromancer animations showreel068: -8619333095075992065
+      Necromancer animations showreel073: -9128089107186216865
+      Necromancer animations showreel055: 891197723503162273
+      Necromancer animations showreel028: 1437840420865530545
+      Necromancer animations showreel005: 7837390967542010797
+      Necromancer animations showreel124: 602949767916803379
+      Necromancer animations showreel047: -1053000636893514434
+      Necromancer animations showreel136: 8802548110584948421
+      Necromancer animations showreel089: 2527981133716222673
+      Necromancer animations showreel042: -4468570101024463395
+      Necromancer animations showreel053: 7184122884801561789
+      Necromancer animations showreel153: -1332796896276694950
+      Necromancer animations showreel052: -3255109353856214314
+      Necromancer animations showreel011: -5954475669252388310
+      Necromancer animations showreel108: 4732019588665870780
+      Necromancer animations showreel076: 3558970407536832432
+      Necromancer animations showreel129: 2910068132329079317
+      Necromancer animations showreel117: 3138578133426110054
+      Necromancer animations showreel149: -3428554209140935453
+      Necromancer animations showreel014: 519433755703862169
+      Necromancer animations showreel045: 5257534250980346742
+      Necromancer animations showreel084: -5357453392544440538
+      Necromancer animations showreel093: 89258078188488876
+      Necromancer animations showreel139: -584736668609612820
+      Necromancer animations showreel002: -4046724168697124118
+      Necromancer animations showreel112: 3922585720511516096
+      Necromancer animations showreel050: 8703332271450095703
+      Necromancer animations showreel110: 7220753281389390329
+      Necromancer animations showreel058: -7425850555506296426
+      Necromancer animations showreel137: 4922016843310834199
+      Necromancer animations showreel025: 1242092320381278174
+      Necromancer animations showreel118: 8956289496779691659
+      Necromancer animations showreel106: 4984759679694761910
+      Necromancer animations showreel114: 6210925944746414554
+      Necromancer animations showreel148: 6779047786579099194
+      Necromancer animations showreel125: 7550139723212565259
+      Necromancer animations showreel077: -5903531675609673039
+      Necromancer animations showreel101: 6370489291620385523
+      Necromancer animations showreel085: -6341354428183378472
+      Necromancer animations showreel130: -2136318782926640265
+      Necromancer animations showreel062: 8877335133101106830
+      Necromancer animations showreel021: -6460885618067171033
+      Necromancer animations showreel023: 9131969013080216861
+      Necromancer animations showreel065: 629452305850866237
+      Necromancer animations showreel000: 313333386914322791
+      Necromancer animations showreel069: 7118776647772224977
+      Necromancer animations showreel067: -1317767962067134769
+      Necromancer animations showreel145: 1644518468290765576
+      Necromancer animations showreel116: -3471275516982196475
+      Necromancer animations showreel111: 4944609193516258669
+      Necromancer animations showreel122: 2578099834337073435
+      Necromancer animations showreel150: 6123697908619944785
+      Necromancer animations showreel031: 5213312726401304611
+      Necromancer animations showreel155: 6305825399132778324
+      Necromancer animations showreel032: -5514444745772045309
+      Necromancer animations showreel086: -9009330017253951523
+      Necromancer animations showreel133: -5314103517828064404
+      Necromancer animations showreel059: 8356320473433632038
+      Necromancer animations showreel030: -2772194621746660588
+      Necromancer animations showreel057: -8808857041338926332
+      Necromancer animations showreel152: 4263699875072916828
+      Necromancer animations showreel064: -4887977187849384584
+      Necromancer animations showreel063: 4469071380188438453
+      Necromancer animations showreel100: 5238152363865949080
+      Necromancer animations showreel151: 262667848279106973
+      Necromancer animations showreel071: 5361635997389928222
+      Necromancer animations showreel019: 1524315650755375813
+      Necromancer animations showreel102: 554566565293560447
+      Necromancer animations showreel074: 3058287339511839676
+      Necromancer animations showreel051: 7646463362080057276
+      Necromancer animations showreel123: -6984726135817346593
+      Necromancer animations showreel131: -4407142889469342151
+      Necromancer animations showreel144: -8162761486284135986
+      Necromancer animations showreel036: -7319437662018526551
+      Necromancer animations showreel134: 1880341030766071088
+      Necromancer animations showreel039: 8734264977325318373
+      Necromancer animations showreel026: -2973178015815797361
+      Necromancer animations showreel138: -1210519120457406114
+      Necromancer animations showreel103: -4889136415918718842
+      Necromancer animations showreel132: -1785818489779581428
+      Necromancer animations showreel017: -6267778560148994175
+      Necromancer animations showreel060: 4807637823335325656
+      Necromancer animations showreel113: -6918019295715254010
+      Necromancer animations showreel115: 8318118381117137752
+      Necromancer animations showreel066: 855312025376965440
+      Necromancer animations showreel090: -8280071017863463880
+      Necromancer animations showreel046: -882184506880397560
+      Necromancer animations showreel083: 4800183194282283781
+      Necromancer animations showreel008: -3898267731510898493
+      Necromancer animations showreel099: -2385566451919050921
+      Necromancer animations showreel143: 1273669442997004535
+      Necromancer animations showreel027: 8828373035907302775
+      Necromancer animations showreel126: 2369419816126219184
+      Necromancer animations showreel007: -1693246853981421357
+      Necromancer animations showreel004: -1743276208425331604
+      Necromancer animations showreel029: -8699086217799000160
+      Necromancer animations showreel043: 8843660223808481216
+      Necromancer animations showreel016: 7734173464665094978
+      Necromancer animations showreel070: 8540989644989440554
+      Necromancer animations showreel092: -8761388751828338203
+      Necromancer animations showreel087: 5577795398275383506
+      Necromancer animations showreel105: 4455495484165205526
+      Necromancer animations showreel009: -2723306279625062577
+      Necromancer animations showreel142: -4735555253215624511
+      Necromancer animations showreel034: 2571042245351524525
+      Necromancer animations showreel128: 3869328760437348451
+      Necromancer animations showreel018: 8914872377679655973
+      Necromancer animations showreel088: 2082293223562342560
+      Necromancer animations showreel097: -38962342529050831
+      Necromancer animations showreel048: 5621037224070719727
+      Necromancer animations showreel012: -6692949578180783242
+      Necromancer animations showreel001: 3798347625105764932
+      Necromancer animations showreel096: -4461001826151261396
+      Necromancer animations showreel078: -3059200220540664880
+      Necromancer animations showreel146: -7445881344794355582
+      Necromancer animations showreel061: -1275061906695520874
+      Necromancer animations showreel095: 7452735663694277369
+      Necromancer animations showreel006: -794302718255396850
+      Necromancer animations showreel140: 7463784651324170639
+      Necromancer animations showreel079: 1167600021967242932
+      Necromancer animations showreel075: -176965418404277670
+      Necromancer animations showreel120: 3944107492766965157
+      Necromancer animations showreel107: 2236084858484805516
+      Necromancer animations showreel022: -1838866412696614340
+      Necromancer animations showreel072: 6256788347354223311
+      Necromancer animations showreel109: -1759487938956145542
+      Necromancer animations showreel154: 6865485211392332463
+      Necromancer animations showreel013: -8217712375223987928
+      Necromancer animations showreel081: 1658566031599198698
+      Necromancer animations showreel010: -6357146378386064280
+      Necromancer animations showreel119: -5382241606327638413
+      Necromancer animations showreel003: 5294292919177053819
+      Necromancer animations showreel147: 7018688401911560995
+      Necromancer animations showreel080: 3337847155358217866
+      Necromancer animations showreel015: -6854069368502551956
+      Necromancer animations showreel044: -7259790839005701306
+      Necromancer animations showreel041: 1523745997073237147
+      Necromancer animations showreel127: 8985091782027379951
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

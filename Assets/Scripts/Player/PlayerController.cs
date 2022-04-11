@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
     private CharacterAnimationController characterAnimationController;
     private CharacterMovementController characterMovementController;
     private UIHandler uiHandler;
-    private Shield shield;
+    public Shield shield;
     private Map mapRef;
     public Transform HealthBarPrefab;
     private PathFinding pathFinding;
@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
     public enum State{
         Normal,
         Attacking,
-        Interacting,
+        Interacting, // casting is the same state
         Blocking
     }
     private AoeSpell aoeSpell;
@@ -60,6 +60,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
     public int aoeSpellDamage = 5;
     public float aoeAttackRadius;
     public int aoeAttackDamage = 7;
+    public int healSpellAmount = 20;
     private State state;    //current state
     private bool interruptCoroutine = false;
     private void Awake() {
@@ -143,8 +144,16 @@ public class PlayerController : MonoBehaviour, CombatInterface
             }else{
                 SoundManager.PlaySound(SoundManager.Sound.Error, this.transform.position);
                 state = State.Normal; 
-            }
-            
+            }   
+        //healing spell
+        }else if (Input.GetKeyDown(KeyCode.Q)){
+            if (uiHandler.IsHealReady)
+            {
+                HealSpell();
+            }else{
+                SoundManager.PlaySound(SoundManager.Sound.Error, this.transform.position);
+                state = State.Normal; 
+            }  
         }
 
         //Movement
@@ -212,12 +221,21 @@ public class PlayerController : MonoBehaviour, CombatInterface
     /// </summary>
     public void Alive(){
         healthSystem = new HealthSystem(100);
-        healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(-13.55f,-7.77f), Quaternion.identity, GameObject.FindGameObjectWithTag("MainCamera").transform);
+        healthBarTransform = Instantiate(HealthBarPrefab, new Vector3(-Const.CAMERA_BAR_X, Const.CAMERA_BAR_Y), Quaternion.identity, GameObject.FindGameObjectWithTag("MainCamera").transform);
         healthBarTransform.localScale = new Vector3(80,40);
         healthBar = healthBarTransform.GetComponent<HealthBar>();
         healthBar.Setup(healthSystem, Color.red);
         return;
     }
+
+    public void LoadedHealth(int amount){
+        healthSystem.SetHealth(amount);
+    }
+
+    public void LoadedShieldHealth(int amount){
+        shield.healthSystem.SetHealth(amount);
+    }
+
     public void Hurt(){
         return;
     }
@@ -484,6 +502,36 @@ public class PlayerController : MonoBehaviour, CombatInterface
         dash = false;
     }
 
+    public void HealSpell(){
+        float castingTime = 5f;
+        state = PlayerController.State.Interacting;
+        animating = true;
+        characterAnimationController.CharacterInteraction(lookingDir);
+
+        StartCoroutine(Healing(castingTime));
+    }
+
+    private IEnumerator Healing(float time){
+        for( ; time >= 0 ; time -= Time.deltaTime )
+        {
+            //TODO sfx
+            if( interruptCoroutine )
+            {
+                interruptCoroutine = false;
+                animating = false;
+                yield break ;
+            }
+            yield return null ;
+        }
+        //TODO sfx
+        state = PlayerController.State.Normal;
+        animating = false;
+        uiHandler.HealCooldown();
+        healthSystem.Heal(healSpellAmount);
+        //damage popup
+        DamagePopup.Create(transform.position, healSpellAmount.ToString(), DamagePopup.Type.Heal);
+    }
+
     /// <summary>
     /// Interaction simulation with keeystone.
     /// </summary>
@@ -503,7 +551,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
     /// <param name="keystone">Keystone interacting with.</param>
     /// <returns></returns>
     private IEnumerator Interacting(float time, GameObject keystone){
-        for( time = 5 ; time >= 0 ; time -= Time.deltaTime )
+        for( ; time >= 0 ; time -= Time.deltaTime )
         {
             //TODO sfx
             if( interruptCoroutine )

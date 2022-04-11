@@ -102,6 +102,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 20c01957ce4980544984b52b932932b3, type: 3}
   enemies:
   - {fileID: 11400000, guid: 2e0af3bfbe8fcb140a9b4d0ca2c9fddf, type: 2}
+  - {fileID: 11400000, guid: 04827b009cc1ef14b94b2a9422fca002, type: 2}
   height: 0.5
   temperature: 0.6
   maxTemperature: 1

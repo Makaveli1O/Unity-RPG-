@@ -30,7 +30,6 @@ public class Map : MonoBehaviour
     public List<BiomePreset> biomes = new List<BiomePreset>();
     public List<BiomePreset> keyObjectBiomes = new List<BiomePreset>();
     public GameObject keyObjectPrefab;
-    public Sprite chestSprite;
     public EnemyPreset[] guards; //guards are always same
     
     //Map dimensions

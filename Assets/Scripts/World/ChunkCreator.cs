@@ -552,7 +552,6 @@ public class ChunkCreator : MonoBehaviour
                 //int2 spawnPos = new int2(Random.Range(keyObjPos.x - 5, keyObjPos.x + 5), Random.Range(keyObjPos.y - 5, keyObjPos.y + 5));
                 int2 spawnPos = new int2(Random.Range(chunkKey.x, chunkTopCoords.x), Random.Range(chunkKey.y, chunkTopCoords.y));
                 TDTile tile = mapReference.GetTile(mapReference.TileRelativePos(spawnPos), mapReference.TileChunkPos(spawnPos));
-                //tile = mapReference.GetTile(mapReference.TileRelativePos(keyObjPos), mapReference.TileChunkPos(keyObjPos));
                
                 //check if tile is fine to spawn entity on
                 if(mapReference.isSpawnable(tile)){
@@ -595,10 +594,12 @@ public class ChunkCreator : MonoBehaviour
         }else{
             ec.preset = tile.biome.enemies[Random.Range(0, tile.biome.enemies.Length)];
         }
+
         //set wander anchor point
         ec.anchorPoint = pos;
         //set correct assetsLibrary
         ec.assetsLibrary = ec.preset.assetsLibrary;
+
 
         //set position and activate
         entity.transform.position = pos;

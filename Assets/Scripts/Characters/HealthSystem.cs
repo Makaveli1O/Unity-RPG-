@@ -15,6 +15,18 @@ public class HealthSystem
         this.healthMax = health; 
     }
 
+    public void SetHealth(int amount){
+        this.health = amount;
+        if (OnHealthChanged != null){
+            //args customizaton
+            ShieldEventArgs args = new ShieldEventArgs();
+            args.ChangeHealthType = ShieldEventArgs.Type.Damage;
+            //fire to subscribers
+            OnHealthChanged(this, args);
+        }
+        return;
+    }
+
     /// <summary>
     /// Get current health of healthSystem.
     /// </summary>

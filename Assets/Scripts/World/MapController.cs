@@ -27,15 +27,16 @@ public class MapController : MonoBehaviour
 
         //beggining position ( spawn )
         try{
-            Debug.Log("loading");
             playerController = playerObj.GetComponent<PlayerController>();
             SavePosition playerSave = gameHandler.Load<SavePosition>(ObjType.Player);
             playerPos = playerSave.pos;
             playerObj.transform.position = playerPos;
+            playerController.LoadedHealth(playerSave.healthAmount);
+            playerController.LoadedShieldHealth(playerSave.shieldAmount);
         }catch{
             //first encounter
             TDTile spawnableTile = mapObj.GetSpawableTile(new int2(32,32), new int2(96, 96));
-            Debug.Log("Spawning on: " + spawnableTile.pos);
+            //Debug.Log("Spawning on: " + spawnableTile.pos);
             playerController.transform.position = new Vector3(spawnableTile.pos.x, spawnableTile.pos.y);
         }
 
@@ -88,7 +89,7 @@ public class MapController : MonoBehaviour
 
 
     void OnApplicationQuit() {
-        SavePosition savePlayer = new SavePosition(playerPos);
+        SavePosition savePlayer = new SavePosition(playerPos, playerController.healthSystem.GetHealth(), playerController.shield.healthSystem.GetHealth());
         gameHandler.Save<SavePosition>(savePlayer, ObjType.Player,playerPos);
     }
 
