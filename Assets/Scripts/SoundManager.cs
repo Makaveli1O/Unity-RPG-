@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
 /// <summary>
 /// Class responsible for playing all of sounds.
@@ -15,7 +16,12 @@ public static class SoundManager
         Dash,
         Error,
         Miss,
-        Block
+        Block,
+        ShieldHit,
+        ShieldPulse,
+        ShieldToggle,
+        Theme_menu,
+        Theme_gameplay
     }
 
     private static Dictionary<Sound,float> soundTimerDictionary;
@@ -98,7 +104,25 @@ public static class SoundManager
             default:
                 return true;
         }
-        
+    }
+
+    public static void LoopMusic(Sound sound){
+        if (CanPlaySound(sound))
+        {
+            GameObject soundGameObject = new GameObject("Musictheme");
+            AudioSource audioSource = soundGameObject.AddComponent<AudioSource>();
+            audioSource.loop = true;
+            audioSource.volume = 0.5f;
+            //sound sent from preset
+            audioSource.clip = GetAudioClip(sound);
+            
+            audioSource.Play();
+        }
+    }
+
+    public static IEnumerator Loop(float clipLength, Sound sound, Vector3 position){
+        PlaySound(sound);
+        yield return new WaitForSeconds(clipLength);
     }
 
     /// <summary>

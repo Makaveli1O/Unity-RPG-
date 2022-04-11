@@ -80,10 +80,15 @@ public class MapController : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// Coroutine to wait until map is properly generated (or regenerated)
+    /// </summary>
+    /// <returns></returns>
     private IEnumerator WaitForGenerationToFinish(){
         yield return new WaitUntil(()=>mapObj.generationComplete);
         InitMapController();
         generationDone = true;
+        gameHandler.PlayMainTheme();
     }
 
 
@@ -93,6 +98,9 @@ public class MapController : MonoBehaviour
         gameHandler.Save<SavePosition>(savePlayer, ObjType.Player,playerPos);
     }
 
+    /// <summary>
+    /// Manually saves player's state
+    /// </summary>
     public void ManualSave(){
         SavePosition savePlayer = new SavePosition(playerPos, playerController.healthSystem.GetHealth(), playerController.shield.healthSystem.GetHealth());
         gameHandler.Save<SavePosition>(savePlayer, ObjType.Player,playerPos);
@@ -100,6 +108,11 @@ public class MapController : MonoBehaviour
     }
 
 
+    /// <summary>
+    /// handles collision between player and problematic tiles
+    /// </summary>
+    /// <param name="tile">Processing tile</param>
+    /// <param name="playerPos">position of the player</param>
     private void TileEdgesCollision(TDTile tile, Vector3 playerPos){
         float offset = 0.5f;
         EdgeType type = (tile.hillEdge != EdgeType.none) ? tile.hillEdge : tile.edgeType;
@@ -160,7 +173,6 @@ public class MapController : MonoBehaviour
         }
     }
 
-    //FIXME fix to one function
     /// <summary>
     /// Handling movement for the right edge tile. (small portion of that is unwalkable)
     /// </summary>

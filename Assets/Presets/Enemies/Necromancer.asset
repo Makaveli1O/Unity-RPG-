@@ -24,4 +24,12 @@ MonoBehaviour:
   multiplier: 0
   movementSpeed: 1
   assetsLibrary: {fileID: 7108339969198208228, guid: b5c54ba03e0638443841402841508e3b, type: 3}
-  sfx: []
+  sfx:
+  - sound: 2
+    audioClip: {fileID: 8300000, guid: 5b96ac493330ece4aa76ec252aa4bd1c, type: 3}
+  - sound: 3
+    audioClip: {fileID: 8300000, guid: 8526b9c248a2f6347ae772f1bec4f5b2, type: 3}
+  - sound: 4
+    audioClip: {fileID: 8300000, guid: 8b5679d0977715c4d81609b448789bf3, type: 3}
+  - sound: 1
+    audioClip: {fileID: 8300000, guid: b5f4ca40576866144a4a39d3a29201ef, type: 3}

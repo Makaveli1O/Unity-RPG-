@@ -893,7 +893,6 @@ public class Map : MonoBehaviour
     void Awake()
     {
         this.seed = SceneIntel.seed;    //set either loaded seed, or main menu slider seed
-        Debug.Log(seed);
         chunkGenerator = GetComponent<ChunkGenerator>();
         chunkLoader = GetComponent<ChunkLoader>();
         gameHandler = GetComponent<GameHandler>();

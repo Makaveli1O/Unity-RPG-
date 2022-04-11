@@ -1,6 +1,6 @@
 using UnityEngine;
 using Unity.Mathematics;
-using System.IO;
+using System.Collections;
 
 /// <summary>
 /// Gamestate handling class. This class handles retrieving correct gamestate. Correctly
@@ -26,6 +26,10 @@ public class GameHandler : MonoBehaviour
         SoundManager.Init();    //initialize soundManager
         GameAssets.Instance.cursorHandler.SetCursorByType(CursorType.Basic);
         pauseMenuScript = PauseMenuGO.GetComponent<PauseMenu>();
+    }
+
+    public void PlayMainTheme(){
+        SoundManager.LoopMusic(SoundManager.Sound.Theme_gameplay);
     }
 
     /// <summary>

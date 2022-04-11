@@ -64,6 +64,14 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: f9c3b06969fe2db41b0b7ff9898fa400, type: 3}
   - sound: 7
     audioClip: {fileID: 8300000, guid: 3914dab272837c64187ca06c735c6b24, type: 3}
+  - sound: 9
+    audioClip: {fileID: 8300000, guid: 17b7957cc28365547aafd1db09a98023, type: 3}
+  - sound: 10
+    audioClip: {fileID: 8300000, guid: cd6d3521136204b46b7e6604cf0e97aa, type: 3}
+  - sound: 9
+    audioClip: {fileID: 8300000, guid: ba7d76f6ff2936e43a6936c6a61eff66, type: 3}
+  - sound: 11
+    audioClip: {fileID: 8300000, guid: a1456ecda7b2ee345abe41763bfe88c9, type: 3}
   cursors:
   - type: 0
     texture: {fileID: 2800000, guid: 2e71a8202d3b4a3448ec85ced5a40265, type: 3}

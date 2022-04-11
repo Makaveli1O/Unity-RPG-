@@ -26,8 +26,10 @@ MonoBehaviour:
   assetsLibrary: {fileID: 7108339969198208228, guid: bedda92cbac9c354da6e26223a033815, type: 3}
   sfx:
   - sound: 3
-    audioClip: {fileID: 8300000, guid: ba7d76f6ff2936e43a6936c6a61eff66, type: 3}
+    audioClip: {fileID: 8300000, guid: 405f1ba7d6f60b244aa0678643c4bb75, type: 3}
   - sound: 2
-    audioClip: {fileID: 8300000, guid: b0e2636bef992384983988706aac5baa, type: 3}
+    audioClip: {fileID: 8300000, guid: 80c0dfc3bd26ca0439ee637706818abf, type: 3}
   - sound: 1
-    audioClip: {fileID: 8300000, guid: c88c9b9a8dd0492478afa26600eb5147, type: 3}
+    audioClip: {fileID: 8300000, guid: 838d94e17b2db6546bdebc3b50ef5f73, type: 3}
+  - sound: 4
+    audioClip: {fileID: 8300000, guid: e35128391ab4bde47bade25c699a0543, type: 3}

@@ -1,11 +1,21 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using System.Collections;
 
 public class MainMenu : MonoBehaviour
 {
     private string game = "SampleScene";
     [SerializeField] private GameObject main;
     [SerializeField] private GameObject load;
+
+    private void Awake() {
+        StartCoroutine(PlayMenuTheme());
+    }
+
+    private IEnumerator PlayMenuTheme(){
+        yield return new WaitForSeconds(0.5f);
+        SoundManager.LoopMusic(SoundManager.Sound.Theme_menu);
+    }
 
     
     public void StartGame(){

@@ -117,13 +117,13 @@ public class PlayerController : MonoBehaviour, CombatInterface
             HandleShielding();
             //ui effects
             uiHandler.ShieldCooldown();
-            //TODO sfx shield->ON
+            //SoundManager.PlaySound(SoundManager.Sound.ShieldToggle);
         }else if(Input.GetMouseButtonUp(1)){
             state = State.Normal;
             shield.DeactivateShield();
             //ui effects
             uiHandler.ShieldCooldownDeactivate();
-            //TODO sfx shield->off
+            //SoundManager.PlaySound(SoundManager.Sound.ShieldToggle);
         //aoe spell
         }else if(Input.GetKeyDown(KeyCode.F)){
             if (aoeReady){
@@ -270,9 +270,9 @@ public class PlayerController : MonoBehaviour, CombatInterface
             //full damage consumed by shield
             }else{
                 DamagePopup.Create(transform.position, "ABSORB", DamagePopup.Type.Shield);
-                //TODO sfx shield absorbing
                 return false;
             }
+            SoundManager.PlaySound(SoundManager.Sound.ShieldHit);
         }else{
             //sfx
             SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position);
@@ -478,7 +478,6 @@ public class PlayerController : MonoBehaviour, CombatInterface
 
         if (playerTile.z_index != landTile.z_index)
         {
-            //TODO something with this
             SoundManager.PlaySound(SoundManager.Sound.Error, transform.position);
             dash = false;
             dashPosition = this.transform.position;

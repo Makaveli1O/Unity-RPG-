@@ -512,6 +512,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
         this.animating = true;
         //trigger start animation events here
         this.state = State.Hurting;
+        SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position, GetPresetAudioClip(SoundManager.Sound.Hurt));
         StartCoroutine(Animating(0.3f, State.Hurting));
         return;
     } 
@@ -598,11 +599,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
         //healthsystem damage
         healthSystem.Damage(int.Parse(damageAmount));
         //sfx
-        try{
-            SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position, GetPresetAudioClip(SoundManager.Sound.Hit));
-        }catch{
-            //FIXME remove this after all sound are correctly assigned
-        }
+        SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position, GetPresetAudioClip(SoundManager.Sound.Hit));
         
         //damage popup
         DamagePopup.Create(transform.position, damageAmount);
