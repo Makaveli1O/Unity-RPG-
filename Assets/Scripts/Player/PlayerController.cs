@@ -160,7 +160,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
         if (state == State.Normal)
         {
             HandleMovement();
-        }      
+        }   
     }
 
     // Fixed Update -> work with rigidbody here

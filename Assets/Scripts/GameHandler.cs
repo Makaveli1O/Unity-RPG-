@@ -11,6 +11,8 @@ public class GameHandler : MonoBehaviour
     private string SAVE_FOLDER;
     float world_seed; //parent folder for all things within this seed
     private Map mapRef; 
+    [SerializeField] GameObject PauseMenuGO;
+    private PauseMenu pauseMenuScript;
     private enum KeyObjectHandlerType
     {
         Save,
@@ -23,7 +25,19 @@ public class GameHandler : MonoBehaviour
         SAVE_FOLDER = Application.dataPath + "/Saves/";
         SoundManager.Init();    //initialize soundManager
         GameAssets.Instance.cursorHandler.SetCursorByType(CursorType.Basic);
-        
+        pauseMenuScript = PauseMenuGO.GetComponent<PauseMenu>();
+    }
+
+    /// <summary>
+    /// Update is called every frame, if the MonoBehaviour is enabled.
+    /// </summary>
+    void Update()
+    {
+        //Pause menu
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pauseMenuScript.OpenMenu();
+        }   
     }
 
     

@@ -93,6 +93,12 @@ public class MapController : MonoBehaviour
         gameHandler.Save<SavePosition>(savePlayer, ObjType.Player,playerPos);
     }
 
+    public void ManualSave(){
+        SavePosition savePlayer = new SavePosition(playerPos, playerController.healthSystem.GetHealth(), playerController.shield.healthSystem.GetHealth());
+        gameHandler.Save<SavePosition>(savePlayer, ObjType.Player,playerPos);
+        return;
+    }
+
 
     private void TileEdgesCollision(TDTile tile, Vector3 playerPos){
         float offset = 0.5f;
