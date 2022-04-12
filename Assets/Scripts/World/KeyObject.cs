@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class KeyObject : MonoBehaviour
 {
@@ -41,6 +42,7 @@ public class KeyObject : MonoBehaviour
         }
         SetUILockStatus(biome.name);
     }
+
 
     /// <summary>
     /// Called every frame while the mouse is over the GUIElement or Collider.

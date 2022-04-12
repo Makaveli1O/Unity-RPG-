@@ -80,6 +80,8 @@ public class Map : MonoBehaviour
     public float treeScale;
     public bool generationComplete = false;
 
+    public List<KeyObject> IncompleteKeyStones;
+
     /// <summary>
     /// This function generates whole map from noise. Actually 3 types of noise maps are created. Those are
     /// saved in to Map structure and proper biomes are set in the second cycle throughout the chunks and whole map
@@ -292,6 +294,13 @@ public class Map : MonoBehaviour
         ch.keyObjPos = tile.pos;
         //update chunk in TDMap
         map.UpdateChunk(ch);
+
+        //add to incomplete keystones list
+        if (!keyObjScript.completed)
+        {
+            IncompleteKeyStones.Add(keyObjScript);
+        }
+
         //return object to saveSystem
         return newObj;
     }
@@ -892,6 +901,7 @@ public class Map : MonoBehaviour
     /// </summary>
     void Awake()
     {
+        IncompleteKeyStones = new List<KeyObject>();
         this.seed = SceneIntel.seed;    //set either loaded seed, or main menu slider seed
         chunkGenerator = GetComponent<ChunkGenerator>();
         chunkLoader = GetComponent<ChunkLoader>();
