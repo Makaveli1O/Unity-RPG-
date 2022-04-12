@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
         Character sprites have pivot anchored x: 0.5 and y: 0.1 (normalized)
         because of topdown angle
     */    
+    [SerializeField] GameObject gameOver;
     private float movementSpeed = 3f;
     private bool dash = false;  //when dash is true, player is invincble
     private bool isInvincible;
@@ -212,8 +213,9 @@ public class PlayerController : MonoBehaviour, CombatInterface
         this.KeyboardMovement();
     }
 
-    //TODO
     public void Die(){
+        GameOver goScript = gameOver.GetComponent<GameOver>();
+        goScript.OpenMenu();
         return;
     }
     /// <summary>
@@ -266,10 +268,11 @@ public class PlayerController : MonoBehaviour, CombatInterface
             if (damage < 0)
             {
                 damageAmount = damage.ToString();
-                //sfx to break shield
+                SoundManager.PlaySound(SoundManager.Sound.ShieldBreak, this.transform.position);
             //full damage consumed by shield
             }else{
                 DamagePopup.Create(transform.position, "ABSORB", DamagePopup.Type.Shield);
+                SoundManager.PlaySound(SoundManager.Sound.ShieldHit);
                 return false;
             }
             SoundManager.PlaySound(SoundManager.Sound.ShieldHit);
@@ -287,9 +290,8 @@ public class PlayerController : MonoBehaviour, CombatInterface
         transform.position += dirFromAttacker * knockbackDistance;
         //if health is zero die
         if (healthSystem.GetHealthPercent() == 0){
-            //TODO game over screen .. 
-            if (!this.IsDead) {//this.Die();
-            }
+            this.IsDead = true;
+            this.Die();
             return true;
         }else{
             return false;

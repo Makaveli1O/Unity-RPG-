@@ -82,6 +82,6 @@ public class UIButton : MonoBehaviour
         cooldownText.gameObject.SetActive(false);
         cooldownImage.fillAmount = 0.0f;
         spellReady = true;
-        //TODO sfx
+        SoundManager.PlaySound(SoundManager.Sound.CooldownDone);
     }
 }

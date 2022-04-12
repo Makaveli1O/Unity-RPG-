@@ -34,4 +34,4 @@ MonoBehaviour:
   - sound: 1
     audioClip: {fileID: 8300000, guid: 838d94e17b2db6546bdebc3b50ef5f73, type: 3}
   - sound: 4
-    audioClip: {fileID: 8300000, guid: e35128391ab4bde47bade25c699a0543, type: 3}
+    audioClip: {fileID: 8300000, guid: 1c2b39a7bee6a714ea0a3038425e445d, type: 3}

@@ -64,6 +64,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
     public float attackTime{get;set;}
     public int bottomDamage;
     public int topDamage;
+    private bool noRush = true;
 
     /*  *   *   *   *   *   *   *
         H   E   A   L   T   H
@@ -129,11 +130,23 @@ public class EnemyController : MonoBehaviour, CombatInterface
     }
 
     private void Start() {
+        float noRushTime = 5f;
         //get anchor tile
         int2 coords = new int2((int)anchorPoint.x, (int)anchorPoint.y);
         anchorTile =  mapRef.GetTile(mapRef.TileRelativePos(coords), mapRef.TileChunkPos(coords));
         //events turned off
         animator.fireEvents = false;
+        StartCoroutine(NoRushAggro(noRushTime));
+    }
+
+    /// <summary>
+    /// Coroutine handling, instant aggro of enemies, while spawned in aggroradius.
+    /// </summary>
+    /// <param name="time">Time to wait until attack after spawn.</param>
+    /// <returns></returns>
+    public IEnumerator NoRushAggro(float time){
+        yield return new WaitForSeconds(time);
+        noRush = false;
     }
 
     /// <summary>
@@ -171,7 +184,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /// </summary>
     void HandleMovement(){
         //player in aggro radius
-        if (InAggroRadius != null)
+        if (InAggroRadius != null && !noRush)
         {
             if (Vector3.Distance(player.transform.position, this.transform.position) >= movementThresHold)
             {

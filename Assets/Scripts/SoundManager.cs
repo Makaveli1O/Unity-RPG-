@@ -27,7 +27,9 @@ public static class SoundManager
         Heal,
         SmashGround,
         ButtonPressed,
-        ButtonHover
+        ButtonHover,
+        CooldownDone,
+        ShieldBreak
     }
 
     public static bool casting;
@@ -95,7 +97,7 @@ public static class SoundManager
                 if (soundTimerDictionary.ContainsKey(sound))
                 {
                     float lastTimePlayed = soundTimerDictionary[sound]; //last time this sound was played
-                    float maxTime = .25f;   //delay
+                    float maxTime = .35f;   //delay
                     //is last time after delay we want?
                     if (lastTimePlayed + maxTime < Time.time)
                     {
