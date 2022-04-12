@@ -15,6 +15,8 @@ MonoBehaviour:
   twoDirSprite: 0
   _name: goblin
   id: 8
+  attackAnimationDuration: 0.8
+  attackSfxDelay: 0.5
   health: 200
   armor: 0
   bottomDamage: 5

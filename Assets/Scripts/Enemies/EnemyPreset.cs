@@ -5,6 +5,8 @@ public class EnemyPreset : ScriptableObject{
     public bool twoDirSprite;
     public string _name;
     public int id;
+    public float attackAnimationDuration;
+    public float attackSfxDelay;
     public int health = 100;
     public int armor = 100;
     public int bottomDamage = 100;

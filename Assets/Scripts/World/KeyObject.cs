@@ -110,7 +110,6 @@ public class KeyObject : MonoBehaviour
     /// Sets this keystone to complete
     /// </summary>
     public void Completed(){
-        //TODO sfx
         this.completed = true;
         SetUILockStatus(biome.name);
         animator.Play("Destroy");
@@ -118,6 +117,8 @@ public class KeyObject : MonoBehaviour
         mapRef = GameObject.FindGameObjectWithTag("Map").GetComponent<Map>();
         SaveKeyObject keystone = new SaveKeyObject(tile, true);
         mapRef.SaveKeyObject(keystone);
+        //sfx
+        SoundManager.PlaySound(SoundManager.Sound.Keystone_acquired);
     }
 }
 

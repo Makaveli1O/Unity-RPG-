@@ -347,7 +347,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
         float attackLength = 0.75f;
         aoeSpell.HideGuidelines();
         aoeSpell.Perform(aoeSpellDuration, aoeSpellDamage);
-        //TODO sfx
+        SoundManager.PlaySound(SoundManager.Sound.WindSpell, this.transform.position);
         StartCoroutine(Attacking(attackLength));
         characterAnimationController.CharacterAttack3(lookingDir);
         moveDir = Vector3.zero;
@@ -368,7 +368,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
         }
         StartCoroutine(Attacking(aoeAttackLength));
         characterAnimationController.CharacterAttack2(lookingDir);
-        //TODO sfx, fucntionality
+        SoundManager.PlaySound(SoundManager.Sound.SmashGround, this.transform.position);
 
     }
 
@@ -511,18 +511,21 @@ public class PlayerController : MonoBehaviour, CombatInterface
     }
 
     private IEnumerator Healing(float time){
+        SoundManager.casting = true;
+        StartCoroutine(SoundManager.Loop(time, SoundManager.Sound.Casting, this.transform.position));
         for( ; time >= 0 ; time -= Time.deltaTime )
         {
-            //TODO sfx
             if( interruptCoroutine )
             {
+                SoundManager.casting = false;
                 interruptCoroutine = false;
                 animating = false;
                 yield break ;
             }
             yield return null ;
         }
-        //TODO sfx
+        SoundManager.casting = false;
+        SoundManager.PlaySound(SoundManager.Sound.Heal, this.transform.position);
         state = PlayerController.State.Normal;
         animating = false;
         uiHandler.HealCooldown();
@@ -550,17 +553,20 @@ public class PlayerController : MonoBehaviour, CombatInterface
     /// <param name="keystone">Keystone interacting with.</param>
     /// <returns></returns>
     private IEnumerator Interacting(float time, GameObject keystone){
+        SoundManager.casting = true;
+        StartCoroutine(SoundManager.Loop(time, SoundManager.Sound.Casting, this.transform.position));
         for( ; time >= 0 ; time -= Time.deltaTime )
         {
-            //TODO sfx
             if( interruptCoroutine )
             {
+                SoundManager.casting = false;
                 interruptCoroutine = false;
                 animating = false;
                 yield break ;
             }
             yield return null ;
         }
+        SoundManager.casting = false;
         state = PlayerController.State.Normal;
         animating = false;
         keystone.GetComponent<KeyObject>().Completed();

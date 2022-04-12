@@ -1,8 +1,9 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using System.Collections;
+using UnityEngine.EventSystems;
 
-public class MainMenu : MonoBehaviour
+public class MainMenu : MonoBehaviour, IPointerEnterHandler
 {
     private string game = "SampleScene";
     [SerializeField] private GameObject main;
@@ -40,7 +41,12 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+         SoundManager.PlaySound(SoundManager.Sound.ButtonHover);
+    }
+
     public void ButtonSfx(){
-        //TODO
+        SoundManager.PlaySound(SoundManager.Sound.ButtonPressed);
     }
 }

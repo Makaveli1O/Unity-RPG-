@@ -16,14 +16,21 @@ public static class SoundManager
         Dash,
         Error,
         Miss,
-        Block,
+        Casting,
+        WindSpell,
         ShieldHit,
         ShieldPulse,
         ShieldToggle,
         Theme_menu,
-        Theme_gameplay
+        Theme_gameplay,
+        Keystone_acquired,
+        Heal,
+        SmashGround,
+        ButtonPressed,
+        ButtonHover
     }
 
+    public static bool casting;
     private static Dictionary<Sound,float> soundTimerDictionary;
     private static GameObject oneShotGameObject;
     private static AudioSource oneShotAudioSource;
@@ -120,9 +127,23 @@ public static class SoundManager
         }
     }
 
-    public static IEnumerator Loop(float clipLength, Sound sound, Vector3 position){
-        PlaySound(sound);
-        yield return new WaitForSeconds(clipLength);
+    /// <summary>
+    /// Loops sound for given length, then destroys the GO.
+    /// </summary>
+    /// <param name="length">Time to loop</param>
+    /// <param name="sound">Desired sound effet</param>
+    /// <param name="position">Position of the sound effect.</param>
+    /// <returns></returns>
+    public static IEnumerator Loop(float length, Sound sound, Vector3 position){
+        GameObject soundGameObject = new GameObject("loopSfx");
+        AudioSource audioSource = soundGameObject.AddComponent<AudioSource>();
+        audioSource.loop = true;
+        //sound sent from preset
+        audioSource.clip = GetAudioClip(sound);
+        audioSource.Play();
+        yield return new WaitUntil(()=>!casting);
+        //yield return new WaitForSeconds(length);
+        GameObject.Destroy(soundGameObject);
     }
 
     /// <summary>

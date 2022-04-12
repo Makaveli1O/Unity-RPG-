@@ -532,16 +532,11 @@ public class EnemyController : MonoBehaviour, CombatInterface
         }
         //trigger animation
         this.animating = true;
-        animationController.CharacterAttack(player.transform.position - this.transform.position);
-        try{
-            SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position, GetPresetAudioClip(SoundManager.Sound.Attack));
-        }catch{
-            //remove this later
-        }
+        
         //trigger start animation events here
         string damageAmount = Random.Range(bottomDamage, topDamage).ToString();
         this.state = State.Attacking;
-        StartCoroutine(Animating(2f, State.Attacking, damageAmount));
+        StartCoroutine(Animating(this.preset.attackAnimationDuration, State.Attacking, damageAmount));
         return;
     }
 
@@ -554,19 +549,31 @@ public class EnemyController : MonoBehaviour, CombatInterface
         switch (action)
         {
             case State.Attacking:
-                player.GetComponent<PlayerController>().Damage(transform.position, dmg, this.preset.attackRange);
+                animationController.CharacterAttack(player.transform.position - this.transform.position);
+                //sfxeffect
+                StartCoroutine(AttackSfxDelay());
                 break;
             case State.Hurting:
                 animationController.HurtAnimation(moveDir, twoDirEntity);
-                //yield return new WaitUntil(()=>animationController.playingAnimation);
                 break;
             case State.Dieing:
                 animationController.DeadAnimation(moveDir, twoDirEntity);
                 break;
         }
         yield return new WaitForSeconds(time);
+        //attack player
+        if (action.Equals(State.Attacking)) player.GetComponent<PlayerController>().Damage(transform.position, dmg, this.preset.attackRange);
         //call end animation event
         EndAnimation();
+    }
+
+    /// <summary>
+    /// Delays sfx effect according to presed invoked by.
+    /// </summary>
+    /// <returns></returns>
+    public IEnumerator AttackSfxDelay(){
+        yield return new WaitForSeconds(preset.attackSfxDelay);
+        SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position, GetPresetAudioClip(SoundManager.Sound.Attack));
     }
 
     /// <summary>

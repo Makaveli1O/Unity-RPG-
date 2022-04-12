@@ -38,7 +38,6 @@ public class AoeAttack : MonoBehaviour
             slash.SetDamageAmount(damage);
             //spawn on top of enemy head and destroy
             slash.EnemyPerform(enemy.transform.position, aoeAttackDuration);
-            //TODO sfx
         }
     }
 

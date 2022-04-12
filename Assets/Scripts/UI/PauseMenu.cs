@@ -1,7 +1,7 @@
-using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class PauseMenu : MonoBehaviour
+public class PauseMenu : MonoBehaviour, IPointerEnterHandler
 {
     [SerializeField] private GameObject play;
     [SerializeField] private GameObject save;
@@ -35,8 +35,12 @@ public class PauseMenu : MonoBehaviour
         OnSavePressed();
         Application.Quit();
     }
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+         SoundManager.PlaySound(SoundManager.Sound.ButtonHover);
+    }
 
     private void ButtonSfx(){
-        //TODO;
+        SoundManager.PlaySound(SoundManager.Sound.ButtonPressed);
     }
 }

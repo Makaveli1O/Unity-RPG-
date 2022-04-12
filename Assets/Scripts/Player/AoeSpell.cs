@@ -28,7 +28,6 @@ public class AoeSpell : MonoBehaviour
             vfxObj.transform.parent = this.transform;
             Vfx tornado = vfxObj.GetComponent<Vfx>();
             tornado.SetVFXType(Vfx.ElementType.Wind);
-            //TODO equation time - radius relation
             tornado.SetDamageAmount(damage);
             tornado.Move(direction, time);   //move tornado
         }
