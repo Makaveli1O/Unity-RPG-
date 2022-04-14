@@ -362,7 +362,6 @@ public class Map : MonoBehaviour
         {
             if (neighbour.z_index.Equals(tile.z_index) && neighbour.IsWalkable)
             {
-                Debug.Log("New tile closest");
                 return neighbour;
             }
         }

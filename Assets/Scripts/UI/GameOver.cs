@@ -7,6 +7,7 @@ public class GameOver : MonoBehaviour, IPointerEnterHandler
     private string menu = "MainMenu";
     public void LoadMainMenu(){
         ButtonSfx();
+        CloseMenu();
         SceneManager.LoadScene(menu);
     }
 
@@ -25,7 +26,7 @@ public class GameOver : MonoBehaviour, IPointerEnterHandler
     }
 
     public void CloseMenu(){
-        gameObject.SetActive(false);
         Time.timeScale = 1;
+        gameObject.SetActive(false);
     }
 }

@@ -29,9 +29,10 @@ public static class SoundManager
         ButtonPressed,
         ButtonHover,
         CooldownDone,
-        ShieldBreak
+        ShieldBreak,
+        Theme_victory
     }
-
+    private static GameObject looping = null;
     public static bool casting;
     private static Dictionary<Sound,float> soundTimerDictionary;
     private static GameObject oneShotGameObject;
@@ -67,6 +68,11 @@ public static class SoundManager
             //destroy after being played
             Object.Destroy(soundGameObject, audioSource.clip.length);
         }
+    }
+
+    public static void PlayVictoryMusic(Sound sound){
+        GameObject.Destroy(looping);
+        PlaySound(sound);
     }
 
     /// <summary>
@@ -121,10 +127,10 @@ public static class SoundManager
             GameObject soundGameObject = new GameObject("Musictheme");
             AudioSource audioSource = soundGameObject.AddComponent<AudioSource>();
             audioSource.loop = true;
-            audioSource.volume = 0.5f;
+            audioSource.volume = 0.3f;
             //sound sent from preset
             audioSource.clip = GetAudioClip(sound);
-            
+            looping = soundGameObject;
             audioSource.Play();
         }
     }

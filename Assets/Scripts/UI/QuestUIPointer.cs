@@ -41,6 +41,7 @@ public class QuestUIPointer : MonoBehaviour
         this.targetObject = obj;
         pointing = true;
         this.gameObject.SetActive(true);
+        obj.UIpointer = this;
     }
 
     /// <summary>

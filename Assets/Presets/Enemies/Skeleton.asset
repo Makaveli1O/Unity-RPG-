@@ -19,12 +19,12 @@ MonoBehaviour:
   attackSfxDelay: 0
   health: 200
   armor: 0
-  bottomDamage: 5
-  topDamage: 20
+  bottomDamage: 9
+  topDamage: 14
   attackRange: 5
-  attackTime: 2
+  attackTime: 1
   multiplier: 0
-  movementSpeed: 2
+  movementSpeed: 1.6
   assetsLibrary: {fileID: 7108339969198208228, guid: bedda92cbac9c354da6e26223a033815, type: 3}
   sfx:
   - sound: 3

@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections.Generic;
 
 public class KeyObject : MonoBehaviour
 {
@@ -22,6 +21,7 @@ public class KeyObject : MonoBehaviour
     private GameObject player;
     private PlayerController pc;
     private Map mapRef;
+    public QuestUIPointer UIpointer = null;
     
     /// <summary>
     /// Awake is called when the script instance is being loaded.
@@ -116,11 +116,18 @@ public class KeyObject : MonoBehaviour
         SetUILockStatus(biome.name);
         animator.Play("Destroy");
         //save keystone's state
-        mapRef = GameObject.FindGameObjectWithTag("Map").GetComponent<Map>();
+        GameObject mapObj = GameObject.FindGameObjectWithTag("Map");
+        mapRef = mapObj.GetComponent<Map>();
         SaveKeyObject keystone = new SaveKeyObject(tile, true);
         mapRef.SaveKeyObject(keystone);
         //sfx
         SoundManager.PlaySound(SoundManager.Sound.Keystone_acquired);
+        if (UIpointer != null) UIpointer.gameObject.SetActive(false);
+        mapRef.IncompleteKeyStones.Remove(this);
+        if (mapRef.IncompleteKeyStones.Count == 0)
+        {
+            mapObj.GetComponent<GameHandler>().LoadVictoryScreen();
+        }
     }
 }
 

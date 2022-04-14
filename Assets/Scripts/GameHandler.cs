@@ -12,7 +12,9 @@ public class GameHandler : MonoBehaviour
     float world_seed; //parent folder for all things within this seed
     private Map mapRef; 
     [SerializeField] GameObject PauseMenuGO;
+    [SerializeField] GameObject VictoryMenuGO;
     private PauseMenu pauseMenuScript;
+    private GameOver victoryMenuScript;
     private enum KeyObjectHandlerType
     {
         Save,
@@ -26,10 +28,7 @@ public class GameHandler : MonoBehaviour
         SoundManager.Init();    //initialize soundManager
         GameAssets.Instance.cursorHandler.SetCursorByType(CursorType.Basic);
         pauseMenuScript = PauseMenuGO.GetComponent<PauseMenu>();
-    }
-
-    public void PlayMainTheme(){
-        SoundManager.LoopMusic(SoundManager.Sound.Theme_gameplay);
+        victoryMenuScript = VictoryMenuGO.GetComponent<GameOver>();
     }
 
     /// <summary>
@@ -42,6 +41,15 @@ public class GameHandler : MonoBehaviour
         {
             pauseMenuScript.OpenMenu();
         }   
+    }
+
+    public void PlayMainTheme(){
+        SoundManager.LoopMusic(SoundManager.Sound.Theme_gameplay);
+    }
+
+    public void LoadVictoryScreen(){
+        victoryMenuScript.OpenMenu();
+        SoundManager.PlayVictoryMusic(SoundManager.Sound.Theme_victory);
     }
 
     

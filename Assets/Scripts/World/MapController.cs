@@ -94,8 +94,11 @@ public class MapController : MonoBehaviour
 
 
     void OnApplicationQuit() {
-        SavePosition savePlayer = new SavePosition(playerPos, playerController.healthSystem.GetHealth(), playerController.shield.healthSystem.GetHealth());
-        gameHandler.Save<SavePosition>(savePlayer, ObjType.Player,playerPos);
+        if (!playerController.IsDead)
+        {
+            SavePosition savePlayer = new SavePosition(playerPos, playerController.healthSystem.GetHealth(), playerController.shield.healthSystem.GetHealth());
+            gameHandler.Save<SavePosition>(savePlayer, ObjType.Player,playerPos);     
+        }
     }
 
     /// <summary>

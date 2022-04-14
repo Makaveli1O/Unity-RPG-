@@ -17,12 +17,12 @@ MonoBehaviour:
   id: 8
   attackAnimationDuration: 0.8
   attackSfxDelay: 0.5
-  health: 200
+  health: 125
   armor: 0
   bottomDamage: 5
-  topDamage: 20
+  topDamage: 12
   attackRange: 5
-  attackTime: 2
+  attackTime: 1.2
   multiplier: 0
   movementSpeed: 2
   assetsLibrary: {fileID: 7108339969198208228, guid: bb7169ffedb9de74c8889d459d8efff5, type: 3}

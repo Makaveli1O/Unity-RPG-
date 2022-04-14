@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using Unity.Mathematics;
+using Random = UnityEngine.Random;
 using System.Collections.Generic;
 public class PlayerController : MonoBehaviour, CombatInterface
 {
@@ -61,7 +62,9 @@ public class PlayerController : MonoBehaviour, CombatInterface
     public int aoeSpellDamage = 5;
     public float aoeAttackRadius;
     public int aoeAttackDamage = 7;
-    public int healSpellAmount = 20;
+    public int healSpellMedian = 30;
+    public int bottomDamage = 12;
+    public int topDamage = 25;
     private State state;    //current state
     private bool interruptCoroutine = false;
     private void Awake() {
@@ -327,7 +330,8 @@ public class PlayerController : MonoBehaviour, CombatInterface
             EnemyController targetEnemy = EnemyController.GetClosestEnemy(attackPosition, attackRange);
             if (targetEnemy != null)
             {
-                targetEnemy.Damage(transform.position, "20");
+                int damageAmount = Random.Range(bottomDamage, topDamage);
+                targetEnemy.Damage(transform.position, damageAmount.ToString());
                 attackDir = (targetEnemy.GetPosition() - transform.position).normalized;
             }
             state = State.Attacking;
@@ -531,6 +535,7 @@ public class PlayerController : MonoBehaviour, CombatInterface
         state = PlayerController.State.Normal;
         animating = false;
         uiHandler.HealCooldown();
+        int healSpellAmount = Random.Range(healSpellMedian-((int) healSpellMedian / 2),  healSpellMedian+((int) healSpellMedian / 2));
         healthSystem.Heal(healSpellAmount);
         //damage popup
         DamagePopup.Create(transform.position, healSpellAmount.ToString(), DamagePopup.Type.Heal);

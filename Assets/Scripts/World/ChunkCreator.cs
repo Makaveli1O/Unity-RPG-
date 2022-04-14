@@ -36,6 +36,7 @@ public class ChunkCreator : MonoBehaviour
     private bool entitiesSpawned = false;
     private bool containsKeyObj = false;
     private int2 keyObjPos = new int2(0, 0);
+    private bool keystoneCompleted = false;
 
     /// <summary>
     /// Function that creates mesh with given width, height and world space. This tile represents
@@ -228,7 +229,7 @@ public class ChunkCreator : MonoBehaviour
                         renderedTrees[actualPos] = treeP;
                         if (treeP != null)
                         {
-                            AdjustObjCollider(treeP, treeSprite);
+                            AdjustObjCollider(treeP, treeSprite, true);
                         }
                     }
                 }
@@ -257,6 +258,22 @@ public class ChunkCreator : MonoBehaviour
         if (loaded == null){
             SaveChunk();
         }
+
+        //mark  completed or incompleted keystone
+        if (containsKeyObj)
+        {
+            List<int2> IncompleteKeyStonePositions = new List<int2>();
+            foreach (var keystone in mapReference.IncompleteKeyStones)
+            {
+                IncompleteKeyStonePositions.Add(keystone.tile.pos);
+            }
+            
+            if (!IncompleteKeyStonePositions.Contains(keyObjPos))
+            {
+                keystoneCompleted = true;
+            }
+        }
+
         objectsLoaded = true;
         return;
     }
@@ -266,8 +283,12 @@ public class ChunkCreator : MonoBehaviour
     /// </summary>
     /// <param name="loaded">Currently processing chunk</param>
     private void LoadedChunkObjects(WorldChunk loaded){
+        this.keystoneCompleted = false;
         this.containsKeyObj = loaded.containsKeyObj;
         this.keyObjPos = loaded.keyObjPos;
+        
+
+
         foreach (WorldChunk.ObjectsStorage item in loaded.objects){
             List<GameObject> availableObjects = objectPool.GetInactiveObjects();
             if (availableObjects.Count > 0 )
@@ -462,7 +483,7 @@ public class ChunkCreator : MonoBehaviour
     /// </summary>
     /// <param name="collider2D">colldier object</param>
     /// <param name="boundingBox">bounding box around sprite</param>
-    private void AdjustObjCollider(GameObject obj, Sprite sprite)
+    private void AdjustObjCollider(GameObject obj, Sprite sprite, bool tree = false)
     {
         SpriteRenderer spriteRenderer = obj.GetComponent<SpriteRenderer>();
         CapsuleCollider2D collider2D = obj.GetComponent<CapsuleCollider2D>();
@@ -476,13 +497,15 @@ public class ChunkCreator : MonoBehaviour
         switch (prefix)
         {
             case "regular":
-                collider2D.size = new Vector2(boundingBox.size.x / 2f, collider2D.size.y);
+                if (!tree) collider2D.enabled = false;
+                else collider2D.size = new Vector2(boundingBox.size.x / 2f, collider2D.size.y);
                 break;
             case "big":
                 collider2D.size = new Vector2(boundingBox.size.x / 1.2f, collider2D.size.y);
                 break;
             case "small":
-                collider2D.size = new Vector2(boundingBox.size.x / 5f, collider2D.size.y);
+                if (!tree) collider2D.enabled = false;
+                else collider2D.size = new Vector2(boundingBox.size.x / 5f, collider2D.size.y);
                 break;
             case "hollow":
                 spriteRenderer.sortingOrder = 0;
@@ -545,6 +568,7 @@ public class ChunkCreator : MonoBehaviour
         int randomNum = Random.Range(0,entityPool.amountToPool);
         //key object within this chunk -> spawn guards
         if (chunk.containsKeyObj){
+            if (keystoneCompleted) return true;
             while (spawned < 8)
             {
                 //pick random valid position around object +/- 5 tiles

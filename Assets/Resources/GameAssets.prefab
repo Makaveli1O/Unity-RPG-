@@ -90,6 +90,10 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: 3cb5635e583699c40b742dd8de261a6a, type: 3}
   - sound: 21
     audioClip: {fileID: 8300000, guid: 20672e6c19498a846a8d9700fc5e2536, type: 3}
+  - sound: 15
+    audioClip: {fileID: 8300000, guid: 024f5427d2483494b9d377c6d589e355, type: 3}
+  - sound: 22
+    audioClip: {fileID: 8300000, guid: 8a135686ff5789243bb8df8378c0e350, type: 3}
   cursors:
   - type: 0
     texture: {fileID: 2800000, guid: 2e71a8202d3b4a3448ec85ced5a40265, type: 3}

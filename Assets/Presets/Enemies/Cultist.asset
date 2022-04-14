@@ -17,14 +17,14 @@ MonoBehaviour:
   id: 10
   attackAnimationDuration: 0.55
   attackSfxDelay: 0
-  health: 100
-  armor: 100
-  bottomDamage: 100
-  topDamage: 100
-  attackRange: 5
-  attackTime: 5
+  health: 125
+  armor: 0
+  bottomDamage: 20
+  topDamage: 40
+  attackRange: 7
+  attackTime: 3.5
   multiplier: 0
-  movementSpeed: 1
+  movementSpeed: 0.7
   assetsLibrary: {fileID: 7108339969198208228, guid: f8560c709dc745f4ba522d47d3984d0f, type: 3}
   sfx:
   - sound: 2
