@@ -15,6 +15,7 @@ public class EnemyPreset : ScriptableObject{
     public float attackTime = 5f;
     public float multiplier;
     public float movementSpeed = 1f;
+    public Vector2 colliderOffset;
     public UnityEngine.U2D.Animation.SpriteLibraryAsset assetsLibrary;
     public GameAssets.SoundAudioClip[] sfx;
 }

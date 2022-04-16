@@ -574,8 +574,9 @@ public class ChunkCreator : MonoBehaviour
                 //pick random valid position around object +/- 5 tiles
                 //this can cause exception, when obj is in the corner of chunk, and others are not generated yet
                 //int2 spawnPos = new int2(Random.Range(keyObjPos.x - 5, keyObjPos.x + 5), Random.Range(keyObjPos.y - 5, keyObjPos.y + 5));
-                int2 spawnPos = new int2(Random.Range(chunkKey.x, chunkTopCoords.x), Random.Range(chunkKey.y, chunkTopCoords.y));
-                TDTile tile = mapReference.GetTile(mapReference.TileRelativePos(spawnPos), mapReference.TileChunkPos(spawnPos));
+                TDTile tile = mapReference.GetTileNearKeyObj(chunk);
+                //int2 spawnPos = new int2(Random.Range(chunkKey.x, chunkTopCoords.x), Random.Range(chunkKey.y, chunkTopCoords.y));
+                //TDTile tile = mapReference.GetTile(mapReference.TileRelativePos(spawnPos), mapReference.TileChunkPos(spawnPos));
                
                 //check if tile is fine to spawn entity on
                 if(mapReference.isSpawnable(tile)){
@@ -623,6 +624,8 @@ public class ChunkCreator : MonoBehaviour
         ec.anchorPoint = pos;
         //set correct assetsLibrary
         ec.assetsLibrary = ec.preset.assetsLibrary;
+        //set correct collider offset
+        ec.col.offset = ec.preset.colliderOffset;
 
 
         //set position and activate
@@ -637,8 +640,16 @@ public class ChunkCreator : MonoBehaviour
             SpawnChunkObjects();
         }
 
-        if (!entitiesSpawned){
+        if (!entitiesSpawned && !mapReference.spawningOff){
             entitiesSpawned = EntitySpawner(new int2(x,y), new int2(top_x, top_y));
+        }
+
+        //FIXME remove
+        if(Input.GetKeyDown(KeyCode.V))
+        {
+            TDTile tile = mapReference.GetTile(new int2(20,20), this.chunk.position);
+            PlayerController pc = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+            Spawn(tile, false);
         }
     }
 }

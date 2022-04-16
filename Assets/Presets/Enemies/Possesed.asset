@@ -25,6 +25,7 @@ MonoBehaviour:
   attackTime: 2
   multiplier: 0
   movementSpeed: 1.4
+  colliderOffset: {x: 0, y: -0.8}
   assetsLibrary: {fileID: 7108339969198208228, guid: 53c7e40580621594da58647e1d08e011, type: 3}
   sfx:
   - sound: 3

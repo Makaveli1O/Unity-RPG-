@@ -782,29 +782,29 @@ MonoBehaviour:
       m_Hash: 1746965092
       m_Sprite: {fileID: 1318798909, guid: 9d76c1d9f2317324d9b2abfa89a918cc, type: 3}
       m_FromMain: 1
-      m_SpriteOverride: {fileID: 1318798909, guid: 9d76c1d9f2317324d9b2abfa89a918cc, type: 3}
+      m_SpriteOverride: {fileID: 9056248893488918673, guid: aca5217aebbc483489f7ec6822a7bb8d, type: 3}
     - m_Name: Death_1
       m_Hash: 522691314
       m_Sprite: {fileID: -289713339, guid: 9d76c1d9f2317324d9b2abfa89a918cc, type: 3}
       m_FromMain: 1
-      m_SpriteOverride: {fileID: -289713339, guid: 9d76c1d9f2317324d9b2abfa89a918cc, type: 3}
+      m_SpriteOverride: {fileID: 8093927521013500494, guid: aca5217aebbc483489f7ec6822a7bb8d, type: 3}
     - m_Name: Death_2
       m_Hash: -2043743416
       m_Sprite: {fileID: 1245495564, guid: 9d76c1d9f2317324d9b2abfa89a918cc, type: 3}
       m_FromMain: 1
-      m_SpriteOverride: {fileID: 1245495564, guid: 9d76c1d9f2317324d9b2abfa89a918cc, type: 3}
+      m_SpriteOverride: {fileID: -1319922469283788355, guid: aca5217aebbc483489f7ec6822a7bb8d, type: 3}
     - m_Name: Death_3
       m_Hash: -248921122
       m_Sprite: {fileID: 108831722, guid: 9d76c1d9f2317324d9b2abfa89a918cc, type: 3}
       m_FromMain: 1
-      m_SpriteOverride: {fileID: 108831722, guid: 9d76c1d9f2317324d9b2abfa89a918cc, type: 3}
+      m_SpriteOverride: {fileID: -1261442732632019250, guid: aca5217aebbc483489f7ec6822a7bb8d, type: 3}
     - m_Name: Death_4
       m_Hash: 1867339389
       m_Sprite: {fileID: 1373342577, guid: 9d76c1d9f2317324d9b2abfa89a918cc, type: 3}
       m_FromMain: 1
-      m_SpriteOverride: {fileID: 1373342577, guid: 9d76c1d9f2317324d9b2abfa89a918cc, type: 3}
+      m_SpriteOverride: {fileID: -3330598231004032862, guid: aca5217aebbc483489f7ec6822a7bb8d, type: 3}
     m_FromMain: 1
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 5
   - m_Name: right_kneel
     m_Hash: 423694635
     m_CategoryList: []

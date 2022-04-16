@@ -58,6 +58,7 @@ MonoBehaviour:
   - {fileID: 9100000, guid: 312af55299461604aa61bc9c922b6029, type: 2}
   preset: {fileID: 0}
   anchorPoint: {x: 0, y: 0, z: 0}
+  col: {fileID: 0}
   assetsLibrary: {fileID: 0}
   state: 0
   observeTime: 3
@@ -90,7 +91,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 336115ff5ac82c94193595a9e5eb343e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playingAnimation: 0
+  attackAnimation: 0
 --- !u!212 &483535862635479153
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -177,7 +178,7 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0056493743, y: 0.12060206}
+  m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.97882545, y: 0.46281463}
   m_Direction: 1
 --- !u!95 &-9194032596269264106

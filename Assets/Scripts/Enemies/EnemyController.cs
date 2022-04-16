@@ -19,7 +19,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
     private SpriteRenderer sr;
     private PathFinding pf;
     private Rigidbody2D rb;
-    private CapsuleCollider2D col;
+    public CapsuleCollider2D col;
     private CharacterAnimationController animationController;
     private Map mapRef;
     private UnityEngine.U2D.Animation.SpriteLibrary sla;
@@ -203,9 +203,9 @@ public class EnemyController : MonoBehaviour, CombatInterface
         }else{
             if (IsMoving)
             {
-                animationController.CharacterMovement(player.transform.position - this.transform.position);
+                animationController.CharacterMovement(moveDir);
             }else{
-                animationController.CharacterDirection(player.transform.position - this.transform.position);
+                animationController.CharacterDirection(moveDir);
             }
             
             if (!IsDead)
@@ -447,8 +447,8 @@ public class EnemyController : MonoBehaviour, CombatInterface
                     //destination reached
                     if (currentPathIndex >= pathVectorList.Count)
                     {
+                        animationController.CharacterDirection(moveDir, twoDirEntity);
                         StopMoving();
-                        animationController.CharacterMovement(moveDir, twoDirEntity);
                         lastSeen = Vector3.zero;
                     }
 
@@ -461,6 +461,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
         lastSeen = Vector3.zero;
         pathVectorList = null;
         this.moveDir = Vector3.zero;
+        IsMoving = false;
     }
 
     /// <summary>

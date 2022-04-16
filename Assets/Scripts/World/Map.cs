@@ -79,7 +79,7 @@ public class Map : MonoBehaviour
     [Header("Objects (trees etc)")]
     public float treeScale;
     public bool generationComplete = false;
-
+    public bool spawningOff;
     public List<KeyObject> IncompleteKeyStones;
 
     /// <summary>
@@ -376,12 +376,37 @@ public class Map : MonoBehaviour
     /// <returns></returns>
     public bool isSpawnable(TDTile tile){
         //skip ocean, water or beach
-        if (tile.biome == biomes[4] || tile.biome == biomes[6] || tile.biome == biomes[5] || !tile.IsWalkable || tile == null)
+        if (tile.biome == biomes[4] || tile.biome == biomes[6] || 
+            tile.biome == biomes[5] || !tile.IsWalkable || tile == null ||
+            tile.hillEdge != EdgeType.none)
         {
             return false;
         }
 
         return true;
+    }
+
+    /// <summary>
+    /// Get random tile near key object to spawn guards onto.
+    /// </summary>
+    /// <param name="chunk">Processing chunk</param>
+    /// <returns>Found chunk</returns>
+    public TDTile GetTileNearKeyObj(WorldChunk chunk){
+        int radius = 7;
+        TDTile foundTile = null;
+        int2 topCoords = new int2(chunk.position.x + Const.CHUNK_SIZE, chunk.position.y + Const.CHUNK_SIZE);
+        do{
+            //get min and max coords ( watch out for overflows )
+            int minX = (chunk.keyObjPos.x - radius >= chunk.position.x) ? chunk.keyObjPos.x - radius : chunk.keyObjPos.x;
+            int maxX = (chunk.keyObjPos.x + radius <= chunk.position.x) ? chunk.keyObjPos.x + radius : chunk.keyObjPos.x;
+            int minY = (chunk.keyObjPos.y - radius >= chunk.position.y) ? chunk.keyObjPos.y - radius : chunk.keyObjPos.y;
+            int maxY = (chunk.keyObjPos.y + radius <= chunk.position.y) ? chunk.keyObjPos.y + radius : chunk.keyObjPos.y;
+            int2 spawnPos = new int2(Random.Range(minX, maxX), Random.Range(minY, maxY));
+
+            foundTile = GetTile(TileRelativePos(spawnPos), chunk.position);
+        }while(!isSpawnable(foundTile));
+
+        return foundTile;
     }
 
     /// <summary>
