@@ -21,11 +21,12 @@ public class EnemyController : MonoBehaviour, CombatInterface
     private Rigidbody2D rb;
     public CapsuleCollider2D col;
     private CharacterAnimationController animationController;
+    [SerializeField] private LayerMask collisionLayerMask; //layers for colision detection of dash
     private Map mapRef;
     private UnityEngine.U2D.Animation.SpriteLibrary sla;
     private Animator animator;
     public UnityEngine.U2D.Animation.SpriteLibraryAsset assetsLibrary;  //sprite asset library list of possible asset libraries
-
+    private bool following = false;
     public enum State{
         Normal,
         Attacking,
@@ -51,6 +52,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
     private int OnEnableCount = 0; //skip first onEnable(that after awake)
     public bool IsMoving{get;set;}
     private float movementThresHold = 2f;
+    public bool avoidingObstacle = false;
 
     /*  *   *   *   *   *   *   *
         C   O   M   B   A   T
@@ -149,14 +151,40 @@ public class EnemyController : MonoBehaviour, CombatInterface
         noRush = false;
     }
 
-    /// <summary>
-    /// On collision with either object or entity, change direction
-    /// </summary>
-    /// <param name="other">Collidet object collision</param>
+
     private void OnCollisionEnter2D(Collision2D other) {
-        if (other.gameObject.tag == "Entity" || other.gameObject.tag == "Object")
+        if (following)
         {
-            ChangeDirection(true);
+            //obstacle avoidance
+            if (other.gameObject.tag == "Object")
+            {
+                avoidingObstacle = true;
+                AvoidObstacle();
+            }
+        }else{
+            if (other.gameObject.tag == "Entity" || other.gameObject.tag == "Object")
+            {
+                ChangeDirection(true);
+            }
+        }
+    }
+
+    private void AvoidObstacle(){
+        //Debug.Log("Avoiding obstacle");
+        //if (Vector3.Angle(moveDir, Vector3.up) < 45f) moveDir = new Vector3(1.0f, -0.2f);
+        //else if(Vector3.Angle(moveDir, Vector3.right) < 45f) moveDir = Vector3.down;
+        //else if(Vector3.Angle(moveDir, Vector3.down) < 45f) moveDir = Vector3.left;
+        //else moveDir = Vector3.up;
+    }
+
+    private void OnCollisionExit2D(Collision2D other) {
+        if (following)
+        {
+            //obstacle avoidance
+            if (other.gameObject.tag == "Object")
+            {
+                avoidingObstacle = false;
+            }
         }
     }
 
@@ -177,6 +205,76 @@ public class EnemyController : MonoBehaviour, CombatInterface
         rb.velocity = moveDir * movementSpeed;
         if (rb.velocity.Equals(Vector3.zero)) IsMoving = false;
         else IsMoving = true;
+        ObstacleDetection();
+    }
+float avoidMultiplier = 0;
+    private void ObstacleDetection(){
+        float currentAngle = Mathf.Atan2(moveDir.y, moveDir.x);
+        float checkDistance = 5f;
+        
+        Vector3 startPoint = this.transform.position;
+        Vector3 absolute_moveDir = new Vector3(moveDir.x + transform.position.x, moveDir.y + transform.position.y, 0);
+        
+        //front center
+        RaycastHit2D raycast = Physics2D.Raycast(transform.position, moveDir, checkDistance, collisionLayerMask);
+        if (raycast.collider != null){
+
+            Debug.Log("Hit center: " + raycast.collider.gameObject.name);
+            avoidingObstacle = true;
+            avoidMultiplier -= 0.5f;
+        }
+        Debug.DrawLine(this.transform.position, absolute_moveDir);
+        
+        float ninetyDegrees = 2f; //rad
+        Vector3 angleRight = new Vector3(Mathf.Cos(currentAngle + ninetyDegrees), Mathf.Sin(currentAngle + ninetyDegrees)).normalized;
+        raycast = Physics2D.Raycast(transform.position, angleRight, 3, collisionLayerMask);
+        if (raycast.collider != null){
+            Debug.Log("Hit right: " + raycast.collider.gameObject.name);
+            avoidMultiplier = 0f;
+        }
+        Debug.DrawLine(this.transform.position, this.transform.position + angleRight, Color.red);
+
+        Vector3 angleLeft = new Vector3(Mathf.Cos(currentAngle - ninetyDegrees), Mathf.Sin(currentAngle - ninetyDegrees)).normalized;
+        raycast = Physics2D.Raycast(transform.position, angleLeft, checkDistance, collisionLayerMask);
+        if (raycast.collider != null){
+            Debug.Log("Hit left: " + raycast.collider.gameObject.name);
+            avoidMultiplier = 0f;
+        }
+
+        Debug.DrawLine(this.transform.position, this.transform.position + angleLeft, Color.blue);
+
+        bool downMovement = false;
+        if (avoidingObstacle)
+        {
+            if (moveDir.y <  0)
+            {
+                downMovement = true;
+            }
+            currentAngle = Mathf.Atan2(moveDir.y, moveDir.x);
+            //float fourtyDegrees = 0.698131701f; //rad
+            Vector3 newAngle = new Vector3(Mathf.Cos(currentAngle + ninetyDegrees), Mathf.Sin(currentAngle + ninetyDegrees));
+            moveDir = (transform.position + newAngle).normalized;
+            if (downMovement)
+            {
+                Debug.Log("movedir1:" + moveDir);
+                moveDir = new Vector3(-moveDir.x, -moveDir.y);
+            }
+            Debug.Log("movedir2:" + moveDir);
+            Vector3 playerVec = player.transform.position - this.transform.position;
+            raycast = Physics2D.Raycast(transform.position, playerVec, checkDistance, collisionLayerMask);
+            //nothing in between playeer and this entity
+            if (raycast.collider == null)
+            {
+                
+                StartCoroutine(StopAvoiding());
+            }
+        }
+    }
+
+    private IEnumerator StopAvoiding(){
+        yield return new WaitForSeconds(1);
+        avoidingObstacle = false;
+        Debug.Log("free to go");
     }
 
     /// <summary>
@@ -234,6 +332,7 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /// wanders again.
     /// </summary>
     private void Wander(){
+        following = false;
         if (wanderTime > 0)
         {
             //change direction from non walkable tile
@@ -422,6 +521,9 @@ public class EnemyController : MonoBehaviour, CombatInterface
     /// Follow player on entering the collider
     /// </summary>
     public void FollowPlayer(Vector3 pos, bool notInRadius = false){
+        following = true;
+        //if avoiding obstacle wait
+        if (avoidingObstacle) return;
         this.lastSeen = pos; //last seen posotion of the player( to follow toward )
         if (!notInRadius)
         {
@@ -621,7 +723,6 @@ public class EnemyController : MonoBehaviour, CombatInterface
         healthSystem.Damage(int.Parse(damageAmount));
         //sfx
         SoundManager.PlaySound(SoundManager.Sound.Hit, transform.position, GetPresetAudioClip(SoundManager.Sound.Hit));
-        
         //damage popup
         DamagePopup.Create(transform.position, damageAmount);
         //if health is zero die

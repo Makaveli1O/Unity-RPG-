@@ -9,7 +9,7 @@ using System.Collections.Generic;
 public class BiomePreset : ScriptableObject
 {
     public string type;
-    public Sprite testTile;
+    private Sprite testTile;
     public Sprite[] tiles;
     public Sprite[] specialTiles;
     public EdgeTile[] edgeTiles;
@@ -455,7 +455,7 @@ public class BiomePreset : ScriptableObject
 
     /// <summary>
     /// Takes 2 arguments, temperature and moisture of given tile. Returns euclidean distance which is 
-    /// urther used in biome picking.
+    /// further used in biome picking.
     /// </summary>
     /// <param name="noiseTemperature">tile temperature value</param>
     /// <param name="noisePrecipitation">tile precipitation value</param>
@@ -465,7 +465,8 @@ public class BiomePreset : ScriptableObject
         float averagePrecipitation = (precipitation + maxPrecipitation) / 2;
         float eucVal = 
         (Mathf.Pow(noiseTemperature - averageTemperature,2) + Mathf.Pow(noisePrecipitation - averagePrecipitation,2));
-        return eucVal;
+        //FIXME
+        return Mathf.Sqrt(eucVal);
     }
 
 
@@ -511,7 +512,6 @@ public class BiomePreset : ScriptableObject
     /// </summary>
     /// <param name="name">Name of requested tree sprite</param>
     /// <returns>Sprite of tree</returns>
-    /// //FIXME rework gettree and getobj to one function, same with random
     public Sprite GetTree(string name){
         foreach (Objects itm in objects){
             if(itm.type == "trees"){

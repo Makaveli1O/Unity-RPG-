@@ -19,13 +19,13 @@ MonoBehaviour:
   attackSfxDelay: 0.5
   health: 250
   armor: 0
-  bottomDamage: 10
-  topDamage: 20
+  bottomDamage: 25
+  topDamage: 35
   attackRange: 5
   attackTime: 3
   multiplier: 0
   movementSpeed: 1
-  colliderOffset: {x: 0, y: -0.8}
+  colliderOffset: {x: 0, y: 0}
   assetsLibrary: {fileID: 7108339969198208228, guid: 9403b424174a9af40ade2e79c7a27074, type: 3}
   sfx:
   - sound: 2

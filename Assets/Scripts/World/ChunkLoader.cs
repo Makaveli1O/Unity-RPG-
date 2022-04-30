@@ -92,4 +92,19 @@ public class ChunkLoader : MonoBehaviour
         chunkPool = GetComponent<ObjectPool>();
     }
 
+    private void Update() {
+        //FIXME remove
+        if(Input.GetKeyDown(KeyCode.V))
+        {
+            var mapRef = GameObject.FindGameObjectWithTag("Map").GetComponent<Map>();
+            PlayerController pc = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+            int2 absolute = new int2((int)pc.transform.position.x,(int)pc.transform.position.y);
+            int2 pos = mapRef.TileRelativePos(absolute);
+            int2 chnkKey = mapRef.TileChunkPos(absolute);
+            TDTile tile = mapRef.GetTile(pos, mapRef.GetChunk(chnkKey).position);
+            ChunkCreator chunkCreator = renderedChunks[chnkKey].GetComponent<ChunkCreator>();
+            chunkCreator.Spawn(tile, false);
+        }
+    }
+
 }

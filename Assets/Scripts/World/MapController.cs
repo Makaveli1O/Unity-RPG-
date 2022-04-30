@@ -18,6 +18,7 @@ public class MapController : MonoBehaviour
     private GameHandler gameHandler = null;
     private PlayerController playerController;
     private bool generationDone = false;
+    private Vector3 lastMarkedPos; //used when detecting tile edge collision
 
     //reworked instead start, and awake
     public void InitMapController()
@@ -78,6 +79,18 @@ public class MapController : MonoBehaviour
             }
         }
 
+        //different position found
+        //usage of exception because playerObj is not assigned when loading scene
+        try
+        {
+            if (!lastMarkedPos.Equals(playerObj.transform.position))
+            {
+                lastMarkedPos = playerObj.transform.position;
+            }
+        }
+        catch
+        {
+        }
     }
 
     /// <summary>
@@ -117,6 +130,7 @@ public class MapController : MonoBehaviour
     /// <param name="tile">Processing tile</param>
     /// <param name="playerPos">position of the player</param>
     private void TileEdgesCollision(TDTile tile, Vector3 playerPos){
+        float threshold = 0.2f;
         float offset = 0.5f;
         EdgeType type = (tile.hillEdge != EdgeType.none) ? tile.hillEdge : tile.edgeType;
         //right Tile
@@ -184,15 +198,22 @@ public class MapController : MonoBehaviour
     /// <param name="dir">Direction of movement</param>
     /// <param name="playerPos">Position of the player</param>
     void RightEdgeCollision(TDTile tile, EdgeType type, float offset, Vector3 dir, Vector3 playerPos){
+
         if (dir.x > 0)  //moving right
         {
             if (playerObj.transform.position.x < tile.pos.x + offset) //within offset
             {
                 this.lastPos = playerObj.transform.position; //mark last position before offset
             }else{  //stop
-                playerObj.transform.position = lastPos; // stop
+                if(dir.y != 0f){  //vertical movement
+                    playerController.moveDir = Vector3.zero;
+                }else{
+                    //playerObj.transform.position = lastPos; // stop
+                    if (Vector3.Distance(playerObj.transform.position, lastPos) <= 0.3f) playerObj.transform.position = lastPos; // stop 
+                    else playerObj.transform.position = lastMarkedPos;
+                }
             }
-        }else{  //moving left
+        }else if(dir.x <0){  //moving left
             if (playerPos.x > tile.pos.x +1)   //coming from the right side ( instant stop)
             {
                 //calculate frictionvector
@@ -222,7 +243,10 @@ public class MapController : MonoBehaviour
             {
                 this.lastPos = playerObj.transform.position; //mark last position before offset
             }else{  //stop
-                playerObj.transform.position = lastPos; // stop
+                //playerObj.transform.position = lastPos; // stop
+                //playerController.moveDir = Vector3.zero;
+                if (Vector3.Distance(playerObj.transform.position, lastPos) <= 0.3f) playerObj.transform.position = lastPos; // stop 
+                else playerObj.transform.position = lastMarkedPos;   
             }
         }
     }
@@ -240,7 +264,10 @@ public class MapController : MonoBehaviour
             {
                 this.lastPos = playerObj.transform.position; //mark last position before offset
             }else{  //stop
-                playerObj.transform.position = lastPos; // stop
+                //playerObj.transform.position = lastPos; // stop
+                //playerController.moveDir = Vector3.zero; 
+                if (Vector3.Distance(playerObj.transform.position, lastPos) <= 0.3f) playerObj.transform.position = lastPos; // stop 
+                else playerObj.transform.position = lastMarkedPos;   
             }
         }else{  //moving down
             if (playerPos.y > tile.pos.y +1)   //coming from the top side
@@ -275,7 +302,8 @@ public class MapController : MonoBehaviour
                 {
                     this.lastPos = playerObj.transform.position; //mark last position before offset
                 }
-                playerObj.transform.position = lastPos; // stop
+                if (Vector3.Distance(playerObj.transform.position, lastPos) <= 0.3f) playerObj.transform.position = lastPos; // stop 
+                else playerObj.transform.position = lastMarkedPos;
             }
         }
     }
@@ -294,7 +322,10 @@ public class MapController : MonoBehaviour
         {
             if (!outsideDiagonalCond)
             {
-                playerObj.transform.position = lastPos;
+                //playerObj.transform.position = lastPos;
+                //playerController.moveDir = Vector3.zero;  
+                if (Vector3.Distance(playerObj.transform.position, lastPos) <= 0.3f) playerObj.transform.position = lastPos; // stop 
+                else playerObj.transform.position = lastMarkedPos;
             }else{
                 this.lastPos = playerObj.transform.position; //mark last position before offset
             }
@@ -303,7 +334,10 @@ public class MapController : MonoBehaviour
             //moving inside tile condition
             if (moveCond){  
                 if (!diagonalCond){ //crosses diagonal or tile dimensions
-                    playerObj.transform.position = lastPos; // stop
+                    //playerObj.transform.position = lastPos; // stop
+                    //playerController.moveDir = Vector3.zero; 
+                    if (Vector3.Distance(playerObj.transform.position, lastPos) <= 0.3f) playerObj.transform.position = lastPos; // stop 
+                    else playerObj.transform.position = lastMarkedPos; 
                 }else{
                     this.lastPos = playerObj.transform.position; //mark last position before offset
                 }

@@ -849,22 +849,22 @@ MonoBehaviour:
       m_Hash: -355491919
       m_Sprite: {fileID: 1578390114, guid: fd1712f8cbd25a94680b9d84d2e2b8d3, type: 3}
       m_FromMain: 1
-      m_SpriteOverride: {fileID: 8471238531551003463, guid: eae3cfb397ddf5b4781297a9ccd05d84, type: 3}
+      m_SpriteOverride: {fileID: -869908007, guid: 1d99e55dd432e784b9024147161304b6, type: 3}
     - m_Name: Hurt_1
       m_Hash: -1647792345
       m_Sprite: {fileID: -1677548591, guid: fd1712f8cbd25a94680b9d84d2e2b8d3, type: 3}
       m_FromMain: 1
-      m_SpriteOverride: {fileID: -6846008320912284580, guid: eae3cfb397ddf5b4781297a9ccd05d84, type: 3}
+      m_SpriteOverride: {fileID: 571365672, guid: 1d99e55dd432e784b9024147161304b6, type: 3}
     - m_Name: Hurt_2
       m_Hash: 79822493
       m_Sprite: {fileID: -1831590615, guid: fd1712f8cbd25a94680b9d84d2e2b8d3, type: 3}
       m_FromMain: 1
-      m_SpriteOverride: {fileID: -3927424866868686049, guid: eae3cfb397ddf5b4781297a9ccd05d84, type: 3}
+      m_SpriteOverride: {fileID: 1638970670, guid: 1d99e55dd432e784b9024147161304b6, type: 3}
     - m_Name: Hurt_3
       m_Hash: 1942408715
       m_Sprite: {fileID: 1770002922, guid: fd1712f8cbd25a94680b9d84d2e2b8d3, type: 3}
       m_FromMain: 1
-      m_SpriteOverride: {fileID: 2574555957821351004, guid: eae3cfb397ddf5b4781297a9ccd05d84, type: 3}
+      m_SpriteOverride: {fileID: -1200043295, guid: 1d99e55dd432e784b9024147161304b6, type: 3}
     m_FromMain: 1
     m_EntryOverrideCount: 4
   - m_Name: up_idle

@@ -571,13 +571,8 @@ public class ChunkCreator : MonoBehaviour
             if (keystoneCompleted) return true;
             while (spawned < 8)
             {
-                //pick random valid position around object +/- 5 tiles
-                //this can cause exception, when obj is in the corner of chunk, and others are not generated yet
-                //int2 spawnPos = new int2(Random.Range(keyObjPos.x - 5, keyObjPos.x + 5), Random.Range(keyObjPos.y - 5, keyObjPos.y + 5));
+                //pick random valid position around object +/- 'x' tiles
                 TDTile tile = mapReference.GetTileNearKeyObj(chunk);
-                //int2 spawnPos = new int2(Random.Range(chunkKey.x, chunkTopCoords.x), Random.Range(chunkKey.y, chunkTopCoords.y));
-                //TDTile tile = mapReference.GetTile(mapReference.TileRelativePos(spawnPos), mapReference.TileChunkPos(spawnPos));
-               
                 //check if tile is fine to spawn entity on
                 if(mapReference.isSpawnable(tile)){
                     Spawn(tile, chunk.containsKeyObj);
@@ -606,7 +601,7 @@ public class ChunkCreator : MonoBehaviour
     /// belongs into it.
     /// </summary>
     /// <param name="tile">Proccessed tile.</param>
-    private void Spawn(TDTile tile, bool spawnGuards){
+    public void Spawn(TDTile tile, bool spawnGuards){
         //convert to vector position
         Vector3 pos = new Vector3(tile.pos.x, tile.pos.y , 0);
         //get available object
@@ -642,14 +637,6 @@ public class ChunkCreator : MonoBehaviour
 
         if (!entitiesSpawned && !mapReference.spawningOff){
             entitiesSpawned = EntitySpawner(new int2(x,y), new int2(top_x, top_y));
-        }
-
-        //FIXME remove
-        if(Input.GetKeyDown(KeyCode.V))
-        {
-            TDTile tile = mapReference.GetTile(new int2(20,20), this.chunk.position);
-            PlayerController pc = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
-            Spawn(tile, false);
         }
     }
 }
