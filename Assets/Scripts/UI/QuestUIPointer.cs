@@ -37,6 +37,7 @@ public class QuestUIPointer : MonoBehaviour
 
         return n;
     }
+    
     public void StartPointing(KeyObject obj){
         this.targetObject = obj;
         pointing = true;

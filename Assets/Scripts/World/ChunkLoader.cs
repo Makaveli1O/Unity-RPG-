@@ -94,7 +94,7 @@ public class ChunkLoader : MonoBehaviour
 
     private void Update() {
         //FIXME remove
-        if(Input.GetKeyDown(KeyCode.V))
+        /*if(Input.GetKeyDown(KeyCode.V))
         {
             var mapRef = GameObject.FindGameObjectWithTag("Map").GetComponent<Map>();
             PlayerController pc = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
@@ -104,7 +104,7 @@ public class ChunkLoader : MonoBehaviour
             TDTile tile = mapRef.GetTile(pos, mapRef.GetChunk(chnkKey).position);
             ChunkCreator chunkCreator = renderedChunks[chnkKey].GetComponent<ChunkCreator>();
             chunkCreator.Spawn(tile, false);
-        }
+        }*/
     }
 
 }
