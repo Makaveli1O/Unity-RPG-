@@ -251,18 +251,22 @@ public class BiomePreset : ScriptableObject
             case EdgeType.cliffEndLeft:
 
                 //very left bottom corner only cliff
-                if (tile.left.hillEdge == EdgeType.cliffLeft ||
-                    tile.left.hillEdge == EdgeType.botLeft   ||
+                if (tile.left.hillEdge == EdgeType.cliffLeft    ||
+                    tile.left.hillEdge == EdgeType.botLeft      ||
+                    tile.left.hillEdge == EdgeType.cliff        ||
                     tile.top.hillEdge == EdgeType.topLeft){
                     tile.partial = true;
                     tile.hillEdge = EdgeType.left;
                     tileName = "cliff_end_left";
                 }
+
                 break;
-            //right side must be checket in advance
+            //right side must be checked in advance
             case EdgeType.cliffEndRight:
                 //determine right neighbour in advance
                 try{ //FIXME not necessary anymore?
+                    GetCliffTile(tile.bottomRight);
+                    GetCliffTile(tile.right);
                     GetMountainEdgeTile(tile.right, null, tile.bottomRight);
                     GetMountainEdgeTile(tile.top, null, tile);
                 }catch{
@@ -271,6 +275,7 @@ public class BiomePreset : ScriptableObject
 
                 if (tile.right.hillEdge == EdgeType.cliffRight 
                 || tile.top.hillEdge == EdgeType.right
+                || tile.right.hillEdge == EdgeType.cliff 
                 || tile.right.hillEdge == EdgeType.botRight){
                     tile.hillEdge = EdgeType.right;
                     tile.partial = true;
@@ -326,7 +331,6 @@ public class BiomePreset : ScriptableObject
                 spriteToReturn = t.sprite;
             } 
         }
-
 
         return spriteToReturn;
     }
@@ -465,7 +469,7 @@ public class BiomePreset : ScriptableObject
         float averagePrecipitation = (precipitation + maxPrecipitation) / 2;
         float eucVal = 
         (Mathf.Pow(noiseTemperature - averageTemperature,2) + Mathf.Pow(noisePrecipitation - averagePrecipitation,2));
-        //FIXME
+        //FIXME squareroot not ideal
         return Mathf.Sqrt(eucVal);
     }
 

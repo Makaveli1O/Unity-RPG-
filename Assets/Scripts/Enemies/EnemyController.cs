@@ -219,29 +219,29 @@ float avoidMultiplier = 0;
         RaycastHit2D raycast = Physics2D.Raycast(transform.position, moveDir, checkDistance, collisionLayerMask);
         if (raycast.collider != null){
 
-            Debug.Log("Hit center: " + raycast.collider.gameObject.name);
+            //Debug.Log("Hit center: " + raycast.collider.gameObject.name);
             avoidingObstacle = true;
             avoidMultiplier -= 0.5f;
         }
-        Debug.DrawLine(this.transform.position, absolute_moveDir);
+        //Debug.DrawLine(this.transform.position, absolute_moveDir);
         
         float ninetyDegrees = 2f; //rad
         Vector3 angleRight = new Vector3(Mathf.Cos(currentAngle + ninetyDegrees), Mathf.Sin(currentAngle + ninetyDegrees)).normalized;
         raycast = Physics2D.Raycast(transform.position, angleRight, 3, collisionLayerMask);
         if (raycast.collider != null){
-            Debug.Log("Hit right: " + raycast.collider.gameObject.name);
+            //Debug.Log("Hit right: " + raycast.collider.gameObject.name);
             avoidMultiplier = 0f;
         }
-        Debug.DrawLine(this.transform.position, this.transform.position + angleRight, Color.red);
+        //Debug.DrawLine(this.transform.position, this.transform.position + angleRight, Color.red);
 
         Vector3 angleLeft = new Vector3(Mathf.Cos(currentAngle - ninetyDegrees), Mathf.Sin(currentAngle - ninetyDegrees)).normalized;
         raycast = Physics2D.Raycast(transform.position, angleLeft, checkDistance, collisionLayerMask);
         if (raycast.collider != null){
-            Debug.Log("Hit left: " + raycast.collider.gameObject.name);
+            //Debug.Log("Hit left: " + raycast.collider.gameObject.name);
             avoidMultiplier = 0f;
         }
 
-        Debug.DrawLine(this.transform.position, this.transform.position + angleLeft, Color.blue);
+       // Debug.DrawLine(this.transform.position, this.transform.position + angleLeft, Color.blue);
 
         bool downMovement = false;
         if (avoidingObstacle)
@@ -256,10 +256,10 @@ float avoidMultiplier = 0;
             moveDir = (transform.position + newAngle).normalized;
             if (downMovement)
             {
-                Debug.Log("movedir1:" + moveDir);
+                //Debug.Log("movedir1:" + moveDir);
                 moveDir = new Vector3(-moveDir.x, -moveDir.y);
             }
-            Debug.Log("movedir2:" + moveDir);
+            //Debug.Log("movedir2:" + moveDir);
             Vector3 playerVec = player.transform.position - this.transform.position;
             raycast = Physics2D.Raycast(transform.position, playerVec, checkDistance, collisionLayerMask);
             //nothing in between playeer and this entity
@@ -274,7 +274,7 @@ float avoidMultiplier = 0;
     private IEnumerator StopAvoiding(){
         yield return new WaitForSeconds(1);
         avoidingObstacle = false;
-        Debug.Log("free to go");
+        //Debug.Log("free to go");
     }
 
     /// <summary>
