@@ -40,8 +40,6 @@ You can read the full thesis paper [here](https://www.fit.vut.cz/study/thesis/24
 
 ## Status
 
-Status
-
 ❌ Archived
 
 ✅ Usable with Unity 2021.2.13f1
